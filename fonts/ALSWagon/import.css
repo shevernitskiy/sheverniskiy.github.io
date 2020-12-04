@@ -1,4 +1,54 @@
 @font-face {
 	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 100;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 200;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 300;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 500;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 600;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 800;
+	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
+}
+@font-face {
+	font-family: 'ALS Wagon';
+	font-style: normal;
+	font-weight: 900;
 	src: url('https://shevernitskiy.github.io/store/fonts/ALSWagon/ALSWagonVariable.ttf') format('ttf-variations');
 }
