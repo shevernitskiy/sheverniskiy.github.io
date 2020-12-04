@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Fedra Sans Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Medium.eot');
+    src: local('Fedra Sans Pro Medium'), local('FedraSansPro-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro Book';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BookItalic.eot');
+    src: local('Fedra Sans Pro Book Italic'), local('FedraSansPro-BookItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BookItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BookItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-MediumItalic.eot');
+    src: local('Fedra Sans Pro Medium Italic'), local('FedraSansPro-MediumItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-MediumItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-MediumItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BoldItalic.eot');
+    src: local('Fedra Sans Pro Bold Italic'), local('FedraSansPro-BoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Bold.eot');
+    src: local('Fedra Sans Pro Bold'), local('FedraSansPro-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-LightItalic.eot');
+    src: local('Fedra Sans Pro Light Italic'), local('FedraSansPro-LightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-LightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-LightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro Book';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Book.eot');
+    src: local('Fedra Sans Pro Book'), local('FedraSansPro-Book'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Book.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Book.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro Normal';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Normal.eot');
+    src: local('Fedra Sans Pro Normal'), local('FedraSansPro-Normal'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Normal.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Normal.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Normal.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro Normal';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-NormalItalic.eot');
+    src: local('Fedra Sans Pro Normal Italic'), local('FedraSansPro-NormalItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-NormalItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-NormalItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-NormalItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-NormalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fedra Sans Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Light.eot');
+    src: local('Fedra Sans Pro Light'), local('FedraSansPro-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FedraSans/FedraSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
