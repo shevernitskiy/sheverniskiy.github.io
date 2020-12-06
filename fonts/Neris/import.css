@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Black.eot');
+    src: local('Neris-Black'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Black.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Black.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBoldItalic.eot');
+    src: local('Neris-SemiBold Italic'), local('Neris-SemiBoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-ThinItalic.eot');
+    src: local('Neris-Thin Italic'), local('Neris-ThinItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-ThinItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-ThinItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BlackItalic.eot');
+    src: local('Neris-Black Italic'), local('Neris-BlackItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BlackItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BlackItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Light.eot');
+    src: local('Neris-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Thin.eot');
+    src: local('Neris-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBold.eot');
+    src: local('Neris-SemiBold'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-LightItalic.eot');
+    src: local('Neris-Light Italic'), local('Neris-LightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-LightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-LightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neris';
+    src: url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BoldItalic.eot');
+    src: local('Neris-Bold Italic'), local('Neris-BoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Neris/Neris-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
