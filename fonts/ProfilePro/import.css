@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Profile Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Medium.eot');
+    src: local('Profile Pro Medium'), local('ProfilePro-Medium'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Medium.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Medium.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Medium.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLight.eot');
+    src: local('Profile Pro ExtraLight'), local('ProfilePro-ExtraLight'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLight.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLight.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Bold.eot');
+    src: local('Profile Pro Bold'), local('ProfilePro-Bold'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Bold.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Bold.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BlackIta.eot');
+    src: local('Profile Pro Black Italic'), local('ProfilePro-BlackIta'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BlackIta.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BlackIta.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BlackIta.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BlackIta.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ThinIta.eot');
+    src: local('Profile Pro Thin Italic'), local('ProfilePro-ThinIta'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ThinIta.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ThinIta.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ThinIta.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ThinIta.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BoldIta.eot');
+    src: local('Profile Pro Bold Italic'), local('ProfilePro-BoldIta'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BoldIta.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BoldIta.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BoldIta.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-BoldIta.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Regular.eot');
+    src: local('Profile Pro Regular'), local('ProfilePro-Regular'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Regular.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Regular.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Ita.eot');
+    src: local('Profile Pro Italic'), local('ProfilePro-Ita'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Ita.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Ita.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Ita.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Ita.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Light.eot');
+    src: local('Profile Pro Light'), local('ProfilePro-Light'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Light.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Light.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Light.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Thin.eot');
+    src: local('Profile Pro Thin'), local('ProfilePro-Thin'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Thin.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Thin.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Thin.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-LightIta.eot');
+    src: local('Profile Pro Light Italic'), local('ProfilePro-LightIta'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-LightIta.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-LightIta.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-LightIta.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-LightIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-MediumIta.eot');
+    src: local('Profile Pro Medium Italic'), local('ProfilePro-MediumIta'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-MediumIta.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-MediumIta.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-MediumIta.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-MediumIta.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Black.eot');
+    src: local('Profile Pro Black'), local('ProfilePro-Black'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Black.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Black.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Black.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Profile Pro';
+    src:url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLightIta.eot');
+    src: local('Profile Pro ExtraLight Italic'), local('ProfilePro-ExtraLightIta'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLightIta.eot?#iefix') format('embedded-opentype'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLightIta.woff2') format('woff2'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLightIta.woff') format('woff'),
+       url('https://shevernitskiy.github.io/store/fonts/ProfilePro/ProfilePro-ExtraLightIta.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
