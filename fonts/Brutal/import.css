@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraLight.eot');
+    src: local('Brutal Type Extra Light'), local('BrutalType-ExtraLight'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraLight.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraLight.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Medium.eot');
+    src: local('Brutal Type Medium'), local('BrutalType-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Bold.eot');
+    src: local('Brutal Type Bold'), local('BrutalType-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Thin.eot');
+    src: local('Brutal Type Thin'), local('BrutalType-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraBold.eot');
+    src: local('Brutal Type Extra Bold'), local('BrutalType-ExtraBold'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraBold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraBold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Black.eot');
+    src: local('Brutal Type Black'), local('BrutalType-Black'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Black.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Black.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Light.eot');
+    src: local('Brutal Type Light'), local('BrutalType-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType.eot');
+    src: local('Brutal Type'), local('BrutalType'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Brutal/BrutalType.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
