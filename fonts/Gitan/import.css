@@ -3,13 +3,13 @@
 	font-family: 'Gitan';
 	font-style: normal;
 	font-weight: normal;
-	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/GitanLatin-Regular_cyr.otf') format('opentype');
+	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/Gitan-Regular.otf') format('opentype');
 }
 @font-face {
 	font-family: 'Gitan';
 	font-style: normal;
 	font-weight: bold;
-	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/GitanLatin-Bold_cyr.otf') format('opentype');
+	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/Gitan-Bold.otf') format('opentype');
 }
 
 /* itaclic */
@@ -17,11 +17,11 @@
 	font-family: 'Gitan';
 	font-style: italic;
 	font-weight: normal;
-	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/GitanLatin-Italic_cyr.otf') format('opentype');
+	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/Gitan-RegularItalic.otf') format('opentype');
 }
 @font-face {
 	font-family: 'Gitan';
 	font-style: italic;
 	font-weight: bold;
-	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/GitanLatin-Bold-Italic_cyr.otf') format('opentype');
+	src: url('https://shevernitskiy.github.io/store/fonts/Gitan/Gitan-BoldItalic.otf') format('opentype');
 }
