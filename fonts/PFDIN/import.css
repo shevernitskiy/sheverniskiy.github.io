@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Hairline.eot');
+    src: local('PF Din Text Universal Hairline'), local('PFDinTextUniversal-Hairline'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Hairline.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Hairline.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Hairline.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Medium.eot');
+    src: local('PF Din Text Universal Medium'), local('PFDinTextUniversal-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraThin.eot');
+    src: local('PF Din Text Universal ExtraThin'), local('PFDinTextUniversal-ExtraThin'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraThin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraThin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraThin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Light.eot');
+    src: local('PF Din Text Universal Light'), local('PFDinTextUniversal-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal.eot');
+    src: local('PF Din Text Universal'), local('PFDinTextUniversal'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraBlack.eot');
+    src: local('PF Din Text Universal ExtraBlack'), local('PFDinTextUniversal-ExtraBlack'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraBlack.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraBlack.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Thin.eot');
+    src: local('PF Din Text Universal Thin'), local('PFDinTextUniversal-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Text Universal';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Bold.eot');
+    src: local('PF Din Text Universal Bold'), local('PFDinTextUniversal-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinTextUniversal-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-LightItalic.eot');
+    src: local('PFDinDisplayPro-LightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-LightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-LightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Medium.eot');
+    src: local('PFDinDisplayPro-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThinItalic.eot');
+    src: local('PFDinDisplayPro-ExtraThinItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThinItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThinItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Bold.eot');
+    src: local('PFDinDisplayPro-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ThinItalic.eot');
+    src: local('PFDinDisplayPro-ThinItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ThinItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ThinItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Black.eot');
+    src: local('PFDinDisplayPro-Black'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Black.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Black.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BlackItalic.eot');
+    src: local('PFDinDisplayPro-BlackItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BlackItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BlackItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-MediumItalic.eot');
+    src: local('PFDinDisplayPro-MediumItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-MediumItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-MediumItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Light.eot');
+    src: local('PFDinDisplayPro-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Thin.eot');
+    src: local('PFDinDisplayPro-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Italic.eot');
+    src: local('PFDinDisplayPro-Italic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Italic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Italic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Regular.eot');
+    src: local('PFDinDisplayPro-Regular'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Regular.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Regular.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BoldItalic.eot');
+    src: local('PFDinDisplayPro-BoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Din Display Pro';
+    src: url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThin.eot');
+    src: local('PFDinDisplayPro-ExtraThin'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/PFDIN/PFDinDisplayPro-ExtraThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
