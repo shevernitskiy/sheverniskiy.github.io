@@ -63,7 +63,7 @@
             $(document).ready(function() {
                 $.each(fonts, function (key, value) {
                     console.log(key + " - " + value);
-                    $("head").append("<link rel='stylesheet' type='text/css' href='/fonts/" + key + "/import.css' />");
+                    $("head").append("<link rel='stylesheet' type='text/css' href='/store/fonts/" + key + "/import.css' />");
                     $("#container").append('<div class="font"><div style="font: 700 1.5rem '+value+'">'+value+' (700 1.5rem)</div><br/><div style="font: 400 1rem '+value+'">HTML тег. Элемент (от англ. "superscript" ‒ «надстрочный, верхний индекс») определяет вложенный в него текст в верхнем индексе. Текст в верхнем индексе отображается уменьшенным размером и располагается выше, чем базовая линия остальных символов строки. Базовая линия — это линия, которая проходит по нижнему или верхнему краю символов. (400 1rem)</div><br/><div style="font: italic 400 0.8rem '+value+'">Использование элемента делает код громоздким, поэтому лучше переопределить стили и, в частности, задать положение индекса, цвет и курсивное начертание. (italic 400 0.8rem)</div><br/><div style="font: 700 1.2rem '+value+'">123456789 !-@#$%^&*()[] (700 1.2rem)</div><hr></div>');
                 });
             });
