@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Weapons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+  <link
+    href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css"
+    rel="stylesheet"
+    />
+</head>
+
+<body>
+  
+<div id="container"></div>
+
+<script>
+    $.get('weapons.json', function(data) {
+        console.log(data);
+        new gridjs.Grid({
+            columns: [
+                {
+                    name: 'name',
+                    hidden : true,
+                },{
+                    name: 'display_name',
+                },{
+                    name: 'type',
+                },{
+                    name: 'cost'
+                },{
+                    name: 'size',
+                },{
+                    name: 'enhance',
+                    width: '80px'
+                },{
+                    name: 'damage',
+                    width: '80px'
+                },{
+                    name: 'damage_type',
+                },{
+                    name: 'crit',
+                    width: '60px'
+                },{
+                    name: 'range',
+                    id: 'attack_range',
+                    width: '70px'
+                },{
+                    name: 'description',
+                    width: '400px',
+                },{
+                    name: 'enchant',
+                    width: '400px',
+                    formatter: (cell) => {
+                        var msg = "\n";
+                        $.each(cell, function (key, value) {
+                            msg += (value.display_name ? value.display_name : value.name);
+                            msg += (value.description ? ' - ' + value.description : '') + ' | ';
+                        });
+                        console.log(msg.toString());
+                        return msg.toString().slice(0, -2);
+                    }
+                },{
+                    name: 'id',
+                    hidden : false,
+                }
+            ],
+            data: data,
+            width: '100%',
+            resizable: true,
+            sort: true,
+            style: {
+                td: {
+                    padding: '5px'
+                },
+                th: {
+                    padding: '5px',
+                },
+                table: {
+                    'font-size': '14px'
+                }
+            },
+            search: {
+                enabled: true
+            },
+            pagination: {
+                enabled: true,
+                limit: 100,
+                summary: false
+            }
+        }).render(document.getElementById("container"));
+    }, 'json');
+</script>
+
+</body>
+</html>
