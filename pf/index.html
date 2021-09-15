@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Weapons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+  <link
+    href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css"
+    rel="stylesheet"
+    />
+</head>
+
+<body>
+  
+<div id="container"></div>
+
+<script>
+    $.get('weapons.json', function(data) {
+        console.log(data);
+        new gridjs.Grid({
+            columns: [
+                {
+                    name: 'name',
+                    hidden : true,
+                },
+                {
+                    name: 'display_name',
+                },
+                {
+                    name: 'type',
+                },
+                {
+                    name: 'cost'
+                },
+                {
+                    name: 'size',
+                },
+                {
+                    name: 'enhance',
+                },
+                {
+                    name: 'damage',
+                },
+                {
+                    name: 'damage_type',
+                },
+                {
+                    name: 'crit',
+                },
+                {
+                    name: 'attack_range',
+                },
+                {
+                    name: 'description',
+                },
+                {
+                    name: 'id',
+                    hidden : true,
+                }
+            ],
+            data: data,
+            sort: true,
+            style: {
+                td: {
+                    padding: '5px'
+                },
+                table: {
+                    'font-size': '14px'
+                }
+            },
+            search: {
+                enabled: true
+            }
+        }).render(document.getElementById("container"));
+    }, 'json');
+</script>
+
+</body>
+</html>
