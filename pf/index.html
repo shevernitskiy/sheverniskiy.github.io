@@ -28,47 +28,45 @@
                 {
                     name: 'name',
                     hidden : true,
-                },
-                {
+                },{
                     name: 'display_name',
-                },
-                {
+                },{
                     name: 'type',
-                },
-                {
+                },{
                     name: 'cost'
-                },
-                {
+                },{
                     name: 'size',
-                },
-                {
+                },{
                     name: 'enhance',
-                },
-                {
+                    width: '80px'
+                },{
                     name: 'damage',
-                },
-                {
+                    width: '80px'
+                },{
                     name: 'damage_type',
-                },
-                {
+                },{
                     name: 'crit',
-                },
-                {
-                    name: 'attack_range',
-                },
-                {
+                    width: '60px'
+                },{
+                    name: 'range',
+                    id: 'attack_range',
+                    width: '70px'
+                },{
                     name: 'description',
-                },
-                {
+                },{
                     name: 'id',
-                    hidden : true,
+                    hidden : false,
                 }
             ],
             data: data,
+            resizable: true,
             sort: true,
             style: {
                 td: {
                     padding: '5px'
+                },
+                th: {
+                    padding: '5px',
                 },
                 table: {
                     'font-size': '14px'
@@ -76,6 +74,11 @@
             },
             search: {
                 enabled: true
+            },
+            pagination: {
+                enabled: true,
+                limit: 100,
+                summary: false
             }
         }).render(document.getElementById("container"));
     }, 'json');
