@@ -63,12 +63,31 @@
                             msg += (value.display_name ? value.display_name : value.name);
                             msg += (value.description ? ' - ' + value.description : '') + ' | ';
                         });
-                        console.log(msg.toString());
                         return msg.toString().slice(0, -2);
                     }
                 },{
                     name: 'id',
-                    hidden : false,
+                    hidden : true
+                },{
+                    name: 'unit',
+                    width: '250px',
+                    formatter: (cell) => {
+                        var msg = "\n";
+                        $.each(cell, function (key, value) {
+                            msg += value + ' | ';
+                        });
+                        return msg.toString().slice(0, -2).split('_').join(' ');
+                    }
+                },{
+                    name: 'area',
+                    width: '250px',
+                    formatter: (cell) => {
+                        var msg = "\n";
+                        $.each(cell, function (key, value) {
+                            msg += value + ' | ';
+                        });
+                        return msg.toString().slice(0, -2).split('_').join(' ');
+                    }
                 }
             ],
             data: data,
