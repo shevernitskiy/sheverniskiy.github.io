@@ -56,6 +56,14 @@
                         $.each(cell, function (key, value) {
                             msg += (value.display_name ? value.display_name : value.name);
                             msg += (value.description ? ' - ' + value.description : '') + ' | ';
+                            if (!value.display_name && !value.description) {
+                                msg = msg.slice(0, -2);
+                                msg += ' - ';
+                                $.each(value.effect, function (key, effect) {
+                                    msg += effect + ', ';
+                                });
+                                msg.toString().slice(0, -1);
+                            }
                         });
                         return msg.toString().slice(0, -2);
                     }
