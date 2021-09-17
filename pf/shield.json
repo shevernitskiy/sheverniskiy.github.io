@@ -1,0 +1,1310 @@
+[
+    {
+        "name": "AncestralDwarwenShieldItem",
+        "display_name": "Ancestral Dwarven Shield",
+        "description": "This +2 heavy shield grants its wielder DR 2\/-.",
+        "cost": 18500,
+        "id": "c62344a8b887b1f4d98d85b7c5b975b5"
+    },
+    {
+        "name": "AncientWoodShieldItem",
+        "display_name": "Ancient Wood",
+        "description": "This +5 light shield grants its wearer a +15 competence bonus on Lore (Nature) skill checks and a +3 competence bonus to AC against unarmed and natural attacks.",
+        "cost": 70510,
+        "id": "a39fc345c33c4bf1aaec7988776039ba",
+        "area": [
+            "Iz, PF2_CoolDemons_Loot20Skeleton"
+        ]
+    },
+    {
+        "name": "ArrowguardBucklerItem",
+        "display_name": "Arrowguard",
+        "description": "This +4 buckler grants its wielder an additional +3 bonus to AC against ranged attacks.",
+        "cost": 47000,
+        "id": "7c034e82710f36b45850f2127406992f"
+    },
+    {
+        "name": "AssertionOfDominanceShieldItem",
+        "display_name": "Assertion Of Dominance",
+        "description": "This +5 heavy shield grants its wielder immunity to slashing and piercing damage while the wielder is at full health.",
+        "cost": 73000,
+        "id": "2ad512d4b7d1438c97b48fe232fcceb5",
+        "unit": [
+            "CorruptedHerald_Phase1_CR25, Neutrals",
+            "CorruptedHerald_Phase2, Neutrals"
+        ]
+    },
+    {
+        "name": "BaphometCultistHeavyShield",
+        "display_name": "Baphomet Cultist's Heavy Shield",
+        "description": "",
+        "cost": 20,
+        "id": "59635f8412520134fae8bde02ccfe0bd",
+        "unit": [
+            "CR4_Cultist_FighterTank, Mobs"
+        ]
+    },
+    {
+        "name": "BaphometCultistHeavyShieldItemPlus1",
+        "display_name": "Baphomet Cultist's Heavy Shield +1",
+        "description": "",
+        "cost": 1170,
+        "id": "051b9c09d2c15e74eb036f8d07ba1ec5",
+        "unit": [
+            "CR11_Cultist_Baphomet_MeleeCaster, Mobs",
+            "TemplarOfIvoryLabyrinth_CR11_Cultist_Baphomet_MeleeCaster, Mobs"
+        ]
+    },
+    {
+        "name": "BaphometCultistLightShield",
+        "display_name": "Baphomet Cultist's Light Shield",
+        "description": "",
+        "cost": 10,
+        "id": "b11d28fa19d1e254d9612d214f388d99"
+    },
+    {
+        "name": "BaphometCultistLightShieldItemPlus1",
+        "display_name": "Baphomet Cultist's Light Shield +1",
+        "description": "",
+        "cost": 1160,
+        "id": "bca0a873b27f1964a84dbd1bda14a394"
+    },
+    {
+        "name": "BashingShield",
+        "display_name": "Bashing Shield",
+        "description": "This +1 shield was specifically designed to perform a shield bash. It deals damage as if it were a weapon of three size categories larger (Medium light shield deals 1d8 points of damage). The shield acts as a +1 weapon when used to bash.",
+        "cost": 18000,
+        "id": "5a326f3961ad985448c9c7b72c82b1a7"
+    },
+    {
+        "name": "BastionOfLionHeartShieldItem",
+        "display_name": "Bastion of Lion's Heart",
+        "description": "This +2 tower shield grants its wielder negative energy resistance 10 and a +1 morale bonus on saving throws against fear effects.",
+        "cost": 8700,
+        "id": "93eda98aab2ecb84eb1fe104d2ed449d",
+        "area": [
+            "DrezenCitadel_Level2, PF2_Demons_GoodLootChest_3"
+        ]
+    },
+    {
+        "name": "BladeguardBucklerItem",
+        "display_name": "Bladeguard",
+        "description": "This +3 buckler grants its wielder an additional +3 bonus to AC against melee attacks.",
+        "cost": 43400,
+        "id": "a310407e90d1039488d241c50270716c"
+    },
+    {
+        "name": "BlazingCavalierShieldItem",
+        "display_name": "Child of the Wind",
+        "description": "This +3 heavy shield increases the wielder's speed by +10 feet.",
+        "cost": 21000,
+        "id": "63beefff8449fd94a8e5fada3b18ef72"
+    },
+    {
+        "name": "Buckler",
+        "display_name": "",
+        "description": "",
+        "cost": 5,
+        "id": "78aef04821150bd479314bc974ea73e2",
+        "unit": [
+            "ArmyScout, Mobs",
+            "CR0, Bandits",
+            "CR0, Bandits",
+            "CR1_Drow_FighterMelee_Female, Bandits",
+            "CR3_Drow_FighterMelee_Female, Bandits",
+            "CR5_Drow_FighterMelee_Female, Bandits",
+            "CR5_Marauder_Tiefling_Melee_Male, Bandits",
+            "CameliaPregenLevel1, Player",
+            "CameliaPregenLevel10, Player",
+            "CameliaPregenLevel11, Player",
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "CameliaPregenLevel16, Player",
+            "CameliaPregenLevel17, Player",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel2, Player",
+            "CameliaPregenLevel20, Player",
+            "CameliaPregenLevel3, Player",
+            "CameliaPregenLevel4, Player",
+            "CameliaPregenLevel5, Player",
+            "CameliaPregenLevel6, Player",
+            "CameliaPregenLevel9, Player",
+            "Camelia_Companion, Player",
+            "Camelia_Level6, Player",
+            "Camelia_NPC_Level1, CutsceneNeutrals",
+            "Tran, CutsceneNeutrals"
+        ],
+        "area": [
+            "GrayGarrison, GrayGarrison_GoodLoot04_BulkyPickItem",
+            "DrezenCitadel_Level2, PF2_CoolDemons_PoorLoot_Staunton (1)",
+            "DrezenCitadel_Prison, PF2_Crusaders_market_place_bag_02",
+            "DrezenCitadel_Prison, PF2_Crusaders_market_place_box_02#2",
+            "DrezenCitadel_Level2, PF2_Demons_StorageRoomChest",
+            "GrayGarrison, PF2_GrayGarrison_Armory2",
+            "GrayGarrison, PF2_GrayGarrison_Loot12",
+            "BodakLair, PF2_Sarkoris_Loot5"
+        ]
+    },
+    {
+        "name": "BucklerItem4ACagainstVerminPlus2",
+        "display_name": "Ratcatcher's Buckler",
+        "description": "This +2 buckler grants its wielder a +4 morale bonus AC against the attacks of Vermins.",
+        "cost": 9155,
+        "id": "efa888fbcadeba04ba2492127a15e1ac"
+    },
+    {
+        "name": "BucklerItemPlus1",
+        "display_name": "Buckler +1",
+        "description": "",
+        "cost": 1155,
+        "id": "5615afebd80c5de43b6def5fc4646e1c",
+        "unit": [
+            "AasimarRedMask, CutsceneNeutrals"
+        ],
+        "area": [
+            "EstrodTower, EstrodTower_HiddenLoot01"
+        ]
+    },
+    {
+        "name": "BucklerItemPlus2",
+        "display_name": "Buckler +2",
+        "description": "",
+        "cost": 4155,
+        "id": "cff02b5c7e391f24e88239536f88416d"
+    },
+    {
+        "name": "BucklerItemPlus3",
+        "display_name": "Buckler +3",
+        "description": "",
+        "cost": 9155,
+        "id": "9552d3843ff7b4140a8cf04b753848eb",
+        "unit": [
+            "CR12_Drow_FighterMelee_Female, Bandits"
+        ],
+        "area": [
+            "TheIvoryLabyrinth, PF2_CoolDemons_Pentacle1_GoodChest (1)"
+        ]
+    },
+    {
+        "name": "BucklerItemPlus4",
+        "display_name": "Buckler +4",
+        "description": "",
+        "cost": 16155,
+        "id": "c7c5ff1f7c5800f44b51fade5f183655",
+        "unit": [
+            "BlackMaskSlaveTrader, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "BucklerItemPlus5",
+        "display_name": "Buckler +5",
+        "description": "",
+        "cost": 25155,
+        "id": "ecc360d423eed06478c3ce761359243e"
+    },
+    {
+        "name": "BucklerOfElementalGuardItem",
+        "display_name": "Buckler of Protective Elements",
+        "description": "Whenever the wielder of this +4 buckler becomes a target of a spell that deals elemental damage (even if such effect was prevented by spell or elemental resistance), he gains immunity to the corresponding element for 1 round.",
+        "cost": 45000,
+        "id": "8de29217adb01a54fa56f0648b14990e",
+        "area": [
+            "AlushinyrraLowerCity, PF2_Demons_Chest4#1"
+        ]
+    },
+    {
+        "name": "BucklerOfRayNegationShieldItem",
+        "display_name": "Buckler of Ray Negation",
+        "description": "This +3 buckler grants the wearer a +5 bonus to AC against ranged touch attacks.",
+        "cost": 28000,
+        "id": "956a46cdf919c9c4ab39371b014a375f",
+        "unit": [
+            "CameliaPregenLevel15, Player",
+            "PlayerTestRangedFighterLevel14, Player"
+        ],
+        "area": [
+            "AreeluLab, RichHuman_GoodLoot02"
+        ]
+    },
+    {
+        "name": "CharredBulwarkShieldItem",
+        "display_name": "Charred Bulwark",
+        "description": "This +4 heavy shield grants its wielder immunity to cold and a +1 bonus to AC against Medium and smaller creatures.",
+        "cost": 57000,
+        "id": "67994c8bedea0224c80bceba2a33a522",
+        "unit": [
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player"
+        ],
+        "area": [
+            "BattleBliss, PF2_CoolDemons_GoodLootShield"
+        ]
+    },
+    {
+        "name": "DawnOfLifeItem",
+        "display_name": "Dawn of Life",
+        "description": "This +3 tower shield weighs twice as much as a usual tower shield and limits its wielder's speed to 20 feet. Whenever the wielder receives a critical hit, they are healed for the amount of HP equal to the number of their Hit Dice.",
+        "cost": 16000,
+        "id": "188904a110b0d9d4cb897f4c01fd8ebc"
+    },
+    {
+        "name": "DeceivingFacadeItem",
+        "display_name": "Deceiving Facade",
+        "description": "Whenever the wielder of this +1 buckler receives a critical hit, they are affected with the effect of a mirror image spell that produces 2 mirror images that last 2 rounds.",
+        "cost": 6000,
+        "id": "0ea72c4d768dc4b4581e8315df9af3cc"
+    },
+    {
+        "name": "DefendersBulwarkShieldItem",
+        "display_name": "Defender's Bulwark",
+        "description": "This +3 tower shield grants its wielder DR 2\/-.",
+        "cost": 51000,
+        "id": "954bab43deeac3b47a390623647cbdd6"
+    },
+    {
+        "name": "DeskariCultistHeavyShield",
+        "display_name": "Deskari Cultist's Heavy Shield",
+        "description": "",
+        "cost": 20,
+        "id": "2678afdf8ddb4b2429e48308b085b2c1"
+    },
+    {
+        "name": "DeskariCultistHeavyShieldItemPlus1",
+        "display_name": "Deskari Cultist's Heavy Shield +1",
+        "description": "",
+        "cost": 1170,
+        "id": "c17428cd2654203448a7266d010e123f"
+    },
+    {
+        "name": "DeskariCultistLightShield",
+        "display_name": "Deskari Cultist's Light Shield",
+        "description": "",
+        "cost": 10,
+        "id": "f79928c2d1e8f6348ba801c9b62a7b15"
+    },
+    {
+        "name": "DeskariCultistLightShieldItemPlus1",
+        "display_name": "Deskari Cultist's Light Shield +1",
+        "description": "",
+        "cost": 1160,
+        "id": "fd81a64fb490b954b906aec4249dff43"
+    },
+    {
+        "name": "DiskOfUnbalanceShieldItem",
+        "display_name": "Disk of Unbalance",
+        "description": "This +5 buckler grants its wearer a +2 circumstance bonus on attack rolls against enemies under movement-impairing conditions.",
+        "cost": 68000,
+        "id": "116d8113cb9f44b7b7e3bba4cec2bfe5"
+    },
+    {
+        "name": "DivineProtectorShieldItem",
+        "display_name": "Divine Protector",
+        "description": "This +2 mithral heavy shield grants its wielder DR 5\/magic.",
+        "cost": 13300,
+        "id": "6d469a9b200f1cd4abb6e7f149832450",
+        "unit": [
+            "SeelahTestLevel12, Player",
+            "SeelahTestLevel7, Player",
+            "SeelahTestLevel8, Player"
+        ],
+        "area": [
+            "Seelah_Q1_Warcamp, PF2_Forest_HiddenLoot"
+        ]
+    },
+    {
+        "name": "EludingTargetItem",
+        "display_name": "Eluding Target",
+        "description": "This +2 buckler grants its wielder a +2 dodge bonus to AC against attacks with two-handed weapons.",
+        "cost": 7800,
+        "id": "43659a3401c8b5843b97105150c5f26b",
+        "unit": [
+            "CameliaPregenLevel12, Player",
+            "CameliaPregenLevel7, Player",
+            "CameliaPregenLevel8, Player"
+        ],
+        "area": [
+            "DrezenCitadel_Level2, PF2_Demons_SecretVampireChest"
+        ]
+    },
+    {
+        "name": "FallenShield",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "0fe26883b8269924b8078762c4d09b5c",
+        "unit": [
+            "CR6_GhostPaladinStandard, Mobs",
+            "CR8_FallenStandard, Mobs",
+            "CR8_FallenStandard_RE, Mobs",
+            "FallenSummon, Summoned",
+            "GhostPaladin20Summon, Summoned",
+            "GhostPaladinSummon, Summoned"
+        ]
+    },
+    {
+        "name": "FlameguardShieldItem",
+        "display_name": "Flameguard",
+        "description": "This +1 tower shield grants its wielder a +3 resistance bonus on Reflex saving throws and fire resistance 10.",
+        "cost": 8000,
+        "id": "f4b263547ad2cb1459a53476c3eaf442"
+    },
+    {
+        "name": "FleshTearerShieldItem",
+        "display_name": "Flesh Tearer",
+        "description": "This +5 spiked light shield grants its wearer a +2 insight bonus on attack and damage rolls against living enemies.",
+        "cost": 74000,
+        "id": "16db434e487b43f7ac6920356e5d9345",
+        "area": [
+            "TheIvoryLabyrinth, PF2_CoolDemons_Pentacle1_GoodChest (1)"
+        ]
+    },
+    {
+        "name": "ForewarningShieldItem",
+        "display_name": "Forewarning",
+        "description": "This +3 light shield grants its wielder immunity to critical hits.",
+        "cost": 110000,
+        "id": "9115bd6d7dd0908408b92cf53cd19ffb"
+    },
+    {
+        "name": "GowrowAquaticLightShield_IntermediateItem",
+        "display_name": "Chillroar's Hide Spiked Light Shield",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 3600,
+        "id": "b864c435a805f2946a88d0ca575c1910"
+    },
+    {
+        "name": "GowrowAquaticSpikedLightShieldItem",
+        "display_name": "Coldbite",
+        "description": "While you are wielding this +2 spiked light shield you deal +1 bonus damage per dice rolled for spells with cold descriptor. Whenever you use shield bash, the enemy has to pass a Fortitude saving throw (DC 20) or become vulnerable to cold damage, taking 50% more damage than normal, until the end of battle.",
+        "cost": 4800,
+        "id": "3e8133cca215cd14ab36efc71c7ec2e6"
+    },
+    {
+        "name": "GowrowSonicSpikedLightShieldItem",
+        "display_name": "Bellowing Howl",
+        "description": "While you are wielding this +2 spiked light shield you get 20 resistance to sonic damage and a +2 bonus on saving throws against sound based effects, if someone attacks with sonic damage, the wielder has to make a Reflex saving throw (DC 19) for sonic damage to echo from this shield, dealing all enemies in a 10 feet area 3d6 sonic damage.",
+        "cost": 4800,
+        "id": "67bf27804a830c84ca0b592c38759cfd"
+    },
+    {
+        "name": "GrimBarrierShieldItem",
+        "display_name": "",
+        "description": "This +5 heavy shield can be used as a weapon. On a successful hit it makes the target bleed for 1d6 damage per turn. Effects of multiple applications of this effect stack. Bleeding stops when the battle ends, or when the target is cured by any effect that restores HP.",
+        "cost": 67000,
+        "id": "7b4b7f4781c7de347a400c4e1b25c81f"
+    },
+    {
+        "name": "HeartOfThunderShieldItem",
+        "display_name": "Heart of Thunder",
+        "description": "This +5 light wooden shield grants its wielder immunity to being paralyzed and the ability to cast shout, greater spell three times per day as a 7th level wizard.",
+        "cost": 151300,
+        "id": "e9c7e91d3b032ab4d96d9588b985bab5"
+    },
+    {
+        "name": "HeavyShield",
+        "display_name": "",
+        "description": "",
+        "cost": 20,
+        "id": "f4cef3ba1a15b0f4fa7fd66b602ff32b",
+        "unit": [
+            "!Octavia_Companion_Warrior_Test, Player",
+            "ArmyCuirassier, Mobs",
+            "ArmyCultist_FighterTank, Mobs",
+            "ArmyDemonicKnights, Mobs",
+            "ArmyEliteKnight, Mobs",
+            "ArmyHellknight, Mobs",
+            "ArmyInfernalCavalry, Mobs",
+            "ArmyInfernalInfantry, Mobs",
+            "ArmyKnightsOfOzem, Mobs",
+            "ArmyPaladinCavalry, Mobs",
+            "ArmySkeletalChampion, Mobs",
+            "ArmySkeletonStandard, Mobs",
+            "ArmyStoneInfantry, Mobs",
+            "CR0, Bandits",
+            "CR0, Mobs",
+            "CR0_Recruit, Civilians",
+            "CR10_ZombieLordFighterLevel7, Mobs",
+            "CR11_SkeletalChampion, Mobs",
+            "CR11_ZombieLordFighterLevel8, Mobs",
+            "CR11_ZombieLordFighterLevel9_RE, Mobs",
+            "CR1_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR1_Crusader_Sunrisesword_Paladin_Male, Neutrals",
+            "CR1_Hellknight_Human_ArmigerMelee_Male, Neutrals",
+            "CR2_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR2_Hellknight_Human_ArmigerMelee_Male, Neutrals",
+            "CR2_Marauder_Human_FighterMelee_Male, Bandits",
+            "CR2_SkeletalChampion, Mobs",
+            "CR3_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR3_Crusader_Human_PaladinMelee_Male2, Neutrals",
+            "CR3_DrezenKenabresCrusaderLeftHanded, Neutrals",
+            "CR3_GuardWarriorTankLevel5, NeutralGuards",
+            "CR3_Hellknight_Human_ArmigerMelee_Male, Neutrals",
+            "CR3_Marauder_Halfling_Melee_Male, Bandits",
+            "CR3_SkeletalChampion, Mobs",
+            "CR4_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR4_ZombieLordFighterLevel1, Mobs",
+            "CR4_ZombieLordFighterLevel1_RE, Mobs",
+            "CR5_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR5_Hellknight_Human_HellknightMelee_Male, Neutrals",
+            "CR5_SkeletalChampion, Mobs",
+            "CR5_ZombieLordFighterLevel2, Mobs",
+            "CR6_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR6_ZombieLordFighterLevel3, Mobs",
+            "CR7_Bandit_Human_FighterMelee_Male, Bandits",
+            "CR7_SkeletalChampion, Mobs",
+            "CR7_ZombieLordFighterLevel4, Mobs",
+            "CR7_ZombieLordFighterLevelHighAgro 1, Mobs",
+            "CR7_ZombieLordFighterLevelHighAgro, Mobs",
+            "CR7_ZombieLordFighterLevelLowAgro, Mobs",
+            "CR8_SkeletalChampion_Vampiric, Mobs",
+            "CR8_ZombieLordFighterLevel5, Mobs",
+            "CR9_ZombieLordFighterLevel6, Mobs",
+            "CrusadeSoldierLastDefender, Neutrals",
+            "DrezenCitadelLevel1_CultistMiniboss_Gates, Mobs",
+            "EmberKnight3, Neutrals",
+            "EverbrightCrusader_male, CutsceneNeutrals",
+            "GalfreyMessengerKnight, Friends",
+            "Hellknight, Neutrals",
+            "Hellknight_Human_WithShadowDemonInside_Male, CutsceneNeutrals",
+            "KTC_ArmyInfernalCavalry, Mobs",
+            "KTC_ArmyStoneInfantry, Mobs",
+            "KenabresCrusaderToughMelee_NabasuCutscene, Neutrals",
+            "KenabresCrusader_FakeWarCamp_Armed, Civilians",
+            "KenabresCrusader_FakeWarCamp_Female_Armed, Civilians",
+            "Lair_SuccubusBossHelperMeleeLevel5, Mobs",
+            "Morveg, CutsceneNeutrals",
+            "PuzzleCR8_ZombieLordFighterLevel6, NeutralGuards",
+            "RandomTalkingSunrise_HellknightVsGargoyles, Friends",
+            "SeelahTestLevel1, Player",
+            "SeelahTestLevel2, Player",
+            "Seelah_Companion, Player",
+            "Seelah_NPC_Level1, Neutrals",
+            "Sosiel_Q2_Deserter_HalfElf, Civilians",
+            "StatueGolfrey, CutsceneNeutrals",
+            "StatueHerald, CutsceneNeutrals",
+            "SummonedCrusaderDrezen, Neutrals",
+            "SummonedCrusaderDrezenLeftHanded, Neutrals",
+            "SummonedSkeletonChampion, Summoned",
+            "Tomaz, Friends",
+            "TownGuard_Shield, CutsceneNeutrals",
+            "Vollard, Friends",
+            "Warlord_event_13_Tarsival_Fighter, Civilians"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_LuxChest",
+            "GrayGarrison, PF2_Crusaders_GGLoot45",
+            "ReturnToDrezen, PF2_Crusaders_market_place_box_01 (6)_loot_object",
+            "IvorySanctum, PF2_Demons_PoorLootChest5",
+            "MidnightFane, PF2_Demons_PoorLoot_11",
+            "MidnightFane, PF2_Demons_PoorLoot_5",
+            "MidnightFane, PF2_Demons_PoorLoot_9",
+            "Seelah_Q1_Warcamp, PF2_Forest_LootBarrel (3)",
+            "WintersunOutdoor, PF2_Forest_PoorLoot_10_Locked",
+            "GrayGarrison, PF2_GrayGarrison_Armory2",
+            "ArueshalaeRedoubt, PF2_Sarkoris_Loot (6)"
+        ]
+    },
+    {
+        "name": "HeavyShieldHellknight",
+        "display_name": "",
+        "description": "",
+        "cost": 20,
+        "id": "47c3676497e325b4dbbfc32ad7c2f680"
+    },
+    {
+        "name": "HeavyShieldIomedae",
+        "display_name": "",
+        "description": "",
+        "cost": 20,
+        "id": "bcd7eb161e664ff46b8b262a8f9810e0",
+        "unit": [
+            "AmbushInquisitor, CutsceneNeutrals",
+            "AmbushInquisitorMinor, CutsceneNeutrals",
+            "AreeluInquisitor, CutsceneNeutrals",
+            "Crusader_FakeWarCamp_ArmedFullplate, Civilians",
+            "Crusader_FakeWarCamp_Female_ArmedFullplate, Civilians",
+            "GuardInquisitor, CutsceneNeutrals",
+            "Hurlun, CutsceneNeutrals",
+            "Hurlun_DH, CutsceneNeutrals",
+            "Hurlun_InDrezen, CutsceneNeutrals",
+            "Hurlun_SilentCaster, CutsceneNeutrals",
+            "Inquisitor_Liotr, NeutralGuards",
+            "IrabethTirabade, NeutralGuards",
+            "IrabethTirabadeDrezen, NeutralGuards",
+            "IrabethTirabadeGG, NeutralGuards",
+            "IrabethTirabade_DH_Fight, CutsceneNeutrals",
+            "IrabethTirabade_DrezenCapital, NeutralGuards",
+            "IrabethTirabade_GibberingSwarm, NeutralGuards",
+            "IrabethTirabade_Iz, NeutralGuards",
+            "IrabethTirabade_LostChapel, NeutralGuards",
+            "KenabresCrusader_FakeWarCamp_ArmedFullplate, Civilians",
+            "KenabresCrusader_FakeWarCamp_Female_ArmedFullplate, Civilians",
+            "Latimas, Neutrals",
+            "MendevianInquisitor, NeutralGuards",
+            "SetrayDevimaiHuman, CutsceneNeutrals"
+        ],
+        "area": [
+            "RoguePaladin_SE2, PF2_Crusaders_corpse (1)"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemLesserColdResistPlus1",
+        "display_name": "Heavy Shield of Lesser Cold Resistance",
+        "description": "This +1 heavy shield grants its wielder cold resistance 10.",
+        "cost": 4170,
+        "id": "927514afea4061d42be6d167c2552645"
+    },
+    {
+        "name": "HeavyShieldItemPlus1",
+        "display_name": "Heavy Shield +1",
+        "description": "",
+        "cost": 1170,
+        "id": "5c7b898a1bfb6cb4f8c14a0ebc143abe",
+        "unit": [
+            "AeonQ3_CapitalGuard_01_Viram, Neutrals",
+            "AeonQ3_CapitalGuard_02_Erwart, Neutrals",
+            "Aeon_DevilGuard, Neutrals",
+            "CR7_Crusader_Human_PaladinMelee_Male, Neutrals",
+            "CR7_Crusader_Human_PaladinMelee_Male_Cheliax, Neutrals",
+            "CR7_CyborgCrusader_WorkshopBoss, Mobs",
+            "CapitalGuard, Neutrals",
+            "DevalArmed, Neutrals",
+            "EmberQ3_Crusader01, Neutrals",
+            "EmberQ3_Crusader02, Neutrals",
+            "GalfreyBodyguard, Neutrals",
+            "GhostFigure_Crusader, Civilians",
+            "Megidiah_Retinue_commoner1, Neutrals",
+            "Megidiah_Retinue_commoner2, Neutrals",
+            "Megidiah_Retinue_commoner3, Neutrals",
+            "Megidiah_Retinue_commoner4, Neutrals",
+            "Megidiah_Retinue_commoner5, Neutrals",
+            "Nexus_Aasimar, CutsceneNeutrals",
+            "Nexus_AasimarFemale, CutsceneNeutrals",
+            "Nexus_AzataSlave, CutsceneNeutrals",
+            "OldCrusader, Friends",
+            "Seelah_Level6, Player",
+            "Seelah_Level7, Player",
+            "SirAllfrey, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus1IHellknight",
+        "display_name": "",
+        "description": "",
+        "cost": 1170,
+        "id": "fb9795dd15fc19c43aa41a689b1fe48c"
+    },
+    {
+        "name": "HeavyShieldItemPlus1Iomedae",
+        "display_name": "",
+        "description": "",
+        "cost": 1170,
+        "id": "f8f10d0ca77afc4489e89b323a80c54d",
+        "unit": [
+            "Berengar, NeutralGuards"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus1LivingArmor",
+        "display_name": "Heavy Shield +1",
+        "description": "",
+        "cost": 9170,
+        "id": "6989ca8e0d28af643b908468ead16922",
+        "unit": [
+            "CR11_LivingArmorTank, Summoned",
+            "LivingArmorTankSummoned, Summoned"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus1Mendev",
+        "display_name": "",
+        "description": "",
+        "cost": 1170,
+        "id": "3c7c72383d2cfdd4087d8d09d176f322",
+        "unit": [
+            "CR0_Crusader_Common_Fighter_Dwarf_Male, Neutrals",
+            "CR0_Crusader_Common_Fighter_Elf_Female, Neutrals",
+            "KickstarterAngelicCrusader_HalfOrcFemale, Neutrals",
+            "KickstarterAngelicCrusader_HumanMale_1, Neutrals",
+            "KickstarterAngelicCrusader_HumanMale_2, Neutrals"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus1RedWhite",
+        "display_name": "",
+        "description": "",
+        "cost": 1170,
+        "id": "2076055c75387664a9a3dbf1799c1964"
+    },
+    {
+        "name": "HeavyShieldItemPlus2",
+        "display_name": "Heavy Shield +2",
+        "description": "",
+        "cost": 4170,
+        "id": "d41ea649a1054b647aafc5b2cb4f8543",
+        "unit": [
+            "CR15_ZombieLordFighter_Warrior_SarkorianLevel15, Mobs",
+            "CR16_ZombieLordFighter_Fighter_SarkorianLevel15, Mobs",
+            "CR9_Hellknight_Human_ArmigerMelee_Male, Neutrals",
+            "Ciar, CutsceneNeutrals",
+            "CiarUndead, CutsceneNeutrals",
+            "Ciar_Companion, Player",
+            "Ciar_InCapital, CutsceneNeutrals",
+            "Miammir_Wintersun, CutsceneNeutrals",
+            "Pregen_Seelah_MVP, Player",
+            "SeelahTestDrezen, Player",
+            "SeelahTestLevel10, Player",
+            "SeelahTestLevel11, Player",
+            "SeelahTestLevel9, Player"
+        ],
+        "area": [
+            "TheIvoryLabyrinth, PF2_CoolDemons_Pentacle1_GoodChest (1)",
+            "WintersunOutdoor, PF2_Forest_MiammirCorpse"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus2AcidFire",
+        "display_name": "Heavy Shield of Elemental Protection",
+        "description": "This +2 heavy shield grants its wielder acid resistance 15 and fire resistance 15.",
+        "cost": 16170,
+        "id": "b7bc92ff205348f45839058f4ff7d383"
+    },
+    {
+        "name": "HeavyShieldItemPlus3",
+        "display_name": "Heavy Shield +3",
+        "description": "",
+        "cost": 9170,
+        "id": "7e23918977b18524591204c93fae0a37",
+        "unit": [
+            "AlushinyrraHerald, HelpingPlayer",
+            "CorruptedHerald_Phase1, Neutrals",
+            "GhostHeraldNew, CutsceneNeutrals",
+            "Herald, Neutrals",
+            "Herald_Sanctum, Neutrals",
+            "QueenGalfrey, Neutrals",
+            "QueenGalfreyDrezen, Neutrals",
+            "QueenGalfrey_DH, Neutrals",
+            "QueenGalfrey_DrezenCapital, Neutrals",
+            "QueenGalfrey_LostChapel, Neutrals",
+            "RegillQ2_KTC_Yaker, Friends",
+            "SeelahTestLevel13, Player",
+            "Summoned_CR20_ErinyesDevilAbrogailGuard, Summoned",
+            "TerendelevHuman, Neutrals",
+            "TerendelevHuman_SilentCaster, CutsceneNeutrals",
+            "YakerAnkelli_Hellknight, Friends",
+            "Yaker_HellknightsCamp, Friends"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus4",
+        "display_name": "Heavy Shield +4",
+        "description": "",
+        "cost": 16170,
+        "id": "777f5b91bdda1804cacd3f45dd9f0cf1",
+        "unit": [
+            "Galfrey_Companion, Player",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlus5",
+        "display_name": "Heavy Shield +5",
+        "description": "",
+        "cost": 25170,
+        "id": "0b09d902ff100524dbec6e3d3d93dc3b",
+        "unit": [
+            "CR_22MythicShadow_Angel, Mobs",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "Megidiah, Friends",
+            "SeelahTestLevel19, Player",
+            "SeelahTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "HeavyShieldItemPlusCultist3",
+        "display_name": "",
+        "description": "",
+        "cost": 9170,
+        "id": "7ae5e6ce236b4dc3a2b4495653b98adb",
+        "unit": [
+            "CR17_Mercenary_Human_MeleeWithLoot_Male, Mobs"
+        ]
+    },
+    {
+        "name": "HeavyShieldMendev",
+        "display_name": "",
+        "description": "",
+        "cost": 20,
+        "id": "70114ba7ac6afc144874293b6b3a8480",
+        "unit": [
+            "AD_CrusaderMelee 1, Neutrals",
+            "AD_CrusaderMelee 2, Neutrals",
+            "AD_CrusaderMelee, Neutrals",
+            "CR1_Crusader_Human_Recruit_Melee_Male, Neutrals",
+            "CR1_RecruitCrusaderMeleeLevel2, NeutralGuards",
+            "CR1_RecruitCrusaderMeleeLevel2_Blind, Neutrals",
+            "CR1_RecruitCrusaderMeleeLevel2_npc, Neutrals",
+            "CR3_Crusader_Human_PaladinMelee_Male, Neutrals",
+            "CR3_Crusader_Human_PaladinMelee_Male_NoLoot, Neutrals",
+            "CrusadeSoldierNearIrabeth, Neutrals",
+            "Crusader_FakeWarCamp_Armed, Civilians",
+            "Crusader_FakeWarCamp_Female_Armed, Civilians",
+            "DefendersHeartWarning_Messenger, Neutrals",
+            "DefendersHeartWarning_Messenger2, Neutrals",
+            "EmberKnight1, Neutrals",
+            "EmberKnight2, Neutrals",
+            "EmberQ3_Crusader03, Neutrals",
+            "KenabresCrusaderMelee2, Neutrals",
+            "RecruitCrusaderBlack_FakeWarCamp_Armed, Civilians",
+            "RecruitCrusader_FakeWarCamp_Armed, Civilians",
+            "RecruitCrusader_FakeWarCamp_BlackArmed, Civilians",
+            "RecruitCrusader_FakeWarCamp_ElfArmed, Civilians",
+            "RecruitCrusader_FakeWarCamp_Female_Armed, Civilians",
+            "RecruitCrusader_FakeWarCamp_Female_BlackArmed, Civilians",
+            "RecruitCrusader_FakeWarCamp_Halfling_Armed, Civilians",
+            "RecruitCrusader_FakeWarCamp_HalforcArmed, Civilians",
+            "Recruit_Speaker_1, Neutrals",
+            "Recruit_Speaker_2, Neutrals"
+        ],
+        "area": [
+            "RoguePaladin_SE2, PF2_Crusaders_corpse (5)",
+            "Daeran_Q2_HeavenDoorstep, RichHuman_PoorLoot#1"
+        ]
+    },
+    {
+        "name": "HeavyShieldOfInnateTrustShieldItem",
+        "display_name": "Heavy Shield of Innate Trust",
+        "description": "This +3 heavy shield grants the wearer a +3 bonus to CMB.",
+        "cost": 30000,
+        "id": "985f01c889de4ae4498a6478bab77931"
+    },
+    {
+        "name": "HeavyShieldRedWhite",
+        "display_name": "",
+        "description": "",
+        "cost": 20,
+        "id": "a5a5b77267afc3d4bb037d519c79bd96",
+        "unit": [
+            "CR3_Crusader_Human_EagleWatch_PaladinMelee_Male, Neutrals",
+            "CR3_EagleWatchCrusaderMeleeLevel4, Neutrals",
+            "CR3_EagleWatchCrusaderMeleeLevel4_NoLoot, Neutrals",
+            "CrusadeSoldier, Neutrals",
+            "CrusadeSoldier2, Neutrals",
+            "CrusadeSoldier3F, Neutrals",
+            "CrusadeSoldierZombie, Neutrals",
+            "EagleWatch_FakeWarCamp_Armed, Civilians",
+            "EagleWatch_FakeWarCamp_ArmedFullplate, Civilians",
+            "EagleWatch_FakeWarCamp_BlackArmed, Civilians",
+            "EagleWatch_FakeWarCamp_DwarfArmed, Civilians",
+            "EagleWatch_FakeWarCamp_Female_Armed, Civilians",
+            "EagleWatch_FakeWarCamp_Female_ArmedFullplate, Civilians",
+            "EagleWatch_FakeWarCamp_Female_BlackArmed, Civilians",
+            "EverbrightCrusader, Neutrals",
+            "MysteriousArusha, Neutrals"
+        ]
+    },
+    {
+        "name": "HeavyWoodenShieldItemPlus3",
+        "display_name": "",
+        "description": "",
+        "cost": 9170,
+        "id": "449758ce8ce45df4c9cd3297747d28d6",
+        "unit": [
+            "Mighty_CorruptedMongrelmanDefencive, Mobs"
+        ]
+    },
+    {
+        "name": "HolemakerShieldItem",
+        "display_name": "Holemaker",
+        "description": "Whenever the wielder of this +5 spiked heavy shield confirms a critical hit, the enemy suffers a -2 penalty on attack rolls and becomes vulnerable to piercing damage for 2 rounds.",
+        "cost": 77000,
+        "id": "c958b1a95bf1407a81670208d89fa986"
+    },
+    {
+        "name": "ImpassableGuardShieldItem",
+        "display_name": "Impassable Guard",
+        "description": "This +5 tower shield grants its wielder DR 15\/-.",
+        "cost": 125000,
+        "id": "19d785ca55714780bc753b6f9ee7f703"
+    },
+    {
+        "name": "IncorruptibleHeartShieldtem",
+        "display_name": "Shield of Incorruptible Heart",
+        "description": "This +4 heavy shield grants the wielder a +2 morale bonus on saving throws against evil creatures. Whenever the wielder of this shield is critically hit, a joyful rapture spell is activated as if it was cast by 12th level cleric.",
+        "cost": 50000,
+        "id": "bdc5ffde1d8c319439027c6518862f14",
+        "area": [
+            "DevastatorLair, PF2_DemonWorld_GoodLoot - IncorruptibleHeartShieldtem"
+        ]
+    },
+    {
+        "name": "KabririCultistHeavyShield",
+        "display_name": "Kabriri Cultist's Heavy Shield",
+        "description": "",
+        "cost": 20,
+        "id": "dae25ba1bf8843049aed6eef7874a064",
+        "unit": [
+            "CR10_Cultist_Kabriri_MeleeCaster, Mobs",
+            "CR8_Cultist_Kabriri_MeleeCaster, Mobs"
+        ]
+    },
+    {
+        "name": "KabririCultistHeavyShieldItemPlus1",
+        "display_name": "Kabriri Cultist's Heavy Shield +1",
+        "description": "",
+        "cost": 1170,
+        "id": "d897577b2d6c3c842a1d6a2d1a17008c"
+    },
+    {
+        "name": "KabririCultistLightShield",
+        "display_name": "Kabriri Cultist's Light Shield",
+        "description": "",
+        "cost": 10,
+        "id": "f25e400778f910f4098d8e8e6f917d3e"
+    },
+    {
+        "name": "KabririCultistLightShieldItemPlus1",
+        "display_name": "Kabriri Cultist's Light Shield +1",
+        "description": "",
+        "cost": 1160,
+        "id": "39c7e8a7883cd4c4c9384193ee5c2d20"
+    },
+    {
+        "name": "LightShield",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "a85d51d0fb905f940b951eec60388bac",
+        "unit": [
+            "ArmyConscript, Mobs",
+            "ArmyCultist_Baphomet_Melee, Mobs",
+            "ArmyDragonheirScionKnight, Mobs",
+            "ArmyInfantry, Mobs",
+            "ArmyRaider, Mobs",
+            "Azata_Valhalfling_male_1, CutsceneNeutrals",
+            "CR0_Sarcorian_Guard_Male, CutsceneNeutrals",
+            "CR0_Sarcorian_Guard_Male2, CutsceneNeutrals",
+            "CR0_Sarcorian_Peasant_Female, CutsceneNeutrals",
+            "CR0_Sarcorian_Peasant_Male, CutsceneNeutrals",
+            "CR0_Sarcorian_Peasant_Male1, CutsceneNeutrals",
+            "CR0_Sarcorian_Peasant_Male2, CutsceneNeutrals",
+            "CR10_ZombieLordFighterLevel7_Spear, Mobs",
+            "CR10_ZombieLordFighterLevel7_Spear_RE, Mobs",
+            "CR3_KoboldBladeLevel4, Mobs",
+            "CR4_KoboldBladeLevel5, Mobs",
+            "CR9_ZombieLordFighterLevel6_Spear, Mobs",
+            "KenabresCrusaderMelee, Neutrals",
+            "KenabresCrusaderRanged, Neutrals",
+            "MC_Human_M_Cavalier_Base, Player",
+            "PlayerFighterPregenMale, Player",
+            "SirAllfreySquire2, CutsceneNeutrals",
+            "StartGamePregenCavalierUnit, Player",
+            "StartGamePregenClericUnit, Player",
+            "StartGamePregenClericUnit, Player",
+            "StartGamePregenFighterUnit, Player",
+            "StartGamePregenFighterUnit, Player",
+            "StartGamePregenRangerUnit, Player",
+            "StartGamePregenRogueUnit, Player",
+            "StartGamePregenSlayerUnit, Player"
+        ],
+        "area": [
+            "DefendersHeart, PF2_Crusaders_PuzzleLoot",
+            "Prologue_Caves_1, PF2_NaturalCaves_Hidden Loot2",
+            "SinisterVillage, PF2_Sarkoris_TrashLoot04",
+            "SinisterVillage, PF2_Sarkoris_TrashLoot07"
+        ]
+    },
+    {
+        "name": "LightShieldFrostCorrosivePlus4",
+        "display_name": "",
+        "description": "",
+        "cost": 16160,
+        "id": "41508dc6f0c72834280761896c5f2679"
+    },
+    {
+        "name": "LightShieldFuryPlus5",
+        "display_name": "",
+        "description": "",
+        "cost": 16160,
+        "id": "85a221a99b0d1c64186795c6c095811c"
+    },
+    {
+        "name": "LightShieldItemLesserNegativeResistPlus1",
+        "display_name": "Light Shield of Lesser Negative Energy Resistance",
+        "description": "This +1 light shield grants its wielder negative energy resistance 10.",
+        "cost": 4160,
+        "id": "6771685efff2e41429e8b2c045ffc3f4"
+    },
+    {
+        "name": "LightShieldItemPlus1",
+        "display_name": "Light Shield +1",
+        "description": "",
+        "cost": 1160,
+        "id": "cac3ca0cae325b44b9d7833bbe0e6c69",
+        "unit": [
+            "PlayerFighterPregen, Player"
+        ],
+        "area": [
+            "DemodandLair, PF2_Worldwound_Loot2"
+        ]
+    },
+    {
+        "name": "LightShieldItemPlus2",
+        "display_name": "Light Shield +2",
+        "description": "",
+        "cost": 4160,
+        "id": "2a298726445c2184bbeab9f34ece55eb"
+    },
+    {
+        "name": "LightShieldItemPlus3",
+        "display_name": "Light Shield +3",
+        "description": "",
+        "cost": 9160,
+        "id": "3b3f25ba61ba5f346b4d546e702732cb"
+    },
+    {
+        "name": "LightShieldItemPlus3againstEvocation",
+        "display_name": "Ray Blocker",
+        "description": "This +3 light shield grants its wielder a +4 bonus on saving throws against all spells of Evocation school.",
+        "cost": 16160,
+        "id": "ae204741f8f01a14eaaaf54a1a89388b"
+    },
+    {
+        "name": "LightShieldItemPlus4",
+        "display_name": "Light Shield +4",
+        "description": "",
+        "cost": 16160,
+        "id": "38455bc9dc12b6b4895d49e27e559f51"
+    },
+    {
+        "name": "LightShieldItemPlus5",
+        "display_name": "Light Shield +5",
+        "description": "",
+        "cost": 25160,
+        "id": "0bebff4f12aca5649ac4402ffd59d9ad",
+        "unit": [
+            "AlushinyrraGuest_WarriorHuman, Civilians"
+        ]
+    },
+    {
+        "name": "LightShieldOfCursedAllegianceShieldItem",
+        "display_name": "Light Shield of Cursed Allegiance",
+        "description": "This +3 light shield emanates a cursed aura",
+        "cost": 30000,
+        "id": "9b7d50142e4c8cd40862fd1bd64b99fe",
+        "area": [
+            "IvorySanctum, PF2_Demons_GoodLootChest2#1"
+        ]
+    },
+    {
+        "name": "LightShieldShockPlus4",
+        "display_name": "",
+        "description": "",
+        "cost": 16160,
+        "id": "6e2c74c95ccece143ab9ae9c4d27ca82"
+    },
+    {
+        "name": "MithralHeavyShieldPlus2Item",
+        "display_name": "Mithral Heavy Shield +2",
+        "description": "",
+        "cost": 5160,
+        "id": "c22f0460aedfc0945b97a9d78a865658",
+        "unit": [
+            "KenabresCrusaderToughMelee_WithReward, Neutrals",
+            "SeelahTestLevel3, Player",
+            "SeelahTestLevel4, Player",
+            "SeelahTestLevel5, Player",
+            "SeelahTestLevel6, Player"
+        ]
+    },
+    {
+        "name": "MithralLightShieldItem",
+        "display_name": "Mithral Light Shield",
+        "description": "",
+        "cost": 10,
+        "id": "114484bf25f6f1a4ea004a5602bb64f8"
+    },
+    {
+        "name": "MithralLightShieldPlus2Item",
+        "display_name": "Mithral Light Shield +2",
+        "description": "",
+        "cost": 5160,
+        "id": "ff7c197cd164aa747b6dc5a115660048",
+        "area": [
+            "KenabresBurning, PF2_Crusaders_VrokReward_CrusaderCorpse"
+        ]
+    },
+    {
+        "name": "NorthLightShieldItem",
+        "display_name": "Northern Lights",
+        "description": "This +1 light wooden shield grants its wielder cold resistance 10 and a +1 resistance bonus to Fortitude saving throws.",
+        "cost": 8500,
+        "id": "9b8e47989eb3b4d4ea13ae6b70579b46"
+    },
+    {
+        "name": "ProtectorOfUnjustShieldItem",
+        "display_name": "Protector of Unjust",
+        "description": "This +2 heavy shield gives wielder +2 resistance bonus on saving throws. Both its AC and saving throw bonuses increase by 2 against spells, abilities and attacks by good or lawful outsiders. Cannot be equipped by lawful or good characters.",
+        "cost": 8000,
+        "id": "5505ca19d4e5b304cbf7f0bdda689ea5"
+    },
+    {
+        "name": "SarenraeLifeSourceLightShieldItem",
+        "display_name": "Triumphant Noontide",
+        "description": "Whenever this +3 mithral light shield is under the effect of Sacred Shield, each time the wielder bashes using this shield, it deals 1d6 holy damage, an enemy must pass a Will saving throw (DC 18) or will be marked. If a marked creature dies, a Will-o-Wisp (CR 8) appears for 10 minutes or until a new Will-o-Wisp will be created, this Will-o-Wisp will try to heal and support your characters. This shield also deals additional 2d8 points of holy damage to undead creatures.",
+        "cost": 54000,
+        "id": "6dc409a42e157dc46b56f5ec651953f8"
+    },
+    {
+        "name": "SarenraeLightShield_IntermediateItem",
+        "display_name": "Light Shield of the Faultless Daybreak",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 40500,
+        "id": "066c1b19e51888d429a5d0fa6c765ed2"
+    },
+    {
+        "name": "SarenraeObliteratingLightLightShieldItem",
+        "display_name": "Blinding Light",
+        "description": "Whenever the enemy confirms a critical hit against the wielder of this +3 mithral light shield, every enemy in 30 feet area must pass a Fortitude saving throw (DC 20) or become blinded for 1d4 rounds and suffer 4d6 positive energy damage. A successful saving throw negates the blindness and halves the damage.",
+        "cost": 54000,
+        "id": "eec102a79c0fc0547a5da5a01d45cac7"
+    },
+    {
+        "name": "ShieldOfChastiseShieldItem",
+        "display_name": "Shield of Chastise",
+        "description": "This +5 tower shield grants its wielder a +4 competence bonus to AC against touch attacks.",
+        "cost": 80000,
+        "id": "5d5ac048d6e24979845296249eeb9878"
+    },
+    {
+        "name": "ShieldOfMagicalRetributionShieldItem",
+        "display_name": "Shield of Magical Retribution",
+        "description": "Whenever an enemy hits the wielder of this +2 light shield with any touch attack (melee or ranged), that enemy suffers 2d6 force damage.",
+        "cost": 8400,
+        "id": "9854f8de089c0fa4da8049f00894eeeb"
+    },
+    {
+        "name": "ShieldOfPainfulRemorseShieldItem",
+        "display_name": "Painful Remorse",
+        "description": "Whenever the wielder of this +2 spiked heavy shield uses it for a shield bash, it behaves like a vicious weapon, dealing an extra 2d6 points of damage to the opponent and 1d6 points of damage to the wielder.",
+        "cost": 11400,
+        "id": "7e6b4a3fecdee8d4689b1b4b356cebc2"
+    },
+    {
+        "name": "ShieldofDivinePower",
+        "display_name": "Blessed Defense",
+        "description": "This +3 shield gives its wielder the ability to cast divine power spell once per day as a 7th level cleric.",
+        "cost": 26000,
+        "id": "19d1b3535d22c0144babe51d7da1d028"
+    },
+    {
+        "name": "ShieldofWill",
+        "display_name": "Ironclad Will",
+        "description": "This +4 heavy steel shield grants its wielder a +4 morale bonus on Will saving throws.",
+        "cost": 39000,
+        "id": "7ab0c34a329421045b61d2f15f91b6b1"
+    },
+    {
+        "name": "SosielQuestHeavyShieldItemPlus1",
+        "display_name": "Immaculate Petal",
+        "description": "This is a +1 heavy shield.",
+        "cost": 1170,
+        "id": "8f407eb3b4bb4f94cb41b889a9b28457"
+    },
+    {
+        "name": "SosielQuestHeavyShieldItemPlus4",
+        "display_name": "Immaculate Petal",
+        "description": "This +4 heavy shield grants its wearer spell resistance 17 as well as negative energy resistance 30.",
+        "cost": 50000,
+        "id": "7981ecd15a0d4a96837ff015a696a701"
+    },
+    {
+        "name": "SpellbreakerShieldItem",
+        "display_name": "Spellbreaker",
+        "description": "This +4 tower shield grants its wielder a +10 competence bonus on saving throws against Evocation school spells.",
+        "cost": 58180,
+        "id": "1852b2caac3ee0847a5e74f5784d67a6",
+        "unit": [
+            "Nexus_CambionWithLoot_ForAssault, Mobs"
+        ]
+    },
+    {
+        "name": "SpikedShieldOfHolyThornArmorItem",
+        "display_name": "",
+        "description": "",
+        "cost": 9170,
+        "id": "f9a07fe70abfba643b879df7a591ec4e"
+    },
+    {
+        "name": "SpikedShieldOfHolyThornShieldItem",
+        "display_name": "Shield of Holy Thorn",
+        "description": "Whenever the wielder of this +3 spiked holy heavy shield uses it for a shield bash, it behaves like a holy weapon, dealing an extra 2d6 points of holy damage to the opponent.",
+        "cost": 37000,
+        "id": "b03b7192a94b98c4e9330b9243da280d",
+        "unit": [
+            "SeelahTestLevel14, Player",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player"
+        ]
+    },
+    {
+        "name": "TalionKeeperItem",
+        "display_name": "Talion Keeper",
+        "description": "This +4 spiked light shield provokes a shield bash dealing 2d6 piercing damage to the attacker whenever its wielder is critically hit.",
+        "cost": 49000,
+        "id": "1bc5bd269f55aa34f8dcc7b76eec03a4"
+    },
+    {
+        "name": "TheUndyingLoveOfTheHopebringerShieldItem",
+        "display_name": "The Undying Love of the Hopebringer",
+        "description": "This is a +5 spiked shield, this shield also has a +5 enchant bonus to attacks and damage made by it.\nOnce per day the wielder can choose to assign Light or Dark aura for this shield.\nLight Aura \u2014 All enemies in a 30 feet range are under faery fire effect, all companions gain a +2 insight bonus to saving throws and skill checks. Whenever an enemy lands a critical hit against the wearer or companion, the enemy must pass a Fortitude saving throw (DC 30) or be blinded and slowed as per slow spell for 1d4 rounds. Additionally any healing applied to the shield bearer will also heal all party members for 1d6 + shield bearer`s level.\nDark Aura \u2014 All enemies in a 30 feet area have a -2 penalty to Initiative, all companions gain a +2 profane bonus to attack of opportunities and critical hit confirmation. Whenever a companion lands a critical hit against the enemy, the enemy must pass a Will saving throw (DC 25) or be under sleeping effect for 1d3 rounds. All curses, poisons, diseases and mind-affecting spells have their save DC increased by 2 both for enemies and companions..\nIf the wearer is of good alignment, shield gains holy quality for all attacks with this shield. Additionally for a standard action the wearer can use Light Nova ability, it deals damage to the wearer equal to 25% of her HP and heals everyone by 40 hp and deals 20 damage to all enemies.\nIf the wearer is of evil alignment, shield gains an unholy quality for all attacks with this shield. Additionally for a standard action the wearer can use Dark Nova ability, it deals 20 damage to the all his companions and they get Chosen of the Dark Nova effect, while all enemies in a 30 feet area receive Pray of The Chosen. Under Chosen of the Dark Nova effect companions receive +5 damage bonus against Pray of The Chosen.\nIf the wearer is of neutral alignment, the wearer can use both of abilities. However, if the wearer used one ability, the wearer can't use another ability until the rest.",
+        "cost": 200000,
+        "id": "5ed5b94bb510441393d300d8d7522831",
+        "area": [
+            "ColyphyrDungeon, PF2_DemonWorld_TheUndyingLoveOfTheHopebringerShieldItem"
+        ]
+    },
+    {
+        "name": "TowerShield",
+        "display_name": "",
+        "description": "",
+        "cost": 30,
+        "id": "6a1a429f023e5134fb16a4962cb79257",
+        "unit": [
+            "ArmyHeavyInfantry, Mobs",
+            "CR10_DuergarFighter11, Bandits",
+            "CR12_SkeletalChampionGuard, Mobs",
+            "CR14_Cyborg_CrusaderTankLevel12, Mobs",
+            "CR5_GuardFighterMeleeLevel6, NeutralGuards",
+            "CR7_DuergarFighter8, Bandits",
+            "CR9_DuergarFighter10, Bandits",
+            "JorunVane_DrezenCapital, CutsceneNeutrals",
+            "JorunVane_Miniboss, CutsceneNeutrals",
+            "MountTestCharacter_DwarfMale, Player",
+            "MountTestCharacter_ElfMale, Player",
+            "MountTestCharacter_GnomeMale, Player",
+            "MountTestCharacter_HalfelfMale, Player",
+            "MountTestCharacter_HalflingMale, Player",
+            "MountTestCharacter_HalforcMale, Player",
+            "MountTestCharacter_HumanMale, Player",
+            "MountTestCharacter_OreadMale, Player",
+            "StreetRat_DraftCompanion, Player"
+        ],
+        "area": [
+            "ArueshalaeRedoubt, Forest_Hidden_Loot (1)",
+            "MidnightFane, PF2_Demons_PoorLoot_10",
+            "MidnightFane, PF2_Demons_PoorLoot_3",
+            "GrayGarrison, PF2_OldCrusaders_GoodLoot05",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_market_place_chest_small_02",
+            "LostChapel, PoorHuman_PoorLoot10"
+        ]
+    },
+    {
+        "name": "TowerShieldItemPlus1",
+        "display_name": "Tower Shield +1",
+        "description": "",
+        "cost": 1180,
+        "id": "e7b9e76870927424eb9de56611206867",
+        "unit": [
+            "CR17_Cultist_Areshkagal_MeleeFighterDefensive, Mobs"
+        ],
+        "area": [
+            "Iz, PF2_CoolDemons_luxery_weapon_stand_01_loot_object#1"
+        ]
+    },
+    {
+        "name": "TowerShieldItemPlus2",
+        "display_name": "Tower Shield +2",
+        "description": "",
+        "cost": 4180,
+        "id": "294e15227b2c1d245ab1ff99922f339f",
+        "unit": [
+            "ArmyGoldenLegionnaires, Mobs",
+            "GreyborInIvorySunctum_ClericNPC, Mobs"
+        ]
+    },
+    {
+        "name": "TowerShieldItemPlus2ElectricityCold",
+        "display_name": "Tower Shield of Elemental Protection",
+        "description": "This +2 tower shield grants its wielder electricity resistance 15 and cold resistance 15.",
+        "cost": 16180,
+        "id": "030790ddcf2bc984db83f5464eb8ef5b"
+    },
+    {
+        "name": "TowerShieldItemPlus3",
+        "display_name": "Tower Shield +3",
+        "description": "",
+        "cost": 9180,
+        "id": "4c7ca318e6754f542a7f9a685f375f4b",
+        "unit": [
+            "MythicLichSkeletonTankUnit, Neutrals"
+        ]
+    },
+    {
+        "name": "TowerShieldItemPlus4",
+        "display_name": "Tower Shield +4",
+        "description": "",
+        "cost": 16180,
+        "id": "b0a27282bc64ca045b0607de36c4d426"
+    },
+    {
+        "name": "TowerShieldItemPlus5",
+        "display_name": "Tower Shield +5",
+        "description": "",
+        "cost": 25180,
+        "id": "a03cb1b8370305247bf94cd193e9bc82"
+    },
+    {
+        "name": "TowerShieldItemSavThrAgainstBlindPlus1",
+        "display_name": "Colossal Shade",
+        "description": "This tower shield grants its wielder a +3 bonus on saving throws against blindness.",
+        "cost": 4180,
+        "id": "5ba0148e3ce36dc498e27089281a01e4"
+    },
+    {
+        "name": "TowerShieldWardenOfDarknessShieldItem",
+        "display_name": "Warden of Darkness",
+        "description": "This +4 mithral tower shield gives the wielder DR 5\/good and a -2 penalty to attack rolls against evil characters. It can be worn only by evil-aligned creatures.",
+        "cost": 56000,
+        "id": "8590fc090e089a741a0ab670e71dba13",
+        "area": [
+            "WintersunOutdoor, PF2_Forest_CorumShrine_Loot"
+        ]
+    },
+    {
+        "name": "UnbreakableBastionShieldItem",
+        "display_name": "Unbreakable Bastion",
+        "description": "This +4 tower shield grants its wielder a +4 resistance bonus on all saving throws, and a +4 deflection bonus to AC.",
+        "cost": 110800,
+        "id": "aadfa4f5a1ecbac4eae9daa65bde7138"
+    },
+    {
+        "name": "VenomousLimbShieldItem",
+        "display_name": "Bulwark",
+        "description": "This +2 heavy wooden shield grants its wearer a +5 competence bonus to Perception checks, and acid resistance 15.",
+        "cost": 23300,
+        "id": "5f7e85634b80177428370151feb2116b"
+    },
+    {
+        "name": "WallsOfTheSanctuaryShieldItem",
+        "display_name": "Walls of the Sanctuary",
+        "description": "This +5 Tower Shield has a +6 deflection bonus to AC and allows its wielder to make all party members except the wielder invisible as under the greater invisibility spell effect. This power can be used for 20 rounds per day. These rounds do not need to be consecutive.",
+        "cost": 143000,
+        "id": "26440b63b13c71344a91559da15acf59"
+    },
+    {
+        "name": "WildGuardianShieldItem",
+        "display_name": "Wild Guardian",
+        "description": "This +3 heavy wooden shield grants its wearer a +3 resistance bonus to Will saving throws, and a +4 enhancement bonus to Constitution.",
+        "cost": 48600,
+        "id": "05d8f2e20b09a3d43871d76424c195c6"
+    },
+    {
+        "name": "WyrmwallShieldItem",
+        "display_name": "Wyrmwall",
+        "description": "This +5 tower shield grants its wielder a +4 bonus to saving throws against fire, acid, cold and electricity, and a +2 bonus to AC against Huge or larger creatures.",
+        "cost": 157000,
+        "id": "a3c44b8d08b634d479fd1ff01ab5fc08"
+    }
+]
