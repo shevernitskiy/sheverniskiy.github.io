@@ -3,7 +3,7 @@
         "name": "AlchemistsClothItem",
         "display_name": "Alchemist's Shirt",
         "description": "This shirt grants its wearer immunity to nauseated condition and a +3 bonus on saving throws against acid.",
-        "cost": 4500,
+        "cost": 5000,
         "id": "004e05369fd13e2428bf7eb84bcd38ec",
         "enchant": [
             {
@@ -39,9 +39,61 @@
         ],
         "unit": [
             "EmberTestLevel15, Player",
+            "EmberTestLevel3, Player",
+            "EmberTestLevel4, Player",
+            "EmberTestLevel6, Player",
             "Lair_SuccubusBoss, Bosses",
+            "MC_Elf_F_Sorcerer_AzataUnit, Player",
+            "MC_Elf_F_Sorcerer_Drezen, Player",
+            "MC_Elf_F_Sorcerer_IvorySanctum, Player",
+            "MC_Elf_F_Sorcerer_LichUnit, Player",
+            "MC_Elf_F_Sorcerer_LostChapel, Player",
+            "MC_Elf_F_Sorcerer_Warcamp, Player",
             "NenioTestLevel14, Player"
         ]
+    },
+    {
+        "name": "BaphometFireCloth_AnimalisticFireItem",
+        "display_name": "Call of the Fiery Things",
+        "description": "This shirt makes all the wearer's fire spells deal additional 4d6 of fire damage while making them suffer a -2 penalty to AC.",
+        "cost": 90000,
+        "id": "7453858a493f49239b7c99657c80df58",
+        "enchant": [
+            {
+                "name": "BaphometFireCloth_AnimalisticFireEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b94b8fa6ba2e41589319b9f7fd0460d0",
+                "effect": [
+                    "Add feature BaphometFireCloth_AnimalisticFireFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFireCloth_BurningCunningItem",
+        "display_name": "Treacherous Flame",
+        "description": "Whenever the wearer of this shirt kills an enemy with a fire spell, they gain immunity to ability score damage and their mental abilities scores are increased by +6 for 3 rounds. In addition, all the wearer's allies deal additional 3d6 fire damage on successful attacks with weapons for 1 round.",
+        "cost": 90000,
+        "id": "1d48edb7478d41b9897b54542d169ca8",
+        "enchant": [
+            {
+                "name": "BaphometFireCloth_BurningCunningEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4cad65a642af4533a7b8215a422dd3e7",
+                "effect": [
+                    "Add feature BaphometFireCloth_BurningCunningFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFireCloth_IntermediateItem",
+        "display_name": "Baphomet's Fiery Robe",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 67500,
+        "id": "12c604e51320457fb15b71dcf3303e5c"
     },
     {
         "name": "BlackenedRagsItem",
@@ -66,7 +118,7 @@
         "name": "CalmingWardenItem",
         "display_name": "Calming Warden",
         "description": "This cloth grants its wearer a +4 bonus on saving throws against Necromancy spells and effects, and immunity to fear effects.",
-        "cost": 33000,
+        "cost": 38000,
         "id": "ccadf79fbd028db49bc3dccf082e4297",
         "enchant": [
             {
@@ -94,7 +146,7 @@
         "name": "ClothOfBlazingFighterItem",
         "display_name": "Shirt of Blazing Fighter",
         "description": "This shirt grants the wearer a +5 competence bonus to Athletics skill checks and fire resistance 30.",
-        "cost": 14000,
+        "cost": 22000,
         "id": "fa9c152b414fa8c418c9064043fdfa34",
         "enchant": [
             {
@@ -117,9 +169,27 @@
         ]
     },
     {
+        "name": "ClothOfHeavyFortificationItem",
+        "display_name": "Cloth of Heavy Fortification",
+        "description": "This cloth grants its wearer the effect of heavy fortification.",
+        "cost": 55000,
+        "id": "6c29087271234af1819123d31bf9f3c8",
+        "enchant": [
+            {
+                "name": "Fortification75Enchant",
+                "display_name": "Heavy Fortification",
+                "description": "This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When an enemy confirms a critical hit or lands a sneak attack against the wearer, there is a chance that the critical hit or sneak attack is negated and damage is instead rolled normally. The chance is 25% for light fortification, 50% for moderate fortification, and 75% for heavy fortification.",
+                "id": "9b1538c732e06544bbd955fee570a2be",
+                "effect": [
+                    "Add feature Fortification75Feature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "DemonicAltarAgilityClothItem",
-        "display_name": "Dark Retriever's Shirt",
-        "description": "This is a clean and nice cloth is weaved from Retriever spider web, purified with druidic magic. Whenever a druid wearing it casts a spell from their spellbook, they cast it as if they were one level higher. They also gain a +10 competence bonus on Lore (Nature) skill checks.",
+        "display_name": "Web Strider",
+        "description": "This clean and nice shirt is weaved from Retriever spider web, purified with druidic magic. Whenever a druid wearing it casts a spell from their spellbook, they cast it as if they were one level higher. They also gain a +10 competence bonus on Lore (Nature) skill checks.",
         "cost": 36000,
         "id": "8ac08cece7840174a80407516fdff043",
         "enchant": [
@@ -143,8 +213,8 @@
     },
     {
         "name": "DemonicAltarMasochisticClothItem",
-        "display_name": "Dark Retriever's Shirt",
-        "description": "This cloth is weaved from spider web. It strangles the wearer, inflicting a -5 penalty to Mobility. It also helps discharge electric damage, granting the wearer electricity resistance 30. Whenever the wearer is hit by a non slashing weapon, they must pass a Reflex saving throw (DC 20) or become staggered for the first attack in a round, as well as suffer a -2 penalty to attack rolls for one round.",
+        "display_name": "Zon-Kuthon's Suffocating Caress",
+        "description": "This shirt is weaved from spider web. It strangles the wearer, inflicting a -5 penalty to Mobility skill checks. It also helps to discharge electric damage, granting the wearer electricity resistance 30. Whenever the wearer is hit by a non-slashing weapon, they must pass a Reflex saving throw (DC 20) or become staggered for the first attack in a round, as well as suffer a -2 penalty to attack rolls for one round.",
         "cost": 36000,
         "id": "7393c642e36be6e488ddd7eb7ca30a31",
         "enchant": [
@@ -161,7 +231,7 @@
     },
     {
         "name": "DemonicAltarTrypophobiaClothItem",
-        "display_name": "Dark Retriever's Shirt",
+        "display_name": "Shroud of the Eternal Hunger",
         "description": "Whenever the wearer polymorphs into any creature, they get a +4 enhancement bonus to attack and damage rolls made with limbs. Whenever a creature hits them with a melee attack, that creature suffers 1d6 piercing damage.",
         "cost": 36000,
         "id": "c3311fb9253b3b94bb640961a189910b",
@@ -206,10 +276,82 @@
         ]
     },
     {
+        "name": "GorgeousGlowingGarnetGarmentItem",
+        "display_name": "Gorgeous Glowing Garnet Garment",
+        "description": "The wearer of this red shirt glows with red.",
+        "cost": 1000,
+        "id": "8afe91a71d05417cb8162d8ce1f903a5",
+        "enchant": [
+            {
+                "name": "GorgeousGlowingGarnetGarmentEnhchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3473b64a17c446b9ad6dba6725794b5a",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HagsDemiseItem",
+        "display_name": "Hag's Demise",
+        "description": "This cloth grants its wearer a +4 insight bonus on saving throws against hexes and Necromancy school spells.",
+        "cost": 66000,
+        "id": "c092fdcc5b6f4a6983c7085e9f669372",
+        "enchant": [
+            {
+                "name": "HagsDemiseEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a7efe327fc3347e594ff20bbdf199388",
+                "effect": [
+                    "Add feature HagsDemiseFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "JoCat_ShirtItem",
+        "display_name": "Happy Traveler's Shirt",
+        "description": "This shirt increases the wearer's base speed by 10 feet. In addition, whenever the wearer travels for 50 feet or more in a round, they are affected by the greater invisibility spell effect for 1 round.",
+        "cost": 45000,
+        "id": "28f82428f86a47a195d64856152cac65",
+        "enchant": [
+            {
+                "name": "JoCat_ShirtEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b408f973e4a04a5ba8dda7fd045f1a6f",
+                "effect": [
+                    "Add feature JoCat_ShirtFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LoremastersRobeItem",
+        "display_name": "Loremaster's Robe",
+        "description": "This robe grants its wearer a +3 insight bonus on all Knowledge and Lore skill checks as well as a +2 bonus on Reflex saving throws.",
+        "cost": 66000,
+        "id": "68ed893157ce46deb6fdba8aae5deaa2",
+        "enchant": [
+            {
+                "name": "LoremastersRobeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "590c35b95cbe40f6bf7b8aafc7925235",
+                "effect": [
+                    "Add feature LoremastersRobeFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "PilgrimClothItem",
         "display_name": "Pilgrim's Shirt",
         "description": "This shirt grants its wearer a +5 competence bonus on Lore (Nature) skill checks and immunity to diseases.",
-        "cost": 32000,
+        "cost": 26600,
         "id": "de9188750de58a64ca8c9886359d274b",
         "enchant": [
             {
@@ -234,7 +376,7 @@
         "name": "RobeElementalImbuementItem",
         "display_name": "Elemental Imbuement",
         "description": "Whenever the wearer of this robe suffers elemental damage (such as acid, fire, cold, electricity or sonic), for the next round any spell cast by the wearer, if it deals the same kind of elemental damage, deals +2 damage per dice of damage suffered.",
-        "cost": 24000,
+        "cost": 28000,
         "id": "672327dcb5731f74a85ae23697cd7b26",
         "enchant": [
             {
@@ -252,26 +394,44 @@
         ]
     },
     {
-        "name": "RobeOfDeterminationItem",
-        "display_name": "Robe of Determination",
-        "description": "Whenever the wearer of this robe casts a spell that forces the target to make a Fortitude saving throw, the DC of that save is increased by 2. It also grants the wearer a +2 bonus on caster level checks made to overcome spell resistance, +4 bonus to concentration checks, and spell resistance 18.",
-        "cost": 30000,
-        "id": "ee26e7fdc05725f48abae2db22ada906",
+        "name": "RobeOfAngelicPrudenceItem",
+        "display_name": "Robe of Angelic Prudence",
+        "description": "This robe grants its wearer a +4 enhancement bonus to Charisma and Wisdom ability scores. It also allows the wearer to cast greater angelic aspect at will as a 20th level cleric.",
+        "cost": 63000,
+        "id": "1c2fc5c3b82e428ab6b06dab81ef01dd",
         "enchant": [
             {
-                "name": "RobeOfMaliceEnchant",
+                "name": "Wisdom4",
                 "display_name": "",
                 "description": "",
-                "id": "71ceb4ca8e9d4a74c8c11b0de623a6de",
+                "id": "c3c2a133c0aa12240ade34762c146664",
                 "effect": [
-                    "Add stat bonus 3 to AC (descriptor: Dodge)"
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
                 ]
             },
             {
-                "name": "RobeOfDeterminationEnchant",
+                "name": "Charisma4",
                 "display_name": "",
                 "description": "",
-                "id": "35410418b0123574a8bc2f71ad1f6788",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
+                "effect": [
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RobeOfDeterminationItem",
+        "display_name": "Robe of Determination",
+        "description": "Whenever the wearer of this robe casts a spell that forces the target to make a Fortitude saving throw, the DC of that save is increased by 2. It also grants the wearer a +2 bonus on caster level checks made to overcome spell resistance, +4 bonus to concentration checks, and spell resistance 18.",
+        "cost": 45000,
+        "id": "ee26e7fdc05725f48abae2db22ada906",
+        "enchant": [
+            {
+                "name": "RobeOfDeterminationEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e935d98654111734990316016bc0a615",
                 "effect": [
                     "Add feature RobeOfDeterminationFeature"
                 ]
@@ -292,7 +452,7 @@
         "name": "RobeOfMaliceItem",
         "display_name": "Robe of Malice",
         "description": "This robe grants the wearer a +3 dodge bonus to AC, and a +5 bonus to unarmed attack and damage rolls. It can be worn only by a monk of Lawful Evil alignment.",
-        "cost": 51000,
+        "cost": 44000,
         "id": "2e78284d218c51643bc3e1f0a530a5fc",
         "enchant": [
             {
@@ -308,10 +468,50 @@
         "enhance": "5"
     },
     {
+        "name": "RobeOfMephistophelesItem",
+        "display_name": "Robe of Mephistopheles",
+        "description": "This robe grants its wearer an aura which makes all enemies in a 30 feet radius suffer a -4 penalty on saving throws against fear, compulsion and charm effects. In addition, once per day, the wearer of this robe can make all enemies in a 30 feet radius pass a Will saving throw (DC 30), on fail they lose their minds, become hostile to everybody and start attacking targets indiscriminately for 1 minute.",
+        "cost": 63000,
+        "id": "204b71bd46194f9ab523dcd728f2f370",
+        "enchant": [
+            {
+                "name": "RobeOfAngelicPrudenceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "166d685533254944aad18c0ea2ca0105",
+                "effect": [
+                    "Add feature RobeOfAngelicPrudenceFeature"
+                ]
+            },
+            {
+                "name": "Wisdom4",
+                "display_name": "",
+                "description": "",
+                "id": "c3c2a133c0aa12240ade34762c146664",
+                "effect": [
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma4",
+                "display_name": "",
+                "description": "",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
+                "effect": [
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Mephisto, Friends",
+            "Mephisto_AzataIsland, CutsceneNeutrals"
+        ]
+    },
+    {
         "name": "RobeOfOrderItem",
         "display_name": "Robe of Order",
         "description": "If the wearer of this robe has a ki pool, the robe increases it by 2. If the wearer is of lawful alignment, it grants a +2 bonus on attack rolls against chaotic enemies. This robe can be worn only by a monk.",
-        "cost": 32500,
+        "cost": 34000,
         "id": "32f8cc0a9152d224f933a5c0879ec368",
         "enchant": [
             {
@@ -350,16 +550,37 @@
             }
         ],
         "unit": [
+            "EmberTestLevel12, Player",
+            "EmberTestLevel7, Player",
+            "EmberTestLevel8, Player",
             "EmberTestLevel9, Player",
             "PlayerAeonWizardTestLevel9, Player",
             "PlayerLichWizardTestLevel9, Player"
         ]
     },
     {
+        "name": "RobeOfVirtueItem",
+        "display_name": "Robe of Virtue",
+        "description": "This robe grants its wearer a +2 dodge bonus to AC and a +2 competence bonus on attacks against evil enemies. Only Monk of good alignment can wear it.",
+        "cost": 34000,
+        "id": "17c5e2686dbb5a843b5ba859f22aeea1",
+        "enchant": [
+            {
+                "name": "RobeOfVirtueEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f1d48244362d7aa4386d5437d9135f2a",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
         "name": "RobeOnTheBrinkOfDeathItem",
         "display_name": "On the Brink of Death",
         "description": "Whenever the wearer's health is below 50, each attack against the wearer has a chance to reflect dealt damage. The enemy must pass a Reflex saving throw (DC 24) or suffer the attack.",
-        "cost": 20000,
+        "cost": 24000,
         "id": "ba3d3f98974021f4a96ec087b3940df6",
         "enchant": [
             {
@@ -398,6 +619,13 @@
         ]
     },
     {
+        "name": "Set2_Robe",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "0361af3514c14b18868b01139f011af7"
+    },
+    {
         "name": "SilkyVeilItem",
         "display_name": "Silky Veil",
         "description": "This robe grants its wearer a +1 dodge bonus to AC, and a +2 enhancement bonus to attack and damage rolls with unarmed attacks. Only a monk can wear it.",
@@ -414,6 +642,11 @@
                     "EquipmentWeaponTypeEnhancement"
                 ]
             }
+        ],
+        "unit": [
+            "LannTestLevel12, Player",
+            "LannTestLevel7, Player",
+            "LannTestLevel8, Player"
         ],
         "area": [
             "GibberingSwarm, NaturalCaves_CaravanLoot5"
@@ -436,16 +669,60 @@
                 ]
             }
         ],
+        "unit": [
+            "LannTestLevel3, Player",
+            "LannTestLevel4, Player",
+            "LannTestLevel6, Player"
+        ],
         "area": [
             "Tutorial_Test_Polygon, Forest_Loot",
             "HorgusManor, PF2_RichHuman_GoodLoot03"
         ]
     },
     {
+        "name": "TrueSerenityItem",
+        "display_name": "True Serenity",
+        "description": "This shirt grants its wearer spell resistance 34 against the enemies of chaotic alignment.",
+        "cost": 77700,
+        "id": "2625cd306722421d860b958845774cbc",
+        "enchant": [
+            {
+                "name": "TrueSerenityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7a812495bce84ca6a30a0b6405004bf2",
+                "effect": [
+                    "Add feature TrueSerenityFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TunicOfArdentWarpriestItem",
+        "display_name": "Tunic of Ardent Warpriest",
+        "description": "If the wearer of this shirt has the Fervor class ability, it grants them 3 additional uses of Fervor per day.",
+        "cost": 26000,
+        "id": "10b4e06e151d35d4783ee9dada7c6df4",
+        "enchant": [
+            {
+                "name": "TunicOfArdentWarpriestEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "49f53e7cb012fe545984ea349a31c580",
+                "effect": [
+                    "Add feature TunicOfArdentWarpriestFeature"
+                ]
+            }
+        ],
+        "area": [
+            "TerendelevLair, TerendelevLair_Good_Loot"
+        ]
+    },
+    {
         "name": "WanderingConmanItem",
         "display_name": "Wandering Conman",
         "description": "This cloth grants the wearer a +10 competence bonus to Trickery and a +10 competence bonus to Athletics skill checks, as well as +2 bonus to attack rolls for attacks of opportunity.",
-        "cost": 32000,
+        "cost": 40000,
         "id": "fdc89dbe3502c7843ac5685099aac211",
         "enchant": [
             {

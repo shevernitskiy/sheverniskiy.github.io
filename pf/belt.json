@@ -3,7 +3,7 @@
         "name": "AssailantsBeltItem",
         "display_name": "Assailant's Belt",
         "description": "Whenever the wearer of this belt of Dexterity +6 confirms a critical hit, for the next 3 rounds the wearer gets +2 circumstance bonus to attack and damage rolls.",
-        "cost": 50000,
+        "cost": 85000,
         "id": "8d48d164b7a729b459db96ab7d5cf55a",
         "enchant": [
             {
@@ -34,6 +34,33 @@
         ],
         "area": [
             "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "BeltOfAlacrityItem",
+        "display_name": "Belt of Alacrity",
+        "description": "This belt of Dexterity +4 also grants its wearer a +4 competence bonus on Reflex saving throws.",
+        "cost": 26000,
+        "id": "4b0b9b95225d6034f84b75a6ad1e76c7",
+        "enchant": [
+            {
+                "name": "BeltOfAlacrityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3d2ebf32e8c47494ea1c1db6485e7d1e",
+                "effect": [
+                    "Add feature BeltOfAlacrityFeature"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
         ]
     },
     {
@@ -73,10 +100,37 @@
         ]
     },
     {
+        "name": "BeltOfBeastlySturdinessItem",
+        "display_name": "Belt of Beastly Sturdiness",
+        "description": "This belt of Constitution +4 also grants its wearer a +4 competence bonus to CMB on Bull Rush and Overrun combat maneuvers as well as immunity to Trip combat maneuver.",
+        "cost": 45000,
+        "id": "16ef03e9206b0c946813464085f541ff",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfBeastlySturdinessEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "39c16220c3b0f81459c45aca0787e30b",
+                "effect": [
+                    "Add feature BeltOfBeastlySturdinessFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "BeltOfBloodlustItem",
         "display_name": "Belt of Bloodlust",
         "description": "This belt grants its wearer a +4 enhancement bonus to Dexterity and Strength. Whenever the wearer of this belt lands a killing blow, they gain a +5 morale bonus on their next attack roll.",
-        "cost": 85000,
+        "cost": 83000,
         "id": "c63859f821f7b414492580b638b009fb",
         "enchant": [
             {
@@ -126,15 +180,11 @@
             }
         ],
         "unit": [
-            "CR15_MercenarySupportCaster, Mobs",
-            "CR18_CambionToughCaster, Mobs",
-            "CR24_CambionMinibossCaster, Mobs",
-            "CambionSlaverLeader, Mobs",
-            "GateGuard_HigherToMedium, CutsceneNeutrals",
+            "CambionMinibossKineticist, Mobs",
+            "Forn, CutsceneNeutrals",
             "Mighty_CorruptedMongrelmanDefencive, Mobs",
             "Nulkineth_LostChapel, Mobs",
             "RegillQ2_KTC_Yaker, Friends",
-            "SailorSupportCaster, Neutrals",
             "SeelahTestLevel7, Player",
             "SeelahTestLevel8, Player",
             "SeelahTestLevel9, Player",
@@ -163,22 +213,21 @@
             }
         ],
         "unit": [
-            "CR22_AreshkagalMinotaurMiniBoss, Mobs",
             "CR22_MinotaurPriest, Mobs",
-            "CR25_AreshkagalFullCasterBoss, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
             "ColyphyrSalamanderMiniboss, Mobs",
             "Dimalchio, CutsceneNeutrals",
-            "Latwerk, CutsceneNeutrals",
-            "LatwerkNoWeapons, CutsceneNeutrals",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals",
             "SeelahTestLevel10, Player",
             "SeelahTestLevel11, Player",
             "SeelahTestLevel12, Player",
             "SeelahTestLevel13, Player",
-            "StauntonVane_Boss, Bosses",
-            "StauntonVane_LostChapel, CutsceneNeutrals",
-            "StauntonVane_Undead, Bosses",
             "Svendack22, Mobs",
+            "Svendack22_WithTiara, Mobs",
             "UndeadKingAlberie, Neutrals"
+        ],
+        "area": [
+            "WintersunOutdoor, PF2_Forest_CorumCache_Check_Loot"
         ]
     },
     {
@@ -205,11 +254,58 @@
         ]
     },
     {
+        "name": "BeltOfCourageousChargeItem",
+        "display_name": "Belt of Courageous Charge",
+        "description": "Whenever the wearer of this belt of Strength and Dexterity +4 charges an enemy, they gain a +4 morale bonus on attack and damage rolls against this enemy for 1 round.",
+        "cost": 82000,
+        "id": "ca893ba89b2c9db4287d4a57abd286df",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfCourageousChargeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "717ea085eb284bb4392f15534a00426a",
+                "effect": [
+                    "Add feature BeltOfCourageousChargeFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "BeltOfDemonicShadowItem",
         "display_name": "Belt of Demonic Shadow",
-        "description": "Whenever the wearer of this belt casts a spell of level 6 or higher, it summons a CR7 shadow demon to fight alongside the wearer for 2 minutes. Only one such demon can be present on the battlefield. If the demon is already summoned, casting a new spell of level 6 or higher will heal it for 2d6 hit points.",
-        "cost": 35000,
+        "description": "Whenever the wearer of this belt casts a spell of level 6 or higher, it summons a CR 7 shadow demon to fight alongside the wearer for 2 minutes. Only one such demon can be present on the battlefield. If the demon is already summoned, casting a new spell of level 6 or higher will heal it for 2d6 hit points.",
+        "cost": 40000,
         "id": "4c702defedd33df43b0adcff637b8b42",
+        "enchant": [
+            {
+                "name": "BeltOfDemonicShadowEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "44994cab01a6e664486509e52939a62c",
+                "effect": [
+                    "Add feature BeltOfDemonicShadowFeature"
+                ]
+            }
+        ],
         "unit": [
             "CultHighPriest, Mobs"
         ]
@@ -239,6 +335,14 @@
             "AneviaTirabade_GorgoyleAttack, Friends",
             "AneviaTirabade_LostChapel, Friends",
             "ArueshalaePregenLevel11, Player",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
+            "CR26_SuccubusRangedFighter_RE_low, Mobs",
+            "CR27_SuccubusRangedFighter, Mobs",
+            "CR27_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR27_SuccubusRangedFighter_RE_high2, Mobs",
             "CameliaPregenLevel10, Player",
             "CameliaPregenLevel8, Player",
             "CameliaPregenLevel9, Player",
@@ -249,18 +353,18 @@
             "EmberTestLevel11, Player",
             "EmberTestLevel12, Player",
             "EmberTestLevel13, Player",
-            "Fake_Anorel_GibberingSwarm, Friends",
-            "IncubusBandLair_IncubusBoss, Mobs",
             "LannTestDrezen, Player",
             "LannTestLevel10, Player",
             "LannTestLevel11, Player",
             "LannTestLevel8, Player",
             "LannTestLevel9, Player",
             "Mutasafen, Mobs",
+            "MutasafenFourth_NoLoot, Mobs",
             "MutasafenSecond, Mobs",
             "MutasafenThird, Mobs",
             "Mutasafen_MidnightFaneInThePast, Mobs",
             "Othirubo_Boss, Mobs",
+            "Pharasma, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel10, Player",
             "PlayerAeonWizardTestLevel11, Player",
             "PlayerAeonWizardTestLevel12, Player",
@@ -282,6 +386,9 @@
             "WoljifTestLeve12, Player",
             "WoljifTestLeve13, Player",
             "WoljifTestLeve14, Player"
+        ],
+        "area": [
+            "GibberingSwarmCave, NaturalCaves_GoodLootSkeleton01"
         ]
     },
     {
@@ -306,22 +413,24 @@
             "ArueshalaePregenLevel12, Player",
             "ArueshalaePregenLevel13, Player",
             "ArueshalaePregenLevel14, Player",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
             "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
             "CameliaPregenLevel11, Player",
             "CameliaPregenLevel12, Player",
             "CameliaPregenLevel13, Player",
             "CameliaPregenLevel14, Player",
-            "Centaur_F_bow_Boss, Mobs",
             "DaeranPregenTestLevel18, Player",
             "DaeranPregenTestLevel19, Player",
             "DaeranPregenTestLevel20, Player",
             "EmberTestLevel14, Player",
             "EmberTestLevel16, Player",
-            "Kerz, Neutrals",
+            "Kerz, CutsceneNeutrals",
             "LannTestLevel12, Player",
             "LannTestLevel13, Player",
             "LannTestLevel16, Player",
+            "Locust_LannEnemy, CutsceneNeutrals",
             "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
             "MythicLich_KTC_Septimus, Civilians",
             "PlayerAeonWizardTestLevel14, Player",
             "PlayerAeonWizardTestLevel15, Player",
@@ -337,6 +446,8 @@
             "PlayerTricksterRangerTestLevel13, Player",
             "PlayerTricksterRangerTestLevel14, Player",
             "PlayerTricksterRangerTestLevel15, Player",
+            "Shrine_Glabrezu_Caster, Mobs",
+            "Shrine_Succubus_Ranged, Mobs",
             "UrgathoaPatrols_Cleric, NeutralGuards",
             "VampirePatrols_VampireSpawn, NeutralGuards",
             "WildHunt_Atselm, CutsceneNeutrals",
@@ -344,7 +455,7 @@
             "WildHunt_AtselmYoung, CutsceneNeutrals"
         ],
         "area": [
-            "GibberingSwarmCave, NaturalCaves_GoodLootSkeleton01"
+            "TempleOfDelamere, RichHuman_TrashLoot06_G_L"
         ]
     },
     {
@@ -366,27 +477,37 @@
         ],
         "unit": [
             "Alichino, Friends",
+            "AlichinoEnemy, Mobs",
             "ArueshalaePregenLevel19, Player",
             "ArueshalaePregenLevel20, Player",
             "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
             "Chadali, Friends",
+            "ChadaliEnemy, Mobs",
             "EmberTestLevel15, Player",
             "EmberTestLevel17, Player",
             "EmberTestLevel18, Player",
             "EmberTestLevel19, Player",
             "EmberTestLevel20, Player",
             "Eritrice, Friends",
+            "EritriceEnemy, Mobs",
+            "Horzalah, CutsceneNeutrals",
             "Horzalah_GreyborQ2, Neutrals",
             "IvoryHardmod_WildhuntAsassin24, Mobs",
+            "IvoryHardmod_WildhuntAsassin_Shadow, Mobs",
             "LannTestLevel14, Player",
             "LannTestLevel15, Player",
             "LannTestLevel17, Player",
             "LannTestLevel18, Player",
             "LannTestLevel19, Player",
+            "LiLura, CutsceneNeutrals",
+            "LiLura_Kenabres, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel17, Player",
             "PlayerAeonWizardTestLevel18, Player",
             "PlayerAeonWizardTestLevel19, Player",
             "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel17, Player",
             "PlayerAzataRangerTestLevel18, Player",
             "PlayerAzataRangerTestLevel19, Player",
@@ -399,7 +520,9 @@
             "PlayerTricksterRangerTestLevel18, Player",
             "PlayerTricksterRangerTestLevel19, Player",
             "PlayerTricksterRangerTestLevel20, Player",
-            "Yozz, CutsceneNeutrals"
+            "SarkorianWedding_FallenBoss, Mobs",
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals"
         ]
     },
     {
@@ -431,7 +554,16 @@
         "unit": [
             "RegillPregenLevel11, Player",
             "RegillPregenLevel12, Player",
-            "RegillPregenLevel13, Player"
+            "RegillPregenLevel13, Player",
+            "SarzaksisSlaverTrader_Gibrileth, CutsceneNeutrals",
+            "StauntonVane_Boss, Bosses",
+            "StauntonVane_LostChapel, CutsceneNeutrals",
+            "StauntonVane_Undead, Bosses",
+            "VellexiaFirstDate, CutsceneNeutrals",
+            "VellexiaSecondDate, CutsceneNeutrals",
+            "VellexiaShamiraConfrontationDate, CutsceneNeutrals",
+            "VellexiaThirdDate, CutsceneNeutrals",
+            "Vellexia_Default, CutsceneNeutrals"
         ]
     },
     {
@@ -459,6 +591,9 @@
                     "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
                 ]
             }
+        ],
+        "unit": [
+            "Locust_RegillEnemy, CutsceneNeutrals"
         ]
     },
     {
@@ -490,6 +625,7 @@
         "unit": [
             "DarekSunhammer, Neutrals",
             "LannTestLevel20, Player",
+            "MutasafenLair_CarnivorousCrystalMiniboss, Mobs",
             "StartGameSorcererPregenUnitLevel20, Player"
         ]
     },
@@ -731,6 +867,7 @@
             "PlayerDemonMythicTestLevel18, Player",
             "PlayerDemonMythicTestLevel19, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTestLevel19, Player",
             "RegillPregenLevel18, Player",
@@ -780,6 +917,8 @@
             "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
             "PlayerDemonMythicTestLevel20, Player",
             "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
             "SeelahTestLevel20, Player"
         ]
     },
@@ -843,7 +982,10 @@
             "GreyborTestLevel11, Player",
             "GreyborTestLevel12, Player",
             "GreyborTestLevel13, Player",
-            "Inquisitor_Letr, Neutrals",
+            "Inquisitor_Liotr, NeutralGuards",
+            "Morveg, CutsceneNeutrals",
+            "Morveg_ForBattle, CutsceneNeutrals",
+            "MutasafenLair_MythicGlabrezu, Mobs",
             "PlayerTestLevel7, Player",
             "PlayerTestLevel8, Player",
             "PlayerTestLevel9, Player",
@@ -875,13 +1017,14 @@
         ],
         "unit": [
             "CR13_BloodyBonesBarbarian, Mobs",
-            "CR17_DevourerAdvanced, Mobs",
             "CameliaPregenLevel15, Player",
             "GreyborInCapitalAsNPC, Player",
+            "GreyborInDefHeartWithDagger, CutsceneNeutrals",
             "GreyborInDrezenWithDagger, CutsceneNeutrals",
             "GreyborInIvorySunctumAsNPC, Mobs",
             "Greybor_Companion, Player",
-            "MidnightFane_BaphometPriest, Mobs",
+            "Marhevok, Mobs",
+            "Marhevok_cutscene, CutsceneNeutrals",
             "Mighty_CorruptedMongrelmanBrute, Mobs",
             "Mighty_CorruptedMongrelmanRangedRanger, Mobs",
             "PlayerDemonMythicTestLevel10, Player",
@@ -893,8 +1036,11 @@
             "PlayerTestLevel12, Player",
             "PlayerTestLevel13, Player",
             "PlayerTestLevel16, Player",
+            "PlayfulDarknessDeathsnatcher, Mobs",
+            "Sevalros, Mobs",
             "SosielTestLevel14, Player",
-            "SosielTestLevel15, Player"
+            "SosielTestLevel15, Player",
+            "Zacharius_SecondStage_Ch5, Mobs"
         ]
     },
     {
@@ -916,13 +1062,12 @@
         ],
         "unit": [
             "HellknightsParaliktor_Gerren, Friends",
-            "Marhevok, Bandits",
-            "Marhevok_cutscene, CutsceneNeutrals",
             "PlayerDemonMythicTestLevel14, Player",
             "PlayerDemonMythicTestLevel15, Player",
             "PlayerTestLevel14, Player",
             "PlayerTestLevel15, Player",
-            "RegillQ2_KTC_ParaliktorGerren, Friends"
+            "RegillQ2_KTC_ParaliktorGerren, Friends",
+            "SarcorianWedding_WightBoss, Mobs"
         ]
     },
     {
@@ -983,6 +1128,7 @@
         ],
         "unit": [
             "Berengar, NeutralGuards",
+            "Galfrey_Companion, Player",
             "Gelderfang, CutsceneNeutrals",
             "QueenGalfrey, Neutrals",
             "QueenGalfreyDisguised, Neutrals",
@@ -990,7 +1136,8 @@
             "QueenGalfrey_DH, Neutrals",
             "QueenGalfrey_DrezenCapital, Neutrals",
             "QueenGalfrey_LostChapel, Neutrals",
-            "TerendelevHuman, Neutrals"
+            "TerendelevHuman, Neutrals",
+            "TerendelevHuman_SilentCaster, CutsceneNeutrals"
         ]
     },
     {
@@ -1045,6 +1192,12 @@
                     "Add stat bonus 2 to Dexterity (descriptor: Enhancement)"
                 ]
             }
+        ],
+        "unit": [
+            "DyunkSlaveTrader, CutsceneNeutrals",
+            "Fleshmarket_CambionGuardCaptain_WithLoot, CutsceneNeutrals",
+            "IncubusBandLair_IncubusBoss, Mobs",
+            "Vellexia_CambionToughMelee_WithLoot, Mobs"
         ]
     },
     {
@@ -1074,10 +1227,14 @@
             }
         ],
         "unit": [
+            "FilletedMan, Mobs",
             "GreyborTestLevel14, Player",
             "GreyborTestLevel15, Player",
             "GreyborTestLevel16, Player",
-            "GreyborTestLevel17, Player"
+            "GreyborTestLevel17, Player",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "MidnightFane_BaphometPriest, Mobs"
         ]
     },
     {
@@ -1107,7 +1264,11 @@
             }
         ],
         "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
             "CameliaPregenLevel16, Player",
+            "DemonLordDeskari, Mobs",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
             "SosielTestLevel19, Player",
             "SosielTestLevel20, Player"
         ]
@@ -1116,7 +1277,7 @@
         "name": "BeltOfThunderousChargingItem",
         "display_name": "Belt of Thunderous Charging",
         "description": "This belt grants its wearer a +6 enhancement bonus to Strength. It also magnifies the wearer's momentum granting her a +2 bonus on the bull rush and overrun maneuvers. In addition, whenever the wearer of this belt charges an enemy, the enemy suffers a -2 penalty to AC against ranged attacks for 4 rounds.",
-        "cost": 54000,
+        "cost": 88000,
         "id": "b59c3948cc32e3c43b519ecd7e618155",
         "enchant": [
             {
@@ -1148,7 +1309,7 @@
         "name": "BeltOfVeneratedChampionItem",
         "display_name": "Belt of the Venerated Champion",
         "description": "This belt of Constitution +6 grants its wearer a +2 bonus on Fortitude saving throws and a +1 insight bonus to AC against Evil creatures and effects.",
-        "cost": 41000,
+        "cost": 81000,
         "id": "87c5f3e1b5a01d0448d550b727f45cb4",
         "enchant": [
             {
@@ -1201,6 +1362,90 @@
         ]
     },
     {
+        "name": "ClaspOfDeathItem",
+        "display_name": "Clasp of Death",
+        "description": "This belt grants its wearer a +6 enhancement bonus to all mental ability scores (Intelligence, Wisdom, and Charisma). In addition, if the wearer of this belt has the ability Channel Negative Energy, it increases the amount of damage this ability does to living creatures or heals to undead creatures by +2d6.",
+        "cost": 300000,
+        "id": "59a06a5e3b294731b3e69cbacb3228f3",
+        "enchant": [
+            {
+                "name": "Intelligence6",
+                "display_name": "",
+                "description": "",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
+                "effect": [
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom6",
+                "display_name": "",
+                "description": "",
+                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "effect": [
+                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "NegativeChanneling2",
+                "display_name": "",
+                "description": "",
+                "id": "cb4a39044b59f5e47ad5bc08ff9d6669",
+                "effect": [
+                    "Add feature NegativeChanneling2Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ClutchOfCorruptionItem",
+        "display_name": "Clutch of Corruption",
+        "description": "This belt grants its wearer a +4 enhancement bonus to Strength and a +8 enhancement bonus to Constitution ability scores. In addition, whenever the wearer of this belt confirms a critical hit with a natural weapon, the enemy must pass a Will saving throw (DC 28) or become vulnerable to negative energy and unholy damage for 2 rounds.",
+        "cost": 131000,
+        "id": "637c4de135be4d59a84fba1da9135b9b",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ClutchOfCorruptionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8a433f9b5ecd4946a5c857c4ea069caf",
+                "effect": [
+                    "Add feature ClutchOfCorruptionFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Melazmera, CutsceneNeutrals"
+        ]
+    },
+    {
         "name": "CordOfStubbornFuryItem",
         "display_name": "Cord of Stubborn Fury",
         "description": "This bonus grants its wearer a +2 enhancement bonus to Constitution. Instead of becoming fatigued after raging, wearer takes 1 damage each round for a number of rounds equal to 2 times the number of rounds spent in the rage.",
@@ -1231,7 +1476,7 @@
         "name": "DaredevilsBeltItem",
         "display_name": "Daredevil's Belt",
         "description": "This belt grants its wearer a +4 enhancement bonus to Dexterity and Strength. Whenever the wearer of this belt lands a killing blow, they gain a +5 morale bonus on their next attack roll.",
-        "cost": 85000,
+        "cost": 79000,
         "id": "77f0ee6cd7103d04489ed8eea39cf187",
         "enchant": [
             {
@@ -1312,7 +1557,7 @@
         "name": "DisplayOfPowerItem",
         "display_name": "Display of Power",
         "description": "This belt of Strength +6 grants its wearer a 15 feet aura that makes all enemies in range suffer a -2 penalty on Will saving throws.",
-        "cost": 95000,
+        "cost": 88000,
         "id": "42831d8b78d38674e83b89657a3e5434",
         "enchant": [
             {
@@ -1518,31 +1763,39 @@
         "name": "KnightsEmblemBelt_IntermediateItem",
         "display_name": "Linds Family Belt",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 41100,
         "id": "cede912533f2f8149ab536ee3f5f12f9"
     },
     {
         "name": "KnightsEmblemEmeraldBeltItem",
-        "display_name": "Linds Family Belt",
-        "description": "While wearing this belt a monk can spend 1 ki pool to enshroud the target's heart and lungs in the fine veil of emerald, affected creatures become more fragile, getting -2 penalty to AC, the targeted creature has to pass Fortitude reflex saving throw (DC 19) or suffer 150% of bludgeoning damage till the end of the encounter.",
+        "display_name": "Mallander's Penance",
+        "description": "While wearing this belt a monk can spend 1 ki point to enshroud the target's heart and lungs in the fine veil of emerald. Affected creature becomes more fragile, getting -2 penalty to AC. It also has to pass a Fortitude saving throw (DC 19), or all bludgeoning damage it receives is multiplied by 1.5 until the end of combat.",
         "cost": 54800,
-        "id": "bf6579e0e434d0e4ea65da6bbad09645"
+        "id": "bf6579e0e434d0e4ea65da6bbad09645",
+        "enchant": [
+            {
+                "name": "KnightsEmblemEmeraldBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "aa214fb9962d4ea7a696e37b9cafd3e5",
+                "effect": [
+                    "Add feature KnightsEmblemEmeraldBeltFeature"
+                ]
+            }
+        ]
     },
     {
         "name": "KnightsEmblemSunsetBeltItem",
-        "display_name": "Linds Family Belt",
+        "display_name": "Mallander's Insult",
         "description": "You can cover yourself in an invisible corrupted fire. Under its effect, all your fire spells deal additional 2d6 unholy damage. You become immune to fire damage, but gain weakness to cold and holy damage.",
         "cost": 54800,
         "id": "f21d7afb2cd9c2a408677be2059eab19",
         "enchant": [
             {
-                "name": "BeltOfImprovedProtectionEnchantment",
+                "name": "KnightsEmblemSunsetBeltEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "c4297d32933869c41af33e323c85dbb9",
-                "effect": [
-                    "Add stat bonus 10 to SkillMobility (descriptor: Competence)"
-                ]
+                "id": "9fdfc019b1f9463eb19ae58c539f1679"
             }
         ]
     },
@@ -1585,15 +1838,160 @@
     {
         "name": "LizardTailItem",
         "display_name": "Lizard Tail",
-        "description": "This belt was specifically created for less humanoid creatures, but humanoids in a polymorphed form can use it as well. It grants the wearer a +3 morale bonus to AC and Reflex saving throws. Whenever an enemy attacks the wearer for the first time, the attack automatically misses.",
-        "cost": 85000,
+        "description": "This belt was specifically created for less humanoid creatures, but humanoids can use it in polymorphed form as well. While in it the wearer gets +3 morale bonus to AC and Reflex saving throws. The wearer also gets a +8 circumstance bonus to AC for the first round of every combat.",
+        "cost": 79000,
         "id": "fd3830513fde01248af09dc84b9f8cb5",
         "enchant": [
             {
                 "name": "LizardTailEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "3435e6af4b927b64e83340b18244a2dd"
+                "id": "3435e6af4b927b64e83340b18244a2dd",
+                "effect": [
+                    "Add feature LizardTailFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ManglingFrenzyItem",
+        "display_name": "Mangling Frenzy",
+        "description": "This Belt of Physical Perfection +4 grants its wearer DR 3\/- and additional 4d6 slashing damage on every critical hit while the wearer is Raging, including demonic Rage.",
+        "cost": 92300,
+        "id": "5d855652aad04a9cad2fb1e70735ac7e",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ManglingFrenzyEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a3f6774bf1cb4861899361a2a01cf50c",
+                "effect": [
+                    "Add feature ManglingFrenzyFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MaskOfAreshkagalBelt_IntermediateItem",
+        "display_name": "Face-Stealer's Belt",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 71250,
+        "id": "e153b59e596a4ce9b68239ae3ae18f22"
+    },
+    {
+        "name": "MaskOfAreshkagalBelt_TabulaRasaItem",
+        "display_name": "Pristine Mind",
+        "description": "Whenever the wearer of this Belt of Physical Perfection +4 makes an attack roll to confirm a critical hit, it automatically succeeds.",
+        "cost": 95000,
+        "id": "c3f88225e63d420492ba111e97cbf64a",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "MaskOfAreshkagalBelt_TabulaRasaEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7897fd94a5624798adfd40b6f655579d",
+                "effect": [
+                    "Add feature MaskOfAreshkagalBelt_TabulaRasaFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MaskOfAreshkagalBelt_VoidItem",
+        "display_name": "Victims' Madness",
+        "description": "Whenever the wearer of this Belt of Physical Perfection +4 kills an enemy who had full health with a single hit, all enemies in a 30 feet radius become staggered for 1 round.",
+        "cost": 95000,
+        "id": "2217cd38e0c642c7addfb4e3d7095105",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "MaskOfAreshkagalBelt_VoidEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4ddcc8ba13274c57b71b7113391a6648",
+                "effect": [
+                    "Add feature MaskOfAreshkagalBelt_VoidFeature"
+                ]
             }
         ]
     },
@@ -1619,14 +2017,14 @@
         "name": "OldEarthBelt_IntermediateItem",
         "display_name": "Girdle of Ooze",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 41250,
         "id": "3919ef68585e5e44eb31a071cf764e38"
     },
     {
         "name": "OldEarthSandBeltItem",
-        "display_name": "Girdle of Ooze",
-        "description": "This belt grants the wearer a +2 enhancement bonus to the Constitution score. Whenever the wearer is attacked, the enemy has to pass a Reflex saving throw (DC 20) or suffer -10 penalty to damage rolls for the next three successful attacks.",
-        "cost": 43000,
+        "display_name": "Embrace of the Faceless",
+        "description": "This belt grants the wearer a +2 enhancement bonus to the Constitution score. Whenever the wearer is attacked, the enemy has to pass a Reflex saving throw (DC 20) or suffer -10 penalty on damage rolls for 1 round.",
+        "cost": 55000,
         "id": "1cd4f9cd28dbda641bd76a058ad4c7bd",
         "enchant": [
             {
@@ -1635,17 +2033,25 @@
                 "description": "",
                 "id": "4b6c6a8bd65e6d8448620093005da69a",
                 "effect": [
-                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)",
                     "Add feature OldEarthSandBeltFeature"
+                ]
+            },
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
                 ]
             }
         ]
     },
     {
         "name": "OldEarthShriekBeltItem",
-        "display_name": "Girdle of Ooze",
+        "display_name": "Voice of the Faceless",
         "description": "This belt grants the wearer a +2 enhancement bonus to Strength score. Whenever the wearer is mounted, and they or their mount confirms a critical hit against an enemy, that enemy is afflicted with the Exploding Head effect for 1d3 rounds. Under this effect, the creature starts to hear loud noises, suffering a -2 penalty to attack and damage rolls, and AC.",
-        "cost": 43000,
+        "cost": 55000,
         "id": "c62696ace05e34b4eadd77ecc77c4e11",
         "enchant": [
             {
@@ -1654,8 +2060,16 @@
                 "description": "",
                 "id": "8da5b80b2e3c30f468ac6975be2eff70",
                 "effect": [
-                    "Add stat bonus 2 to Strength (descriptor: Enhancement)",
                     "Add feature OldEarthShriekBeltFeature"
+                ]
+            },
+            {
+                "name": "Strength2",
+                "display_name": "",
+                "description": "",
+                "id": "5f25b5f8c89d40c46ba8026bd7b73dcc",
+                "effect": [
+                    "Add stat bonus 2 to Strength (descriptor: Enhancement)"
                 ]
             }
         ]
@@ -1731,10 +2145,55 @@
         ]
     },
     {
+        "name": "StormKingsBeltItem",
+        "display_name": "Storm King's Belt",
+        "description": "Whenever the wearer of this Belt of Physical Perfection +8 hits an enemy for the first time in a round, that enemy must pass a Fortitude saving throw (DC 36) or suffer from one of these conditions",
+        "cost": 300000,
+        "id": "896925074ea6446abc108e0cd47e79de",
+        "enchant": [
+            {
+                "name": "Strength8",
+                "display_name": "",
+                "description": "",
+                "id": "462db3b410635b54abc287d2280f336a",
+                "effect": [
+                    "Add stat bonus 8 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity8",
+                "display_name": "",
+                "description": "",
+                "id": "5614fc22a6e629c43a72a2559ab8213f",
+                "effect": [
+                    "Add stat bonus 8 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "StormKingsBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "31245a0b22ce450da3b8e22a3ab221fa",
+                "effect": [
+                    "Add feature StormKingsBeltFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "TimelyAssistanceItem",
         "display_name": "Timely Assistance",
         "description": "Whenever an ally in a 20 feet area of the wearer lands a killing blow, this belt of Constitution +4 makes the wearer's next spell extended as though using the Extend Spell feat. It also grants the wearer a +4 enhancement bonus to Wisdom.\nExtend Spell",
-        "cost": 46000,
+        "cost": 150000,
         "id": "b76383fb806d61b41bfe93f0651e3964",
         "enchant": [
             {
@@ -1754,6 +2213,15 @@
                 "effect": [
                     "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
                 ]
+            },
+            {
+                "name": "TimelyAssistanceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "888c42733c4d4cd883f983feb3307249",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
             }
         ]
     },
@@ -1761,7 +2229,7 @@
         "name": "UnceasingSlaughterItem",
         "display_name": "Unceasing Slaughter",
         "description": "This belt grants its wearer a +4 enhancement bonus to Dexterity and Constitution. Whenever the wearer of this belt lands a killing blow, they gain a +2 bonus to Dexterity and Constitution scores for 3 rounds.",
-        "cost": 88000,
+        "cost": 84000,
         "id": "cd015f36cdccb134e86a0b4daa0283e8",
         "enchant": [
             {

@@ -1,15 +1,39 @@
 [
     {
+        "name": "ALR_GlovesItem",
+        "display_name": "Embroidered Gloves",
+        "description": "These bracers grant the wearer a +3 luck bonus to AC and a +3 luck bonus on Reflex, Will, and Fortitude saving throws.",
+        "cost": 115000,
+        "id": "cb9ba081b011453597a4f4dd25bad2e6",
+        "enchant": [
+            {
+                "name": "ALR_GlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2b6a3d0a74d740faa06a2e0ad266b4a9",
+                "effect": [
+                    "Add stat bonus 3 to AC (descriptor: Luck)",
+                    "Add stat bonus 3 to SaveReflex (descriptor: Luck)",
+                    "Add stat bonus 3 to SaveWill (descriptor: Luck)",
+                    "Add stat bonus 3 to SaveFortitude (descriptor: Luck)"
+                ]
+            }
+        ],
+        "area": [
+            "AreeluLabReturn, ALR_TE_Gloves"
+        ]
+    },
+    {
         "name": "AmberGloves_IntermediateItem",
         "display_name": "Gloves of the Attractive Impulse",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 45750,
         "id": "848293f7f18c1f346ae65e5e1920b101"
     },
     {
         "name": "AmberLoveGlovesItem",
-        "display_name": "Gloves of the Attractive Impulse",
-        "description": "Whenever the wearer of these gloves lands a critical hit with any bow, the enemy starts losing mind, thus suffering -1 damage to Intelligence, Wisdom or Charisma.",
+        "display_name": "Passion's Sweet Poison",
+        "description": "Whenever the wearer of these gloves confirms a critical hit with any bow, the enemy starts losing mind, thus suffering -1 damage to Intelligence, Wisdom or Charisma.",
         "cost": 61000,
         "id": "4ed720cb649b9874b8a0f509c8741dc1",
         "enchant": [
@@ -26,8 +50,8 @@
     },
     {
         "name": "AmberLustGlovesItem",
-        "display_name": "Gloves of the Attractive Impulse",
-        "description": "Whenever the wearer of these gloves lands a touch attack, the enemy must pass a Will saving throw (DC 20) or his heart and mind is consumed with agonizing lust, any critical hit against affected enemy drives him even crazier, paralyzing for one round.",
+        "display_name": "Devouring Lust",
+        "description": "Whenever the wearer of these gloves lands a melee touch attack, the enemy must pass a Will saving throw (DC 20) or his heart and mind is consumed with agonizing lust, any critical hit against affected enemy drives him even crazier, paralyzing for one round.",
         "cost": 61000,
         "id": "d3622c4bb0fb743409c673243921452f",
         "enchant": [
@@ -38,6 +62,24 @@
                 "id": "9ab0f698388a92d459c9604e849a0adb",
                 "effect": [
                     "Add feature AmberLustGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_SpikedGauntletItem",
+        "display_name": "Broken Gauntlets",
+        "description": "These spiked gauntlets grant the wearer's animal companion (as well as Azata's dragon or Lich's skeletal champion) a +6 bonus to Strength ability score. At the beginning of the battle, the creature must pass a Will saving throw (DC 17) or start attacking party members. If the initial saving throw is failed, the creature can make new saving throws each round to stop the effect.",
+        "cost": 8700,
+        "id": "3230a07e17594084f88e770480277de2",
+        "enchant": [
+            {
+                "name": "Artifact_SpikedGauntletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e3e9bf758c2f42b4fbacf3f711b58fa1",
+                "effect": [
+                    "AddUnitFactEquipment"
                 ]
             }
         ]
@@ -58,6 +100,70 @@
                     "Add stat bonus 8 to Strength (descriptor: Enhancement)"
                 ]
             }
+        ]
+    },
+    {
+        "name": "BaphometFireGloves_AnimalisticFireItem",
+        "display_name": "Call of the Fiery Things",
+        "description": "",
+        "cost": 85000,
+        "id": "8706dcd7a22541b1838acdb50a636c70",
+        "enchant": [
+            {
+                "name": "BaphometFireGloves_AnimalisticFireEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "57f549b6bad94793b22506915492f424",
+                "effect": [
+                    "Add feature BaphometFireGloves_AnimalisticFireFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFireGloves_BurningCunningItem",
+        "display_name": "Treacherous Flame",
+        "description": "Whenever the wearer of these gloves lands a sneak attack against an enemy, the enemy becomes vulnerable to fire for 1 round and suffers additional 2d6 fire damage. In additiion, whenever the enemy who has been hit by the wearer at least once, takes fire damage from any source, it suffers a -3 penalty on all saves for 2 rounds.",
+        "cost": 85000,
+        "id": "6c4605b63da845b8975fe6ee18eb36f6",
+        "enchant": [
+            {
+                "name": "BaphometFireGloves_BurningCunningEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "edd9399fa02f4f09b47e2eb474abe5a5",
+                "effect": [
+                    "Add feature BaphometFireGloves_BurningCunningFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFire_IntermediateItem",
+        "display_name": "Baphomet's Fiery Gloves",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 63750,
+        "id": "2f630319b2c34938b75d1abb2802448b"
+    },
+    {
+        "name": "BigGameGlovesItem",
+        "display_name": "Big Game Gloves",
+        "description": "Whenever the wearer of these gloves announces a Quarry, targeted enemy suffers a -2 penalty to AC and becomes sickened for 3 rounds.",
+        "cost": 5500,
+        "id": "9bed061d10d9cf643973dd9bca94ce02",
+        "enchant": [
+            {
+                "name": "BigGameGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8239dd8bd2fcc0a4497955a8388b1cab",
+                "effect": [
+                    "Add feature BigGameGlovesFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Maugla, Mobs"
         ]
     },
     {
@@ -98,9 +204,6 @@
                 "description": "",
                 "id": "fa4c141977353724cb2d4b9559a79eb8"
             }
-        ],
-        "area": [
-            "AlushinyrraHigherCity, PF2_CoolDemons_CreatureLoot8_Cool"
         ]
     },
     {
@@ -186,7 +289,7 @@
         "name": "ClawsOfAMonsterItem",
         "display_name": "Claws of a Sacred Beast",
         "description": "These gloves have claws that deal 1d8 slashing damage on an unarmed attack. If the enemy is of evil alignment, they deal 2d6 damage instead. In addition, these claws give the wearer a +1 enhancement bonus on attack and damage rolls.",
-        "cost": 20000,
+        "cost": 29000,
         "id": "8316d6f5f87022c49afb36644d7566af",
         "enchant": [
             {
@@ -203,6 +306,24 @@
         ],
         "unit": [
             "LannTestLevel14, Player"
+        ]
+    },
+    {
+        "name": "CobraPadsItem",
+        "display_name": "Cobra Pads",
+        "description": "Whenever the wearer of these knee pads lands a hit with a natural weapon against a new enemy for the first time, that enemy must pass a Fortitude saving throw (DC 31) or become vulnerable to slashing and acid damage for 3 rounds.",
+        "cost": 72500,
+        "id": "6497e0f07a3b49d8b50a33f27f86d8d2",
+        "enchant": [
+            {
+                "name": "CobraPadsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "88f95c33d8ec444dacd059016bc9e520",
+                "effect": [
+                    "Add feature CobraPadsFeature"
+                ]
+            }
         ]
     },
     {
@@ -233,6 +354,24 @@
         ]
     },
     {
+        "name": "DashingCavaliersGlovesItem",
+        "display_name": "Dashing Cavalier's Gloves",
+        "description": "These gloves grant their wearer a +1 morale bonus on attack rolls. In addition, they also grant a +2 bonus on damage rolls while mounted.",
+        "cost": 1500,
+        "id": "176da707c9c9d764e972a9da8b444ff3",
+        "enchant": [
+            {
+                "name": "DashingCavaliersGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "767793db17645ca41aad152cefd8c8bb",
+                "effect": [
+                    "Add feature DashingCavaliersGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "DeliquescentGlovesItem",
         "display_name": "Alkali Gloves",
         "description": "Whenever the wearer of these gloves successfully lands a hit with a melee weapon, an unarmed strike, or a natural weapon, the target takes 1d6 points of acid damage.",
@@ -254,7 +393,7 @@
         "name": "EvisceratorsGlovesItem",
         "display_name": "Eviscerator's Gloves",
         "description": "Whenever the wearer of these gloves makes a full attack and successfully strikes a single enemy with both their main-hand and off-hand weapons, the enemy suffers a -2 penalty on attack rolls and is bleeding for 3 rounds.",
-        "cost": 46000,
+        "cost": 56000,
         "id": "bb60024e93999d445bdd689870205ef2",
         "enchant": [
             {
@@ -269,7 +408,7 @@
         "name": "FencersGiftItem",
         "display_name": "Fencer's Gift",
         "description": "These gloves grant their wearer a +3 damage bonus to the second weapon when dual wielding or wielding a two-handed weapon. If the wearer has the Weapon Training ability and is wielding a weapon it gives a bonus to, that bonus increases by +2.",
-        "cost": 22000,
+        "cost": 30000,
         "id": "7b31959c8bb4d7e48a693c62a714e3be",
         "enchant": [
             {
@@ -279,6 +418,32 @@
                 "id": "e67e212b00851824d9769c6fc09f7b75",
                 "effect": [
                     "Add feature FencersGiftFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GauntletOfPunching",
+        "display_name": "Power Fist, the Gauntlet of Punching",
+        "description": "This gauntlet grants its wearer a +1 enhancement bonus on attack and damage rolls with unarmed attacks and natural weapons.",
+        "cost": 3000,
+        "id": "a6e3b8f1f3f3e7540b5b7c9e5737f200",
+        "enhance": "1"
+    },
+    {
+        "name": "GauntletsOfMightySwipeItem",
+        "display_name": "Knee Pads of Mighty Swipe",
+        "description": "Whenever the wearer of these knee pads lands a killing blow with a natural weapon, they gain a +2 bonus on their next attack roll, and this attack deals damage to all adjacent enemies on a successful hit.",
+        "cost": 6100,
+        "id": "2ef8b0290fafaf647941af8c25a2d7be",
+        "enchant": [
+            {
+                "name": "GauntletsOfMightySwipeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e1f633fea70b55749af12a9a9dd30ad7",
+                "effect": [
+                    "Add feature GauntletsOfMightySwipeFeature"
                 ]
             }
         ]
@@ -306,7 +471,7 @@
         "name": "GlovesOfArcaneEradicationItem",
         "display_name": "Gloves of Arcane Eradication",
         "description": "These gloves grant the wearer a +4 bonus to ranged touch attack rolls and a +5 competence bonus on Use Magic Device skill checks.",
-        "cost": 19000,
+        "cost": 27900,
         "id": "c3a98adb6146cf9469de9bc6d6210141",
         "enchant": [
             {
@@ -333,6 +498,27 @@
         ]
     },
     {
+        "name": "GlovesOfCollidingElementsItem",
+        "display_name": "Gloves of Colliding Elements",
+        "description": "Whenever the wearer of these gloves is using gather power, she can reduce the total burn cost of a single wild talent by an additional point.",
+        "cost": 55400,
+        "id": "8b679295cecb3584aad56d2c76701d8b",
+        "enchant": [
+            {
+                "name": "GlovesOfCollidingElementsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fa694352f831aed47a657898ea5a5dd5",
+                "effect": [
+                    "Add feature GlovesOfCollidingElementsFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraHigherCity, PF2_CoolDemons_CreatureLoot8_Cool"
+        ]
+    },
+    {
         "name": "GlovesOfDeathDealer",
         "display_name": "Gloves of Deathdealer",
         "description": "When the wearer of these gloves makes a sneak attack, it deals additional 1d6 damage.",
@@ -350,7 +536,6 @@
             }
         ],
         "unit": [
-            "GreyborNPC, Player",
             "GreyborNPCLevel10, Friends",
             "GreyborTestLevel10, Player",
             "GreyborTestLevel11, Player",
@@ -362,7 +547,8 @@
             "GreyborTestLevel17, Player",
             "GreyborTestLevel18, Player",
             "GreyborTestLevel19, Player",
-            "GreyborTestLevel20, Player"
+            "GreyborTestLevel20, Player",
+            "IvoryHardmod_WildhuntAsassin24, Mobs"
         ]
     },
     {
@@ -401,6 +587,12 @@
             }
         ],
         "unit": [
+            "MC_Human_M_Cavalier_DemonUnit, Player",
+            "MC_Human_M_Cavalier_Drezen, Player",
+            "MC_Human_M_Cavalier_IvorySanctum, Player",
+            "MC_Human_M_Cavalier_LostChapel, Player",
+            "MC_Human_M_Cavalier_TricksterUnit, Player",
+            "MC_Human_M_Cavalier_Warcamp, Player",
             "PlayerDemonMythicTestLevel14, Player",
             "PlayerDemonMythicTestLevel15, Player",
             "PlayerTestLevel14, Player",
@@ -411,7 +603,7 @@
         "name": "GlovesOfDuelingNormalItem",
         "display_name": "Gloves of Dueling",
         "description": "These gloves grant their wearer a +4 bonus to CMD against disarm attempts. If the wearer has the Weapon Training ability and is wielding a weapon it gives a bonus to, that bonus increases by +2.",
-        "cost": 35000,
+        "cost": 25000,
         "id": "c8f949c03b92f714b83edd610f3e9348",
         "enchant": [
             {
@@ -425,7 +617,13 @@
             }
         ],
         "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
+            "DemonLordDeskari, Mobs",
+            "FilletedMan, Mobs",
             "Kestoglyr, Mobs",
+            "Locust_RegillEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
             "PlayerFighterPregenMale, Player",
             "SeelahTestLevel14, Player",
             "SeelahTestLevel15, Player",
@@ -487,19 +685,18 @@
     },
     {
         "name": "GlovesOfEnduringWizardItem",
-        "display_name": "",
-        "description": "",
-        "cost": 30000,
+        "display_name": "Gloves of Enduring Wizard",
+        "description": "Whenever the wearer of these gloves casts a level 7 (or higher) spell , they get 20 temporary Hit Points for 1 minute.",
+        "cost": 48000,
         "id": "91b74cc845e90674e816f793dbe1cd8a",
         "enchant": [
             {
-                "name": "MarksmansSteadyHandEnchantment",
+                "name": "GlovesOfEnduringWizardEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "e09f5b861fd9b3245988b43e4f869d1a",
+                "id": "0145e2443bee42b8b47a45b3a5213fe1",
                 "effect": [
-                    "Add feature MarksmansSteadyHandFeature",
-                    "Add stat bonus 5 to SkillMobility (descriptor: Competence)"
+                    "Add feature GlovesOfEnduringWizardFeature"
                 ]
             }
         ],
@@ -532,6 +729,7 @@
             "PlayerDemonMythicTestLevel19, Player",
             "PlayerTestLevel16, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTestLevel19, Player",
             "RegillPregenLevel12, Player",
@@ -548,6 +746,24 @@
             "SeelahTestLevel12, Player",
             "SeelahTestLevel13, Player",
             "SeelahTestLevel19, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfHeavyImpactItem",
+        "display_name": "Gloves of Heavy Impact",
+        "description": "These gloves allow their wearer to stun enemies for 1 round on confirmed critical hits with ranged weapons. A single enemy can be a subject to this effect only once.",
+        "cost": 115000,
+        "id": "a5709a92392b475e81167bd08bf69c5e",
+        "enchant": [
+            {
+                "name": "GlovesOfHeavyImpactEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7fc91a40bac343bea9590afd15fd12a0",
+                "effect": [
+                    "Add feature GlovesOfHeavyImpactFeature"
+                ]
+            }
         ]
     },
     {
@@ -581,7 +797,7 @@
         "name": "GlovesOfMartialExcellenceItem",
         "display_name": "Gloves of Martial Excellence",
         "description": "These gloves grant their wearer additional 1d8 bludgeoning damage on hit with unarmed attacks and a +10 competence bonus on Athletics skill checks.",
-        "cost": 38000,
+        "cost": 50000,
         "id": "d974ebba8d7c43742beb4438dd4f6e72",
         "enchant": [
             {
@@ -609,7 +825,7 @@
         "name": "GlovesOfMonstersProtectionItem",
         "display_name": "Gloves of Monsters Protection",
         "description": "Whenever the wearer of these gloves summons a creature, that creature gets spell resistance 21.",
-        "cost": 35400,
+        "cost": 55000,
         "id": "ef231cad1002c924ba3d0b68f0a979ad",
         "enchant": [
             {
@@ -699,6 +915,27 @@
         "cost": 13000,
         "id": "dc32a6847570110499e3042674ebfc32",
         "enhance": "2"
+    },
+    {
+        "name": "GlovesOfResourcefulMagusItem",
+        "display_name": "Gloves of Resourceful Magus",
+        "description": "If the wearer of these gloves has an Arcane Pool class feature, it is increased by 5 points.",
+        "cost": 30500,
+        "id": "c3b0886a52aa5b849bf74c36f426f4b7",
+        "enchant": [
+            {
+                "name": "GlovesOfResourcefulMagusEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3b5cf78e2bb3f3741a5bafbe28edd5a1",
+                "effect": [
+                    "Add feature GlovesOfResourcefulMagusFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "OurTerritoryLeader, CutsceneNeutrals"
+        ]
     },
     {
         "name": "GlovesOfTheAmbassadorItem",
@@ -810,6 +1047,87 @@
         ]
     },
     {
+        "name": "HarmPreventersItem",
+        "display_name": "Harm Preventers",
+        "description": "These gloves grant its wearer a +4 competence bonus on saving throws against poison and curse effects. In addition, they grant a +10 competence bonus on Use Magic Device skill checks.",
+        "cost": 47000,
+        "id": "994594cba83e4d63a69c2ce609d8849a",
+        "enchant": [
+            {
+                "name": "HarmPreventersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "32ed041455824e37922fd59f5cc61dca",
+                "effect": [
+                    "Add feature HarmPreventersFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HeavyPawsItem",
+        "display_name": "Heavy Paws",
+        "description": "These knee pads let their wearer deal additional 1d6 bludgeoning damage on critical hits made with natural weapons.",
+        "cost": 4500,
+        "id": "bfd3b4393040f854598dbdfff0feac79",
+        "enchant": [
+            {
+                "name": "HeavyPawsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9141d814d99fa354083b1939ff6a3835",
+                "effect": [
+                    "Add feature HeavyPawsFeature"
+                ]
+            }
+        ],
+        "area": [
+            "GrayGarrison, GrayGarrison_GoodLoot08_LesserSonicArrowsQuiverItem"
+        ]
+    },
+    {
+        "name": "HolyKneePadsItem",
+        "display_name": "Holy Knee Pads",
+        "description": "These knee pads allow their wearer to deal additional 2d6 holy damage on hit on attacks with natural weapons.",
+        "cost": 65000,
+        "id": "b598f24088bc49b9af70dd13969e1eee",
+        "enchant": [
+            {
+                "name": "HolyKneePadsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5be69fc630d24c5787b5e1f79cd11507",
+                "effect": [
+                    "Add feature HolyKneePadsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "HokugolDragon, Civilians"
+        ]
+    },
+    {
+        "name": "JawsOfTheJackalItem",
+        "display_name": "Jaws of the Jackal",
+        "description": "These gauntlets grant a profane vigor effect and +2 bonus to natural armor to all evil creatures summoned by the wearer of these gauntlets. If the wearer summons a Thanadaemon, they grant it a greater profane vigor effect and +4 natural armor bonus to AC. If the wearer summons any good outsider creature, it will attack the wearer.\nProfane Vigor",
+        "cost": 5000,
+        "id": "88cdb1dfb62341047888ac918eac9038",
+        "enchant": [
+            {
+                "name": "JawsOfTheJackalEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "76fcee01fb701b34d9951825a121f7a9",
+                "effect": [
+                    "Add feature JawsOfTheJackalFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_JawsOfTheJackalItem"
+        ]
+    },
+    {
         "name": "ManticoresClawsGlovesItem",
         "display_name": "Manticore's Claws",
         "description": "These gloves grant their wearer a +4 enhancement bonus to Strength, and +2 enhancement bonus on attack and damage rolls with unarmed attacks and natural weapons.",
@@ -832,7 +1150,7 @@
         "name": "MarksmansSteadyHandItem",
         "display_name": "Marksman's Steady Hand",
         "description": "These gloves grant their wearer a +5 competence bonus on Mobility checks. They also grant a +2 insight bonus to attack and damage for 1 round, whenever the wearer hits a flanked enemy with a ranged weapon.",
-        "cost": 30000,
+        "cost": 53000,
         "id": "0d83237b43fd52b44aa3322f0db7e390",
         "enchant": [
             {
@@ -855,7 +1173,7 @@
         "name": "OppressorsGlovesItem",
         "display_name": "Oppressor's Gloves",
         "description": "These gloves grant their wearer a +2 bonus on Persuasion skill checks made to intimidate. In addition, whenever the wearer of these gloves confirms a critical hit, the enemy suffers a -2 penalty on saving throws against mind-affecting conditions for 2 rounds.",
-        "cost": 3400,
+        "cost": 6600,
         "id": "e8d21215f2f12ea419ec0013ace8d849",
         "enchant": [
             {
@@ -870,6 +1188,27 @@
         ],
         "area": [
             "SinisterVillage, PF2_Sarkoris_GoodLoot01_CH02"
+        ]
+    },
+    {
+        "name": "RabidRippersItem",
+        "display_name": "Rabid Rippers",
+        "description": "Whenever the wearer of these knee pads confirms a critical hit with a natural weapon, that enemy must pass a Fortitude saving throw (DC 33) or become vulnerable to slashing and acid damage for 3 rounds.",
+        "cost": 72300,
+        "id": "6fbf1d1001da4d04f907794c50262ae9",
+        "enchant": [
+            {
+                "name": "RabidRippersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7395098cbff569042a306ea256edbc52",
+                "effect": [
+                    "Add feature RabidRippersFeature"
+                ]
+            }
+        ],
+        "area": [
+            "SinisterVillage, PF2_Sarkoris_GoodLoot03_CH05"
         ]
     },
     {
@@ -894,6 +1233,42 @@
         ]
     },
     {
+        "name": "SavageUnityItem",
+        "display_name": "Savage Unity",
+        "description": "These gloves grant their wearer and his animal companion a +3 insight bonus on attack and damage rolls for the duration of the Animal Focus ability.",
+        "cost": 69000,
+        "id": "a2da8bdd1b544afb9768c3b951f50794",
+        "enchant": [
+            {
+                "name": "SavageUnityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b152427b03bb404e9b2b1a7c7fda374a",
+                "effect": [
+                    "Add feature SavageUnityFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "StarEmbroideredGlovesItem",
+        "display_name": "Star Embroidered Gloves",
+        "description": "These gloves grant their wearer spell resistance 30 as well as a +2 luck bonus on all saving throws.",
+        "cost": 125000,
+        "id": "455c91c0c5234093aa709b565789b025",
+        "enchant": [
+            {
+                "name": "StarEmbroideredGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ed0026b6862b4918a00b585fec981bfa",
+                "effect": [
+                    "Add feature StarEmbroideredGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "SteadyHandGlovesItem",
         "display_name": "Steady Hand",
         "description": "These gloves grant their wearer a +4 enhancement bonus to Dexterity and the ability to cast true strike spell three times per day as a 1st level wizard.",
@@ -912,13 +1287,15 @@
         ],
         "unit": [
             "PlayerDemonMythicTestLevel20, Player",
-            "PlayerTestLevel20, Player"
+            "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player"
         ]
     },
     {
         "name": "SurefireGlovesItem",
         "display_name": "Surefire Gloves",
-        "description": "Whenever the wearer of these gloves lands a hit with a ranged weapon on an enemy within 30 feet, he deals additional 1d6 piercing damage and applies bleed for 1d3 rounds.",
+        "description": "Whenever the wearer of these gloves lands a hit with a ranged weapon on an enemy within 30 feet, it deals additional 1d6 piercing damage and applies bleed for 1d3 rounds.",
         "cost": 35000,
         "id": "29176558cc2f97e44a812ce5d599f256",
         "enchant": [
@@ -977,6 +1354,27 @@
         ]
     },
     {
+        "name": "TwistedTemptationItem",
+        "display_name": "Twisted Temptation",
+        "description": "These gloves increase the save DC of all Enchantment school spells the wearer casts by 2. In addition, whenever the wearer affects an enemy with a spell for the first time, that enemy suffers a -2 penalty on Will saving throws for 3 rounds.",
+        "cost": 32400,
+        "id": "4b7401550f6c4841ac9246f8fa0e9a2f",
+        "enchant": [
+            {
+                "name": "TwistedTemptationEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6cb2900c681747379db5c912d52298d3",
+                "effect": [
+                    "Add feature TwistedTemptationFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Mielara, CutsceneNeutrals"
+        ]
+    },
+    {
         "name": "UltimateGripGlovesItem",
         "display_name": "Ultimate Grip",
         "description": "These gloves grant their wearer a +6 enhancement bonus to Strength, a +4 enhancement to Constitution and the ability to cast death clutch spell once per day as a 15th level wizard.",
@@ -999,6 +1397,66 @@
                 "id": "4b9573fa2b0e74043a4682740e9ae138",
                 "effect": [
                     "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "UltimatePredatorsGauntletsItem",
+        "display_name": "Ultimate Predator",
+        "description": "These knee pads grant their wearer a +2 insight bonus on attack and damage rolls made with natural weapons against animals, magical beasts and monstrous humanoids.",
+        "cost": 35000,
+        "id": "c8ad87f3fc49ccd43a5560acb271e968",
+        "enchant": [
+            {
+                "name": "UltimatePredatorsGauntletsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8e1e9b704f44ae04aa47b581531900ce",
+                "effect": [
+                    "Add feature UltimatePredatorsGauntletsFeature"
+                ]
+            }
+        ],
+        "area": [
+            "TempleOfDelamere, RichHuman_TrashLoot02"
+        ]
+    },
+    {
+        "name": "UnholyKneePadsItem",
+        "display_name": "Unholy Knee Pads",
+        "description": "These knee pads allow their wearer to deal additional 2d6 unholy damage on hit on attacks with natural weapons.",
+        "cost": 65000,
+        "id": "d657c55461344f748d76a8a03e6bdbd9",
+        "enchant": [
+            {
+                "name": "UnholyKneePadsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1dae7d98ada54792b0cf394fbb13fc6d",
+                "effect": [
+                    "Add feature UnholyKneePadsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "LatimasDragon, Civilians"
+        ]
+    },
+    {
+        "name": "ViciousStompersItem",
+        "display_name": "Vicious Stompers",
+        "description": "Whenever the wearer of these knee pads successfully charges an enemy, the enemy falls prone for 1 round and suffers a -2 penalty on attack and damage rolls till the end of combat.",
+        "cost": 103000,
+        "id": "efe72fa3d5164cdc93135c9e3cd91a22",
+        "enchant": [
+            {
+                "name": "ViciousStompersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2e13b5587599492baf489d444ddb30f4",
+                "effect": [
+                    "Add feature ViciousStompersFeature"
                 ]
             }
         ]

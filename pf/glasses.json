@@ -1,8 +1,55 @@
 [
     {
+        "name": "CinderGogglesItem",
+        "display_name": "Cinder Goggles",
+        "description": "Whenever the wearer of these goggles casts a spell with the fire descriptor, there is a 10% chance that the spell (or spell slot used to cast it) will not be spent.",
+        "cost": 68000,
+        "id": "7e8fdec022c503a4ab8feddd08a712c9",
+        "enchant": [
+            {
+                "name": "CinderGogglesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4b0dfad228d130d43960ce1c09591df0"
+            }
+        ]
+    },
+    {
+        "name": "ColorlessRemainsGoggles_IntermediateItem",
+        "display_name": "Colorless One's Spectacles",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 60000,
+        "id": "feb0918810144ff984ad1e3614404fa5"
+    },
+    {
+        "name": "ColorlessRemainsGoggles_MadnessItem",
+        "display_name": "Seal of Madness",
+        "description": "These glasses allow their wearer to use the Maddening Gaze ability three times per day.\nMaddening Gaze",
+        "cost": 80000,
+        "id": "5b2fa590883042948dcebfa162025ead"
+    },
+    {
+        "name": "ColorlessRemainsGoggles_SolidItem",
+        "display_name": "Seal of Jubilex",
+        "description": "These glasses are made of very thick crystal. It's difficult to see through them, thus the wearer suffers a -2 penalty to attack rolls. However, whenever the wearer lands a first hit in a melee against a new enemy, the target must pass a Fortitude saving throw (DC 32) or be stunned and become vulnerable to sonic damage for 3 rounds.",
+        "cost": 80000,
+        "id": "0a5bb37581c24706bda2b7d230afaa20",
+        "enchant": [
+            {
+                "name": "ColorlessRemainsGoggles_SolidEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3c62e48bfec049b99f7c7f6759c42b1f",
+                "effect": [
+                    "Add feature ColorlessRemainsGoggles_SolidFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "CrystallEyeItem",
-        "display_name": "Eye in Crystal",
-        "description": "",
+        "display_name": "Eye Sealed in Crystal",
+        "description": "These goggles grant their wearer a +2 circumstance bonus to AC against gaze attacks. In addition, they increase the saving throw DC of any gaze attacks the wearer makes by 2. They also grant a +4 bonus on saving throws against hexes.",
         "cost": 41000,
         "id": "478599b731b44d243a65e06e9f2fc50e",
         "enchant": [
@@ -10,7 +57,28 @@
                 "name": "CrystallEyeEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "8aea2864d9a077a4280baaccfb6cd194"
+                "id": "8aea2864d9a077a4280baaccfb6cd194",
+                "effect": [
+                    "Add feature CrystallEyeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GogglesOfDreadfulJudgeItem",
+        "display_name": "Goggles of Dreadful Judge",
+        "description": "If the wearer of these goggles has the Judgement class feature, they grant 2 additional uses of it per day. They also grant a +5 competence bonus on Persuasion skill checks made to intimidate.",
+        "cost": 20000,
+        "id": "f60c4386186224f4f8c4e4f823729516",
+        "enchant": [
+            {
+                "name": "GogglesOfDreadfulJudgeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4973198c1a8c95c4785395bfae59ab3c",
+                "effect": [
+                    "Add feature GogglesOfDreadfulJudgeFeature"
+                ]
             }
         ]
     },
@@ -67,10 +135,31 @@
         ]
     },
     {
+        "name": "GogglesOfMindControlItem",
+        "display_name": "Goggles of Mind Control",
+        "description": "These goggles grant their wearer a +2 inherent bonus to caster level, and increase the save DC by 2 for all mind-affecting spells the wearer casts.",
+        "cost": 34000,
+        "id": "bee991664c264045bde2573204943091",
+        "enchant": [
+            {
+                "name": "GogglesOfMindControlEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "cc86f2ca10d14600bdcec4464cd2825e",
+                "effect": [
+                    "Add feature GogglesOfMindControlFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_GoodLoot_GogglesOfMindControlItem"
+        ]
+    },
+    {
         "name": "GogglesOfPiercingGazeItem",
         "display_name": "Goggles of Piercing Gaze",
         "description": "These goggles grant their wearer a +1 insight bonus on attack and damage rolls against outsiders, as well as +10 competence bonus on Persuasion skill checks.",
-        "cost": 25000,
+        "cost": 40000,
         "id": "f1bb19cd55a5d6a47ae9661c55614f2e",
         "enchant": [
             {
@@ -90,7 +179,7 @@
             "PlayerTestRangedFighterLevel18, Player"
         ],
         "area": [
-            "AlushinyrraHigherCity, PF2_CoolDemons_Chest4",
+            "AlushinyrraHigherCity, PF2_CoolDemons_Chest1",
             "AlushinyrraMediumCity, ValladinTestLoot#1"
         ]
     },
@@ -121,10 +210,88 @@
         ]
     },
     {
+        "name": "GogglesOfQuickGraspItem",
+        "display_name": "Goggles of Quick Grasp",
+        "description": "These goggles grant their wearer a +15 competence bonus on Persuasion skill checks as well as all Lore and Knowledge skill checks.",
+        "cost": 70000,
+        "id": "12e610f3de3c4471a70ef02b187bf2c9",
+        "enchant": [
+            {
+                "name": "GogglesOfQuickGraspEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "64b273a86e1444e98609dc2f0590ad7d",
+                "effect": [
+                    "Add feature GogglesOfQuickGraspFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GooglesOfMadScientistItem",
+        "display_name": "Googles of Mad Scientist",
+        "description": "The wearer of these goggles is under constant confusion effect.",
+        "cost": 1000,
+        "id": "ff4db4ecacfb46bea1c4751dc05b44d8",
+        "enchant": [
+            {
+                "name": "GooglesOfMadScientistEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e55d6bf2a94d43e1b536b606548f95b9",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HawksEyesItem",
+        "display_name": "Hawk's Eyes",
+        "description": "These spectacles grant the wearer a +5 competence bonus on Perception and Trickery skill checks. If the wearer fails a check to disarm a trap, it is automatically rerolled.",
+        "cost": 7000,
+        "id": "6624d096cb193784a906f0fc1c779e04",
+        "enchant": [
+            {
+                "name": "HawksEyesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "facc85b3008bbc24b9ba41e61b4bae74",
+                "effect": [
+                    "Add stat bonus 5 to SkillPerception (descriptor: Competence)",
+                    "Add stat bonus 5 to SkillThievery (descriptor: Competence)",
+                    "Add feature HawksEyesFeature"
+                ]
+            }
+        ],
+        "area": [
+            "DrezenCitadel_Level2, PF2_Demons_HawksEyesItem"
+        ]
+    },
+    {
+        "name": "MephistophelesGogglesItem",
+        "display_name": "Cinder Goggles",
+        "description": "Once per combat these goggles allow their wearer to cast hellfire ray, using their character level instead of spell level, as a free action.",
+        "cost": 110000,
+        "id": "fd724c344be64719a700bc0426e64484",
+        "enchant": [
+            {
+                "name": "CinderGogglesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4b0dfad228d130d43960ce1c09591df0"
+            }
+        ],
+        "unit": [
+            "Mephisto, Friends",
+            "Mephisto_AzataIsland, CutsceneNeutrals"
+        ]
+    },
+    {
         "name": "RascalsGogglesItem",
         "display_name": "Rascal's Goggles",
         "description": "These goggles grant their wearer a +10 competence bonus on Perception and Trickery skill checks.",
-        "cost": 68000,
+        "cost": 59000,
         "id": "0cea5c218f759bc44a24ac626706a35e",
         "enchant": [
             {
@@ -146,6 +313,24 @@
         ],
         "area": [
             "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    },
+    {
+        "name": "RatcatchersGogglesItem",
+        "display_name": "Ratcatcher's Goggles",
+        "description": "These goggles grant their wearer a +2 bonus on damage rolls against swarms.",
+        "cost": 2000,
+        "id": "0285111eb68f0da429409ee16c40f868",
+        "enchant": [
+            {
+                "name": "RatcatchersGogglesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8b32698fa16296a40b3448e196b061af",
+                "effect": [
+                    "Add feature RatcatchersGogglesFeature"
+                ]
+            }
         ]
     }
 ]

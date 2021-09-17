@@ -16,8 +16,8 @@
                 ]
             }
         ],
-        "unit": [
-            "MidnightFane_NocticulaPriestess, Mobs"
+        "area": [
+            "GrayGarrison, PF2_Crusaders_GGLoot49"
         ]
     },
     {
@@ -38,6 +38,14 @@
             }
         ],
         "enhance": "1",
+        "unit": [
+            "MidnightFane_NocticulaPriestess, Mobs",
+            "Nocticula, CutsceneNeutrals",
+            "NocticulaInDress, CutsceneNeutrals",
+            "NocticulaLichCutscene, CutsceneNeutrals",
+            "Nocticula_AlushinyrraMythicDemon, CutsceneNeutrals",
+            "NocticulainDialog, CutsceneNeutrals"
+        ],
         "area": [
             "DrezenCitadel_Level1, PF2_Crusaders_Good_KeenLongbowPlus2Item"
         ]
@@ -60,6 +68,10 @@
             }
         ],
         "enhance": "2",
+        "unit": [
+            "Ghoul_Ratimus, Mobs",
+            "YouOnlyMortalsLeader, Mobs"
+        ],
         "area": [
             "ArueshalaeRedoubt, PF2_Sarkoris_Statue hidden Loot"
         ]
@@ -81,7 +93,10 @@
                 ]
             }
         ],
-        "enhance": "3"
+        "enhance": "3",
+        "unit": [
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs"
+        ]
     },
     {
         "name": "AmuletOfAgileFistsPlus4",
@@ -105,8 +120,8 @@
     {
         "name": "AmuletOfApothecaryItem",
         "display_name": "Amulet of Apothecary",
-        "description": "This +1 natural armor amulet grants the wearer +4 morale bonus on saving throws against poison.",
-        "cost": 7000,
+        "description": "This amulet of natural armor +1 additionally grants the wearer a +4 morale bonus on saving throws against poison.",
+        "cost": 8000,
         "id": "9ec8fb23e5534ba4bb728a8e61567cac",
         "enchant": [
             {
@@ -134,8 +149,8 @@
     {
         "name": "AmuletOfBlackenedMirrorItem",
         "display_name": "Amulet of Blackened Mirror",
-        "description": "Whenever the wearer of this amulet uses a hex, its DC is increased by 1.",
-        "cost": 7000,
+        "description": "Whenever the wearer of this amulet uses a hex, the DC of the saving throw against it is increased by 1.",
+        "cost": 10000,
         "id": "31894ce7e7d5a574d9777a99b45ad9de",
         "enchant": [
             {
@@ -147,6 +162,49 @@
                     "AddUnitFactEquipment"
                 ]
             }
+        ]
+    },
+    {
+        "name": "AmuletOfCirculatingBloodItem",
+        "display_name": "Amulet of Circulating Blood",
+        "description": "Whenever the wearer of this amulet is under a Bloodrage effect, they gain fast healing 5 for the duration of the effect. This amulet can only be worn by a Bloodrager.",
+        "cost": 40000,
+        "id": "5043aad8b5815cc4a86f93c7ff2b50e3",
+        "enchant": [
+            {
+                "name": "AmuletOfCirculatingBloodEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5bfd6b8e0384c8c4eab70b554414ae2e",
+                "effect": [
+                    "Add feature AmuletOfCirculatingBloodFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Jarunnika, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfDeepRootsItem",
+        "display_name": "Amulet of Deep Roots",
+        "description": "This amulet grants its wearer a +5 natural armor enhancement bonus to Armor Class. It also grants its wearer immunity to bull rush and overrun combat maneuvers as well as a +3 competence bonus to AC against Huge and bigger enemies.",
+        "cost": 75000,
+        "id": "77f4808ddc364929a739d44424ccf0a5",
+        "enchant": [
+            {
+                "name": "AmuletOfDeepRootsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "24a50c7a581f493c9644d6e3714fc919",
+                "effect": [
+                    "Add feature AmuletOfDeepRootsFeature"
+                ]
+            }
+        ],
+        "enhance": "5",
+        "area": [
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_luxery_jewelry_05 (2)_loot_object"
         ]
     },
     {
@@ -166,6 +224,55 @@
                     "Add stat bonus 5 to AC (descriptor: Deflection)"
                 ]
             }
+        ]
+    },
+    {
+        "name": "AmuletOfDevourItem",
+        "display_name": "Amulet of Devouring",
+        "description": "Whenever the wearer of this amulet lands a killing blow with a natural attack, he gains temporary hit points equal to his character level for 1 minute.",
+        "cost": 19000,
+        "id": "ad1b47b1250c0c74c9aad58d91852f3a",
+        "enchant": [
+            {
+                "name": "AmuletOfDevourEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c172e797b44649940a51bdad269a31f2",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "NabasuStandard_MoreExp, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfEpicSongsItem",
+        "display_name": "Amulet of Epic Songs",
+        "description": "This is an amulet of natural armor +2. Additionally, if the wearer possesses the Bardic Performance class ability, the amulet grants them 6 additional rounds of Bardic Performance per day.",
+        "cost": 14000,
+        "id": "b1adc956d75565c4bbb2896ee7969365",
+        "enchant": [
+            {
+                "name": "AmuletOfEpicSongsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d7f985d0fd4772243be30e06e3e7d400",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "enhance": "2",
+        "unit": [
+            "NuraDrezen, CutsceneNeutrals",
+            "NuraDrezenBoss, CutsceneNeutrals",
+            "Nura_DrezenCitadel_Miniboss, CutsceneNeutrals",
+            "Nura_GibberingSwarm, CutsceneNeutrals",
+            "Nurah, CutsceneNeutrals",
+            "NurahCapital, CutsceneNeutrals",
+            "Nurah_GargoyleAttack, CutsceneNeutrals"
         ]
     },
     {
@@ -232,6 +339,45 @@
         ]
     },
     {
+        "name": "AmuletOfHiddenHorrorsItem",
+        "display_name": "Amulet of Hidden Horrors",
+        "description": "This amulet makes all invisibility spells become quickened, as though using the Quicken Spell feat. In addition, whenever the wearer of this amulet attacks with a weapon for the first time in a round while invisible, the target must pass a Will saving throw (DC 30) or become panicked for 2 rounds.",
+        "cost": 88000,
+        "id": "806603eb9e08401297d68ff1fda3854a",
+        "enchant": [
+            {
+                "name": "AmuletOfHiddenHorrorsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a3e6cbc71a5344738a89350e3acd0946",
+                "effect": [
+                    "Add feature AmuletOfHiddenHorrorsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CR24_Areshkagal_MarilithBoss, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfImposingPhysiqueItem",
+        "display_name": "Amulet of Imposing Physique",
+        "description": "This amulet grants its wearer a +5 competence bonus on Athletics and Intimidate skill checks.",
+        "cost": 10000,
+        "id": "6f7c7875303bc0d4686da084726416e8",
+        "enchant": [
+            {
+                "name": "AmuletOfImposingPhysiqueEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9b96fc6d3d86741489e0815941263f10",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
         "name": "AmuletOfImprovedHealingItem",
         "display_name": "",
         "description": "",
@@ -250,6 +396,24 @@
         ]
     },
     {
+        "name": "AmuletOfInnerSightItem",
+        "display_name": "Amulet of Inner Sight",
+        "description": "This amulet grants its wearer immunity against blindness and gaze attacks.",
+        "cost": 55000,
+        "id": "6ba58bebb6e6e2046a2847c0f0d18dfe",
+        "enchant": [
+            {
+                "name": "AmuletOfInnerSightEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "63e82caadc1eb3847b14fd471ad5bdc4",
+                "effect": [
+                    "Add feature AmuletOfInnerSightFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "AmuletOfInnerVirtue",
         "display_name": "Inner Virtue",
         "description": "This amulet grants its wearer the ability to cast Overwhelming Presence as 11th level Wizard once per day. It also increases the wearer's Ki pool by 5.",
@@ -263,6 +427,24 @@
                 "id": "d28afa632e59ec744801bef600c137ca",
                 "effect": [
                     "Add feature AmuletOfInnerVirtueFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfJoustingItem",
+        "display_name": "Amulet of Jousting",
+        "description": "Whenever the wearer of this amulet declares a Knight's Challenge, he gains a +3 damage bonus against the challenged enemy.",
+        "cost": 10000,
+        "id": "97d9b639fb5948947881392260340892",
+        "enchant": [
+            {
+                "name": "AmuletOfJoustingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "30bbe86f50acfb74e9a5b06849dd16bc",
+                "effect": [
+                    "Add feature AmuletOfJoustingFeature"
                 ]
             }
         ]
@@ -294,12 +476,14 @@
         "enhance": "1",
         "unit": [
             "CR14_VrockElite, Mobs",
+            "CR14_VrockElite_RE, Mobs",
+            "CR17_AreshkagalLilitu, Mobs",
             "CR19_GlabrezuDrezenOptional, Mobs",
             "DemonGladiator03, CutsceneNeutrals",
-            "LostChapel_GargoyleMiniboss, Mobs",
             "MoltenScar_Vorimeraak, Neutrals",
             "MoltenScar_VrockElite, Neutrals",
-            "VorimeraakReturns, CutsceneNeutrals"
+            "VorimeraakReturns, CutsceneNeutrals",
+            "WintersunDerakniAdvanced, Mobs"
         ]
     },
     {
@@ -310,7 +494,14 @@
         "id": "c640025d7096aba49bd19e7ffcac9400",
         "enhance": "2",
         "unit": [
-            "Ghoul_Ratimus, Mobs"
+            "BlightedTreantBoss, Mobs",
+            "Boulder, Neutrals",
+            "Chivarro, CutsceneNeutrals",
+            "LostChapel_GargoyleMiniboss, Mobs",
+            "TigerOfSin, Neutrals",
+            "TigerOfSin1, Neutrals",
+            "TigerOfSin2, Neutrals",
+            "WintersunWhiteDragon, Mobs"
         ]
     },
     {
@@ -321,8 +512,18 @@
         "id": "975aad0cf1a32534fb4c1359b7d952b2",
         "enhance": "3",
         "unit": [
+            "Alushinyrra_Minagho, Mobs",
+            "BronzeDragon_Drezen, CutsceneNeutrals",
             "CR12_BuletteAncient, WildAnimals",
-            "CR12_BuletteAncientDLC3, WildAnimals"
+            "CR12_BuletteAncientDLC3, WildAnimals",
+            "CR13_FiendishBuletteAncient, Mobs",
+            "EchoOfDeskari_ForFight, Mobs",
+            "GoldDragon_Drezen, CutsceneNeutrals",
+            "HalDragon, CutsceneNeutrals",
+            "Halaseliax, CutsceneNeutrals",
+            "Melazmera, CutsceneNeutrals",
+            "MutasafenLair_MythicGlabrezu, Mobs",
+            "Sevalros, Mobs"
         ]
     },
     {
@@ -331,7 +532,12 @@
         "description": "This amulet grants its wearer a +4 enhancement bonus on attack and damage rolls with unarmed attacks and natural weapons.",
         "cost": 64000,
         "id": "75ebf721bdece6342b0078a765b1f65a",
-        "enhance": "4"
+        "enhance": "4",
+        "unit": [
+            "CR13_PlaguedSmilodonAlpha_RE_low, Mobs",
+            "CR14_PlaguedSmilodonAlpha, Mobs",
+            "CR14_PlaguedSmilodonAlpha_RE_high, Mobs"
+        ]
     },
     {
         "name": "AmuletOfMightyFists5",
@@ -339,7 +545,11 @@
         "description": "This amulet grants its wearer a +5 enhancement bonus on attack and damage rolls with unarmed attacks and natural weapons.",
         "cost": 100000,
         "id": "ff74157b090c1744598408c8f221b9fc",
-        "enhance": "5"
+        "enhance": "5",
+        "unit": [
+            "SW_GlabrezuBoss, Mobs",
+            "SW_GlabrezuBoss_phase2, Mobs"
+        ]
     },
     {
         "name": "AmuletOfNaturalArmor1",
@@ -352,12 +562,13 @@
             "Arsinoe, Neutrals",
             "ArueshalaePregenLevel8, Player",
             "ArueshalaeRedoubt_MeleeFighter, Mobs",
-            "CR10_LizardfolkKing, Mobs",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
             "CR5_ThiefCurl, Neutrals",
             "CameliaPregenLevel7, Player",
             "CameliaPregenLevel8, Player",
             "CameliaPregenLevel9, Player",
-            "Centaur_M_spear_Boss, Mobs",
             "Ciar_Companion, Player",
             "DH_SeelasFriend_ThiefCurl, Neutrals",
             "DaeranPregenTestLevel7, Player",
@@ -367,6 +578,7 @@
             "Daeran_NPC_Level1, Neutrals",
             "EmberTestLevel7, Player",
             "GreyborInCapitalAsNPC, Player",
+            "GreyborInDefHeartWithDagger, CutsceneNeutrals",
             "GreyborInDrezenWithDagger, CutsceneNeutrals",
             "GreyborInIvorySunctum_BowHunterNPC, Mobs",
             "GreyborInIvorySunctum_ClericNPC, Mobs",
@@ -382,6 +594,7 @@
             "LannTestLevel6, Player",
             "MinotaurGhost_Boss, Mobs",
             "MinotaurGhost_BossNoExp, Mobs",
+            "Morveg, CutsceneNeutrals",
             "MountTestCharacter_DwarfFemale, Player",
             "MountTestCharacter_DwarfMale, Player",
             "MountTestCharacter_ElfFemale, Player",
@@ -396,6 +609,16 @@
             "MountTestCharacter_HalforcMale, Player",
             "MountTestCharacter_HumanFemale, Player",
             "MountTestCharacter_HumanMale, Player",
+            "MountTestCharacter_OreadFemale, Player",
+            "MountTestCharacter_OreadFemale1, Player",
+            "MountTestCharacter_OreadFemale2, Player",
+            "MountTestCharacter_OreadFemale3, Player",
+            "MountTestCharacter_OreadFemale4, Player",
+            "MountTestCharacter_OreadFemale5, Player",
+            "MountTestCharacter_OreadFemale6, Player",
+            "MountTestCharacter_OreadFemale7, Player",
+            "MountTestCharacter_OreadFemale8, Player",
+            "MountTestCharacter_OreadMale, Player",
             "PlayerAzataRangerTestLevel8, Player",
             "PlayerClericPregen, Player",
             "PlayerFemaleGoblinTestPregen, Player",
@@ -432,6 +655,8 @@
             "SosielTestLevel5, Player",
             "StartGameSorcererPregenUnitLevel8, Player",
             "TestPregen_Shaman, Player",
+            "Test_Random, Player",
+            "Test_Random1, Player",
             "ThiefCurl_Kenabres, CutsceneNeutrals",
             "Zacharius, Mobs",
             "Zacharius_LostChapel, Friends",
@@ -452,7 +677,6 @@
         "id": "becc4c1d40a77814f98c0b175e92d17c",
         "enhance": "2",
         "unit": [
-            "ArenaWizard_Curse, CutsceneNeutrals",
             "ArueshalaePregenLevel10, Player",
             "ArueshalaePregenLevel12, Player",
             "ArueshalaePregenLevel9, Player",
@@ -460,20 +684,24 @@
             "BlackMaskSlaveTrader, CutsceneNeutrals",
             "CR14_CambionBard_Ranged, Mobs",
             "CR15_CambionAlchemist_Ranged, Mobs",
-            "CR15_CambionCleric_Caster, Mobs",
-            "CR24_CambionMinibossCaster, Mobs",
+            "CR15_CambionAlchemist_Ranged_RE, Mobs",
+            "CR17_AlushinyrraVampireRanged, Mobs",
+            "CR17_AreshkagalMarilith, Mobs",
+            "CR20M_OolioddrooAdvanced, Mobs",
+            "CR20M_OolioddrooAdvanced_RE, Mobs",
+            "CR20M_OolioddrooAdvanced_RE_high, Mobs",
             "CameliaPregenLevel11, Player",
             "CameliaPregenLevel12, Player",
             "CameliaPregenLevel15, Player",
-            "Centaur_F_bow_Boss, Mobs",
+            "Crinukh, Neutrals",
             "DaeranPregenTestLevel10, Player",
             "DaeranPregenTestLevel9, Player",
+            "DyunkSlaveTrader, CutsceneNeutrals",
             "EmberTestDrezen, Player",
             "EmberTestLevel10, Player",
             "EmberTestLevel8, Player",
             "EmberTestLevel9, Player",
             "GreyborInIvorySunctumAsNPC, Mobs",
-            "GreyborNPC, Player",
             "GreyborNPCLevel10, Friends",
             "GreyborTestLevel10, Player",
             "GreyborTestLevel9, Player",
@@ -483,9 +711,7 @@
             "LannTestLevel8, Player",
             "LannTestLevel9, Player",
             "MercenaryMelee, Mobs",
-            "Mighty_CorruptedMongrelmanBrute, Mobs",
-            "Mighty_CorruptedMongrelmanRangedRanger, Mobs",
-            "Morveg_ForBattle, Mobs",
+            "Morveg_ForBattle, CutsceneNeutrals",
             "MutasafenAssistent, Mobs",
             "PlayerAeonWizardTestLevel10, Player",
             "PlayerAeonWizardTestLevel9, Player",
@@ -506,7 +732,6 @@
             "RegillPregenLevel10, Player",
             "RegillPregenLevel8, Player",
             "RegillPregenLevel9, Player",
-            "RvaniySlaveTrader, CutsceneNeutrals",
             "SeelahTestDrezen, Player",
             "SeelahTestLevel4, Player",
             "SeelahTestLevel5, Player",
@@ -517,7 +742,6 @@
             "SosielTestLevel7, Player",
             "SosielTestLevel8, Player",
             "SosielTestLevel9, Player",
-            "ToughMinaghoCambion, CutsceneNeutrals",
             "WildHunt_Atselm, CutsceneNeutrals",
             "WildHunt_AtselmOld, CutsceneNeutrals",
             "WildHunt_AtselmYoung, CutsceneNeutrals",
@@ -538,11 +762,9 @@
             "AasimarRedMask, CutsceneNeutrals",
             "ArueshalaePregenLevel11, Player",
             "ArueshalaePregenLevel13, Player",
-            "CR17_AlushinyrraVampireRanged, Mobs",
-            "CR17_DevourerAdvanced, Mobs",
-            "CR17_MercenaryMelee, Mobs",
-            "CR18_Cultist_Areshkagal_RangedFighter, Mobs",
-            "CR19_Cultist_Areshkagal_MeleeCaster, Mobs",
+            "CR21_ColoxusCaster, Mobs",
+            "CR21_ColoxusCaster_RE_high, Mobs",
+            "CR21_IncubusAssassin_Slayer, Mobs",
             "CR22_MinotaurPriest, Mobs",
             "CameliaPregenLevel13, Player",
             "CameliaPregenLevel14, Player",
@@ -563,14 +785,13 @@
             "IvoryLabyrinthMinotaurCasterFinal1_20, Mobs",
             "IvoryLabyrinthMinotaurCasterFinal2_20, Mobs",
             "IvoryLabyrinthMinotaurCasterFinal3_20, Mobs",
-            "Kerz, Neutrals",
             "Kestoglyr_Companion, Player",
             "LannTestLevel10, Player",
             "LannTestLevel11, Player",
             "LannTestLevel12, Player",
             "LannTestLevel13, Player",
-            "Latwerk, CutsceneNeutrals",
-            "LatwerkNoWeapons, CutsceneNeutrals",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals",
             "Mielara, CutsceneNeutrals",
             "Mighty_CorruptedMongrelmanDefencive, Mobs",
             "PlayerAeonWizardTestLevel11, Player",
@@ -594,7 +815,8 @@
             "RegillPregenLevel15, Player",
             "RegillPregenLevel16, Player",
             "RegillQ2_KTC_Yaker, Friends",
-            "SailorMelee, Neutrals",
+            "SailorMelee, CutsceneNeutrals",
+            "SarzaksisSlaverTrader_Gibrileth, CutsceneNeutrals",
             "SeelahTestLevel9, Player",
             "SosielTestLevel10, Player",
             "SosielTestLevel11, Player",
@@ -609,6 +831,7 @@
             "VellexiaThirdDate, CutsceneNeutrals",
             "Vellexia_Default, CutsceneNeutrals",
             "VrockWithLoot, Mobs",
+            "WizardArcaneBomberAlchemist, CutsceneNeutrals",
             "WoljifTestLeve11, Player",
             "WoljifTestLeve12, Player",
             "WoljifTestLeve13, Player",
@@ -639,12 +862,11 @@
             "ArueshalaePregenLevel17, Player",
             "ArueshalaePregenLevel18, Player",
             "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
             "CR17_Cultist_Areshkagal_DamageFullCaster, Mobs",
-            "CR17_Cultist_Areshkagal_MeleeFighterDefensive, Mobs",
-            "CR18_Cultist_Areshkagal_MeleeFighterTwoHanded, Mobs",
-            "CR18_Cultist_Areshkagal_MeleeRogue, Mobs",
             "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
-            "CR25_AreshkagalFullCasterBoss, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
+            "CR26_Minotaur_IngerMaggor, Mobs",
             "CameliaPregenLevel16, Player",
             "DaeranPregenTestLevel14, Player",
             "Dimalchio, CutsceneNeutrals",
@@ -652,6 +874,8 @@
             "EmberTestLevel17, Player",
             "EmberTestLevel18, Player",
             "EmberTestLevel19, Player",
+            "FilletedMan, Mobs",
+            "FinneanArmourer, CutsceneNeutrals",
             "GreyborTestLevel12, Player",
             "GreyborTestLevel13, Player",
             "GreyborTestLevel15, Player",
@@ -667,6 +891,7 @@
             "MutasafenThird, Mobs",
             "Mutasafen_MidnightFaneInThePast, Mobs",
             "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
             "MythicLich_KTC_Septimus, Civilians",
             "PlayerAeonWizardTestLevel15, Player",
             "PlayerAeonWizardTestLevel16, Player",
@@ -705,6 +930,7 @@
             "RegillPregenLevel12, Player",
             "RegillPregenLevel13, Player",
             "RegillPregenLevel14, Player",
+            "SarcorianWedding_WightBoss, Mobs",
             "SeelahTestLevel10, Player",
             "SeelahTestLevel11, Player",
             "SeelahTestLevel12, Player",
@@ -715,9 +941,14 @@
             "SeelahTestLevel17, Player",
             "SeelahTestLevel18, Player",
             "SeelahTestLevel19, Player",
+            "SilkShadow, Neutrals",
+            "SilkShadowIllusion, Neutrals",
+            "SilkShadowNoLoot, Neutrals",
             "Svendack22, Mobs",
+            "Svendack22_WithTiara, Mobs",
             "Yaniel, AngelTeam",
-            "Yaniel_DrezenCitadelLevel2, AngelTeam"
+            "Yaniel_DrezenCitadelLevel2, AngelTeam",
+            "Zacharius_SecondStage_Ch5, Mobs"
         ]
     },
     {
@@ -728,15 +959,13 @@
         "id": "11f435140501db84e8e787bf8792fac2",
         "enhance": "5",
         "unit": [
-            "Alichino, Friends",
             "ArueshalaePregenLevel19, Player",
             "ArueshalaePregenLevel20, Player",
-            "CR22_AreshkagalMinotaurMiniBoss, Mobs",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
             "CameliaPregenLevel17, Player",
             "CameliaPregenLevel18, Player",
             "CameliaPregenLevel19, Player",
             "CameliaPregenLevel20, Player",
-            "Chadali, Friends",
             "DaeranPregenTestLevel16, Player",
             "DaeranPregenTestLevel17, Player",
             "DaeranPregenTestLevel18, Player",
@@ -744,15 +973,25 @@
             "DaeranPregenTestLevel20, Player",
             "DarekSunhammer, Neutrals",
             "EmberTestLevel20, Player",
-            "Eritrice, Friends",
             "HellknightsParaliktor_Aminas, Friends",
             "HellknightsParaliktor_Gerren, Friends",
             "HellknightsParaliktor_Lerana, Friends",
             "Kestoglyr, Mobs",
+            "Khorramzadeh, Mobs",
+            "Khorramzadeh_Aeon, Mobs",
+            "Khorramzadeh_Undead, Mobs",
             "LannTestLevel19, Player",
             "LannTestLevel20, Player",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "Locust_EmberEnemy, CutsceneNeutrals",
+            "Locust_LannEnemy, CutsceneNeutrals",
+            "Locust_RegillEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "Locust_TreverEnemy, CutsceneNeutrals",
             "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
             "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel19, Player",
             "PlayerAzataRangerTestLevel20, Player",
             "PlayerDemonMythicTestLevel17, Player",
@@ -761,9 +1000,12 @@
             "PlayerDemonMythicTestLevel20, Player",
             "PlayerLichWizardTestLevel20, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTestLevel19, Player",
             "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
             "PlayerTricksterRangerTestLevel19, Player",
             "PlayerTricksterRangerTestLevel20, Player",
             "RegillPregenLevel17, Player",
@@ -780,14 +1022,23 @@
             "WoljifTestLeve18, Player",
             "WoljifTestLeve19, Player",
             "WoljifTestLeve20, Player",
-            "Yozz, CutsceneNeutrals"
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals"
         ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor6",
+        "display_name": "Amulet of Natural Armor +6",
+        "description": "This amulet grants its wearer a +6 natural armor enhancement bonus to Armor Class. This bonus does not stack with other natural armor enhancement bonuses.",
+        "cost": 75000,
+        "id": "442064f089b04ea2a9daf91833154d19",
+        "enhance": "6"
     },
     {
         "name": "AmuletOfQuickDrawItem",
         "display_name": "Amulet of Quick Draw",
         "description": "This amulet grants its a wearer a +2 insight bonus on attack and damage rolls with ranged weapons against Large and bigger enemies. It also grants a +4 bonus on Initiative rolls.",
-        "cost": 42600,
+        "cost": 55500,
         "id": "eb22f2919c30a9e4fa4e8cc3160b2432",
         "enchant": [
             {
@@ -871,7 +1122,7 @@
         "name": "AmuletOfUnforgivingElementsItem",
         "display_name": "Amulet of Unforgiving Elements",
         "description": "Whenever the wearer of this amulet deals elemental (fire, cold, electricity or acid) damage through a spell to an enemy for the first time, the enemy must pass a Fortitude saving throw (DC 24) or suffer 2d6 damage of corresponding element type each time it fails a saving throw for 3 rounds.",
-        "cost": 20000,
+        "cost": 26000,
         "id": "7bd33595cf20dd346915574ae66679eb",
         "enchant": [
             {
@@ -942,8 +1193,8 @@
     {
         "name": "AspectOfTheAspItem",
         "display_name": "Aspect of the Asp",
-        "description": "This amulet in a form of a snake grants the wearer +2 DC on poison spells, all ray spells deal additional 1d6 + 1 per 2 caster levels points of acid damage.",
-        "cost": 32000,
+        "description": "This amulet in a form of a snake grants the wearer +2 DC on poison spells, all ray spells deal additional (1d6 + 5 points of acid damage.",
+        "cost": 48000,
         "id": "7d55f6615f884bc45b85fdaa45cd7672",
         "enchant": [
             {
@@ -961,7 +1212,7 @@
         "name": "BackrankAssistanceItem",
         "display_name": "Back Rank Assistance",
         "description": "If the wearer of this amulet is wielding a ranged weapon, whenever an ally in a 30 feet radius lands an attack of opportunity, the wearer makes a free ranged attack against the same target. This effect can only occur once per target.",
-        "cost": 21000,
+        "cost": 31000,
         "id": "b27f99aae1efc5e47b5741b6b94ac539",
         "enchant": [
             {
@@ -1019,7 +1270,27 @@
         "area": [
             "AlushinyrraLowerCity, AngelMinaghoChest#1",
             "AlushinyrraHigherCity, PF2_CoolDemons_NotHiddenLockedPoor2",
-            "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenLockedPoor2"
+            "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenLockedPoor2",
+            "Iz, PF2_CoolDemons_market_place_chest_big_01_loot_object",
+            "ReturnToDrezen, PF2_Crusaders_luxery_chest_03_loot_object"
+        ]
+    },
+    {
+        "name": "BoneAmuletItem",
+        "display_name": "Bone Amulet",
+        "description": "Whenever the wearer of this amulet lands a killing blow, they gain DR 10\/bludgeoning for 3 rounds. In addition, this amulet grants its wearer a +4 bonus on saving throws against Illusion school spells.",
+        "cost": 44000,
+        "id": "08de14e8676f56347b1d57e79fb48bd0",
+        "enchant": [
+            {
+                "name": "BoneAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "967676618473df3418515d2ed99bbc7f",
+                "effect": [
+                    "Add feature BoneAmuletFeature"
+                ]
+            }
         ]
     },
     {
@@ -1029,15 +1300,18 @@
         "cost": 36,
         "id": "ecd2f72602f59af459323f0417368abf",
         "area": [
+            "Iz, PF2_CoolDemons_market_place_chest_medium_02_loot_object",
+            "DrezenCapital, PF2_Crusaders_Locust_TreshLoot_06",
             "ArueshalaeRedoubt, PF2_Crusaders_Loot (9)",
-            "Nexus, PF2_DemonWorld_PoorLoot04",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot3_Poor",
             "NamelessRuins, PF2_Forest_NamelessRuins_poorloot_5_locked",
             "AreeluLab, PF2_MagicLaboratory_PoorLoot09",
             "LannWenduagQ1_Neathholm, PF2_NaturalCaves_TrashLoot06",
             "DrezenCitadel_Level1, PF2_OldCrusaders_CitySqareAreaBox02",
             "ArueshalaeRedoubt, PF2_OldCrusaders_Loot (H)",
             "ArueshalaeRedoubt, PF2_OldCrusaders_Loot#3",
-            "SinisterVillage, PF2_Sarkoris_TrashLoot16",
+            "Iz, PF2_Sarkoris_Loot25Chest",
+            "Kaylessa_FornAmbush, PF2_Worldwound_Skeleton (1)",
             "MarodersLair, PoorHuman_camp_bag_01",
             "Daeran_Q2_HeavenDoorstep, RichHuman_PoorLoot"
         ]
@@ -1045,7 +1319,7 @@
     {
         "name": "CameliaAmuletItem",
         "display_name": "Bone Amulet",
-        "description": "Mystical amulet in the shape of a snake made from bone. The pendant is a snake skull.",
+        "description": "Mystical amulet in the shape of a snake made from bone. The pendant is a snake skull.\nThe enchantments on this amulet allow the wearer to conceal their alignment.",
         "cost": 500,
         "id": "94b2b8b9ef254344cbc71663fecf8b99",
         "enchant": [
@@ -1078,11 +1352,14 @@
         "cost": 160,
         "id": "426068b72e8055b45a6b8dcfc92c637c",
         "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_LuxChest",
             "KenabresBurning, PF2_Crusaders_CurlCorpse",
             "DrezenCitadel_Level1, PF2_Crusaders_TempleAreaChest01",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_8",
             "ColyphyrDungeon, PF2_DemonWorld_Good_4",
             "IvorySanctum, PF2_Demons_PoorLootChest3",
-            "IvorySanctum, PF2_Demons_PoorLootChest6"
+            "IvorySanctum, PF2_Demons_PoorLootChest6",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_market_place_chest_small_02"
         ]
     },
     {
@@ -1105,10 +1382,82 @@
         ]
     },
     {
+        "name": "CursedBardVoiceAmulet_IntermediateItem",
+        "display_name": "Amulet of the Cursed Bard",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 75000,
+        "id": "95fd0e9dc03349fa92c16cc8f8a8eff8"
+    },
+    {
+        "name": "CursedBardVoiceAmulet_SirenItem",
+        "display_name": "Francest's Charming Voice",
+        "description": "This amulet makes the wearer's voice stronger and allows it to maintain its power for a longer periods of time. All the wearer's bardic performances and raging songs (if they have the corresponding class abilities) last for 10 more rounds per day.",
+        "cost": 100000,
+        "id": "1b1c3cf0fedf47bab0811b4ebf98b2e2",
+        "enchant": [
+            {
+                "name": "CursedBardVoiceAmulet_SirenEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "107aee843c854047932bfa5200eece96",
+                "effect": [
+                    "Add feature CursedBardVoiceAmulet_SirenFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CursedBardVoiceAmulet_VoiceItem",
+        "display_name": "Francest's Mighty Call",
+        "description": "This amulet empowers the voice of the wearer, thus increases hit point limits of power word spells by 150%. For instance, power word kill now will instantly kill all enemies with HP lower than 150 instead of 100.",
+        "cost": 100000,
+        "id": "a55e366756a34fff80a0b07c439db677",
+        "enchant": [
+            {
+                "name": "CursedBardVoiceAmulet_VoiceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9bbad988e6914f4baef06c8d4773f57e",
+                "effect": [
+                    "Add feature CursedBardVoiceAmulet_VoiceFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DaeranGift",
+        "display_name": "Daeran's Gift",
+        "description": "An exquisite pendant shaped like a key. If you look at the key from a specific angle, the pattern of its engraving forms the first letter of your name.",
+        "cost": 1000,
+        "id": "6d4c5036156d06f49b117bdc7a76b81a"
+    },
+    {
+        "name": "DarekSunhammersFake",
+        "display_name": "Counterfeit Darek Sunhammer's Jewelry",
+        "description": "",
+        "cost": 150,
+        "id": "3e4ce583dc71401588f33f8192c252cd",
+        "area": [
+            "EstrodTower, EstrodTower_Basement_GoodLoot01",
+            "AlchemistLair, PF2_MagicLaboratory_TrashLoot01",
+            "HorgusManor, PF2_RichHuman_GoodLoot06",
+            "Woljif_Q1_Shop, PF2_RichHuman_ShopLootChest",
+            "MarodersLair, PoorHuman_tavern_chest_01",
+            "Daeran_Q2_HeavenDoorstep, RichHuman_GoodNoHidden"
+        ]
+    },
+    {
+        "name": "DarekSunhammersWork",
+        "display_name": "Darek Sunhammer's Jewelry",
+        "description": "",
+        "cost": 25000,
+        "id": "5a3463e8f61c4663aa59660ff51e3cb1"
+    },
+    {
         "name": "DeathlyArousalItem",
         "display_name": "Deathly Arousal",
         "description": "This choker protects the wearer from losing their head, and not only in bed. Once per day whenever the enemy, deals the wearer a killing blow, the choker restores them 50 HP and knocks the attacker prone for 2 rounds.",
-        "cost": 4200,
+        "cost": 42000,
         "id": "ced0c42331b39f5499846880a2b82c9b",
         "enchant": [
             {
@@ -1127,21 +1476,28 @@
         "id": "7506e7e62c58c6444881d0896fff5db1",
         "area": [
             "AlushinyrraLowerCity, AngelMinaghoChest#1",
-            "VaultOfGraves, PF2_CoolDemons_Loot5"
+            "VaultOfGraves, PF2_CoolDemons_Loot5",
+            "ReturnToDrezen, PF2_Crusaders_luxery_chest_03_loot_object#1",
+            "ReturnToDrezen, PF2_Crusaders_market_place_box_01 (15)_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_2_HIdden_Locked",
+            "TheIvoryLabyrinth, PF2_RichHuman_LockedPoorChest_1"
         ]
     },
     {
         "name": "FalseNahCrystalAmuletItem",
         "display_name": "\"Nahyndrian\" Crystal",
-        "description": "",
-        "cost": 32000,
+        "description": "This amulet grants its wearer a +1 competence bonus on Knowledge (World) skill checks.",
+        "cost": 50000,
         "id": "3b72223fefa190148a4df605e18b21b6",
         "enchant": [
             {
                 "name": "FalseNahCrystalAmuletEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "a2d25fe1ad639e348bb46198f8964978"
+                "id": "a2d25fe1ad639e348bb46198f8964978",
+                "effect": [
+                    "Add stat bonus 1 to SkillKnowledgeWorld (descriptor: Competence)"
+                ]
             }
         ]
     },
@@ -1188,9 +1544,14 @@
         "cost": 120,
         "id": "688d61ed91f68944da24c61f378c47b5",
         "area": [
+            "KohhDungeon, Forest_BrokenRoomLoot",
             "KenabresGraveyard, Forest_LootDoor",
+            "KohhDungeon, Forest_PazzlePassLoot",
+            "AlushinyrraMediumCity, PF2_CoolDemons_ChestPoor",
             "AlushinyrraHigherCity, PF2_CoolDemons_HiddenUnlockedPoor1",
+            "BattleBliss, PF2_CoolDemons_LockpickLoot",
             "Arueshalae_Q2_DimalchioMansion, PF2_CoolDemons_Loot",
+            "Iz, PF2_CoolDemons_Loot22Chest",
             "VaultOfGraves, PF2_CoolDemons_Loot5",
             "VaultOfGraves, PF2_CoolDemons_Loot6",
             "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenLockedPoor2",
@@ -1198,7 +1559,6 @@
             "RoguePaladin_SE2, PF2_Crusaders_market_place_chest_big_01_loot_object",
             "Nexus, PF2_DemonWorld_PoorLoot06",
             "IvorySanctum, PF2_Demons_PoorLootChest1#2",
-            "IvorySanctum, PF2_Demons_PoorLootChest3#2",
             "MidnightFane, PF2_Demons_[Locked][Trapped] Nightmare#1",
             "AreeluLab, PF2_MagicLaboratory_Archeology01",
             "ArueshalaeRedoubt, PF2_OldCrusaders_Loot#9",
@@ -1211,7 +1571,13 @@
         "display_name": "Golden Chain with Diamonds",
         "description": "",
         "cost": 2500,
-        "id": "f1103195723022844a562bf772e102ce"
+        "id": "f1103195723022844a562bf772e102ce",
+        "area": [
+            "KohhDungeon, Forest_SecretWorkShop",
+            "AlushinyrraMediumCity, PF2_CoolDemons_ChestPoor",
+            "AlushinyrraMediumCity, PF2_CoolDemons_HiddenWardrobe",
+            "TheIvoryLabyrinth, PF2_CoolDemons_PuzzleChestPoor"
+        ]
     },
     {
         "name": "GoldenMedallion",
@@ -1224,11 +1590,14 @@
             "Seelah_Q3_JewelerHideout, PF2_CoolDemons_Loot_Trap",
             "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenUnlockedPoor4",
             "Arueshalae_Q2_DimalchioMansion, PF2_CoolDemons_demon_rich_chest_03 (1)_loot_object",
+            "DrezenCapital, PF2_Crusaders_Locust_TreshLoot_05",
+            "RoguePaladin_SE2, PF2_Crusaders_TrashLoot",
+            "ReturnToDrezen, PF2_Crusaders_luxery_vase_02 (6)_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_4_HIdden",
             "ColyphyrDungeon, PF2_DemonWorld_Good_3",
             "Woljif_Q3_AbandonedMansion, PF2_DemonWorld_Loot2",
             "ColyphyrDungeon, PF2_DemonWorld_Poor_2",
             "MidnightFane, PF2_Demons_LeatherMantleOfNightItem",
-            "IvorySanctum, PF2_Demons_PoorLootChest3#2",
             "ArueshalaeRedoubt, PF2_NaturalCaves_BossLoot2",
             "GrayGarrison, PF2_OldCrusaders_GrayGarrison_GoodLoot02_TheMaladyItem",
             "DemodandLair, PF2_Worldwound_LootKnightGrave"
@@ -1237,7 +1606,7 @@
     {
         "name": "GuardianOfLifeItem",
         "display_name": "Guardian of Life",
-        "description": "As long as the wearer of this amulet is under the effect of the Death Ward spell, they get a +2 morale bonus to AC against the attacks of undead creatures. If they use any single-target Cure Wounds spell on a target whose current number of HP is 0 or less, the target is healed for an additional number of HP equal to their number of Hit Dice.",
+        "description": "As long as the wearer of this amulet is under the effect of the death ward spell, they get a +2 morale bonus to AC against the attacks of undead creatures. If they use any single-target cure wounds spell on a target whose current number of HP is 0 or less, the target is healed for an additional number of HP equal to their number of Hit Dice.",
         "cost": 10000,
         "id": "cca99e04dd8e8ae40b94981185800db8",
         "enchant": [
@@ -1333,6 +1702,24 @@
         ]
     },
     {
+        "name": "HeartOfTheHeraldItem",
+        "display_name": "Angel's Heart",
+        "description": "This amulet grants its wearer an 30 feet aura that can be activated, granting all alies a +1 bonus to AC and allowing them to ignore any damage reduction on attacks against demons. This aura can be active for (10 + the wearer's Charisma modifier) rounds per day.",
+        "cost": 100000,
+        "id": "abd2459160cd479085fb2a75b927737f",
+        "enchant": [
+            {
+                "name": "HeartOfTheHeraldEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "cf80d6172d85406a9ba459c496580b3e",
+                "effect": [
+                    "Add feature HeartOfTheHeraldFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "LocketOfMagicMissileMasteryItem",
         "display_name": "Locket of Magic Missile Mastery",
         "description": "When the wearer of this locket casts magic missile or force missile spell, it becomes quickened and empowered, as though using the Quicken Spell and Empower Spell feats.",
@@ -1395,9 +1782,20 @@
         "name": "MenanceOfDeathAmuletItem",
         "display_name": "Menace of Death",
         "description": "Whenever someone dies within a 10 feet radius from the wearer of this amulet of natural armor +3, the wearer gets the effect of the haste spell for 2d3 rounds. This effect is renewed each time someone dies. After this effect wears off, the wearer cannot make any weapon or unarmed attacks for 1d3 rounds.",
-        "cost": 13000,
+        "cost": 20000,
         "id": "8c7525cda7ad79a47a578197dab6c487",
         "enhance": "3",
+        "enchant": [
+            {
+                "name": "MenanceOfDeathAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1cdea8c9aa064ac1b704fedc7223cc20",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
         "unit": [
             "Darrazand, Mobs"
         ]
@@ -1423,22 +1821,37 @@
     {
         "name": "NahCollar",
         "display_name": "Nahyndrian League Collar",
-        "description": "",
-        "cost": 500,
-        "id": "ab3ee90fd2faffb46a00f889a2d226c8"
+        "description": "This amulet grants its wearer a +4 natural armor enhancement bonus to Armor Class. In addition, it grants a +4 morale bonus on Reflex and Fortitude saving throws. It also applies a -4 penalty on Will saving throws.",
+        "cost": 36000,
+        "id": "ab3ee90fd2faffb46a00f889a2d226c8",
+        "enchant": [
+            {
+                "name": "NahCollarEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d8edd2db8d534cb189c05ebaa0cab7ee",
+                "effect": [
+                    "Add feature NahCollarFeature"
+                ]
+            }
+        ],
+        "enhance": "4"
     },
     {
         "name": "NecklaceOfEarsItem",
         "display_name": "Ear Necklace",
-        "description": "",
-        "cost": 32000,
+        "description": "This amulet grants its wearer a +10 competence bonus on Knowledge (World) and Knowledge (Arcana) skill checks.",
+        "cost": 50000,
         "id": "6a26ffa9238302f44b517fc0b7363014",
         "enchant": [
             {
                 "name": "NecklaceOfEarsEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "bbbb03ff1ce3d2642b152aa2f675b1e5"
+                "id": "bbbb03ff1ce3d2642b152aa2f675b1e5",
+                "effect": [
+                    "Add feature NecklaceOfEarsFeature"
+                ]
             }
         ]
     },
@@ -1473,13 +1886,13 @@
         "name": "OldEarthAmulet_IntermediateItem",
         "display_name": "Amulet of Ooze",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 25500,
         "id": "dd5a21d3900ce8a4e90322e90cd9f2e3"
     },
     {
         "name": "OldEarthSandAmuletItem",
-        "display_name": "Amulet of Ooze",
-        "description": "Whenever you cast a grease spell, all creatures within the affected area must pass a Reflex saving throw or suffer 1d6 per 2 caster levels acid damage.",
+        "display_name": "Embrace of the Faceless",
+        "description": "Whenever you cast a grease spell, all creatures within the affected area must pass a Reflex saving throw or suffer 5d6 acid damage.",
         "cost": 34000,
         "id": "268815ce58edc3a48856cf8a0f145b17",
         "enchant": [
@@ -1496,8 +1909,8 @@
     },
     {
         "name": "OldEarthShriekAmuletItem",
-        "display_name": "Amulet of Ooze",
-        "description": "Whenever you cast an ear piercing scream spell, the damage it deals is no longer limited to 5d6. Instead it deals 1d6 + 1 per two caster levels points of damage. Creatures who fail the saving throw against it becomes Dazed for 2 rounds instead of 1 round. The amulet also increases the DC of all spells with sonic descriptor you cast by 2.",
+        "display_name": "Voice of the Faceless",
+        "description": "Whenever you cast an ear piercing scream spell, the damage it deals is no longer limited to 5d6. Instead it deals (1d6 + 1 per two caster levels) points of damage. Creatures who fail the saving throw against it becomes Dazed for 2 rounds instead of 1 round. The amulet also increases the DC of all spells with sonic descriptor you cast by 2.",
         "cost": 34000,
         "id": "1e67d8ab112c4784e8150d01bec4a5a4",
         "enchant": [
@@ -1513,10 +1926,47 @@
         ]
     },
     {
+        "name": "PitchTunerItem",
+        "display_name": "Perfect Pitch",
+        "description": "This amulet grants its wearer an immunity to sonic damage and a +5 competence bonus on Perception skill checks.",
+        "cost": 43000,
+        "id": "46ef4528d79b830489ffe99688db39d4",
+        "enchant": [
+            {
+                "name": "PitchTunerEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7f2136f879a590247843980ad1d74542",
+                "effect": [
+                    "Add feature PitchTunerFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PlayersPhylacteryAmuletItem",
+        "display_name": "Your Phylactery",
+        "description": "This item grants its wearer Deadly Magic ability. If the wearer already has Deadly Magic, it grants them two additional uses. In addition, once per day, whenever the wearer's health falls below 0, it is restored to a maximum. Can only be equipped by a Lich.",
+        "cost": 100000,
+        "id": "7efa2d3fd0da4769b380caf9b221233a",
+        "enchant": [
+            {
+                "name": "PlayersPhylacteryEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b3ec7d3700324a7181ec5f327665f5de",
+                "effect": [
+                    "Add feature PlayersPhylacteryFeature"
+                ]
+            }
+        ],
+        "enhance": "5"
+    },
+    {
         "name": "RecklessVengeanceItem",
         "display_name": "Reckless Vengeance",
         "description": "The wearer of this amulet suffers a -4 penalty to AC. Whenever an ally in a 30 feet radius is knocked unconscious or dead, they get two extra attacks per round for two rounds.",
-        "cost": 30000,
+        "cost": 45000,
         "id": "9343a0ba1c98d7f4eb5f5cb517280764",
         "enchant": [
             {
@@ -1575,16 +2025,19 @@
     },
     {
         "name": "SarzaksisPayzaItem",
-        "display_name": "",
-        "description": "",
-        "cost": 32000,
+        "display_name": "Sarzaksys Payza",
+        "description": "This amulet grants its wearer an immunity to Necromancy school spells while in Demonic Rage.",
+        "cost": 55000,
         "id": "7a1921b84c2d958489c9f3b70b7f5093",
         "enchant": [
             {
                 "name": "SarzaksisPayzaEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "ce7f06430d08f3d4c8e5e9efe2266e21"
+                "id": "ce7f06430d08f3d4c8e5e9efe2266e21",
+                "effect": [
+                    "Add feature SarzaksisPayzaFeature"
+                ]
             }
         ],
         "unit": [
@@ -1618,15 +2071,20 @@
         "area": [
             "KenabresGraveyard, Forest_LootChest (1)#1",
             "VaultOfGraves, PF2_CoolDemons_Loot2",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_rich_wardrobe_02 (12)_loot_object",
+            "Iz, PF2_CoolDemons_market_place_chest_medium_01_loot_object",
             "DrezenCitadel_Prison, PF2_Crusaders_market_place_box_02",
             "KenabresBurning, PF2_Crusaders_tavern_bedside_01",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_24",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_4_HIdden",
             "EmberQ1_BaphometsAltar, PF2_Demons_TrashLoot01",
             "AreeluLabReturn, PF2_MagicLaboratory_PoorLoot01",
             "DrezenCitadel_Level1, PF2_OldCrusaders_TavernBox02",
             "DrezenCitadel_Level1, PF2_OldCrusaders_UpperCityAreaChest01",
             "SuccubusLair, PF2_RichHuman_TrashLoot01",
             "SinisterVillage, PF2_Sarkoris_TrashLoot11",
-            "WarCamp, PoorHuman_IrabethLootChest_2"
+            "WarCamp, PoorHuman_IrabethLootChest_2",
+            "LostChapel, PoorHuman_TrashLoot21"
         ]
     },
     {
@@ -1637,13 +2095,35 @@
         "id": "06846b7beaca5444d8eebfebc320adca",
         "area": [
             "KenabresGraveyard, Forest_LootChest (1)#1",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_1_Locked",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_5_HIdden",
             "ColyphyrDungeon, PF2_DemonWorld_Poor_2",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot1_vase (1)",
             "AlushinyrraLowerCity, PF2_Demons_NotHiddenLockedPoor2",
             "IvorySanctum, PF2_Demons_PoorLootChest2",
             "IvorySanctum, PF2_Demons_luxery_chest_02 (11)",
             "WintersunOutdoor, PF2_Forest_PoorLoot_11_Locked",
             "AreeluLab, PF2_MagicLaboratory_PoorLoot03",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_market_place_chest_small_01_loot_object",
             "SE_MeetNenio, PoorHuman_SE_MeetNenio_Loot1_Perception"
+        ]
+    },
+    {
+        "name": "SilverTongueAmuletItem",
+        "display_name": "Silver Tongue Amulet",
+        "description": "This amulet grants its wearer a +2 competence bonus on Persuasion skill checks.",
+        "cost": 1500,
+        "id": "4d4231b4a395bba4b9819dfbb2dc785d",
+        "enchant": [
+            {
+                "name": "SilverTongueAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6aaf3a4a1cc55f643b02e690baccd2da",
+                "effect": [
+                    "Add feature SilverTongueAmuletFeature"
+                ]
+            }
         ]
     },
     {
@@ -1680,15 +2160,60 @@
         "area": [
             "ArueshalaeRedoubt, Forest_Loot (2)#2",
             "AlushinyrraHigherCity, PF2_CoolDemons_HiddenUnlockedPoor2",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_rich_wardrobe_02 (12)_loot_object",
+            "Iz, PF2_CoolDemons_market_place_chest_big_01_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_19",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_6",
             "ColyphyrDungeon, PF2_DemonWorld_Poor_3",
-            "MidnightFane, PF2_Demons_PoorLoot_13"
+            "MidnightFane, PF2_Demons_PoorLoot_13",
+            "Mineshaft14_Indoor, PF2_Sarkoris_Barrel_loot_object"
+        ]
+    },
+    {
+        "name": "VellexiasMagnifyingAmuletItem",
+        "display_name": "Vellexia's Magnifying Amulet",
+        "description": "This amulet grants its wearer a +5 natural armor enhancement bonus to Armor Class. It also grants its wearer a +2 bonus to the highest current ability score.",
+        "cost": 149000,
+        "id": "91702df4fe0246a3b435c7fcf9fa019e",
+        "enchant": [
+            {
+                "name": "VellexiasMagnifyingAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "10dc2a5b8d834dc5937fc7f37186dfc3",
+                "effect": [
+                    "IncreaseMaxStatEnchantment"
+                ]
+            }
+        ],
+        "enhance": "5"
+    },
+    {
+        "name": "VoraciousSpiritItem",
+        "display_name": "Voracious Spirit",
+        "description": "Whenever the wearer of this amulet lands a killing blow, she gains one of the following stacking bonuses that last until the next rest",
+        "cost": 79000,
+        "id": "000d13f09ca84dbd9a5ec7adc4b0ae99",
+        "enchant": [
+            {
+                "name": "VoraciousSpiritEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "08bfd2c4fb394c65a707f8bf20a3422a",
+                "effect": [
+                    "Add feature VoraciousSpiritFeature"
+                ]
+            }
+        ],
+        "area": [
+            "HorgusManor, PF2_RichHuman_PoorLoot07andGood"
         ]
     },
     {
         "name": "WardMastersAmuletItem",
         "display_name": "Ward Master's Amulet",
         "description": "This amulet makes all ward abilities and spells (those which have the word \"ward\" in their names) grant +1 additional AC, and become extended as though using the Extend Spell feat.\nExtend Spell",
-        "cost": 20000,
+        "cost": 29000,
         "id": "1bc94bd99a10f7648bd39d8563ca47c9",
         "enchant": [
             {

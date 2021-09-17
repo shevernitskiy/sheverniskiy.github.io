@@ -29,8 +29,19 @@
         "name": "AcrobatsFootwearItem",
         "display_name": "Acrobat's Footwear",
         "description": "These boots allow its wearer to stand up without provoking an attack of opportunity.",
-        "cost": 40000,
-        "id": "e8a76b5341f32994d8dfa8d18bfd85a8"
+        "cost": 44400,
+        "id": "e8a76b5341f32994d8dfa8d18bfd85a8",
+        "enchant": [
+            {
+                "name": "AcrobatsFootwearEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0896a269456ca794b8750f4d96e1d0bb",
+                "effect": [
+                    "Add feature AcrobatsFootwearFeature"
+                ]
+            }
+        ]
     },
     {
         "name": "Artifact_FeetItem",
@@ -45,7 +56,7 @@
                 "description": "",
                 "id": "0f22f4c02677e6a4aaf82d7b2942b6fc",
                 "effect": [
-                    "Add feature AbyssWalkersFeature",
+                    "Add feature Artifact_FeetFeature",
                     "Add stat bonus 10 to SkillMobility (descriptor: UntypedStackable)",
                     "Add stat bonus 10 to SkillAthletics (descriptor: UntypedStackable)"
                 ]
@@ -98,6 +109,24 @@
         ]
     },
     {
+        "name": "BootsOfCompleteEarthingItem",
+        "display_name": "Boots of Perfect Grounding",
+        "description": "These boots grant its wearer immunity against electricity as well as stunned and staggered conditions. In addition, they increase the saving throw DC of the spells with the [acid] descriptor they cast by 2.",
+        "cost": 80000,
+        "id": "4ed3bb28bc6b4169a2bdc7ac90ca0759",
+        "enchant": [
+            {
+                "name": "BootsOfCompleteEarthingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c4e5785ec6bc4d969b8414b1e44a877a",
+                "effect": [
+                    "Add feature BootsOfCompleteEarthingFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "BootsOfElvenKind",
         "display_name": "Boots of Elvenkind",
         "description": "These boots grant its wearer a +5 competence bonus on Mobility checks.",
@@ -120,10 +149,31 @@
         ]
     },
     {
+        "name": "BootsOfForestTrackerItem",
+        "display_name": "Forest Tracker's Boots",
+        "description": "These boots grant their wearer a +10 competence bonus on Lore (Nature) skill checks. In addition, the wearer's animal companion gets a +20 bonus to maximum Hit Points.",
+        "cost": 38000,
+        "id": "428cd8a816255d84288acd366dd1ccd9",
+        "enchant": [
+            {
+                "name": "BootsOfForestTrackerEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fa9c47d68a49bc64aa680e74fca1bcc2",
+                "effect": [
+                    "Add feature BootsOfForestTrackerFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenUnlockedPoor5"
+        ]
+    },
+    {
         "name": "BootsOfFreereinItem",
         "display_name": "Boots Of Free Rein",
         "description": "These boots grant the wearer a permanent effect of the freedom of movement spell.",
-        "cost": 24000,
+        "cost": 31000,
         "id": "1fa18e276bff19f4392805c5c22cee20",
         "enchant": [
             {
@@ -157,6 +207,48 @@
         ]
     },
     {
+        "name": "BootsOfFreestReinItem",
+        "display_name": "Boots of Freest Rein",
+        "description": "These boots grant their wearer a +10 bonus to base speed and a constant freedom of movement spell effect.",
+        "cost": 50000,
+        "id": "b28591992726485fa18c71782e4c9f38",
+        "enchant": [
+            {
+                "name": "BootsOfFreestReinEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b5849f2d41ff4bdc82f99b36b5ba3a4c",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "area": [
+            "HorgusManor, PF2_RichHuman_PoorLootNew03andGood"
+        ]
+    },
+    {
+        "name": "BootsOfMagicalWhirlItem",
+        "display_name": "Boots of Magical Whirl",
+        "description": "Whenever the wearer of these boots kills a demon for the first time in a battle, their next spell becomes quickened, as though using the Quicken Spell feat.",
+        "cost": 70000,
+        "id": "a6cc25b421a74ad4a8fb974d74c2a596",
+        "enchant": [
+            {
+                "name": "BootsOfMagicalWhirlEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "25fd94a2fbf34e07bd3d087734b2083c",
+                "effect": [
+                    "Add feature BootsOfMagicalWhirlFeature"
+                ]
+            }
+        ],
+        "area": [
+            "MutasafenLair, PF2_MagicLaboratory_MutasafenLair_GoodLoot_Final"
+        ]
+    },
+    {
         "name": "BootsOfManticoreItem",
         "display_name": "Manticore Skin Boots",
         "description": "These boots grant its wearer a +10 bonus to speed and +4 enhancement bonus to natural armor.",
@@ -181,6 +273,7 @@
             "PlayerDemonMythicTestLevel19, Player",
             "PlayerTestLevel16, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTestLevel19, Player",
             "RegillPregenLevel11, Player",
@@ -199,7 +292,7 @@
         "name": "BootsOfOutbreakItem",
         "display_name": "Boots of Outbreak",
         "description": "These boots grant the wearer a +20 feet bonus to moving speed and an immunity to prone condition.",
-        "cost": 26000,
+        "cost": 32000,
         "id": "e55f0210859bb3b4883958e41c155490",
         "enchant": [
             {
@@ -234,7 +327,7 @@
         "name": "BootsOfStampedeItem",
         "display_name": "Boots of Stampede",
         "description": "The wearer of these boots adds their rank in Athletics skill as a bonus to the damage roll on a successful charge attack.",
-        "cost": 38000,
+        "cost": 46500,
         "id": "1e67f0071700eb5418b82009427bce8a",
         "enchant": [
             {
@@ -337,7 +430,7 @@
         "name": "BootsOfWaryStepsItem",
         "display_name": "Boots of Wary Steps",
         "description": "These boots grant its wearer blindsight with a radius of 10 feet and a +10 competence bonus on Stealth checks.",
-        "cost": 28000,
+        "cost": 32000,
         "id": "c567d113d0b7053428fcb76e5175e37f",
         "enchant": [
             {
@@ -415,6 +508,8 @@
             "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
             "PlayerDemonMythicTestLevel20, Player",
             "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
             "StartGameSorcererPregenUnitLevel20, Player"
         ]
     },
@@ -487,7 +582,7 @@
         "name": "ExpeditionBootsItem",
         "display_name": "Expedition Boots",
         "description": "These boots grant the wearer a +10 competence bonus on Athletics skill checks and a +5 competence bonus on Mobility skill checks.",
-        "cost": 17500,
+        "cost": 27500,
         "id": "35f1391907ebb3948bbac3ccb9ccd4c5",
         "enchant": [
             {
@@ -513,6 +608,31 @@
         ]
     },
     {
+        "name": "FluffyBootsItem",
+        "display_name": "Fluffy Boots",
+        "description": "The wearer of these cozy fluffy boots just wears cozy boots which are extremely fluffy.",
+        "cost": 1000,
+        "id": "c5d49a08ecdc41d3a5d29b9c66a8e07a"
+    },
+    {
+        "name": "FreeDancersBootsItem",
+        "display_name": "Free Dancer's Boots",
+        "description": "These boots grant their wearer a +2 competence bonus on saving throws against movement-impairing conditions.",
+        "cost": 2000,
+        "id": "693b9facfda93fe4cac07c3ac7c32d30",
+        "enchant": [
+            {
+                "name": "FreeDancersBootsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f6b05ef07d6712646912e7fcbb55859c",
+                "effect": [
+                    "Add feature FreeDancersBootsFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "OpportunistsBoots",
         "display_name": "Opportunist's Boots",
         "description": "These boots grant their wearer the ability to make two additional attacks of opportunity per round.",
@@ -534,7 +654,7 @@
         "name": "PerfectedManeuverItem",
         "display_name": "Perfected Maneuver",
         "description": "These boots grant the wearer a +3 competence bonus to CMD and a +3 competence bonus to CMB.",
-        "cost": 36000,
+        "cost": 33000,
         "id": "651b49a7774ea704195f3c7dc98b69c9",
         "enchant": [
             {
@@ -574,6 +694,8 @@
             "ArueshalaePregenLevel13, Player",
             "ArueshalaePregenLevel19, Player",
             "ArueshalaePregenLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel12, Player",
             "PlayerAzataRangerTestLevel13, Player",
             "PlayerAzataRangerTestLevel14, Player",
@@ -599,7 +721,7 @@
         "name": "SpiritTrackersItem",
         "display_name": "Spirit Trackers",
         "description": "These boots grant a spirit hunter four additional uses of Spirit Weapon Enchantment ability per day.",
-        "cost": 30000,
+        "cost": 36000,
         "id": "c5aeb081a0dd85a47b3190a187cad9a0",
         "enchant": [
             {
@@ -623,5 +745,26 @@
         "cost": 108000,
         "id": "1efbe2ef6e22cf34eaa24ab7b6c061ad",
         "enhance": ""
+    },
+    {
+        "name": "SureFootingItem",
+        "display_name": "Sure Footing",
+        "description": "These boots allow their wearer to add half their rank in Perception skill to damage on their first attack with a ranged weapon every round.",
+        "cost": 37000,
+        "id": "2e367ed3db88c714cb35612a7d82f713",
+        "enchant": [
+            {
+                "name": "SureFootingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1502281191399344cb3c72c5b2792f0f",
+                "effect": [
+                    "Add feature SureFootingFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_ChestPoor3"
+        ]
     }
 ]

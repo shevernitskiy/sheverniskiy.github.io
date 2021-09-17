@@ -1,5 +1,23 @@
 [
     {
+        "name": "ArmExtendersItem",
+        "display_name": "Arm Extenders",
+        "description": "These bracers allows their wearer to stagger enemies for 3 rounds on the first hit they land in combat with thrown weapons.",
+        "cost": 95000,
+        "id": "7e4432d76a824571b3965c6bda73f763",
+        "enchant": [
+            {
+                "name": "ArmExtendersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f48815cda43c4b2c85cb22eee94cfa95",
+                "effect": [
+                    "Add feature ArmExtendersFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Artifact_HermitKnightBracersItem",
         "display_name": "",
         "description": "",
@@ -20,7 +38,7 @@
     {
         "name": "BracersOfAbruptOnslaughtItem",
         "display_name": "Bracers of Abrupt Onslaught",
-        "description": "These bracers grant the wearer a +5 competence bonus on Trickery skill checks. Whenever the wearer makes a sneak attack, its damage is increased by 1d6.",
+        "description": "These bracers grant the wearer a +5 competence bonus on Trickery skill checks. Whenever the wearer makes a sneak attack, it deals additional 1d6 bludgeoning damage.",
         "cost": 31000,
         "id": "d811544c0eb19f6489e44582bd671c9f",
         "enchant": [
@@ -39,7 +57,8 @@
             "CameliaPregenLevel17, Player",
             "CameliaPregenLevel18, Player",
             "CameliaPregenLevel19, Player",
-            "CameliaPregenLevel20, Player"
+            "CameliaPregenLevel20, Player",
+            "IvoryHardmod_WildhuntAsassin24, Mobs"
         ],
         "area": [
             "WoundWormsLair, PF2_MagicLaboratory_GoodLoot1_BracersOfAbruptOnslaughtItem"
@@ -84,11 +103,14 @@
             "ArueshalaePregenLevel18, Player",
             "ArueshalaePregenLevel19, Player",
             "ArueshalaePregenLevel20, Player",
-            "Centaur_F_bow_Boss, Mobs",
             "LannTestLevel10, Player",
             "LannTestLevel11, Player",
             "LannTestLevel12, Player",
             "LannTestLevel13, Player",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel14, Player",
             "PlayerAzataRangerTestLevel15, Player",
             "PlayerAzataRangerTestLevel16, Player",
@@ -103,7 +125,8 @@
             "PlayerTricksterRangerTestLevel18, Player",
             "PlayerTricksterRangerTestLevel19, Player",
             "PlayerTricksterRangerTestLevel20, Player",
-            "PuluraFall_Katair, NeutralGuards"
+            "PuluraFall_Katair, NeutralGuards",
+            "SarkorianWedding_FallenBoss, Mobs"
         ]
     },
     {
@@ -127,7 +150,14 @@
             "ArueshalaePregenLevel11, Player",
             "ArueshalaePregenLevel12, Player",
             "ArueshalaePregenLevel13, Player",
-            "DamnedKnight2, Neutrals",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
+            "CR26_SuccubusRangedFighter_RE_low, Mobs",
+            "CR27_SuccubusRangedFighter, Mobs",
+            "CR27_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR27_SuccubusRangedFighter_RE_high2, Mobs",
             "LannTestLevel6, Player",
             "LannTestLevel7, Player",
             "LannTestLevel8, Player",
@@ -137,7 +167,9 @@
             "PlayerAzataRangerTestLevel13, Player",
             "PlayerTricksterRangerTestLevel11, Player",
             "PlayerTricksterRangerTestLevel12, Player",
-            "PlayerTricksterRangerTestLevel13, Player"
+            "PlayerTricksterRangerTestLevel13, Player",
+            "RvaniySlaveTrader, CutsceneNeutrals",
+            "ToughMinaghoCambion, Mobs"
         ],
         "area": [
             "DrezenCitadel_Level2, PF2_Demons_GoodLootChest_1"
@@ -178,7 +210,6 @@
             "DaeranPregenTestLevel7, Player",
             "DaeranPregenTestLevel8, Player",
             "DaeranPregenTestLevel9, Player",
-            "EmberTestLevel3, Player",
             "EmberTestLevel4, Player",
             "EmberTestLevel6, Player",
             "MidnightFane_Tall_DesnaPriest, CutsceneNeutrals",
@@ -267,6 +298,9 @@
             }
         ],
         "unit": [
+            "CR18_CambionToughCaster, Mobs",
+            "CR18_CambionToughCaster_RE, Mobs",
+            "CambionSlaverLeader, Mobs",
             "DaeranPregenTestLevel10, Player",
             "DaeranPregenTestLevel11, Player",
             "EmberTestLevel10, Player",
@@ -302,13 +336,11 @@
             }
         ],
         "unit": [
-            "CR16_IncubusToughCaster, CutsceneNeutrals",
-            "CR18_CambionToughCaster, Mobs",
-            "CambionSlaverLeader, Mobs",
             "ColyphyrSalamanderMiniboss, Mobs",
             "EmberTestLevel11, Player",
             "EmberTestLevel12, Player",
             "GateGuard_HigherToMedium, CutsceneNeutrals",
+            "IvoryLabyrinthMinotaurCaster19, Mobs",
             "LannTestLevel14, Player",
             "Maugla, Mobs",
             "MythicLich_KTC_Septimus, Civilians",
@@ -319,7 +351,8 @@
             "PlayerLichWizardTestLevel12, Player",
             "StartGameSorcererPregenUnitLevel8, Player",
             "TigerOfSin, Neutrals",
-            "Villodus, CutsceneNeutrals",
+            "TigerOfSin1, Neutrals",
+            "TigerOfSin2, Neutrals",
             "WoljifTestLeve11, Player",
             "WoljifTestLeve12, Player",
             "WoljifTestLeve13, Player",
@@ -354,9 +387,15 @@
             }
         ],
         "unit": [
+            "Abrogail, Friends",
             "Alichino, Friends",
+            "AlichinoEnemy, Mobs",
+            "AlushynirraDemodandMiniboss, Mobs",
             "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs",
             "Chadali, Friends",
+            "ChadaliEnemy, Mobs",
             "DaeranPregenTestLevel12, Player",
             "DaeranPregenTestLevel13, Player",
             "DaeranPregenTestLevel14, Player",
@@ -367,17 +406,17 @@
             "EmberTestLevel14, Player",
             "EmberTestLevel15, Player",
             "Eritrice, Friends",
+            "EritriceEnemy, Mobs",
             "Horzalah_AssasinElfFighterRanged, Bandits",
             "Horzalah_AssasinKitsuneMagusMelee, Bandits",
-            "IvoryLabyrinthMinotaurCaster19, Mobs",
             "LannTestLevel15, Player",
             "LannTestLevel16, Player",
             "LannTestLevel17, Player",
-            "Mielara, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel13, Player",
             "PlayerAeonWizardTestLevel14, Player",
             "PlayerLichWizardTestLevel13, Player",
             "PlayerLichWizardTestLevel14, Player",
+            "PlayfulDarknessDeathsnatcher, Mobs",
             "PuluraFall_Eliandra, AngelTeam",
             "SarzaksisTranslatorTiefling, CutsceneNeutrals",
             "WoljifTestLeve16, Player",
@@ -413,10 +452,19 @@
         ],
         "unit": [
             "EmberTestLevel16, Player",
+            "Locust_LannEnemy, CutsceneNeutrals",
+            "Nocticula, CutsceneNeutrals",
+            "NocticulaInDress, CutsceneNeutrals",
+            "NocticulaLichCutscene, CutsceneNeutrals",
+            "Nocticula_AlushinyrraMythicDemon, CutsceneNeutrals",
+            "NocticulainDialog, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel15, Player",
             "PlayerAeonWizardTestLevel16, Player",
             "PlayerLichWizardTestLevel15, Player",
-            "PlayerLichWizardTestLevel16, Player"
+            "PlayerLichWizardTestLevel16, Player",
+            "SilkShadow, Neutrals",
+            "SilkShadowIllusion, Neutrals",
+            "SilkShadowNoLoot, Neutrals"
         ]
     },
     {
@@ -484,27 +532,44 @@
             }
         ],
         "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
+            "Areelu, CutsceneNeutrals",
+            "AreeluDemonicForm, CutsceneNeutrals",
+            "AreeluHologram, CutsceneNeutrals",
+            "AreeluHumanHologram, CutsceneNeutrals",
+            "AreeluInThePast, CutsceneNeutrals",
+            "AreeluNoName, CutsceneNeutrals",
+            "Areelu_MidnightFaneInThePast, CutsceneNeutrals",
+            "Areelu_ShadowCopy, CutsceneNeutrals",
+            "Arilu_DrezenCitadelLevel2, CutsceneNeutrals",
             "DaeranPregenTestLevel18, Player",
             "DaeranPregenTestLevel19, Player",
             "DaeranPregenTestLevel20, Player",
+            "DemonLordDeskari, Mobs",
             "EmberTestLevel19, Player",
             "EmberTestLevel20, Player",
             "LannTestLevel18, Player",
             "LannTestLevel19, Player",
             "LannTestLevel20, Player",
+            "LiLura, CutsceneNeutrals",
+            "LiLura_Kenabres, CutsceneNeutrals",
             "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
             "PlayerAeonWizardTestLevel19, Player",
             "PlayerAeonWizardTestLevel20, Player",
             "PlayerLichWizardTestLevel19, Player",
             "PlayerLichWizardTestLevel20, Player",
             "StartGameSorcererPregenUnitLevel20, Player"
+        ],
+        "area": [
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_GoodLoot_BracersOfArmor8"
         ]
     },
     {
         "name": "BracersOfBalanceItem",
         "display_name": "Bracers of Balance",
         "description": "The wearer of these bracers gets a +5 bonus to CMD and a +5 bonus to CMB. If the wearer was knocked prone, the wearer makes a Fortitude saving throw (DC 23), on a successful save the wearer is no longer prone.",
-        "cost": 35000,
+        "cost": 42000,
         "id": "f96e68cd34d9f6340ad6a49e0477fce7",
         "enchant": [
             {
@@ -518,6 +583,27 @@
                     "Add stat bonus 5 to AdditionalCMD (descriptor: UntypedStackable)"
                 ]
             }
+        ]
+    },
+    {
+        "name": "BracersOfBreachingItem",
+        "display_name": "Bracers of Breaching",
+        "description": "Whenever the wearer of these bracers confirms a critical hit, the enemy must pass a Fortitude saving throw (DC 23) or become vulnerable to piercing damage for 2 rounds.",
+        "cost": 32000,
+        "id": "50090b2a1f057374cb7e4fbfd36a6297",
+        "enchant": [
+            {
+                "name": "BracersOfBreachingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "436d0fdaf05ca644e8198a3519f51487",
+                "effect": [
+                    "Add feature BracersOfBreachingFeature"
+                ]
+            }
+        ],
+        "area": [
+            "IvorySanctum, PF2_Demons_Cylinder"
         ]
     },
     {
@@ -542,7 +628,7 @@
         "name": "BracersOfDominanceItem",
         "display_name": "Bracers of Dominance",
         "description": "Whenever the wearer of these bracers confirms a critical hit with a two-handed weapon, the enemy must pass a Will saving throw (DC 24) or become unable to attack for 1 round.",
-        "cost": 27000,
+        "cost": 30000,
         "id": "da180e4a586cc6643bc4e23e1d1682c1",
         "enchant": [
             {
@@ -570,7 +656,7 @@
         "name": "BracersOfEldritchScholarItem",
         "display_name": "Bracers of Eldritch Scholar",
         "description": "These +6 bracers of armor grant a +5 competence bonus on Knowledge (Arcana) and Use Magic Device skill checks.",
-        "cost": 37000,
+        "cost": 38000,
         "id": "c08a6bfecf66b3341828b7d454077c6e",
         "enchant": [
             {
@@ -609,7 +695,7 @@
         "name": "BracersOfHarmfulConversionItem",
         "display_name": "Bracers of Harmful Conversion",
         "description": "Whenever the wearer of these bracers confirms a critical hit, the enemy must pass a Fortitude saving throw (DC 29) or suffer from a random condition from the following list and become immune to another random condition from the same list for 2 rounds.\nThe condition list is",
-        "cost": 35000,
+        "cost": 40000,
         "id": "a5a2a62650274fc4fb616469f4a25670",
         "enchant": [
             {
@@ -621,13 +707,17 @@
                     "Add feature BracersOfHarmfulConversionFeature"
                 ]
             }
+        ],
+        "unit": [
+            "FulsomeQueen, CutsceneNeutrals",
+            "FulsomeQueen_Vision, Civilians"
         ]
     },
     {
         "name": "BracersOfHeavyHandItem",
         "display_name": "Bracers of Heavy Hand",
-        "description": "These bracers grant the wearer a +3 bonus on damage rolls with the off-hand weapon when dual wielding or wielding two-handed melee weapon.",
-        "cost": 14900,
+        "description": "These bracers grant the wearer a +3 bonus on damage rolls with the off-hand weapon when dual wielding or wielding two-handed melee weapon (for example, a double weapon).",
+        "cost": 28000,
         "id": "354a5656d0e75b847a42108cd587dbab",
         "enchant": [
             {
@@ -653,7 +743,7 @@
         "name": "BracersOfMindBreakItem",
         "display_name": "Bracers of Mind Break",
         "description": "These bracers of armor +4 increase the save DC against all Enchantment school spells they cast by 2.",
-        "cost": 35000,
+        "cost": 43000,
         "id": "b474319876ac44f46a934d640bbe52a0",
         "enchant": [
             {
@@ -672,6 +762,46 @@
                 "id": "939bc65002a19b944862633446a17293",
                 "effect": [
                     "Add feature BracersOfMindBreakFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Mielara, CutsceneNeutrals",
+            "WizardArcaneBomberAlchemist, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "BracersOfOverwhelmingVigorItem",
+        "display_name": "Bracers of Overwhelming Vigor",
+        "description": "Whenever the wearer of these bracers lands a hit while having full hit points, the enemy must pass a Fortitude saving throw (DC 28) or be knocked prone for 2 rounds.",
+        "cost": 39000,
+        "id": "3ef2c9ea26cd01f419ae4afc5a44a632",
+        "enchant": [
+            {
+                "name": "BracersOfOverwhelmingVigorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e79de42c06432874d81554d4604fac18",
+                "effect": [
+                    "Add feature BracersOfOverwhelmingVigorFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BracersOfRoughLandingItem",
+        "display_name": "Bracers of Rough Landing",
+        "description": "These bracers grant their wearer a +2 competence bonus to AC, attack and damage rolls against flying enemies.",
+        "cost": 16200,
+        "id": "c7f2133ed2a154d4983cca2a82f73641",
+        "enchant": [
+            {
+                "name": "BracersOfRoughLandingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3a6d4f95d5f00104591b998af20d6af9",
+                "effect": [
+                    "Add feature BracersOfRoughLandingFeature"
                 ]
             }
         ]
@@ -701,6 +831,54 @@
                     "Add stat bonus 3 to SkillKnowledgeArcana (descriptor: Competence)"
                 ]
             }
+        ],
+        "unit": [
+            "MC_Elf_F_Sorcerer_AzataUnit, Player",
+            "MC_Elf_F_Sorcerer_DefendersHeart, Player",
+            "MC_Elf_F_Sorcerer_Drezen, Player",
+            "MC_Elf_F_Sorcerer_GrayGarrison, Player",
+            "MC_Elf_F_Sorcerer_IvorySanctum, Player",
+            "MC_Elf_F_Sorcerer_Kenabresburning, Player",
+            "MC_Elf_F_Sorcerer_LichUnit, Player",
+            "MC_Elf_F_Sorcerer_LostChapel, Player",
+            "MC_Elf_F_Sorcerer_Warcamp, Player",
+            "MC_Elf_F_Sorcerer_base, Player"
+        ]
+    },
+    {
+        "name": "ChaosScourgeItem",
+        "display_name": "Chaos Scourge",
+        "description": "The wearer of these bracers of armor +8 automatically confirms critical hits against chaotic enemies. In addition, whenever the wearer of these bracers confirms a critical hit against chaotic enemy, the enemy suffers a -2 penalty to AC and all saving throws for 3 rounds.",
+        "cost": 78000,
+        "id": "d7ac91cca37741c4bc743ad658498bb0",
+        "enchant": [
+            {
+                "name": "ChaosScourgeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ca7a2fc5cc38437e8d5bddb9ec3ccbd3",
+                "effect": [
+                    "Add feature ChaosScourgeFeature"
+                ]
+            },
+            {
+                "name": "ArmorBonus8",
+                "display_name": "",
+                "description": "",
+                "id": "eff702c8c75385e409de56c32b81c48b",
+                "effect": [
+                    "Add stat bonus 8 to AC (descriptor: Armor)"
+                ]
+            },
+            {
+                "name": "IncorporealACEquipment8",
+                "display_name": "",
+                "description": "",
+                "id": "3c01fdc61d0564f46a994098af5df186",
+                "effect": [
+                    "Add feature IncorporealACFeature8"
+                ]
+            }
         ]
     },
     {
@@ -714,7 +892,7 @@
         "name": "ClearPurposeItem",
         "display_name": "Clear Purpose",
         "description": "These bracers allow their wearer to cast healing spells without provoking attacks of opportunity. They also grant a +2 bonus on Concentration checks.",
-        "cost": 4500,
+        "cost": 18000,
         "id": "8b6f51c26b16baa48aeb22c9f145f57f",
         "enchant": [
             {
@@ -732,13 +910,24 @@
         ]
     },
     {
+        "name": "EnergyBlastBracersItem",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "5024e734e4308a34e8b1fb328be914c3"
+    },
+    {
         "name": "EngravedBracelet",
         "display_name": "Engraved Bracelet",
         "description": "",
         "cost": 120,
         "id": "a78b976c8e356b34a9f2d84e42d8c918",
         "area": [
+            "SarkorianWedding, Barbarians_Loot_1",
+            "SilkShadowLair, Forest_Loot",
             "AlushinyrraHigherCity, PF2_CoolDemons_HiddenUnlockedPoor1",
+            "Iz, PF2_CoolDemons_Loot16Chest (1)",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_pot_01 (5)_loot_object",
             "IvorySanctum, PF2_Demons_PoorLootChest1#1",
             "IvorySanctum, PF2_Demons_PoorLootChest3#1",
             "MidnightFane, PF2_Demons_PoorLoot_8",
@@ -807,10 +996,92 @@
         ]
     },
     {
+        "name": "LegendaryBracersItem",
+        "display_name": "Legendary Bracers",
+        "description": "These bracers grant their wearer a +5 deflection bonus to AC, a +5 natural armor enhancement bonus to AC, a +5 resistance bonus on all saving throws, and a +6 enhancement bonuses to all ability scores. It can only be equipped by the player character.",
+        "cost": 350000,
+        "id": "3dec5ad0800c41b2aff99cdeceabf00a",
+        "enchant": [
+            {
+                "name": "Deflection5",
+                "display_name": "",
+                "description": "",
+                "id": "d86770714ac85d64793b264f755b1764",
+                "effect": [
+                    "Add stat bonus 5 to AC (descriptor: Deflection)"
+                ]
+            },
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence6",
+                "display_name": "",
+                "description": "",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
+                "effect": [
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom6",
+                "display_name": "",
+                "description": "",
+                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "effect": [
+                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "enhance": "5"
+    },
+    {
         "name": "NegotiatorsBracersItem",
         "display_name": "Negotiator's Bracers",
         "description": "These bracers grant its wearer a +4 bonus on saving throws against mind-affecting conditions and a +10 competence bonus on Persuasion skill checks when used for diplomacy.",
-        "cost": 28000,
+        "cost": 38700,
         "id": "29b80b39517c0b84ebfd963abad5433e",
         "enchant": [
             {
@@ -826,6 +1097,57 @@
         ],
         "area": [
             "DevastatorLair, PF2_DemonWorld_GoodLoot - NegotiatorsBracersItem"
+        ]
+    },
+    {
+        "name": "PhantomSlayersBracersItem",
+        "display_name": "Phantom Slayer's Bracers",
+        "description": "Whenever the wearer of these bracers hits their Studied Target for the first time, the enemy must pass a Fortitude saving throw (DC 24) or become blinded for 3 rounds.",
+        "cost": 27000,
+        "id": "142fb54550dd04947a6593adafe053e8",
+        "enchant": [
+            {
+                "name": "PhantomSlayersBracersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "945236e147d163e458717c60c801eca7",
+                "effect": [
+                    "Add feature PhantomSlayersBracersFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "BlackFireAdeptVampire, Mobs"
+        ],
+        "area": [
+            "IvorySanctum, PF2_Demons_VampireLoot"
+        ]
+    },
+    {
+        "name": "PlayersPhylacteryBracersItem",
+        "display_name": "Your Phylactery",
+        "description": "This item grants its wearer Deadly Magic ability. If the wearer already has Deadly Magic, it grants them two additional uses. In addition, once per day, whenever the wearer's health falls below 0, it is restored to a maximum. Can only be equipped by a Lich.",
+        "cost": 100000,
+        "id": "c903f7c0f0a7437dae32ce25d7c10a9e",
+        "enchant": [
+            {
+                "name": "ArmorBonus5",
+                "display_name": "",
+                "description": "",
+                "id": "25ea4926377d23b48bf6f225e8a831a3",
+                "effect": [
+                    "Add stat bonus 5 to AC (descriptor: Armor)"
+                ]
+            },
+            {
+                "name": "PlayersPhylacteryEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b3ec7d3700324a7181ec5f327665f5de",
+                "effect": [
+                    "Add feature PlayersPhylacteryFeature"
+                ]
+            }
         ]
     },
     {
@@ -870,8 +1192,8 @@
     {
         "name": "RepellingBracersItem",
         "display_name": "Repelling Bracers",
-        "description": "The wearer of this bracers is under constant protection from anyone who is getting too touchy. They get a +4 bonus to AC against touch attacks, but also suffers a -4 penalty on their own touch attack rolls. If an enemy gets within a 5 feet radius from the wearer, they must pass a Will saving throw (DC 21) to push the enemy 5 feet away, or become afraid for one round.",
-        "cost": 50000,
+        "description": "The wearer of this bracers is under constant protection from anyone who is getting too touchy. They get a +4 bonus to AC against touch attacks, but also suffers a -4 penalty on their own touch attack rolls. If an enemy gets within a 5 feet radius from the wearer, they must pass a Will saving throw (DC 21) to push the enemy 5 feet away, or become frightened for one round.",
+        "cost": 47000,
         "id": "7932e66d4eaa7ff43a4f8bae6bab13ff",
         "enchant": [
             {
@@ -881,6 +1203,24 @@
                 "id": "49aff3a4d41ffd94288104207296901d",
                 "effect": [
                     "Add feature RepellingBracersFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RighteousExorcistsBracersItem",
+        "display_name": "Righteous Exorcist's Bracers",
+        "description": "These bracers grant their wearer a +1 morale bonus on damage rolls against demons.",
+        "cost": 1500,
+        "id": "d68cea6c999eab4459c030c6588c1083",
+        "enchant": [
+            {
+                "name": "RighteousExorcistsBracersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c86e977ac692af1408e88c3626cbf8da",
+                "effect": [
+                    "Add feature RighteousExorcistsBracersFeature"
                 ]
             }
         ]
@@ -922,10 +1262,45 @@
         ]
     },
     {
+        "name": "Set2_Bracers",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "ba8fd2a707644a54a07c8c54be6276ea"
+    },
+    {
+        "name": "Set3_Bracers",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "0c3dacfec6354a1ba200603ebb059a7b"
+    },
+    {
+        "name": "StormlordsResolveItem",
+        "display_name": "Stormlord's Resolve",
+        "description": "If the wearer of these bracers has the ability to cast spells spontaneously, it grants them the ability to cast the following spells",
+        "cost": 37000,
+        "id": "28c18f4bdd1321e41aa96dad4732336a",
+        "enchant": [
+            {
+                "name": "StormlordsResolveEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5b4757baddb724e46aaf58b79581c710",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "area": [
+            "KohhDungeon, Forest_WarehouseLoot (1)"
+        ]
+    },
+    {
         "name": "VeteranMarksmansBracersItem",
         "display_name": "Veteran Marksman's Bracers",
         "description": "Whenever the wearer of these bracers lands a hit with a ranged weapon on an enemy who is prone, stunned or staggered, the enemy must pass a Fortitude saving throw (DC 23) or its current condition is prolonged for 1 round.",
-        "cost": 22000,
+        "cost": 33000,
         "id": "ddc7f55ecbc1b6d45a0dd1840217e07c",
         "enchant": [
             {

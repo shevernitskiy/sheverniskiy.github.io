@@ -1,10 +1,28 @@
 [
     {
+        "name": "AngelFlowerCrownItem",
+        "display_name": "Angelbloom Crown",
+        "description": "This headband allows its wearer to cast Archon's Aura as a 20th level cleric three times per day.",
+        "cost": 15000,
+        "id": "23b5ec958ec340eba7fb1dd18048ff82"
+    },
+    {
         "name": "Artifact_DemonicHelmetItem",
-        "display_name": "The Helmet of the Pale wallflower",
-        "description": "This helmet is imbued with demonic powers. The wearer can equip any items restricted to the creatures with Evil alignment. Spell that damage Good or Lawful creatures don't work on the wearer, as they are considered Chaotic Evil. The wearer gets a +4 profane bonus to Strength and a +2 profane bonus to AC.",
+        "display_name": "Shy Lily's Helmet",
+        "description": "This helmet is imbued with demonic powers. The wearer gets a +4 profane bonus to Strength and a +2 profane bonus to AC.",
         "cost": 30000,
-        "id": "6a82043ec92815f4388f6237061d100f"
+        "id": "6a82043ec92815f4388f6237061d100f",
+        "enchant": [
+            {
+                "name": "Artifact_DemonicHelmetEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "55c633ac6777427e9fc8cff956eba091",
+                "effect": [
+                    "Add feature Artifact_DemonicHelmetFeature"
+                ]
+            }
+        ]
     },
     {
         "name": "BandOfStalwartWarriorsLuck",
@@ -62,9 +80,27 @@
         ]
     },
     {
+        "name": "BlackHatOfHandsomenessItem",
+        "display_name": "Black Hat of Handsomeness",
+        "description": "The wearer of this hat becomes too handsome for her own benefit. The hat grants its wearer a +2 enhancement bonus to Charisma. Bonuses of the same type usually don't stack.",
+        "cost": 4000,
+        "id": "4a1b9d61532e4d9298ddd8fcf01cfdd6",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "BlazingCrownItem",
         "display_name": "Blazing Crown",
-        "description": "Whenever the wearer of this headband of Charisma +4 hits 3 or more enemies with a single spell, they get 10 + 2 per enemy hit temporary hit points for 3 rounds.",
+        "description": "Whenever the wearer of this headband of Charisma +4 deals damage to an enemy through a spell, she gets 10 temporary hit points for 3 rounds. This effect can occur once per 5 rounds for each enemy.",
         "cost": 26000,
         "id": "c4ebdd7c0465d0441baa785d8ef9cb76",
         "enchant": [
@@ -76,6 +112,15 @@
                 "effect": [
                     "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
                 ]
+            },
+            {
+                "name": "BlazingCrownEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "66f6fe8776944f8198e22002827c1862",
+                "effect": [
+                    "Add feature BlazingCrownFeature"
+                ]
             }
         ],
         "area": [
@@ -86,7 +131,7 @@
         "name": "BlindingEnlightenmentItem",
         "display_name": "Blinding Enlightenment",
         "description": "Whenever the wearer of this headband of Intelligence +6 lands a hit against a new enemy for the first time, the enemy must pass a Fortitude saving throw (DC 30) or become dazzled for 3 rounds. If the enemy was under a movement-impairing condition, it becomes blinded instead.",
-        "cost": 73000,
+        "cost": 88000,
         "id": "1c1d9967719126d48bf2449d3eff6f80",
         "enchant": [
             {
@@ -116,6 +161,24 @@
         ]
     },
     {
+        "name": "BlueHatOfHandsomenessItem",
+        "display_name": "Blue Hat of Handsomeness",
+        "description": "The wearer of this hat becomes too handsome for her own benefit. The hat grants its wearer a +2 enhancement bonus to Charisma. Bonuses of the same type usually don't stack.",
+        "cost": 4000,
+        "id": "f7b5f76d09cd459f9a643d2bdddd98bd",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "BookwormsHeadbandItem",
         "display_name": "Bookworm's Headband",
         "description": "This headband grants its wearer a +2 enhancement bonus to Intelligence score and immunity to all compulsion effects. However, it also inflicts a -2 penalty to Charisma score and -3 penalty on all Persuasion checks.",
@@ -140,7 +203,7 @@
         "name": "CheerfulWarriorsHelmItem",
         "display_name": "Cheerful Warrior's Helm",
         "description": "Whenever an ally in a 15 feet radius of this helmet's wearer confirms a critical hit, this helm heals its wearer for 1d6 HP, and grants a +1 morale bonus to AC and attack rolls for one round.",
-        "cost": 62000,
+        "cost": 69000,
         "id": "63e3909df7242c24da96e080ba5456ef",
         "enchant": [
             {
@@ -152,6 +215,65 @@
                     "Add feature HelmOfStaticDischargeFeature"
                 ]
             }
+        ]
+    },
+    {
+        "name": "ClumsyHelmetItem",
+        "display_name": "Clumsy Helmet",
+        "description": "Allows you to feel yourself a green recruit.",
+        "cost": 4000,
+        "id": "a24096fcf3ed4cca9623676f9a6f8a48",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CommandantsTiaraItem",
+        "display_name": "Warden's Circlet",
+        "description": "This Headband of Mental Perfection +4 grants its wearer the ability to summon two Labyrinth Demodand Destroyers to fight on their side for 2 minutes twice per day.",
+        "cost": 130000,
+        "id": "d3ea3ccf434d47998dcbf8c662a62e4c",
+        "enchant": [
+            {
+                "name": "Wisdom4",
+                "display_name": "",
+                "description": "",
+                "id": "c3c2a133c0aa12240ade34762c146664",
+                "effect": [
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma4",
+                "display_name": "",
+                "description": "",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
+                "effect": [
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence4",
+                "display_name": "",
+                "description": "",
+                "id": "4a235cbdeebd2524681870153bab3cba",
+                "effect": [
+                    "Add stat bonus 4 to Intelligence (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Aponavicius_IvoryLabyrinth26, Mobs",
+            "Aponavicius_IvoryLabyrinth26_Scimitar, Mobs",
+            "Svendack22_WithTiara, Mobs"
         ]
     },
     {
@@ -198,7 +320,7 @@
     {
         "name": "CrushingPresenceItem",
         "display_name": "Crushing Presence",
-        "description": "This headband of charisma +6 grants the wearer an ability to push all enemies in a 15 feet area 10 feet away and suffer 1d8+CL bludgeoning damage. This ability can be used three times per day.",
+        "description": "This headband of charisma +6 grants the wearer an ability to push all enemies in a 15 feet area 10 feet away and suffer (1d8 + caster level) bludgeoning damage. This ability can be used three times per day.",
         "cost": 80000,
         "id": "835d2e861aef0dd4fb21df9700074edc",
         "enchant": [
@@ -217,6 +339,54 @@
         ]
     },
     {
+        "name": "DarknessCaressItem",
+        "display_name": "Darkness Caress",
+        "description": "This Headband of Perfection +8 allows its wearer to add their Charisma bonus to all damage dealt by ranged weapons.",
+        "cost": 320000,
+        "id": "39755fa97553462ca91a6109e5e1e393",
+        "enchant": [
+            {
+                "name": "DarknessCaressEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "76e24a70b39e4cf9947ecec1daae9b12",
+                "effect": [
+                    "Add feature DarknessCaressFeature"
+                ]
+            },
+            {
+                "name": "Wisdom8",
+                "display_name": "",
+                "description": "",
+                "id": "02a37956195faf645bb956f2e6c1ef57",
+                "effect": [
+                    "Add stat bonus 8 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence8",
+                "display_name": "",
+                "description": "",
+                "id": "bc66f5712a147874aaac6b397b83f874",
+                "effect": [
+                    "Add stat bonus 8 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma8",
+                "display_name": "",
+                "description": "",
+                "id": "7669e7a9af237314dbb2a22e78e1a0b4",
+                "effect": [
+                    "Add stat bonus 8 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "area": [
+            "ThresholdIndoor, PF2_DemonWorld_NoctaChamp"
+        ]
+    },
+    {
         "name": "DemonicResentmentItem",
         "display_name": "Demonic Resentment",
         "description": "Whenever the wearer of this helmet is under a rage effect, the rage's effect bonuses on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saving throws increase by 1.",
@@ -229,12 +399,79 @@
                 "description": "",
                 "id": "b9a1f3221435cd64b8a3c6cdfc780b0f",
                 "effect": [
-                    "Add feature HelmetOfWeakeningTortureFeature"
+                    "Add feature DemonicResentmentFeature"
                 ]
             }
         ],
         "area": [
             "IvorySanctum, PF2_Demons_Cylinder"
+        ]
+    },
+    {
+        "name": "DoublingAnnoyanceItem",
+        "display_name": "Doubling Annoyance",
+        "description": "Whenever the wearer of this headband of perfection +6 summons a Perpetually Annoyed Wizard, they actually summon two wizards instead of one. Can only be equipped by a player character.",
+        "cost": 133000,
+        "id": "63c9d4fc0810432aa6d85111d345aa84",
+        "enchant": [
+            {
+                "name": "DoublingAnnoyanceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8130290bce6742b4a827a7f380ed8429",
+                "effect": [
+                    "Add feature DoublingAnnoyanceFeature"
+                ]
+            },
+            {
+                "name": "Intelligence6",
+                "display_name": "",
+                "description": "",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
+                "effect": [
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom6",
+                "display_name": "",
+                "description": "",
+                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "effect": [
+                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DravensHatItem",
+        "display_name": "Draven's Hat",
+        "description": "This hat grants the wearer a +2 profane bonus to Intelligence score. Whenever they cast a slow or haste spell, it is quickened, as though using the Quicken Spell feat. Additionally, once per day this hat can make any spell quickened. This hat can only be worn by non-good characters.\nQuicken Spell",
+        "cost": 8000,
+        "id": "0160c8eabe704db41b6309af0d26a8e0",
+        "enchant": [
+            {
+                "name": "DravensHatEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b3894ce33c4c0ce4abf0dbcff0d6729f",
+                "effect": [
+                    "Add stat bonus 2 to Intelligence (descriptor: Profane)",
+                    "Add feature DravensHatFeature"
+                ]
+            }
+        ],
+        "area": [
+            "Daeran_Q2_HeavenDoorstep, RichHuman_GoodHidden"
         ]
     },
     {
@@ -321,6 +558,8 @@
             "GreyborTestLevel17, Player",
             "GreyborTestLevel18, Player",
             "GreyborTestLevel19, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel11, Player",
             "PlayerAzataRangerTestLevel12, Player",
             "PlayerAzataRangerTestLevel13, Player",
@@ -341,6 +580,36 @@
             "PlayerTricksterRangerTestLevel18, Player",
             "PlayerTricksterRangerTestLevel19, Player",
             "PlayerTricksterRangerTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "GnawingMagicItem",
+        "display_name": "Gnawing Magic",
+        "description": "Whenever the wearer of this Headband of Intelligence +6 casts a spell that affects the enemy, the wearer gains a +1 bonus to checks made to overcome spell resistance and the enemy suffers a -1 penalty on attack and damage rolls as well as all saving throws for 3 rounds.The effect stacks to a maximum of 4.",
+        "cost": 94000,
+        "id": "a86b5de9761e4b06bbd15516af2a255a",
+        "enchant": [
+            {
+                "name": "GnawingMagicEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "bf7d358dc2d949f48d2ed20999751bbf",
+                "effect": [
+                    "Add feature GnawingMagicFeature"
+                ]
+            },
+            {
+                "name": "Intelligence6",
+                "display_name": "",
+                "description": "",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
+                "effect": [
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "area": [
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_Loot_Real"
         ]
     },
     {
@@ -365,7 +634,7 @@
         "name": "GraveyardKeepersHelmetItem",
         "display_name": "Graveyard Keeper's Helmet",
         "description": "This helmet grants the wearer a +2 bonus to AC against undead creatures.",
-        "cost": 13000,
+        "cost": 12000,
         "id": "50aaf42c8b2d2ff488a46051da29980b",
         "enchant": [
             {
@@ -378,8 +647,34 @@
                 ]
             }
         ],
+        "unit": [
+            "MC_Human_M_Cavalier_DemonUnit, Player",
+            "MC_Human_M_Cavalier_Drezen, Player",
+            "MC_Human_M_Cavalier_IvorySanctum, Player",
+            "MC_Human_M_Cavalier_LostChapel, Player",
+            "MC_Human_M_Cavalier_TricksterUnit, Player",
+            "MC_Human_M_Cavalier_Warcamp, Player"
+        ],
         "area": [
             "DrezenCitadel_Level1, PF2_Crusaders_GraveyardKeepersHelmetItem"
+        ]
+    },
+    {
+        "name": "GreenHatOfHandsomenessItem",
+        "display_name": "Green Hat of Handsomeness",
+        "description": "The wearer of this hat becomes too handsome for her own benefit. The hat grants its wearer a +2 enhancement bonus to Charisma. Bonuses of the same type usually don't stack.",
+        "cost": 4000,
+        "id": "b5b647473e20487e8a2bd081267c5a83",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
         ]
     },
     {
@@ -398,6 +693,45 @@
                     "Add feature GrimHelmetFeature"
                 ]
             }
+        ]
+    },
+    {
+        "name": "HatOfHandsomenessItem",
+        "display_name": "",
+        "description": "The wearer of this hat becomes too handsome for her own benefit. The hat grants its wearer a +2 enhancement bonus to Charisma. Bonuses of the same type usually don't stack.",
+        "cost": 4000,
+        "id": "6438efb4a6214499bf99255aaacfabad",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HatOfHearteningSongItem",
+        "display_name": "Hat of Heartening Song",
+        "description": "Whenever the wearer of this hat uses any song, this song also grants fast healing 1 at level 1, fast healing 2 at level 5 and increasing by 1 point every 4 levels thereafter.",
+        "cost": 1500,
+        "id": "0f84e6afc9aed26469d3a00da7caa95f",
+        "enchant": [
+            {
+                "name": "HatOfHearteningSongEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b2a4026edb36a164984818fce4fdf6bc",
+                "effect": [
+                    "Add feature HatOfHearteningSongFeature"
+                ]
+            }
+        ],
+        "area": [
+            "Seelah_Q1_Warcamp, PF2_Forest_HatOfHearteningSongItem"
         ]
     },
     {
@@ -493,12 +827,12 @@
         "id": "0a64791fd9ad3d645aa80149b0144435",
         "enchant": [
             {
-                "name": "Wisdom6",
+                "name": "Intelligence6",
                 "display_name": "",
                 "description": "",
-                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
                 "effect": [
-                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
                 ]
             },
             {
@@ -510,13 +844,6 @@
                     "Add feature HeadbandOfReshapingFeature"
                 ]
             }
-        ],
-        "unit": [
-            "AlushinyrraCasterMiniboss, Mobs",
-            "AlushinyrraCasterMiniboss1, CutsceneNeutrals",
-            "AlushinyrraCasterMiniboss2, CutsceneNeutrals",
-            "AlushinyrraCasterMiniboss3, CutsceneNeutrals",
-            "NamedEliteDemonCaster, CutsceneNeutrals"
         ]
     },
     {
@@ -537,10 +864,10 @@
             }
         ],
         "unit": [
-            "CR15_MedusaSorcerer, Mobs",
-            "CR15_MedusaSorcererDivine, Mobs",
+            "Chivarro, CutsceneNeutrals",
             "Ciar, CutsceneNeutrals",
             "CiarUndead, CutsceneNeutrals",
+            "Ciar_InCapital, CutsceneNeutrals",
             "DaeranPregenTestLevel10, Player",
             "DaeranPregenTestLevel11, Player",
             "DaeranPregenTestLevel12, Player",
@@ -556,8 +883,6 @@
             "PlayerLichWizardTestLevel8, Player",
             "Pregen_Seelah_MVP, Player",
             "RegillQ2_KTC_Yaker, Friends",
-            "ScrollVendorOld_DH, CutsceneNeutrals",
-            "ScrollVendorYoung_DH, CutsceneNeutrals",
             "Theatre_Director, CutsceneNeutrals",
             "WarCamp_Quartermaster, CutsceneNeutrals",
             "YakerAnkelli_Hellknight, Friends",
@@ -591,6 +916,7 @@
             }
         ],
         "unit": [
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs",
             "DaeranPregenTestLevel13, Player",
             "DaeranPregenTestLevel14, Player",
             "DaeranPregenTestLevel16, Player",
@@ -604,6 +930,8 @@
             "HellknightsParaliktor_Gerren, Friends",
             "HellknightsParaliktor_Lerana, Friends",
             "Kestoglyr, Mobs",
+            "Locust_EmberEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
             "MidnightFane_DeskariPriestess, Mobs",
             "MythicLich_KTC_Septimus, Civilians",
             "PlayerAeonWizardTestLevel10, Player",
@@ -618,7 +946,11 @@
             "RegillQ2_KTC_ParaliktorGerren, Friends",
             "RegillQ2_KTC_ParaliktorLerana, Friends",
             "SarzaksisTranslatorTiefling, CutsceneNeutrals",
-            "StartGameSorcererPregenUnitLevel8, Player"
+            "SilkShadow, Neutrals",
+            "SilkShadowIllusion, Neutrals",
+            "SilkShadowNoLoot, Neutrals",
+            "StartGameSorcererPregenUnitLevel8, Player",
+            "Zacharius_SecondStage_Ch5, Mobs"
         ]
     },
     {
@@ -639,10 +971,16 @@
             }
         ],
         "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
             "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
             "DaeranPregenTestLevel17, Player",
+            "DemonLordDeskari, Mobs",
             "EmberTestLevel14, Player",
             "Eritrice, Friends",
+            "EritriceEnemy, Mobs",
+            "Galfrey_Companion, Player",
             "PlayerAeonWizardTestLevel14, Player",
             "PlayerLichWizardTestLevel14, Player",
             "QueenGalfrey, Neutrals",
@@ -651,14 +989,72 @@
             "QueenGalfrey_DH, Neutrals",
             "QueenGalfrey_DrezenCapital, Neutrals",
             "QueenGalfrey_LostChapel, Neutrals",
-            "TerendelevHuman, Neutrals"
+            "TerendelevHuman, Neutrals",
+            "TerendelevHuman_SilentCaster, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "HeadbandOfCharismaIntelligence2",
+        "display_name": "Headband of Mental Flow +2",
+        "description": "This headband grants its wearer +2 enhancement bonuses to Intelligence and Charisma ability scores. Bonuses of the same type usually don't stack.",
+        "cost": 8000,
+        "id": "add4fa27579a42efa1b58b4c3d2780de",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence2",
+                "display_name": "",
+                "description": "",
+                "id": "0f157adfc02708441b02725a24e8eb71",
+                "effect": [
+                    "Add stat bonus 2 to Intelligence (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "area": [
+            "DrezenCitadel_Level2, PF2_Demons_FakeBannerShowChest"
+        ]
+    },
+    {
+        "name": "HeadbandOfCharismaWisdom2",
+        "display_name": "Headband of Mental Form +2",
+        "description": "This headband grants its wearer +2 enhancement bonuses to Wisdom and Charisma ability scores. Bonuses of the same type usually don't stack.",
+        "cost": 8000,
+        "id": "7fd3f27a27c94e8aac9f55d9c2523c2d",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom2",
+                "display_name": "",
+                "description": "",
+                "id": "69f5c9eaa39301b4eb99a51f23629af4",
+                "effect": [
+                    "Add stat bonus 2 to Wisdom (descriptor: Enhancement)"
+                ]
+            }
         ]
     },
     {
         "name": "HeadbandOfConfidenceItem",
         "display_name": "Headband of Confidence",
         "description": "This headband grants its wearer a +4 enhancement bonus to Charisma and Wisdom. It also grants a +4 bonus on saving throws against mind-affecting conditions.",
-        "cost": 50000,
+        "cost": 68000,
         "id": "ee29287b36269ec468c2b38b1fde7551",
         "enchant": [
             {
@@ -728,13 +1124,26 @@
         "unit": [
             "ArueshalaeRedoubt_DamageFullCaster, Mobs",
             "ArueshalaeRedoubt_Summoner, Mobs",
-            "CR15_CambionAlchemist_Ranged, Mobs",
             "Chorussina_Miniboss_LuckyDices, Mobs",
             "Mutasafen, Mobs",
             "MutasafenAssistent, Mobs",
+            "MutasafenFourth_NoLoot, Mobs",
             "MutasafenSecond, Mobs",
             "MutasafenThird, Mobs",
-            "Mutasafen_MidnightFaneInThePast, Mobs"
+            "Mutasafen_MidnightFaneInThePast, Mobs",
+            "NamedEliteMercenaryCaster, Mobs",
+            "Torlek, Mobs",
+            "VellexiaFirstDate, CutsceneNeutrals",
+            "VellexiaSecondDate, CutsceneNeutrals",
+            "VellexiaShamiraConfrontationDate, CutsceneNeutrals",
+            "VellexiaThirdDate, CutsceneNeutrals",
+            "Vellexia_Default, CutsceneNeutrals",
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals"
+        ],
+        "area": [
+            "MidnightFane, PF2_Demons_PlayfulDarkness_AdditionalLoot_01",
+            "NamelessRuins, PF2_Forest_NamelessRuins_GoodLoot_2"
         ]
     },
     {
@@ -756,15 +1165,24 @@
         ],
         "unit": [
             "AlderpashLich25, CutsceneNeutrals",
+            "AlushinyrraCasterMiniboss, Mobs",
+            "AlushinyrraCasterMiniboss1, Mobs",
+            "AlushinyrraCasterMiniboss2, Mobs",
+            "AlushinyrraCasterMiniboss3, Mobs",
+            "Alushinyrra_Minagho, Mobs",
             "CR18_CambionToughCaster, Mobs",
-            "CR25_AreshkagalFullCasterBoss, Mobs",
+            "CR18_CambionToughCaster_RE, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
             "CambionSlaverLeader, Mobs",
-            "Centaur_F_bow_Boss, Mobs",
             "ColyphyrSalamanderMiniboss, Mobs",
             "GateGuard_HigherToMedium, CutsceneNeutrals",
+            "Mielara, CutsceneNeutrals",
             "PlayerWizardPregen, Player",
-            "Xantir_MidnightFaneInThePast, CutsceneNeutrals",
-            "Yozz, CutsceneNeutrals"
+            "PlayfulDarknessDeathsnatcher, Mobs",
+            "Xantir_MidnightFaneInThePast, CutsceneNeutrals"
+        ],
+        "area": [
+            "AreeluLab, PF2_MagicLaboratory_PoorLootLockpick"
         ]
     },
     {
@@ -785,8 +1203,10 @@
             }
         ],
         "unit": [
-            "Alichino, Friends",
             "DarekSunhammer, Neutrals",
+            "FinneanArmourer, CutsceneNeutrals",
+            "LiLura, CutsceneNeutrals",
+            "LiLura_Kenabres, CutsceneNeutrals",
             "NenioTestLevel14, Player",
             "Xantir, CutsceneNeutrals",
             "XantirWithoutSwarm_MidnightFaneInThePast, CutsceneNeutrals",
@@ -812,21 +1232,21 @@
                 ]
             },
             {
-                "name": "Intelligence2",
-                "display_name": "",
-                "description": "",
-                "id": "0f157adfc02708441b02725a24e8eb71",
-                "effect": [
-                    "Add stat bonus 2 to Intelligence (descriptor: Enhancement)"
-                ]
-            },
-            {
                 "name": "Wisdom2",
                 "display_name": "",
                 "description": "",
                 "id": "69f5c9eaa39301b4eb99a51f23629af4",
                 "effect": [
                     "Add stat bonus 2 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence2",
+                "display_name": "",
+                "description": "",
+                "id": "0f157adfc02708441b02725a24e8eb71",
+                "effect": [
+                    "Add stat bonus 2 to Intelligence (descriptor: Enhancement)"
                 ]
             }
         ]
@@ -867,11 +1287,16 @@
             }
         ],
         "unit": [
-            "CR22_AreshkagalMinotaurMiniBoss, Mobs",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
             "EmberTestLevel16, Player",
             "EmberTestLevel17, Player",
             "EmberTestLevel18, Player",
             "EmberTestLevel19, Player",
+            "Nocticula, CutsceneNeutrals",
+            "NocticulaInDress, CutsceneNeutrals",
+            "NocticulaLichCutscene, CutsceneNeutrals",
+            "Nocticula_AlushinyrraMythicDemon, CutsceneNeutrals",
+            "NocticulainDialog, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel15, Player",
             "PlayerAeonWizardTestLevel16, Player",
             "PlayerAeonWizardTestLevel17, Player",
@@ -881,7 +1306,8 @@
             "PlayerLichWizardTestLevel16, Player",
             "PlayerLichWizardTestLevel17, Player",
             "PlayerLichWizardTestLevel18, Player",
-            "PlayerLichWizardTestLevel19, Player"
+            "PlayerLichWizardTestLevel19, Player",
+            "VentureCaptainChristoff, CutsceneNeutrals"
         ]
     },
     {
@@ -920,8 +1346,11 @@
             }
         ],
         "unit": [
+            "Horzalah, CutsceneNeutrals",
             "Horzalah_GreyborQ2, Neutrals",
-            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction"
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "SW_GlabrezuBoss, Mobs",
+            "SW_GlabrezuBoss_phase2, Mobs"
         ]
     },
     {
@@ -960,6 +1389,15 @@
             }
         ],
         "unit": [
+            "Areelu, CutsceneNeutrals",
+            "AreeluDemonicForm, CutsceneNeutrals",
+            "AreeluHologram, CutsceneNeutrals",
+            "AreeluHumanHologram, CutsceneNeutrals",
+            "AreeluInThePast, CutsceneNeutrals",
+            "AreeluNoName, CutsceneNeutrals",
+            "Areelu_MidnightFaneInThePast, CutsceneNeutrals",
+            "Areelu_ShadowCopy, CutsceneNeutrals",
+            "Arilu_DrezenCitadelLevel2, CutsceneNeutrals",
             "DaeranPregenTestLevel18, Player",
             "DaeranPregenTestLevel19, Player",
             "DaeranPregenTestLevel20, Player",
@@ -973,7 +1411,7 @@
         "name": "HeadbandOfReshapingItem",
         "display_name": "Headband of Reshaping",
         "description": "This headband of Wisdom +6 grants its wearer a +1 CL on transmutation school spells.",
-        "cost": 71000,
+        "cost": 80000,
         "id": "6bacb006d1dbe4e4c9f6b53663067472",
         "enchant": [
             {
@@ -1009,7 +1447,7 @@
         "name": "HeadbandOfRigorousTrainingItem",
         "display_name": "Headband of Rigorous Training",
         "description": "This headband of Wisdom +6 allows its wearer to declare Perfect Strike five more times per day.",
-        "cost": 46000,
+        "cost": 90000,
         "id": "05915da42bbfc384b830b14d7116cbc7",
         "enchant": [
             {
@@ -1079,7 +1517,7 @@
         "name": "HeadbandOfSubjugatorItem",
         "display_name": "Headband of Subjugator",
         "description": "Whenever the wearer of this headband of Intelligence +6 lands a hit against a new enemy for the first time, the enemy must pass a Fortitude saving throw (DC 30) or become dazzled for 3 rounds. If the enemy was under a movement-impairing condition, it becomes blinded instead.",
-        "cost": 73000,
+        "cost": 88000,
         "id": "c1c47a8993bf0134bb2feac4ba0f03ea",
         "enchant": [
             {
@@ -1100,6 +1538,9 @@
                     "Add feature HeadbandOfSubjugatorFeature"
                 ]
             }
+        ],
+        "unit": [
+            "AlushynirraDemodandMiniboss, Mobs"
         ]
     },
     {
@@ -1120,15 +1561,22 @@
             }
         ],
         "unit": [
+            "AngryIncubusRanger, Mobs",
             "ArenaWizard_Curse, CutsceneNeutrals",
-            "CR12_Sarcorian_Druid_Caster, Mobs",
+            "CR12_Sarcorian_Druid_Caster_Male, Mobs",
+            "CR12_Sarcorian_Druid_Caster_Sweep_Male, Mobs",
             "CR15_CambionCleric_Caster, Mobs",
-            "CR15_MercenarySupportCaster, Mobs",
+            "CR15_CambionCleric_Caster_RE, Mobs",
+            "CR15_Mercenary_Oread_Caster_Male, Mobs",
+            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
+            "CrazyPrisoner1, Mobs",
+            "CrazyPrisoner2, Mobs",
+            "Kyado_ScrollVendorYoung_DH, CutsceneNeutrals",
             "PuluraFall_Eliandra, AngelTeam",
             "Regill_HellknightsVsGargoyles_GargoyleMiniboss, Mobs",
             "RobedDwarf, Friends",
-            "SailorSupportCaster, Neutrals",
-            "Sarcorian_Druid_Caster_Sweep, Mobs",
+            "SailorSupportCaster, CutsceneNeutrals",
+            "Shrine_Incubus_Melee, Mobs",
             "SosielTestLevel6, Player",
             "SosielTestLevel7, Player",
             "SosielTestLevel8, Player",
@@ -1136,6 +1584,8 @@
             "StauntonVane_Boss, Bosses",
             "StauntonVane_LostChapel, CutsceneNeutrals",
             "StauntonVane_Undead, Bosses",
+            "TraitorCrusaderSupport, Mobs",
+            "TraitorCrusaderSupportDemonCh3_Prisoner, CutsceneNeutrals",
             "WarCamp_ScrollVendorYoung, CutsceneNeutrals"
         ]
     },
@@ -1159,16 +1609,20 @@
         "unit": [
             "Anemora, Mobs",
             "Arsinoe, Neutrals",
-            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
             "LannTestLevel14, Player",
             "LannTestLevel15, Player",
+            "Locust_LannEnemy, CutsceneNeutrals",
             "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
             "SosielTestLevel10, Player",
             "SosielTestLevel11, Player",
             "SosielTestLevel12, Player",
             "SosielTestLevel13, Player",
             "Svendack22, Mobs",
             "UrgathoaPatrols_Cleric, NeutralGuards"
+        ],
+        "area": [
+            "IvorySanctum, PF2_Demons_PoorLootChest6"
         ]
     },
     {
@@ -1189,35 +1643,88 @@
             }
         ],
         "unit": [
-            "Chadali, Friends",
             "SosielTestLevel14, Player",
             "SosielTestLevel19, Player",
             "SosielTestLevel20, Player"
         ]
     },
     {
+        "name": "HeadbandOfWisdomIntelligence2",
+        "display_name": "Headband of Mental Might +2",
+        "description": "This headband grants its wearer +2 enhancement bonuses to Intelligence and Wisdom ability scores. Bonuses of the same type usually don't stack.",
+        "cost": 8000,
+        "id": "9c1556d4d32043ebb966cca934e49f1f",
+        "enchant": [
+            {
+                "name": "Wisdom2",
+                "display_name": "",
+                "description": "",
+                "id": "69f5c9eaa39301b4eb99a51f23629af4",
+                "effect": [
+                    "Add stat bonus 2 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence2",
+                "display_name": "",
+                "description": "",
+                "id": "0f157adfc02708441b02725a24e8eb71",
+                "effect": [
+                    "Add stat bonus 2 to Intelligence (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "HeadbandOfWiseNegotiatorItem",
-        "display_name": "",
-        "description": "",
+        "display_name": "Headband of Wise Negotiator",
+        "description": "This headband grants its wearer a +4 enhancement bonus to Charisma and Wisdom ability scores. It also grants a +4 bonus on saving throws against mind-affecting conditions.",
         "cost": 70000,
         "id": "7c1eadbabbfb8fb4cb6578d44c109469",
         "enchant": [
             {
-                "name": "Wisdom6",
+                "name": "Wisdom4",
                 "display_name": "",
                 "description": "",
-                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "id": "c3c2a133c0aa12240ade34762c146664",
                 "effect": [
-                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
                 ]
             },
             {
-                "name": "HeadbandOfRigorousTrainingEnchantment",
+                "name": "Charisma4",
                 "display_name": "",
                 "description": "",
-                "id": "299f71ea466049d47859699f41c1cc46",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
                 "effect": [
-                    "Add feature HeadbandOfRigorousTrainingFeature"
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "HeadbandOfWiseNegotiatorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e150ea0747ea41fcbeeb5dd183968a95",
+                "effect": [
+                    "Add feature HeadbandOfWiseNegotiatorFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HeadbuttersHelmItem",
+        "display_name": "Headbutter's Helm",
+        "description": "Whenever the wearer of this helm successfully charges an enemy, that enemy must pass a Reflex saving throw (DC 27) or suffer a -2 penalty to AC and attack rolls for 3 rounds.",
+        "cost": 73000,
+        "id": "b878cf5165c698440b5c942323ef97a5",
+        "enchant": [
+            {
+                "name": "HeadbuttersHelmEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b58b3ea3b9d2b244e8661de97b0162f8",
+                "effect": [
+                    "Add feature HeadbuttersHelmFeature"
                 ]
             }
         ]
@@ -1227,18 +1734,7 @@
         "display_name": "Hellknight Helmet",
         "description": "This is a black spiked helmet, commonly worn by the hellknights.",
         "cost": 1000,
-        "id": "8316642a5c3f61847a7359b709830e4b",
-        "enchant": [
-            {
-                "name": "TightHelmetEnchant",
-                "display_name": "",
-                "description": "",
-                "id": "2961d2ab2819c3e4f9044e732d82b7e1",
-                "effect": [
-                    "Add feature TightHelmetFeature"
-                ]
-            }
-        ]
+        "id": "8316642a5c3f61847a7359b709830e4b"
     },
     {
         "name": "HelmOfBattleAlertnessItem",
@@ -1259,17 +1755,52 @@
         ]
     },
     {
+        "name": "HelmOfDevotionItem",
+        "display_name": "Helm of Devotion",
+        "description": "Whenever the wearer of this helm suffers from negative energy or fire damage, for the next 3 rounds they gain a +2 morale bonus on attack and damage rolls, and their attacks are treated as good-aligned for the purpose of overcoming DR.",
+        "cost": 35000,
+        "id": "a48c2e5cecd2e9d409a1bdd270b58a04",
+        "enchant": [
+            {
+                "name": "HelmOfDevotionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "349eb7858a614014eb679fecb8b603ec",
+                "effect": [
+                    "Add feature HelmOfDevotionFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "HalDragon, CutsceneNeutrals"
+        ]
+    },
+    {
         "name": "HelmOfFearlessVanguardItem",
         "display_name": "Helm of Fearless Vanguard",
-        "description": "This helm makes all healing spells that target the wearer Empowered, as though using the Empower Spell feat.\nEmpower Spell",
+        "description": "Whenever the wearer of this helm receives healing, she also gains 5 temporary Hit Points for 1 round.",
         "cost": 66000,
-        "id": "1d1c33c50a4414d4db21c632eae60991"
+        "id": "1d1c33c50a4414d4db21c632eae60991",
+        "enchant": [
+            {
+                "name": "HelmOfFearlessVanguardEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1d9f34ceb5324655887579061279f766",
+                "effect": [
+                    "Add feature HelmOfFearlessVanguardFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Vavakia_Ruksa, CutsceneNeutrals"
+        ]
     },
     {
         "name": "HelmOfStaticDischargeItem",
         "display_name": "Helm of Static Discharge",
-        "description": "This helm grants its wearer a +5 competence bonus to CMD and +30 electricity resistance. Also, if the wearer of this helm is hit with an electric spell, his next attack deals additional 2d6 electricity damage.",
-        "cost": 31000,
+        "description": "This helm grants its wearer a +5 competence bonus to CMD and electricity resistance 30. Also, whenever the wearer of this helm becomes a target of a spell that deals electricity damage (even if such effect was prevented by spell or elemental resistance), his next attack deals additional 2d6 of electricity damage.",
+        "cost": 78000,
         "id": "7cae86e681e1ab0428a3ceef370d5951",
         "enchant": [
             {
@@ -1305,7 +1836,9 @@
         ],
         "unit": [
             "PlayerDemonMythicTestLevel20, Player",
-            "PlayerTestLevel20, Player"
+            "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player"
         ]
     },
     {
@@ -1350,6 +1883,7 @@
             "PlayerDemonMythicTestLevel19, Player",
             "PlayerTestLevel16, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTestLevel19, Player"
         ]
@@ -1444,6 +1978,9 @@
                     "Add stat bonus 2 to AC (descriptor: Insight)"
                 ]
             }
+        ],
+        "unit": [
+            "CR23_AnimatedArmor_1, Mobs"
         ]
     },
     {
@@ -1769,9 +2306,6 @@
                     "Add stat bonus 5 to SkillLoreNature (descriptor: Competence)"
                 ]
             }
-        ],
-        "unit": [
-            "Centaur_M_spear_Boss, Mobs"
         ]
     },
     {
@@ -1838,9 +2372,25 @@
         "cost": 600,
         "id": "35f2344d0c7b8e24a865dbc440adcdb5",
         "area": [
+            "KohhDungeon, Forest_WarehouseLoot",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_cabinet_01_loot_object",
             "Woljif_Q3_AbandonedMansion, PF2_CoolDemons_demon_rich_chest_03_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_8_HIdden",
             "ColyphyrDungeon, PF2_DemonWorld_Poor_4",
-            "MidnightFane, PF2_Demons_PoorLoot_8"
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot2_Poor",
+            "RaspingRifts, PF2_DemonWorld_human_cocoon_04 (7)_loot_object",
+            "MidnightFane, PF2_Demons_PoorLoot_8",
+            "Mineshaft14_Indoor, PF2_Sarkoris_Barrel (1)_loot_object"
+        ]
+    },
+    {
+        "name": "KillerHelm_easterEgg",
+        "display_name": "Helmet of the Abyss Killer",
+        "description": "According to legend, this helmet belonged to a mighty warrior who was doomed to endlessly slay hordes of demons. It doesn't seem to have any magic, but it looks formidable.",
+        "cost": 2016,
+        "id": "0034a132380641a0840ff684facbd476",
+        "area": [
+            "KohhDungeon, KillerHelm_EeasterEgg_loot_object"
         ]
     },
     {
@@ -1851,14 +2401,12 @@
         "id": "0865657a3c16182458dfe0e190f15998",
         "enchant": [
             {
-                "name": "KineticDiademGreaterEnchant",
+                "name": "KineticDiademGreaterEnchantNew",
                 "display_name": "",
                 "description": "",
-                "id": "6bd1237c65230cc4a8a1f1cc658f4473",
+                "id": "307dde7d230347b285b383eca0931c94",
                 "effect": [
-                    "Add feature KineticDiademFeatureNew",
-                    "Add feature KineticDiademFeatureNew",
-                    "Add feature KineticDiademFeatureNew"
+                    "Add feature KineticDiademFeatureNewGreater"
                 ]
             }
         ]
@@ -1871,18 +2419,17 @@
         "id": "cd6b1dda38c5b614cb428969770bb08d",
         "enchant": [
             {
-                "name": "KineticDiademEnchant",
+                "name": "KineticDiademEnchantNew",
                 "display_name": "",
                 "description": "",
-                "id": "5cf451bc1d6ed8d43b32dc12e3a79ef1",
+                "id": "4e6a1c6ae7c545bd8a83d3e6279d3d92",
                 "effect": [
-                    "Add feature KineticDiademFeatureNew",
-                    "Add feature KineticDiademFeatureNew"
+                    "Add feature KineticDiademFeatureNewNormal"
                 ]
             }
         ],
         "unit": [
-            "CR24_CambionMinibossCaster, Mobs"
+            "CambionMinibossKineticist, Mobs"
         ]
     },
     {
@@ -1901,6 +2448,9 @@
                     "Add feature KineticDiademFeatureNew"
                 ]
             }
+        ],
+        "unit": [
+            "Lair_CultistBoss, Mobs"
         ]
     },
     {
@@ -1969,7 +2519,7 @@
     {
         "name": "LensesOfProlonguedGazeItem",
         "display_name": "Lenses of Prolonged Gaze",
-        "description": "These lenses make it easier to keep an eye on someone. In the hands of powerful Aeon it results in 3 additional Enforcing Gazes per day.",
+        "description": "These lenses make it easier to keep an eye on someone. Worn by a powerful Aeon, they grant 3 additional uses of Enforcing Gaze per day.",
         "cost": 20000,
         "id": "335d50d92efde4f4e91747bfe3c06d6e",
         "enchant": [
@@ -2000,28 +2550,7 @@
                 "description": "",
                 "id": "e988cf802d403d941b2ed8b6016de68f",
                 "effect": [
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment"
+                    "Add feature PositiveChanneling2Feature"
                 ]
             },
             {
@@ -2030,17 +2559,7 @@
                 "description": "",
                 "id": "cb4a39044b59f5e47ad5bc08ff9d6669",
                 "effect": [
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment"
+                    "Add feature NegativeChanneling2Feature"
                 ]
             },
             {
@@ -2064,6 +2583,24 @@
         ]
     },
     {
+        "name": "MagnificentPlumeHatItem",
+        "display_name": "Magnificent Plume Hat",
+        "description": "This hat grants its wearer a +5 bonus to Maximum Hit Points.",
+        "cost": 1500,
+        "id": "3d6a088f897cf5c4f9e5eb49ceaeca34",
+        "enchant": [
+            {
+                "name": "MagnificentPlumeHatEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "99ddcf8cfb3dcd244b5a8bb4872e3f5e",
+                "effect": [
+                    "Add feature MagnificentPlumeHatFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "MarksmansHatItem",
         "display_name": "Marksman's Headset",
         "description": "This helmet grants its wearer a +5 competence bonus on Perception skill checks. When the wearer uses the Deadly Aim feat, it provides an additional +2 bonus to attack rolls.",
@@ -2077,6 +2614,94 @@
                 "id": "70df8e08c2c7f4a41ba6e6fc28849690",
                 "effect": [
                     "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MaskOfAreshkagalHeadband_IntermediateItem",
+        "display_name": "Face-Stealer's Mask",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 112500,
+        "id": "d119e9a42d03458e854f1e5369130cc2"
+    },
+    {
+        "name": "MaskOfAreshkagalHeadband_TabulaRasaItem",
+        "display_name": "Pristine Mind",
+        "description": "This Headband of Mental Perfection +4 allows its wearer to reroll 3 failed saving throws against death effects per day.",
+        "cost": 150000,
+        "id": "10c2f790c8644c0a880b2ee7c7d74676",
+        "enchant": [
+            {
+                "name": "Charisma4",
+                "display_name": "",
+                "description": "",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
+                "effect": [
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom4",
+                "display_name": "",
+                "description": "",
+                "id": "c3c2a133c0aa12240ade34762c146664",
+                "effect": [
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence4",
+                "display_name": "",
+                "description": "",
+                "id": "4a235cbdeebd2524681870153bab3cba",
+                "effect": [
+                    "Add stat bonus 4 to Intelligence (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MaskOfAreshkagalHeadband_VoidItem",
+        "display_name": "Victims' Madness",
+        "description": "",
+        "cost": 150000,
+        "id": "417c8c47cbf244ef8f4a1e52bf92493d",
+        "enchant": [
+            {
+                "name": "Charisma4",
+                "display_name": "",
+                "description": "",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
+                "effect": [
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom4",
+                "display_name": "",
+                "description": "",
+                "id": "c3c2a133c0aa12240ade34762c146664",
+                "effect": [
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence4",
+                "display_name": "",
+                "description": "",
+                "id": "4a235cbdeebd2524681870153bab3cba",
+                "effect": [
+                    "Add stat bonus 4 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "MaskOfAreshkagalHeadband_VoidEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0d75ead7dc7c4a6c8cbd220578e2234e",
+                "effect": [
+                    "Add feature MaskOfAreshkagalHeadband_VoidFeature"
                 ]
             }
         ]
@@ -2100,13 +2725,39 @@
         ]
     },
     {
+        "name": "MaskOfNothingItem",
+        "display_name": "Mask of Nothing",
+        "description": "This cursed mask grants its wearer a +20 insight bonus on all saving throws as well as a 50% miss chance as in total concealment which isn't revealed by true seeing. It also grants a +3 insight bonus on all Knowledge, Lore, Use Magic Device, Perception and Trickery skill checks. This mask doesn't work against Areshkagal's followers and its wearer suffers a -6 penalty on all saves and AC while in Areshkagal's domain. Can only be equipped by the player character.",
+        "cost": 36000,
+        "id": "8344b46a6e404227b72d129073383a6c",
+        "enchant": [
+            {
+                "name": "MaskOfNothingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9b1a572bd3c741c582f8d68e12798390",
+                "effect": [
+                    "Add feature MaskOfNothingFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "ObsidianMask",
         "display_name": "Obsidian Mask of the Champion",
-        "description": "",
-        "cost": 8000,
+        "description": "The wearer of this mask gets a +10 competence bonus on Intimidation and Mobility skill checks. In addition, whenever the wearer of this mask lands a killing blow, they gain temporary Hit Points equal to the killed enemy's Strength modifier for 5 rounds.",
+        "cost": 90000,
         "id": "480e7cf9961cce14eadce4bbaa84bddd",
-        "unit": [
-            "BlackMaskSlaveTrader, CutsceneNeutrals"
+        "enchant": [
+            {
+                "name": "ObsidianMaskEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2f2f0c4bb15146e9aef3940d2edc4252",
+                "effect": [
+                    "Add feature ObsidianMaskFeature"
+                ]
+            }
         ]
     },
     {
@@ -2128,6 +2779,60 @@
         ]
     },
     {
+        "name": "PerfectTiaraOfChannelingItem",
+        "display_name": "Perfect Tiara of Channeling",
+        "description": "This tiara grants its wearer a +8 enhancement bonus to all mental ability scores (Intelligence, Wisdom, and Charisma). In addition, If the wearer of this headband has the ability Channel Positive Energy, it increases the amount of damage this ability does to undead creatures or heals to living creatures by +2d6. And if the wearer of this headband has the ability Channel Negative Energy, it increases the amount of damage this ability does to living creatures or heals to undead creatures by +2d6.",
+        "cost": 280000,
+        "id": "7c177eb33d2446dbb579e133ba7cdb38",
+        "enchant": [
+            {
+                "name": "Intelligence8",
+                "display_name": "",
+                "description": "",
+                "id": "bc66f5712a147874aaac6b397b83f874",
+                "effect": [
+                    "Add stat bonus 8 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom8",
+                "display_name": "",
+                "description": "",
+                "id": "02a37956195faf645bb956f2e6c1ef57",
+                "effect": [
+                    "Add stat bonus 8 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma8",
+                "display_name": "",
+                "description": "",
+                "id": "7669e7a9af237314dbb2a22e78e1a0b4",
+                "effect": [
+                    "Add stat bonus 8 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "PositiveChanneling2",
+                "display_name": "",
+                "description": "",
+                "id": "e988cf802d403d941b2ed8b6016de68f",
+                "effect": [
+                    "Add feature PositiveChanneling2Feature"
+                ]
+            },
+            {
+                "name": "NegativeChanneling2",
+                "display_name": "",
+                "description": "",
+                "id": "cb4a39044b59f5e47ad5bc08ff9d6669",
+                "effect": [
+                    "Add feature NegativeChanneling2Feature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "PhylachetryOfNegativeChanneling",
         "display_name": "Phylactery of Negative Channeling",
         "description": "If the wearer of this headband has the ability Channel Negative Energy, it increases the amount of damage this ability does to living creatures or heals to undead creatures by +2d6.",
@@ -2140,17 +2845,7 @@
                 "description": "",
                 "id": "cb4a39044b59f5e47ad5bc08ff9d6669",
                 "effect": [
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment"
+                    "Add feature NegativeChanneling2Feature"
                 ]
             }
         ]
@@ -2168,17 +2863,7 @@
                 "description": "",
                 "id": "60f06749fa4729c49bc3eb2eb7e3b316",
                 "effect": [
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment"
+                    "Add feature NegativeChanneling1Feature"
                 ]
             }
         ]
@@ -2196,37 +2881,17 @@
                 "description": "",
                 "id": "e988cf802d403d941b2ed8b6016de68f",
                 "effect": [
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment"
+                    "Add feature PositiveChanneling2Feature"
                 ]
             }
         ],
         "unit": [
             "DaeranPregenTestLevel15, Player",
+            "Rathimus_ScrollVendorOld_DH, CutsceneNeutrals",
             "WarCamp_ScrollVendorOld, CutsceneNeutrals"
         ],
         "area": [
-            "WarCamp, PoorHuman_CrusaderCorpseLoot_good_5"
+            "NamelessRuins, PF2_Forest_NamelessRuins_GoodLoot_1"
         ]
     },
     {
@@ -2242,45 +2907,27 @@
                 "description": "",
                 "id": "f5d0bf8c1b4574848acb8d1fbb544807",
                 "effect": [
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment",
-                    "AddCasterLevelEquipment"
+                    "Add feature PositiveChanneling1Feature"
                 ]
             }
         ],
         "unit": [
             "Pregen_Cleric_MVP, Player"
+        ],
+        "area": [
+            "WarCamp, PoorHuman_CrusaderCorpseLoot_good_5"
         ]
     },
     {
         "name": "PortalStoneHeadband_IntermediateItem",
         "display_name": "Circlet of Ghostly Pathways",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 37500,
         "id": "34a3a092b7a90d5429898baeb78b29ed"
     },
     {
         "name": "PortalStonePlanarHeadbandItem",
-        "display_name": "Circlet of Ghostly Pathways",
+        "display_name": "Planar Navigator",
         "description": "This headband grants the wearer +2 enhancement bonus to Charisma ability score. Three times per day you can try to dominate outsiders, this creature has to pass Will saving throw (DC 22) or will be under dominating effect till the end of the fight. You also get a +1 insight bonus to AC against outsider creatures.",
         "cost": 50000,
         "id": "0ee3539546ad9d34a8d6e3f90b086efd",
@@ -2291,15 +2938,23 @@
                 "description": "",
                 "id": "208c79a9879d55b47ac5448697b599d0",
                 "effect": [
-                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)",
                     "ACBonusAgainstFactOwnerEquipment"
+                ]
+            },
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
                 ]
             }
         ]
     },
     {
         "name": "PortalStoneSpiderHeadbandItem",
-        "display_name": "Circlet of Ghostly Pathways",
+        "display_name": "Clemency of Shadows",
         "description": "This headband grants the wearer a +2 enhancement bonus to Intelligence. Each time they cast a spell on the enemy, it must pass a Reflex saving throw (DC 20) or be entangled in web for 1d4 rounds, trying to break free each round. This web also deals 1d6+3 bludgeoning damage each round. Effects don't stack.",
         "cost": 50000,
         "id": "881b1782496145a49a1d7747d2a7c11b",
@@ -2310,16 +2965,24 @@
                 "description": "",
                 "id": "f099f688ffca79144a89febf8ba96af2",
                 "effect": [
-                    "Add stat bonus 2 to Intelligence (descriptor: Enhancement)",
                     "Add feature PortalStoneSpiderHeadbandFeature"
+                ]
+            },
+            {
+                "name": "Intelligence2",
+                "display_name": "",
+                "description": "",
+                "id": "0f157adfc02708441b02725a24e8eb71",
+                "effect": [
+                    "Add stat bonus 2 to Intelligence (descriptor: Enhancement)"
                 ]
             }
         ]
     },
     {
         "name": "PortalStoneStanceHeadbandItem",
-        "display_name": "Circlet of Ghostly Pathways",
-        "description": "This headband grants the wearer +2 enhancement bonus to Wisdom. Whenever you summon any Elemental, you share a bond with your elemental, thus 50% of damage dealt with you is dealt to your elemental instead.",
+        "display_name": "Ancestral Retribution",
+        "description": "This headband grants the wearer +2 enhancement bonus to Wisdom. Whenever you summon any Elemental, it gains 50 additional Hit Points.",
         "cost": 50000,
         "id": "37f12d7427858f5428f4143402b81279",
         "enchant": [
@@ -2329,8 +2992,16 @@
                 "description": "",
                 "id": "9cc61eec735d30148a014ce482fd32c4",
                 "effect": [
-                    "Add stat bonus 2 to Wisdom (descriptor: Enhancement)",
                     "Add feature PortalStoneStanceHeadbandFeature"
+                ]
+            },
+            {
+                "name": "Wisdom2",
+                "display_name": "",
+                "description": "",
+                "id": "69f5c9eaa39301b4eb99a51f23629af4",
+                "effect": [
+                    "Add stat bonus 2 to Wisdom (descriptor: Enhancement)"
                 ]
             }
         ]
@@ -2373,6 +3044,42 @@
         ]
     },
     {
+        "name": "RedDragonHelmetItem",
+        "display_name": "Red Dragon Helmet",
+        "description": "This helmet grants its wearer fire resistance 10. Additionally, three times per day, the wearer can breathe out a blast of fire, dealing 3d4 fire damage in a 15-feet cone. Successful Reflex saving throw (DC 15) halves the damage.",
+        "cost": 2000,
+        "id": "e6b06daad1ed43cea2eb80f2eb93bfce",
+        "enchant": [
+            {
+                "name": "RedDragonHelmetEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1ca7f14f0d4f4777a5b4e2e42433619f",
+                "effect": [
+                    "Add feature RedDragonHelmetFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RedHatOfHandsomenessItem",
+        "display_name": "Red Hat of Handsomeness",
+        "description": "The wearer of this hat becomes too handsome for her own benefit. The hat grants its wearer a +2 enhancement bonus to Charisma. Bonuses of the same type usually don't stack.",
+        "cost": 4000,
+        "id": "a214c412c970429698004e6e880139d4",
+        "enchant": [
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "RogueCapItem",
         "display_name": "Swift Shadow",
         "description": "This circlet grants its wearer a +10 competence bonus on all Stealth checks and the effect of the rogue's fast stealth class ability.",
@@ -2391,7 +3098,6 @@
             }
         ],
         "unit": [
-            "GreyborNPC, Player",
             "GreyborNPCLevel10, Friends",
             "GreyborTestLevel10, Player",
             "GreyborTestLevel11, Player",
@@ -2419,6 +3125,104 @@
                     "Add feature RuggedHelmetFeature"
                 ]
             }
+        ],
+        "unit": [
+            "MC_Human_M_Cavalier_DefendersHeart, Player",
+            "MC_Human_M_Cavalier_GrayGarrison, Player",
+            "MC_Human_M_Cavalier_KenabresBurning , Player"
+        ]
+    },
+    {
+        "name": "Set1_Helm",
+        "display_name": "",
+        "description": "",
+        "cost": 8000,
+        "id": "20835a9437734620a048664f4bcb6794",
+        "enchant": [
+            {
+                "name": "CrownOfFearEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "7e752296e3e8cfc41a499a2f7d97749c",
+                "effect": [
+                    "Add feature CrownOfFearFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Set2_Hat",
+        "display_name": "",
+        "description": "",
+        "cost": 8000,
+        "id": "f07befbb57f64bbd9a8f5e253488b1ec",
+        "enchant": [
+            {
+                "name": "CrownOfFearEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "7e752296e3e8cfc41a499a2f7d97749c",
+                "effect": [
+                    "Add feature CrownOfFearFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Set3_Helm",
+        "display_name": "",
+        "description": "",
+        "cost": 8000,
+        "id": "9d4a6a78793c4c378553a5d1b7186364",
+        "enchant": [
+            {
+                "name": "CrownOfFearEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "7e752296e3e8cfc41a499a2f7d97749c",
+                "effect": [
+                    "Add feature CrownOfFearFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Set4_Helm",
+        "display_name": "",
+        "description": "",
+        "cost": 8000,
+        "id": "9c893109d2a74ff696b10f81ef9e191e",
+        "enchant": [
+            {
+                "name": "CrownOfFearEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "7e752296e3e8cfc41a499a2f7d97749c",
+                "effect": [
+                    "Add feature CrownOfFearFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShapeshiftersHelmItem",
+        "display_name": "Shapeshifter's Helm",
+        "description": "This helm grants its wearer a +2 bonus to AC while in Wild Shape. It also grants 1 additional use of Wild Shape per day, if the wearer has this class ability.",
+        "cost": 73000,
+        "id": "6b658e1f12d7a624ab4911873f78c694",
+        "enchant": [
+            {
+                "name": "ShapeshiftersHelmEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "03fd4efccdae270419c560549a97cfd0",
+                "effect": [
+                    "Add feature ShapeshiftersHelmFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "WintersunSiabrae, Mobs"
         ]
     },
     {
@@ -2440,7 +3244,34 @@
         ],
         "unit": [
             "LannTestLevel10, Player",
-            "LannTestLevel11, Player"
+            "LannTestLevel11, Player",
+            "MountTestCharacter_DwarfFemale, Player",
+            "MountTestCharacter_DwarfMale, Player",
+            "MountTestCharacter_ElfFemale, Player",
+            "MountTestCharacter_ElfMale, Player",
+            "MountTestCharacter_GnomeFemale, Player",
+            "MountTestCharacter_GnomeMale, Player",
+            "MountTestCharacter_HalfelfFemale, Player",
+            "MountTestCharacter_HalfelfMale, Player",
+            "MountTestCharacter_HalflingFemale, Player",
+            "MountTestCharacter_HalflingMale, Player",
+            "MountTestCharacter_HalforcFemale, Player",
+            "MountTestCharacter_HalforcMale, Player",
+            "MountTestCharacter_HumanFemale, Player",
+            "MountTestCharacter_OreadFemale, Player",
+            "MountTestCharacter_OreadFemale1, Player",
+            "MountTestCharacter_OreadFemale2, Player",
+            "MountTestCharacter_OreadFemale3, Player",
+            "MountTestCharacter_OreadFemale4, Player",
+            "MountTestCharacter_OreadFemale5, Player",
+            "MountTestCharacter_OreadFemale6, Player",
+            "MountTestCharacter_OreadFemale7, Player",
+            "MountTestCharacter_OreadFemale8, Player",
+            "MountTestCharacter_OreadMale, Player",
+            "PlayerClericPregen, Player",
+            "PlayerFemaleGoblinTestPregen, Player",
+            "PlayerWeaponTestPregen, Player",
+            "PlayerWizardPregen, Player"
         ]
     },
     {
@@ -2448,7 +3279,36 @@
         "display_name": "Steel Helm",
         "description": "",
         "cost": 100,
-        "id": "7bf221661e9c5bf4bb6269627d5abd92"
+        "id": "7bf221661e9c5bf4bb6269627d5abd92",
+        "unit": [
+            "MountTestCharacter_DwarfFemale, Player",
+            "MountTestCharacter_DwarfMale, Player",
+            "MountTestCharacter_ElfFemale, Player",
+            "MountTestCharacter_ElfMale, Player",
+            "MountTestCharacter_GnomeFemale, Player",
+            "MountTestCharacter_GnomeMale, Player",
+            "MountTestCharacter_HalfelfFemale, Player",
+            "MountTestCharacter_HalfelfMale, Player",
+            "MountTestCharacter_HalflingFemale, Player",
+            "MountTestCharacter_HalflingMale, Player",
+            "MountTestCharacter_HalforcFemale, Player",
+            "MountTestCharacter_HalforcMale, Player",
+            "MountTestCharacter_HumanFemale, Player",
+            "MountTestCharacter_OreadFemale, Player",
+            "MountTestCharacter_OreadFemale1, Player",
+            "MountTestCharacter_OreadFemale2, Player",
+            "MountTestCharacter_OreadFemale3, Player",
+            "MountTestCharacter_OreadFemale4, Player",
+            "MountTestCharacter_OreadFemale5, Player",
+            "MountTestCharacter_OreadFemale6, Player",
+            "MountTestCharacter_OreadFemale7, Player",
+            "MountTestCharacter_OreadFemale8, Player",
+            "MountTestCharacter_OreadMale, Player",
+            "PlayerClericPregen, Player",
+            "PlayerFemaleGoblinTestPregen, Player",
+            "PlayerWeaponTestPregen, Player",
+            "PlayerWizardPregen, Player"
+        ]
     },
     {
         "name": "SteelHelm_Hellknight",
@@ -2472,6 +3332,42 @@
             "RegillPregenLevel9, Player",
             "Regill_HellknightsCamp, Friends",
             "Regill_Level6, Player"
+        ]
+    },
+    {
+        "name": "StewardsHelmetItem",
+        "display_name": "The Steward of the Skein's defiled helmet",
+        "description": "This headband grants its wearer a +1 circumstance bonus on attack and damage rolls (to a maximum of 6) for every corpse and undead in a 30 feet radius around the wearer.",
+        "cost": 90000,
+        "id": "bc12035620054e8281ac281b71f17b23",
+        "enchant": [
+            {
+                "name": "StewardsHelmetEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "af0d48f8fbfc4c5c8b75b1c153887af3",
+                "effect": [
+                    "Add feature StewardsHelmetFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "StorytellerAreshkaMaskItem",
+        "display_name": "Mask of the Most Worthy",
+        "description": "This cursed mask grants its wearer a +20 insight bonus on all saving throws, DR 5\/-, fast healing 2 and a +10 insight bonus on concentration checks. This mask doesn't work against Areshkagal's followers and its wearer suffers a -6 penalty on all saves and AC while in Areshkagal's domain.",
+        "cost": 36000,
+        "id": "5fe3e581a46d43649eb53c20d19c5073",
+        "enchant": [
+            {
+                "name": "StorytellerAreshkaMaskEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3723b714c3494f8d82f6ade68626ca01",
+                "effect": [
+                    "Add feature StorytellerAreshkaMaskFeature"
+                ]
+            }
         ]
     },
     {
@@ -2501,6 +3397,28 @@
             }
         ],
         "enhance": "3"
+    },
+    {
+        "name": "SturdySnootItem",
+        "display_name": "Sturdy Snoot",
+        "description": "This headband grants its wearer a +12 competence bonus on Athletics and Mobility skill checks. If this headband is worn by an animal companion, it also grants a +3 dodge bonus to AC against ranged attacks.",
+        "cost": 85000,
+        "id": "a9e5104d5b9444a0a3198e1ed6118ba2",
+        "enchant": [
+            {
+                "name": "SturdySnootEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0b0490b20e3643bc8e44f3b3ba383c85",
+                "effect": [
+                    "Add feature SturdySnootFeatureMain"
+                ]
+            }
+        ],
+        "area": [
+            "DemonicCommando_Lair, Forest_GoodLoot#1",
+            "DemonicCommando_Lair, Forest_GoodLoot"
+        ]
     },
     {
         "name": "TheFirstCrown",
@@ -2562,6 +3480,9 @@
                     "Add feature TripleFinHelmetFeature"
                 ]
             }
+        ],
+        "area": [
+            "KohhDungeon, Forest_BrokenRoomLoot"
         ]
     },
     {
@@ -2623,5 +3544,84 @@
         "area": [
             "ArueshalaeRedoubt, PF2_OldCrusaders_Loot#1"
         ]
+    },
+    {
+        "name": "ZeorisDaggerHeadband_BetrayalItem",
+        "display_name": "Conthyr's Wisdom",
+        "description": "This headband grants its wearer +6 enhancement bonuses to Charisma and Intelligence ability scores. In addition, all party members of the wearer gain a +3 insight bonus on saving throws against confusion, insanity and domination spells.",
+        "cost": 150000,
+        "id": "23c2b6daf43d40afbd3ed2f25509a36d",
+        "enchant": [
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intelligence6",
+                "display_name": "",
+                "description": "",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
+                "effect": [
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ZeorisDaggerHeadband_BetrayalEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4a1609506eca4c26bcfd6afd6a590a9d",
+                "effect": [
+                    "Add feature ZeorisDaggerHeadband_BetrayalFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ZeorisDaggerHeadband_GoverningItem",
+        "display_name": "Zaoris's Beauty",
+        "description": "This headband grants its wearer +6 enhancement bonuses to Charisma and Wisdom ability scores. In addition, the wearer and all their allies in a 10 feet area gain the effects of the Shielded Caster, Allied Spellcaster and Shield Wall feats.",
+        "cost": 150000,
+        "id": "fc3a3c1b31a34a6dacf5dccac92e248c",
+        "enchant": [
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom6",
+                "display_name": "",
+                "description": "",
+                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "effect": [
+                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ZeorisDaggerHeadband_GoverningEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fe29f7cf83a7449282b7f97d541dc575",
+                "effect": [
+                    "Add feature ZeorisDaggerHeadband_GoverningFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ZeorisDaggerHeadband_IntermediateItem",
+        "display_name": "Zaoris's Tiara",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 112500,
+        "id": "51500154900d46ac9bd4d7ef758b3808"
     }
 ]

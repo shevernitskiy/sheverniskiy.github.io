@@ -25,7 +25,7 @@
         "name": "AllRoundDefenseItem",
         "display_name": "All-round defense",
         "description": "Whenever the wearer of this ring is 10 feet from the companion who wears the same ring, they both gain the effect of Back to Back feat. If they both already have the Back to Back feat, they gain an additional +2 bonus to AC.",
-        "cost": 40000,
+        "cost": 60000,
         "id": "1e40138a1fe478e408e65f7c1a4c0505",
         "enchant": [
             {
@@ -52,10 +52,16 @@
         "area": [
             "ArueshalaeRedoubt, Forest_Loot (5)",
             "ArueshalaeRedoubt, Forest_Loot (7)",
+            "BastionOfJustice, Forest_Loot1",
+            "TheIvoryLabyrinth, PF2_CoolDemons_PoorChest_3",
+            "DrezenCapital, PF2_Crusaders_Locust_TreshLoot_03",
             "EcorcheLair, PF2_Crusaders_Loot1",
             "RoguePaladin_SE2, PF2_Crusaders_market_place_chest_big_02_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_3_Locked",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_6",
             "Nexus, PF2_DemonWorld_PoorLoot05",
-            "IvorySanctum, PF2_Demons_PoorLootChest4#1",
+            "RaspingRifts, PF2_DemonWorld_human_cocoon_04 (7)_loot_object",
+            "DemonicAssaultSquad_Lair, PF2_Demons_GoodLoot",
             "DrezenCitadel_Level2, PF2_Demons_PoorLoot_Staunton",
             "MidnightFane, PF2_Demons_[Locked] PoorLoot_4",
             "MidnightFane, PF2_Demons_[Locked][Trapped] Nightmare",
@@ -63,6 +69,7 @@
             "GrayGarrison, PF2_GrayGarrison_Loot9",
             "WoundWormsLair, PF2_MagicLaboratory_TrashLoot_2",
             "Regill_HellknightsVsGargoyles, PF2_RichHuman_luxery_chest_02",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_luxery_chest_03_loot_object",
             "LostChapel, PoorHuman_PoorLoot20"
         ]
     },
@@ -104,25 +111,7 @@
                 "description": "",
                 "id": "192817abfa805044bbbd002a6bc687bb",
                 "effect": [
-                    "AddUnitFactEquipment"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Artifact_SpikedGauntletItem",
-        "display_name": "The Stern hand",
-        "description": "These spiked gauntlets grant the wearer's animal companion (as well as Azata's dragon or Lich's skeletal champion) a +6 bonus to Strength ability score. At the beginning of the battle, the creature must pass a Will saving throw (DC 17) or start attacking party members. If the initial saving throw is failed, the creature can make new saving throws each round to stop the effect.",
-        "cost": 8700,
-        "id": "3230a07e17594084f88e770480277de2",
-        "enchant": [
-            {
-                "name": "Artifact_SpikedGauntletEnchantment",
-                "display_name": "",
-                "description": "",
-                "id": "e3e9bf758c2f42b4fbacf3f711b58fa1",
-                "effect": [
-                    "AddUnitFactEquipment"
+                    "Add feature Artifact_RingOfSummonsFeature"
                 ]
             }
         ]
@@ -131,7 +120,7 @@
         "name": "AvengingRingItem",
         "display_name": "Avenging Ring",
         "description": "Whenever the wearer of this ring becomes a target of an attack of opportunity, the attacker suffers 1d8 force damage.",
-        "cost": 13900,
+        "cost": 30900,
         "id": "cf2c22ad1f75a704187b34580c39eff1",
         "enchant": [
             {
@@ -210,7 +199,7 @@
         "name": "BorealMightItem",
         "display_name": "Ring of Boreal Might",
         "description": "If the wearer of this ring has the ability to cast spells spontaneously, it grants them the ability to cast the following spells",
-        "cost": 55000,
+        "cost": 75000,
         "id": "a61c1d4b6f5ef6f4c853651e8df94c0c",
         "enchant": [
             {
@@ -226,8 +215,8 @@
     },
     {
         "name": "BrokenPhylacteryBodyRingItem",
-        "display_name": "Stevanius's Ring",
-        "description": "When your HP falls below 0, your HP is restored by the number of enemies that you have slain today, and the ring summons 1d4+2 undead skeletal champions around you.",
+        "display_name": "Bane of Flesh",
+        "description": "Once per day, whenever your HP falls below 0, your HP is restored by twice your character level, and the ring summons 1d4+2 undead skeletal champions around you for 2 minutes.",
         "cost": 31000,
         "id": "e99cdec7b56a0b4448e88d5326fe7921",
         "enchant": [
@@ -235,21 +224,24 @@
                 "name": "BrokenPhylacteryBodyRingEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "e37143e1ad523d7418da8bd698e42207"
+                "id": "e37143e1ad523d7418da8bd698e42207",
+                "effect": [
+                    "Add feature BrokenPhylacteryBodyRingFeature"
+                ]
             }
         ]
     },
     {
         "name": "BrokenPhylacteryRing_IntermediateItem",
-        "display_name": "Ring with the Phylactery of Stevanius the Rotten",
+        "display_name": "Stevanius's Ring",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 23250,
         "id": "71a2e8d978921184199c8d9ecd9e34be"
     },
     {
         "name": "BrokenPhylacterySoulRingItem",
-        "display_name": "Stevanius's Ring",
-        "description": "You bound a part of your soul to the ring. You gain a +4 bonus to saving throws against mind-affecting effects, emotions, confusion, fear, death, and compulsion effects, but a -2 penalty to poison, elemental, paralyzing and movement impairing effects. As a free action, you can lose HP equal to half your level to grant target creature a +2 bonus to attack rolls, and transform their weapon damage type into force, for 1 round.",
+        "display_name": "Bane of Spirit",
+        "description": "You bound a part of your soul to the ring. You gain a +4 bonus to saving throws against mind-affecting effects, emotions, confusion, fear, death, and compulsion effects, but a -2 penalty to saves against poison, elemental, paralyzing and movement impairing effects. As a free action, you can lose HP equal to half your level to grant target creature a +2 bonus to attack rolls, and transform their damage type into force, for 1 round.",
         "cost": 31000,
         "id": "29c12c43b02e5ad41895388d47bf4efb",
         "enchant": [
@@ -260,6 +252,24 @@
                 "id": "96504ec0d97a75c4f9c91e775723dc8a",
                 "effect": [
                     "Add feature BrokenPhylacterySoulRingFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CastersDreamItem",
+        "display_name": "Caster's Dream",
+        "description": "This ring grants its wearer 1 additional spell slot for the 8th and 1 additional spell slot for the 9th level spells (if the spells of these levels are available to them).",
+        "cost": 100000,
+        "id": "df6e44ea5e094ebc869b31c138ca1d1a",
+        "enchant": [
+            {
+                "name": "CastersDreamEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "54ca61d175714a048977d450b7a86d77",
+                "effect": [
+                    "AddUnitFactEquipment"
                 ]
             }
         ]
@@ -309,17 +319,27 @@
         "id": "caeb348840e1fd240a70971db14da63b",
         "area": [
             "UndeadSmilodonsLair, Forest_CrusaderLeatherRangerMaleCorpse_2",
+            "KohhDungeon, Forest_WarehouseLoot (3)",
+            "KohhDungeon, Forest_WarehouseLoot",
             "GibberingSwarm, NaturalCaves_CaravanLoot2_Good",
             "GibberingSwarm, NaturalCaves_CaravanLoot5",
             "GibberingSwarmCave, NaturalCaves_TrashLootCave01",
             "GibberingSwarmCave, NaturalCaves_TrashLootCave08",
             "AlushinyrraMediumCity, PF2_CoolDemons_HiddenLockedPoor1",
-            "StorytellerTower, PF2_CoolDemons_LootTrash1",
+            "TheIvoryLabyrinth, PF2_CoolDemons_LockedPoorChest_3",
+            "Iz, PF2_CoolDemons_Loot22Chest",
             "NULL, PF2_CoolDemons_PoorLoot02",
             "Arueshalae_Q2_DimalchioMansion, PF2_CoolDemons_demon_rich_chest_03 (1)_loot_object",
             "Woljif_Q2_CultistsRunaway, PF2_Crusaders_HideenBag",
             "HellknightsCamp, PF2_Crusaders_market_place_barrel_01 (1)",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_12",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_2",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_25",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_9_HIdden",
             "ColyphyrDungeon, PF2_DemonWorld_DimDoor",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot2_Poor",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot3_Poor",
+            "RaspingRifts, PF2_DemonWorld_human_cocoon_03 (2)_loot_object",
             "MidnightFane, PF2_Demons_LeatherMantleOfNightItem",
             "WintersunOutdoor, PF2_Forest_PoorLoot_13_HIdden",
             "WintersunOutdoor, PF2_Forest_PoorLoot_15_Locked_HIdden",
@@ -330,8 +350,10 @@
             "Prologue_Caves_1, PF2_NaturalCaves_StonePile",
             "ArueshalaeRedoubt, PF2_OldCrusaders_Loot (H)#1",
             "HorgusManor, PF2_RichHuman_PoorLoot11",
+            "HorgusManor, PF2_RichHuman_PoorLootNew01",
             "SuccubusLair, PF2_RichHuman_TrashLoot02",
             "ArueshalaeRedoubt, PF2_Sarkoris_JarunnicaLoot",
+            "Iz, PF2_Sarkoris_Loot5Chest",
             "LostChapel, PoorHuman_PoorLoot04",
             "LostChapel, PoorHuman_PoorLoot06",
             "LostChapel, PoorHuman_PoorLoot18"
@@ -341,7 +363,7 @@
         "name": "DaeranStartingRingItem",
         "display_name": "Arendae Family Ring",
         "description": "",
-        "cost": 400,
+        "cost": 4000,
         "id": "e0986c3e091b2a14a91d2257979b39b6",
         "unit": [
             "DaeranPregenTestLevel1, Player",
@@ -349,9 +371,10 @@
             "DaeranPregenTestLevel3, Player",
             "DaeranPregenTestLevel4, Player",
             "DaeranPregenTestLevel5, Player",
-            "Daeran_Companion, Player",
             "Daeran_NPC, NeutralGuards",
-            "Daeran_NPC_Level1, Neutrals"
+            "Daeran_NPC_Level1, Neutrals",
+            "Test_Random, Player",
+            "Test_Random1, Player"
         ]
     },
     {
@@ -376,7 +399,7 @@
         "name": "EarthUnleashedItem",
         "display_name": "Earth Unleashed",
         "description": "If the wearer of this ring has the ability to cast spells spontaneously, it grants them the ability to cast the following spells",
-        "cost": 21000,
+        "cost": 55000,
         "id": "d19469a2cbd65334e844b0adda9e561e",
         "enchant": [
             {
@@ -397,7 +420,7 @@
         "name": "ElementalProtectorItem",
         "display_name": "Elemental Protector",
         "description": "This ring grants the wearer acid resistance 30, fire resistance 20, electricity resistance 10, and cold resistance 5. It also grants a +4 bonus on saving throws against cold, a +3 bonus on saving throws against electricity, a +2 bonus on saving throws against fire, and a +1 bonus on saving throws against acid.",
-        "cost": 38000,
+        "cost": 60000,
         "id": "05bef2136b8766049830442a654a98ed",
         "enchant": [
             {
@@ -462,7 +485,7 @@
     {
         "name": "FlowOfWaterRingItem",
         "display_name": "Flow of Water",
-        "description": "This ring grants the wearer a +1 bonus on saving throws against spells with cold descriptor and adds +1 to the DC for all saving throws against spells with cold descriptor the wielder casts.",
+        "description": "This ring grants the wearer a +1 bonus on saving throws against spells with cold descriptor and adds +1 to the DC for all saving throws against spells with cold descriptor the wearer casts.",
         "cost": 1200,
         "id": "6ea390070285dca40868145c3dc83025",
         "enchant": [
@@ -481,15 +504,38 @@
         ]
     },
     {
+        "name": "FortunesSmileItem",
+        "display_name": "Fortune's Smile",
+        "description": "This ring grants its wearer a +2 luck bonus on all saving throws.",
+        "cost": 50000,
+        "id": "40df670db56c4f2f8eb5137f958d4273",
+        "enchant": [
+            {
+                "name": "FortunesSmileEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6926ff24da4f435ba6226866217dc03a",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
         "name": "GarnetEncrustedRing",
         "display_name": "Garnet Ring",
         "description": "",
         "cost": 200,
         "id": "489a7b81151c40541b8de88b0eaa6a77",
         "area": [
+            "BastionOfJustice, Forest_Loot1",
             "Seelah_Q3_JewelerHideout, PF2_CoolDemons_Loot_Secret",
+            "TheIvoryLabyrinth, PF2_CoolDemons_PoorChest_3",
+            "DrezenCapital, PF2_Crusaders_Locust_TreshLoot_03",
             "ArueshalaeRedoubt, PF2_Crusaders_Loot (9)",
-            "Nexus, PF2_DemonWorld_PoorLoot04",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_19",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot5_Poor",
+            "Iz, PF2_Sarkoris_Loot17Chest",
             "AlushinyrraLowerCity, RottenGuttingChest"
         ]
     },
@@ -508,10 +554,20 @@
         "id": "ba4276197d204314d9b4a69a4366b2a3",
         "area": [
             "ArueshalaeRedoubt, Forest_Loot (6)",
+            "KenabresGraveyard, Forest_LootChest (1)#2",
+            "BattleBliss, PF2_CoolDemons_LockpickLoot",
             "AlushinyrraHigherCity, PF2_CoolDemons_NotHiddenLockedPoor1",
+            "TheIvoryLabyrinth, PF2_CoolDemons_VrokHeap_Trash",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_rich_wardrobe_02 (10)_loot_object",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_rich_wardrobe_02 (11)_loot_object",
+            "ReturnToDrezen, PF2_Crusaders_CrusaderBreastplateMaleCorpse_9",
+            "DrezenCapital, PF2_Crusaders_LocustCh3_GoodLoot_Perception",
             "KenabresBurning, PF2_Crusaders_SecretBrick (1)",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_8",
             "ColyphyrDungeon, PF2_DemonWorld_ElementalProtectorItem (Kitchen, Hidden)",
             "Nexus, PF2_DemonWorld_PoorLoot05",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot1_vase (1)",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot4_Poor",
             "ColyphyrDungeon, PF2_DemonWorld_TrueTreasures#1",
             "Woljif_Q3_AbandonedMansion, PF2_DemonWorld_luxery_chest_03_loot_object",
             "MidnightFane, PF2_Demons_PoorLoot_12#1",
@@ -519,6 +575,7 @@
             "DrezenCitadel_Level2, PF2_Demons_luxery_vase_01",
             "WintersunOutdoor, PF2_Forest_PoorLoot_11_Locked",
             "GrayGarrison, PF2_GrayGarrison_Loot20",
+            "MutasafenLair, PF2_MagicLaboratory_market_place_box_01 (6)_loot_object",
             "LannWenduagQ1_Neathholm, PF2_NaturalCaves_TrashLoot05",
             "DrezenCitadel_Level1, PF2_OldCrusaders_CitySqareAreaChest01",
             "DrezenCitadel_Level2, PF2_RichHuman_Cube",
@@ -535,20 +592,45 @@
         "id": "45a5397ab34f60247906064949b710fc",
         "area": [
             "KenabresGraveyard, Forest_LootDoor",
+            "DragonsGraveyard, Forest_NormalLoot",
             "AlushinyrraHigherCity, PF2_CoolDemons_NotHiddenUnlockedPoor3",
+            "TheIvoryLabyrinth, PF2_CoolDemons_PoorChest_2",
+            "Iz, PF2_CoolDemons_human_pices_entrails_02_loot_object",
             "KenabresBurning, PF2_Crusaders_TrashBag2",
+            "ReturnToDrezen, PF2_Crusaders_market_place_box_01 (6)_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_14",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_7_HIdden",
             "Nexus, PF2_DemonWorld_PoorLoot09",
-            "IvorySanctum, PF2_Demons_PoorLootChest3#2",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot2_Poor",
             "ArueshalaeRedoubt, PF2_OldCrusaders_Loot#1",
             "Daeran_Q1_KenabresMansion, PF2_RichHuman_Good_Hall_Hidden",
+            "Iz, PF2_Sarkoris_Loot21Box",
             "Sosiel_Q2_EradikatorsMassacre, PF2_Worldwound_GoodLootHidden"
+        ]
+    },
+    {
+        "name": "HastingExpanseItem",
+        "display_name": "Hasting Expanse",
+        "description": "This ring grants its wearer +1 extra attack with the highest attack bonus when making full attack action, stackable with Haste and similar effects.",
+        "cost": 100000,
+        "id": "1b0f96cbe0ed45a291af406b3478e5e2",
+        "enchant": [
+            {
+                "name": "HastingExpanseEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ea0876f3f67c4170ba99bc429a2bfaa4",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
         ]
     },
     {
         "name": "HerbalRingItem",
         "display_name": "Herbal Ring",
         "description": "This ring grants its wearer a +4 morale bonus on saving throws against disease, nausea, and sickened effects.",
-        "cost": 4500,
+        "cost": 6500,
         "id": "75069b8c7bf012b4dbc409bc52b8ff8c",
         "enchant": [
             {
@@ -616,8 +698,8 @@
     {
         "name": "NahRingItem",
         "display_name": "Ring of Nahyndrian Courage",
-        "description": "",
-        "cost": 35000,
+        "description": "Whenever the wearer of this ring is being attacked with a ranged weapon, they gain a +2 morale bonus to AC, one extra attack of opportunity, and their speed is increased by 10 feet for 1 round.",
+        "cost": 66000,
         "id": "cffdc645ce1a80f42892f11af43eb0e7",
         "enchant": [
             {
@@ -626,7 +708,7 @@
                 "description": "",
                 "id": "b75b0deb18e903340a783f3bdb9b775a",
                 "effect": [
-                    "AddUnitFactEquipment"
+                    "Add feature NahRingFeature"
                 ]
             }
         ]
@@ -647,6 +729,9 @@
                     "AddUnitFactEquipment"
                 ]
             }
+        ],
+        "area": [
+            "IncubusBandLair, PF2_Sarkoris_human_pieces_corpse_03_loot_object"
         ]
     },
     {
@@ -677,7 +762,7 @@
     },
     {
         "name": "PortalStonePlanarRingItem",
-        "display_name": "Ring of Ghostly Pathways",
+        "display_name": "Planar Navigator",
         "description": "This ring improves its wearer's summoning abilities. All summon spells of 6th level and lower are maximized, as though using the Maximize Spell feat. The wearer also gains a +1 insight bonus to attack rolls against outsiders.\nMaximize Spell",
         "cost": 46000,
         "id": "031e6d000ff5b4849b84f15707a625ec",
@@ -697,31 +782,31 @@
         "name": "PortalStoneRing_IntermediateItem",
         "display_name": "Ring of Ghostly Pathways",
         "description": "This is an intermediate step of relic creation.",
-        "cost": null,
+        "cost": 34500,
         "id": "0ede86ea36324104d92aa1ae895363db"
     },
     {
         "name": "PortalStoneSpiderRingItem",
-        "display_name": "Ring of Ghostly Pathways",
+        "display_name": "Clemency of Shadows",
         "description": "You can activate this ring to create an almost transparent silver lining that connects all party members in a 30 feet area. While in this state you share an unbreakable bond, while under this effect all members get an additional attack of opportunity per round. If an attack of opportunity was a critical hit, the enemy is staggered. If one of the party members falls unconscious, a giant spider is summoned to fight alongside you for 3 rounds.",
         "cost": 46000,
         "id": "b2374fa6162e1f54c83b3f02af487a76",
         "enchant": [
             {
-                "name": "PortalStoneStanceRingEnchantment",
+                "name": "PortalStoneSpiderRingEnchantment",
                 "display_name": "",
                 "description": "",
-                "id": "974bbb4d766bf6a49a6f155c39f0455c",
+                "id": "354c7fe10fd61ce47ae196eb2222b042",
                 "effect": [
-                    "AddFactContextActions"
+                    "Add feature PortalStoneSpiderRingFeature"
                 ]
             }
         ]
     },
     {
         "name": "PortalStoneStanceRingItem",
-        "display_name": "Ring of Ghostly Pathways",
-        "description": "While wearing this ring, whenever the wearer is in a defensive stance and lands a first attack after activating this stance, the enemy is pushed 10 feet away and is knocked prone for 1 round.",
+        "display_name": "Ancestral Retribution",
+        "description": "While wearing this ring, whenever the wearer is fighting defensively and lands a first attack in this condition, the enemy is pushed 10 feet away and is knocked prone for 1 round.",
         "cost": 46000,
         "id": "0603e6ed25543054c995b516ad75de51",
         "enchant": [
@@ -731,9 +816,30 @@
                 "description": "",
                 "id": "974bbb4d766bf6a49a6f155c39f0455c",
                 "effect": [
-                    "AddFactContextActions"
+                    "Add feature PortalStoneStanceRingFeature"
                 ]
             }
+        ]
+    },
+    {
+        "name": "PrismaticRingItem",
+        "display_name": "Prismatic Ring",
+        "description": "This ring allows to cast an improved version of Prismatic Spray once per day as 17th level Wizard.\nThe wearer can recharge this ring by consuming spells for which the sum of their levels must be equivalent to at least 9.",
+        "cost": 30000,
+        "id": "851fbefced1106e4a86251ec5242f815",
+        "enchant": [
+            {
+                "name": "PrismaticRingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4d4f77040b34e2e4fb381e410e094c73",
+                "effect": [
+                    "Add feature PrismaticRingFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraLowerCity, PF2_Demons_PrismaticRingItem"
         ]
     },
     {
@@ -757,8 +863,8 @@
     {
         "name": "ProtectionOfColdItem",
         "display_name": "Icy Protector",
-        "description": "This ring grants the wearer cold resistance 10. If the wearer has the Iceplant hex, it also grants them +2 natural armor bonus.",
-        "cost": 8000,
+        "description": "This ring grants the wearer cold resistance 10. If the wearer has the Iceplant hex, it also grants them +2 natural armor bonus to AC.",
+        "cost": 9300,
         "id": "5cd01cf5ae523e9438690b70ba667825",
         "enchant": [
             {
@@ -777,7 +883,7 @@
         "name": "RavagerOfDreadRingItem",
         "display_name": "Ravager of Dread",
         "description": "This ring grants the wearer a +4 morale bonus against confusion and fear effects. If the wearer fails a saving throw against such effect, after the effect ends the wearer gets a +2 bonus on saving throws and +2 bonus on damage rolls until the end of the combat.",
-        "cost": 20000,
+        "cost": 28000,
         "id": "3d9c6db97f82b284b8aca0813a402b21",
         "enchant": [
             {
@@ -830,7 +936,7 @@
         "name": "RinfOfHintsItem",
         "display_name": "Ring of Hints",
         "description": "This ring grants the wearer a +5 competence bonus on Knowledge",
-        "cost": 14700,
+        "cost": 21000,
         "id": "4f98129ba5e3bc74c88390d29858877c",
         "enchant": [
             {
@@ -954,6 +1060,24 @@
                 "id": "c5eab6a019c175749bb62903e8c41590",
                 "effect": [
                     "Add feature RingOfBalanceLesserFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RingOfBardResourcefulnessItem",
+        "display_name": "Ring of Bardic Resourcefulness",
+        "description": "If the wearer of this ring has the bardic performance ability, it grants them an additional round of its use per day.",
+        "cost": 4500,
+        "id": "9086249bc25640eca486f26d142134d1",
+        "enchant": [
+            {
+                "name": "RingOfBardResourcefulnessEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4eff9691e58d4ed99edd8c2baa3e1f51",
+                "effect": [
+                    "Add feature RingOfBardResourcefulnessFeature"
                 ]
             }
         ]
@@ -1107,16 +1231,13 @@
                     "AddUnitFactEquipment"
                 ]
             }
-        ],
-        "unit": [
-            "OurTerritoryLeader, CutsceneNeutrals"
         ]
     },
     {
         "name": "RingOfDeadlySwingItem",
         "display_name": "Ring of Deadly Swing",
-        "description": "This ring grants the wearer a +5 competence bonus on Mobility checks and +2 competencce bonus on attack rolls with throwing axes, darts, and javelins.",
-        "cost": 19000,
+        "description": "This ring grants the wearer a +5 competence bonus on Mobility checks and +2 competence bonus on attack rolls with throwing axes, darts, and javelins.",
+        "cost": 25000,
         "id": "ed27fa4fb5206bf4ab6d251a3ce1126a",
         "enchant": [
             {
@@ -1135,10 +1256,28 @@
         ]
     },
     {
+        "name": "RingOfDecadenceItem",
+        "display_name": "Ring of Decadence",
+        "description": "Whenever the wearer of this ring deals damage to an enemy for the first time, the enemy suffers a -2 penalty on saving throws against hexes for 1 minute.",
+        "cost": 85000,
+        "id": "d5a677082d7b4483baddea4d11e6afc1",
+        "enchant": [
+            {
+                "name": "RingOfDecadenceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9155aad08d85468fb6f891ba4131835a",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
         "name": "RingOfDevastatingWillItem",
         "display_name": "Ring of Devastating Will",
         "description": "This ring of protection +3 grants the wearer an ability to avoid magical and unusual attacks with great willpower. If a character makes a successful Will saving throw against an attack that normally deals half damage on a successful save, instead they take no damage. A helpless character does not gain this benefit.",
-        "cost": 22000,
+        "cost": 28000,
         "id": "b96b86afe4cc1594fa7203e2318ae81f",
         "enchant": [
             {
@@ -1163,6 +1302,9 @@
         "unit": [
             "SeelahTestLevel14, Player",
             "SeelahTestLevel15, Player"
+        ],
+        "area": [
+            "KohhDungeon, Forest_WarehouseLoot"
         ]
     },
     {
@@ -1238,6 +1380,15 @@
             }
         ],
         "unit": [
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
+            "EchoOfDeskari_ForFight, Mobs",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "Melazmera, CutsceneNeutrals",
+            "Nocticula, CutsceneNeutrals",
+            "NocticulaInDress, CutsceneNeutrals",
+            "NocticulaLichCutscene, CutsceneNeutrals",
+            "Nocticula_AlushinyrraMythicDemon, CutsceneNeutrals",
+            "NocticulainDialog, CutsceneNeutrals",
             "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
             "PlayerDemonMythicTestLevel10, Player",
             "PlayerDemonMythicTestLevel11, Player",
@@ -1257,18 +1408,42 @@
             "PlayerTestLevel14, Player",
             "PlayerTestLevel16, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTestLevel19, Player",
             "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
             "PlayerTestLevel9, Player",
-            "StartGameSorcererPregenUnitLevel20, Player"
+            "SarzaksisSlaverTrader_Gibrileth, CutsceneNeutrals",
+            "Sevalros, Mobs",
+            "StartGameSorcererPregenUnitLevel20, Player",
+            "VentureCaptainChristoff, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "RingOfExtremeJukingItem",
+        "display_name": "Ring of Extreme Feints",
+        "description": "This ring of protection +4 grants its wearer the ability to get a +6 dodge bonus to AC against ranged attacks for 5 rounds once per day.",
+        "cost": 53000,
+        "id": "5fbd92212e9143508700e027edb26023",
+        "enchant": [
+            {
+                "name": "Deflection4",
+                "display_name": "",
+                "description": "",
+                "id": "be195c1cea964e745a198ddadecbaec5",
+                "effect": [
+                    "Add stat bonus 4 to AC (descriptor: Deflection)"
+                ]
+            }
         ]
     },
     {
         "name": "RingOfFirmTouchItem",
         "display_name": "Steady Finger",
         "description": "This is a ring of protection +2. It grants the wearer a +3 competence bonus on touch attack rolls.",
-        "cost": 10000,
+        "cost": 30000,
         "id": "5d78ed7cb768e94459a5aff99f7db20c",
         "enchant": [
             {
@@ -1298,7 +1473,7 @@
         "name": "RingOfGuidingStarItem",
         "display_name": "Ring of Guiding Star",
         "description": "This ring grants the wearer +4 bonus to Initiative rolls. Whenever the wearer lands a hit against an undamaged enemy, it grants all companions a +3 bonus on damage rolls for one round.",
-        "cost": 20000,
+        "cost": 36000,
         "id": "b1d2843bfc4edd44cb26e4c45375a406",
         "enchant": [
             {
@@ -1402,7 +1577,7 @@
         "name": "RingOfImminentDemiseItem",
         "display_name": "Ring of Imminent Demise",
         "description": "Whenever the wearer of this ring makes an attack of opportunity, the enemy must pass a Fortitude saving throw (DC 26) or be knocked down. The ring also grants a +2 competence bonus on attack and damage rolls with two-handed weapons.",
-        "cost": 37000,
+        "cost": 54000,
         "id": "ca597f248b511c2418dc5e9bfef55250",
         "enchant": [
             {
@@ -1485,7 +1660,25 @@
             }
         ],
         "unit": [
+            "AasimarRedMask, CutsceneNeutrals",
+            "AlushinyrraCasterMiniboss, Mobs",
+            "AlushinyrraCasterMiniboss1, Mobs",
+            "AlushinyrraCasterMiniboss2, Mobs",
+            "AlushinyrraCasterMiniboss3, Mobs",
+            "Alushinyrra_Minagho, Mobs",
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
+            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
+            "CR24_Areshkagal_MarilithBoss, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
+            "Chivarro, CutsceneNeutrals",
             "EmberTestLevel10, Player",
+            "Mielara, CutsceneNeutrals",
+            "Nocticula, CutsceneNeutrals",
+            "NocticulaInDress, CutsceneNeutrals",
+            "NocticulaLichCutscene, CutsceneNeutrals",
+            "Nocticula_AlushinyrraMythicDemon, CutsceneNeutrals",
+            "NocticulainDialog, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel10, Player",
             "PlayerLichWizardTestLevel10, Player",
             "StartGameSorcererPregenUnitLevel8, Player"
@@ -1494,7 +1687,7 @@
     {
         "name": "RingOfPlanarProtectionItem",
         "display_name": "Ring of Planar Protection",
-        "description": "This ring grants its wearer a +2 deflection bonus to AC and +3 bonus to saving throws against Conjuration school.",
+        "description": "",
         "cost": 26000,
         "id": "38d067e54e1aa0049a7d707d4b9213c4",
         "enchant": [
@@ -1512,6 +1705,8 @@
         "unit": [
             "ArueshalaePregenLevel19, Player",
             "ArueshalaePregenLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel18, Player",
             "PlayerAzataRangerTestLevel19, Player",
             "PlayerAzataRangerTestLevel20, Player",
@@ -1539,6 +1734,24 @@
         ]
     },
     {
+        "name": "RingOfProcrastinatorItem",
+        "display_name": "Ring of Procrastinator",
+        "description": "The wearer of this ring becomes staggered for the first round of every combat. For the same round he gains a resistance 15 against all elements, spell resistance 25, 10 DR\/- and immunity to critical hits.",
+        "cost": 60000,
+        "id": "951e3e908bce44a09ab0879ea5560585",
+        "enchant": [
+            {
+                "name": "RingOfProcrastinatorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d9ccd1fcf72f4a83bc11569e38ac0263",
+                "effect": [
+                    "Add feature RingOfProcrastinatorFeature"
+                ]
+            }
+        ]
+    },
+    {
         "name": "RingOfProtection1",
         "display_name": "Ring of Protection +1",
         "description": "This ring grants its wearer a +1 deflection bonus to AC. Bonuses of the same type usually don't stack.",
@@ -1556,6 +1769,7 @@
             }
         ],
         "unit": [
+            "AlushynirraDemodandKineticist, Mobs",
             "AneviaTirabade, Friends",
             "AneviaTirabade_DH, Friends",
             "AneviaTirabade_DrezenCapital, Friends",
@@ -1567,33 +1781,41 @@
             "ArueshalaePregenLevel5, Player",
             "ArueshalaePregenLevel6, Player",
             "ArueshalaePregenLevel7, Player",
-            "CR12_DreadZombieCyclopCleric, Mobs",
+            "Berengar_Balor, Mobs",
+            "CR12_Drow_FighterMelee_Female, Bandits",
+            "CR14_Sarcorian_Ranger_Ranged_female, Mobs",
             "CR14_VrockElite, Mobs",
+            "CR14_VrockElite_RE, Mobs",
+            "CR15_BabauSpecial, Mobs",
+            "CR15_BabauSpecial_RE, Mobs",
             "CR15_ColoxusEmissary, Mobs",
+            "CR15_ColoxusEmissary_RE_high, Mobs",
+            "CR17_AreshkagalLilitu, Mobs",
             "CR17_ColoxusToughCaster_1, Mobs",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
             "CR21_BalorAdvanced, Mobs",
-            "CR5_BoggardProphet, Mobs",
-            "CR7_GoblinAlchemist, Mobs",
+            "CR21_BalorAdvanced_RE, Mobs",
+            "CR9_Sarcorian_Ranger_Ranged_Female, Mobs",
             "CameliaPregenLevel10, Player",
             "CameliaPregenLevel8, Player",
             "CameliaPregenLevel9, Player",
-            "Centaur_M_spear_Boss, Mobs",
             "Chorussina_Miniboss, DrezenChorussina",
             "Chorussina_Miniboss_LuckyDices, Mobs",
             "Ciar_Companion, Player",
             "DaeranPregenTestLevel15, Player",
             "DaeranPregenTestLevel7, Player",
             "DaeranPregenTestLevel8, Player",
-            "DamnedKnight1, Neutrals",
             "DemonGladiator03, CutsceneNeutrals",
             "EmberTestLevel3, Player",
             "EmberTestLevel4, Player",
             "EmberTestLevel5, Player",
             "EmberTestLevel7, Player",
-            "Fake_Anorel_GibberingSwarm, Friends",
             "GateGuard_MediumToHigher, CutsceneNeutrals",
+            "GateGuard_NocticulaPalace, CutsceneNeutrals",
             "GreyborInCapitalAsNPC, Player",
-            "GreyborInDefHeartWithDagger, Player",
+            "GreyborInDefHeartWithDagger, CutsceneNeutrals",
             "GreyborInDrezenWithDagger, CutsceneNeutrals",
             "GreyborInIvorySunctum_BowHunterNPC, Mobs",
             "GreyborInIvorySunctum_ClericNPC, Mobs",
@@ -1631,6 +1853,26 @@
             "MountTestCharacter_HalforcMale, Player",
             "MountTestCharacter_HumanFemale, Player",
             "MountTestCharacter_HumanMale, Player",
+            "MountTestCharacter_OreadFemale, Player",
+            "MountTestCharacter_OreadFemale1, Player",
+            "MountTestCharacter_OreadFemale2, Player",
+            "MountTestCharacter_OreadFemale3, Player",
+            "MountTestCharacter_OreadFemale4, Player",
+            "MountTestCharacter_OreadFemale5, Player",
+            "MountTestCharacter_OreadFemale6, Player",
+            "MountTestCharacter_OreadFemale7, Player",
+            "MountTestCharacter_OreadFemale8, Player",
+            "MountTestCharacter_OreadMale, Player",
+            "Nexus_CambionWithLoot_ForAssault, Mobs",
+            "Nexus_CambionWithLoot_ForAssault_2, Mobs",
+            "NuraDrezen, CutsceneNeutrals",
+            "NuraDrezenBoss, CutsceneNeutrals",
+            "Nura_DrezenCitadel_Miniboss, CutsceneNeutrals",
+            "Nura_GibberingSwarm, CutsceneNeutrals",
+            "Nurah, CutsceneNeutrals",
+            "NurahCapital, CutsceneNeutrals",
+            "Nurah_GargoyleAttack, CutsceneNeutrals",
+            "Pharasma, CutsceneNeutrals",
             "PlayerAzataRangerTestLevel4, Player",
             "PlayerAzataRangerTestLevel5, Player",
             "PlayerAzataRangerTestLevel6, Player",
@@ -1675,7 +1917,7 @@
             "SosielVaenic_Level6, Player",
             "StartGameSorcererPregenUnitLevel8, Player",
             "VorimeraakReturns, CutsceneNeutrals",
-            "WintersunSiabrae, Mobs",
+            "WintersunWhiteDragon, Mobs",
             "WoljifTestLeve5, Player",
             "WoljifTestLeve6, Player",
             "Zacharius, Mobs",
@@ -1723,7 +1965,11 @@
             }
         ],
         "unit": [
-            "ArenaWizard_Curse, CutsceneNeutrals",
+            "AlushinyrraCasterMiniboss, Mobs",
+            "AlushinyrraCasterMiniboss1, Mobs",
+            "AlushinyrraCasterMiniboss2, Mobs",
+            "AlushinyrraCasterMiniboss3, Mobs",
+            "AngryIncubusRanger, Mobs",
             "ArueshalaePregenLevel10, Player",
             "ArueshalaePregenLevel11, Player",
             "ArueshalaePregenLevel14, Player",
@@ -1731,33 +1977,56 @@
             "ArueshalaePregenLevel9, Player",
             "Arueshalae_Level9, Player",
             "BlackMaskSlaveTrader, CutsceneNeutrals",
+            "Boulder, Neutrals",
             "CR14_CambionBard_Ranged, Mobs",
-            "CR15_CambionAlchemist_Ranged, Mobs",
             "CR15_CambionCleric_Caster, Mobs",
-            "CR15_MedusaSorcerer, Mobs",
-            "CR15_MedusaSorcererDivine, Mobs",
-            "CR17_DevourerAdvanced, Mobs",
+            "CR15_CambionCleric_Caster_RE, Mobs",
+            "CR16_IncubusGladiator, CutsceneNeutrals",
+            "CR16_IncubusToughCaster, CutsceneNeutrals",
+            "CR16_IncubusToughCaster_RE, CutsceneNeutrals",
+            "CR16_IncubusToughMelee, CutsceneNeutrals",
+            "CR16_IncubusToughMelee_Minagho, CutsceneNeutrals",
+            "CR16_IncubusToughMelee_RE, CutsceneNeutrals",
+            "CR16_Incubus_DemonCh3_Prisoner, CutsceneNeutrals",
+            "CR17_AreshkagalMarilith, Mobs",
+            "CR17_Assassin_Human_MeleeRogue_Male, Neutrals",
+            "CR17_CambionToughRanged, Mobs",
+            "CR17_CambionToughRanged_RE, Mobs",
+            "CR17_Mercenary_Human_MeleeWithLoot_Male, Mobs",
+            "CR17_Mercenary_Human_Melee_Male, Mobs",
+            "CR18_Cultist_Areshkagal_MeleeFighterTwoHanded, Mobs",
+            "CR18_Cultist_Areshkagal_MeleeRogue, Mobs",
+            "CR18_Cultist_Areshkagal_RangedFighter, Mobs",
             "CR19_CambionBard_Melee, Mobs",
             "CR19_GlabrezuDrezenOptional, Mobs",
-            "CR21_IncubusAssassin_Slayer, Mobs",
-            "CR24_CambionMinibossCaster, Mobs",
+            "CR19_Siabrae, Mobs",
+            "CR20M_OolioddrooAdvanced, Mobs",
+            "CR20M_OolioddrooAdvanced_RE, Mobs",
+            "CR20M_OolioddrooAdvanced_RE_high, Mobs",
+            "CambionMinibossKineticist, Mobs",
             "CameliaPregenLevel11, Player",
-            "Centaur_F_bow_Boss, Mobs",
+            "Crinukh, Neutrals",
             "DaeranPregenTestLevel10, Player",
             "DaeranPregenTestLevel11, Player",
             "DaeranPregenTestLevel12, Player",
             "DaeranPregenTestLevel9, Player",
+            "DrugVictimLeader, CutsceneNeutrals",
             "EmberTestDrezen, Player",
             "EmberTestLevel10, Player",
             "EmberTestLevel11, Player",
             "EmberTestLevel15, Player",
             "EmberTestLevel8, Player",
+            "FleshmarketGuard_Cambion17, CutsceneNeutrals",
+            "Fleshmarket_CambionGuardCaptain_WithLoot, CutsceneNeutrals",
+            "Forn, CutsceneNeutrals",
+            "GateGuard_LowerToMedium, CutsceneNeutrals",
+            "GateGuard_MediumToLower, CutsceneNeutrals",
             "GreyborInIvorySunctumAsNPC, Mobs",
-            "GreyborNPC, Player",
             "GreyborNPCLevel10, Friends",
             "GreyborTestLevel10, Player",
             "GreyborTestLevel7, Player",
             "GreyborTestLevel8, Player",
+            "IncubusSlaverLeader, CutsceneNeutrals",
             "KestoglyrBodak, Mobs",
             "LannTestDrezen, Player",
             "LannTestLevel10, Player",
@@ -1765,11 +2034,17 @@
             "LannTestLevel6, Player",
             "LannTestLevel7, Player",
             "LannTestLevel8, Player",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals",
+            "Melazmera, CutsceneNeutrals",
             "MercenaryCaster, Mobs",
             "MercenaryMelee, Mobs",
             "MidnightFane_NocticulaPriestess, Mobs",
-            "Morveg_ForBattle, Mobs",
+            "Morveg_ForBattle, CutsceneNeutrals",
             "MutasafenAssistent, Mobs",
+            "MutasafenLair_MythicGlabrezu, Mobs",
+            "NamedEliteDemonCaster, Mobs",
+            "NonameSlaveTrader, CutsceneNeutrals",
+            "OurTerritoryLeader, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel10, Player",
             "PlayerAeonWizardTestLevel11, Player",
             "PlayerAzataRangerTestLevel10, Player",
@@ -1797,20 +2072,34 @@
             "RegillPregenLevel8, Player",
             "RegillPregenLevel9, Player",
             "RvaniySlaveTrader, CutsceneNeutrals",
+            "SailorRangedTough, CutsceneNeutrals",
             "SarzaksisTranslatorTiefling, CutsceneNeutrals",
             "SeelahTestDrezen, Player",
             "SeelahTestLevel8, Player",
             "SeelahTestLevel9, Player",
+            "Shrine_Incubus_Melee, Mobs",
+            "Shrine_Succubus_Ranged, Mobs",
             "SosielTestLDrezen, Player",
             "SosielTestLevel10, Player",
             "SosielTestLevel6, Player",
             "SosielTestLevel7, Player",
             "SosielTestLevel8, Player",
             "SosielTestLevel9, Player",
-            "ToughMinaghoCambion, CutsceneNeutrals",
+            "TigerOfSin, Neutrals",
+            "TigerOfSin1, Neutrals",
+            "TigerOfSin2, Neutrals",
+            "ToughMinaghoCambion, Mobs",
+            "VellexiaFirstDate, CutsceneNeutrals",
+            "VellexiaSecondDate, CutsceneNeutrals",
+            "VellexiaShamiraConfrontationDate, CutsceneNeutrals",
+            "VellexiaThirdDate, CutsceneNeutrals",
+            "Vellexia_CambionToughMelee_WithLoot, Mobs",
+            "Vellexia_Default, CutsceneNeutrals",
+            "Villodus, CutsceneNeutrals",
             "WildHunt_Atselm, CutsceneNeutrals",
             "WildHunt_AtselmOld, CutsceneNeutrals",
             "WildHunt_AtselmYoung, CutsceneNeutrals",
+            "WintersunSiabrae, Mobs",
             "WoljifTestLeve10, Player",
             "WoljifTestLeve11, Player",
             "WoljifTestLeve12, Player",
@@ -1841,31 +2130,27 @@
             }
         ],
         "unit": [
-            "AasimarRedMask, CutsceneNeutrals",
+            "Alushinyrra_Minagho, Mobs",
+            "AlushynirraDemodandMiniboss, Mobs",
             "ArueshalaePregenLevel12, Player",
             "ArueshalaePregenLevel13, Player",
             "ArueshalaePregenLevel15, Player",
             "ArueshalaePregenLevel16, Player",
             "ArueshalaePregenLevel17, Player",
-            "CR16_IncubusToughCaster, CutsceneNeutrals",
-            "CR16_IncubusToughMelee, CutsceneNeutrals",
-            "CR17_AlushinyrraVampireRanged, Mobs",
-            "CR17_CambionToughRanged, Mobs",
-            "CR17_MercenaryMelee, Mobs",
-            "CR19_Cultist_Areshkagal_MeleeCaster, Mobs",
+            "CR21_ColoxusCaster, Mobs",
+            "CR21_ColoxusCaster_RE_high, Mobs",
+            "CR21_IncubusAssassin_Guild, Neutrals",
+            "CR21_IncubusAssassin_Slayer, Mobs",
             "CR22_MinotaurPriest, Mobs",
             "CameliaPregenLevel12, Player",
             "CameliaPregenLevel13, Player",
             "CameliaPregenLevel14, Player",
             "CameliaPregenLevel15, Player",
             "ColyphyrSalamanderMiniboss, Mobs",
-            "DrugVictimLeader, CutsceneNeutrals",
             "EmberTestLevel12, Player",
             "EmberTestLevel13, Player",
             "EmberTestLevel14, Player",
-            "FleshmarketGuard_Cambion17, CutsceneNeutrals",
-            "GateGuard_LowerToMedium, CutsceneNeutrals",
-            "GateGuard_MediumToLower, CutsceneNeutrals",
+            "Galfrey_Companion, Player",
             "Gelderfang, CutsceneNeutrals",
             "GreyborTestLevel11, Player",
             "GreyborTestLevel14, Player",
@@ -1874,8 +2159,7 @@
             "HepzamirahGhost, Neutrals",
             "Horzalah_AssasinElfFighterRanged, Bandits",
             "Horzalah_AssasinKitsuneMagusMelee, Bandits",
-            "IncubusSlaverLeader, CutsceneNeutrals",
-            "Kerz, Neutrals",
+            "Kerz, CutsceneNeutrals",
             "Kestoglyr_Companion, Player",
             "LannTestLevel12, Player",
             "LannTestLevel13, Player",
@@ -1883,6 +2167,7 @@
             "LannTestLevel17, Player",
             "Latwerk, CutsceneNeutrals",
             "LatwerkNoWeapons, CutsceneNeutrals",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
             "Mielara, CutsceneNeutrals",
             "Mighty_CorruptedMongrelmanBrute, Mobs",
             "Mighty_CorruptedMongrelmanDefencive, Mobs",
@@ -1892,7 +2177,6 @@
             "MutasafenThird, Mobs",
             "Mutasafen_MidnightFaneInThePast, Mobs",
             "NocticulaCaptain, Neutrals",
-            "OurTerritoryLeader, CutsceneNeutrals",
             "PlayerAeonWizardTestLevel12, Player",
             "PlayerAeonWizardTestLevel13, Player",
             "PlayerAeonWizardTestLevel14, Player",
@@ -1927,17 +2211,24 @@
             "RegillPregenLevel14, Player",
             "RegillPregenLevel15, Player",
             "RegillQ2_KTC_Yaker, Friends",
-            "SailorMelee, Neutrals",
             "SeelahTestLevel10, Player",
             "SeelahTestLevel11, Player",
+            "Shamira, Neutrals",
+            "Shamira, TrueNeutrals",
+            "ShamiraAlushinyrra, CutsceneNeutrals",
+            "ShamiraMythic, Neutrals",
+            "SilkShadow, Neutrals",
+            "SilkShadowIllusion, Neutrals",
+            "SilkShadowNoLoot, Neutrals",
             "SosielTestLevel11, Player",
             "SosielTestLevel12, Player",
             "SosielTestLevel13, Player",
             "TerendelevHuman, Neutrals",
+            "TerendelevHuman_SilentCaster, CutsceneNeutrals",
             "UndeadKingAlberie, Neutrals",
             "UrgathoaPatrols_Cleric, NeutralGuards",
             "VampirePatrols_VampireSpawn, NeutralGuards",
-            "Villodus, CutsceneNeutrals",
+            "WizardArcaneBomberAlchemist, CutsceneNeutrals",
             "WoljifTestLeve13, Player",
             "WoljifTestLeve14, Player",
             "WoljifTestLeve15, Player",
@@ -1948,6 +2239,7 @@
             "Yaker_WarCamp, Friends"
         ],
         "area": [
+            "AlushinyrraHigherCity, PF2_CoolDemons_CorpseLoot7_EmptyYet",
             "ColyphyrDungeon, PF2_DemonWorld_TrueTreasures#1",
             "WintersunOutdoor, PF2_Forest_GoodLoot_22_Locked_Hidden"
         ]
@@ -1973,21 +2265,28 @@
             "AlderpashLich25, CutsceneNeutrals",
             "ArueshalaePregenLevel18, Player",
             "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
             "Berengar, NeutralGuards",
             "CR17_Cultist_Areshkagal_DamageFullCaster, Mobs",
             "CR17_Cultist_Areshkagal_MeleeFighterDefensive, Mobs",
-            "CR18_Cultist_Areshkagal_MeleeFighterTwoHanded, Mobs",
-            "CR18_Cultist_Areshkagal_MeleeRogue, Mobs",
-            "CR18_Cultist_Areshkagal_RangedFighter, Mobs",
-            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
-            "CR25_AreshkagalFullCasterBoss, Mobs",
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs",
+            "CR24_Areshkagal_MarilithBoss, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
+            "CR26_Minotaur_IngerMaggor, Mobs",
+            "Chadali, Friends",
+            "ChadaliEnemy, Mobs",
             "DaeranPregenTestLevel13, Player",
             "DaeranPregenTestLevel14, Player",
             "Dimalchio, CutsceneNeutrals",
+            "EchoOfDeskari_ForFight, Mobs",
             "EmberTestLevel16, Player",
             "EmberTestLevel17, Player",
             "EmberTestLevel18, Player",
             "EmberTestLevel19, Player",
+            "Eritrice, Friends",
+            "EritriceEnemy, Mobs",
+            "FilletedMan, Mobs",
+            "FinneanArmourer, CutsceneNeutrals",
             "GreyborTestLevel12, Player",
             "GreyborTestLevel13, Player",
             "GreyborTestLevel15, Player",
@@ -1999,7 +2298,9 @@
             "Hag_Letinda, Mobs",
             "Hag_Loreda, Mobs",
             "IvoryHardmod_WildhuntAsassin24, Mobs",
+            "IvoryHardmod_WildhuntAsassin_Shadow, Mobs",
             "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
             "MythicLich_KTC_Septimus, Civilians",
             "PlayerAeonWizardTestLevel15, Player",
             "PlayerAeonWizardTestLevel16, Player",
@@ -2024,6 +2325,7 @@
             "PlayerTestLevel13, Player",
             "PlayerTestLevel16, Player",
             "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
             "PlayerTestLevel18, Player",
             "PlayerTricksterRangerTestLevel17, Player",
             "PlayerTricksterRangerTestLevel18, Player",
@@ -2032,12 +2334,15 @@
             "SeelahTestLevel19, Player",
             "SosielTestLevel19, Player",
             "SosielTestLevel20, Player",
+            "VentureCaptainChristoff, CutsceneNeutrals",
             "WoljifTestLeve16, Player",
             "WoljifTestLeve17, Player",
             "WoljifTestLeve18, Player",
             "Yaniel, AngelTeam",
             "Yaniel_DrezenCitadelLevel2, AngelTeam",
-            "Yozz, CutsceneNeutrals"
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals",
+            "Zacharius_SecondStage_Ch5, Mobs"
         ]
     },
     {
@@ -2058,34 +2363,57 @@
             }
         ],
         "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
             "Alichino, Friends",
+            "AlichinoEnemy, Mobs",
+            "Areelu, CutsceneNeutrals",
+            "AreeluDemonicForm, CutsceneNeutrals",
+            "AreeluHologram, CutsceneNeutrals",
+            "AreeluHumanHologram, CutsceneNeutrals",
+            "AreeluInThePast, CutsceneNeutrals",
+            "AreeluNoName, CutsceneNeutrals",
+            "Areelu_MidnightFaneInThePast, CutsceneNeutrals",
+            "Areelu_ShadowCopy, CutsceneNeutrals",
+            "Arilu_DrezenCitadelLevel2, CutsceneNeutrals",
             "ArueshalaePregenLevel19, Player",
             "ArueshalaePregenLevel20, Player",
-            "CR22_AreshkagalMinotaurMiniBoss, Mobs",
             "CameliaPregenLevel16, Player",
             "CameliaPregenLevel17, Player",
             "CameliaPregenLevel18, Player",
             "CameliaPregenLevel19, Player",
             "CameliaPregenLevel20, Player",
-            "Chadali, Friends",
             "DaeranPregenTestLevel16, Player",
             "DaeranPregenTestLevel17, Player",
             "DaeranPregenTestLevel18, Player",
             "DaeranPregenTestLevel19, Player",
             "DaeranPregenTestLevel20, Player",
             "DarekSunhammer, Neutrals",
+            "DemonLordDeskari, Mobs",
             "EmberTestLevel20, Player",
-            "Eritrice, Friends",
             "GreyborTestLevel20, Player",
             "HellknightsParaliktor_Aminas, Friends",
             "HellknightsParaliktor_Gerren, Friends",
             "HellknightsParaliktor_Lerana, Friends",
             "Kestoglyr, Mobs",
+            "Khorramzadeh, Mobs",
+            "Khorramzadeh_Aeon, Mobs",
+            "Khorramzadeh_Undead, Mobs",
             "LannTestLevel18, Player",
             "LannTestLevel19, Player",
             "LannTestLevel20, Player",
+            "LiLura, CutsceneNeutrals",
+            "LiLura_Kenabres, CutsceneNeutrals",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "Locust_EmberEnemy, CutsceneNeutrals",
+            "Locust_LannEnemy, CutsceneNeutrals",
+            "Locust_RegillEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "Locust_TreverEnemy, CutsceneNeutrals",
             "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
             "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
             "PlayerAzataRangerTestLevel19, Player",
             "PlayerAzataRangerTestLevel20, Player",
             "PlayerDemonMythicTestLevel19, Player",
@@ -2093,6 +2421,8 @@
             "PlayerLichWizardTestLevel20, Player",
             "PlayerTestLevel19, Player",
             "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
             "PlayerTestRangedFighterLevel16, Player",
             "PlayerTestRangedFighterLevel17, Player",
             "PlayerTestRangedFighterLevel18, Player",
@@ -2119,9 +2449,27 @@
         ]
     },
     {
+        "name": "RingOfProtection6",
+        "display_name": "Ring of Protection +6",
+        "description": "This ring grants its wearer a +6 deflection bonus to AC. Bonuses of the same type usually don't stack.",
+        "cost": 100000,
+        "id": "88945c4d1bd44de59905ac20898d05d5",
+        "enchant": [
+            {
+                "name": "Deflection6",
+                "display_name": "",
+                "description": "",
+                "id": "a26b708426c4e764896da00aa3ae533c",
+                "effect": [
+                    "Add stat bonus 6 to AC (descriptor: Deflection)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "RingOfPyromaniatItem",
         "display_name": "Ring of Pyromania",
-        "description": "Whenever the wearer of this ring deals fire damage through a spell, they deals additional 1d6 + 1 per 2 caster levels fire damage. They also get a +2 bonus to caster level checks made to overcome spell resistance.",
+        "description": "Whenever the wearer of this ring deals fire damage through a spell, they deal additional 1d6 + 5 fire damage. They also get a +2 bonus to caster level checks made to overcome spell resistance.",
         "cost": 50000,
         "id": "e2f23f658afc6fe48a61f8aea173dc29",
         "enchant": [
@@ -2148,7 +2496,7 @@
         "name": "RingOfRenownArtisanItem",
         "display_name": "Ring of Renown Artisan",
         "description": "This ring grants the wearer +12 competence bonus to Knowledge",
-        "cost": 30000,
+        "cost": 88000,
         "id": "5d6100feb15a81d47a99f227247b81e1",
         "enchant": [
             {
@@ -2163,13 +2511,34 @@
         ],
         "unit": [
             "DarekSunhammer, Neutrals"
+        ],
+        "area": [
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_luxery_jewelry_05_loot_object"
+        ]
+    },
+    {
+        "name": "RingOfReveredChampionItem",
+        "display_name": "Ring of Revered Champion",
+        "description": "This ring grants its wearer DR 10\/- and immunity against movement-impairing conditions.",
+        "cost": 100000,
+        "id": "9d7a3cf8ea3448bc9dc7d7b844247e42",
+        "enchant": [
+            {
+                "name": "RingOfReveredChampionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f66e0424c33045ef9d331ba131ae5227",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
         ]
     },
     {
         "name": "RingOfSacredTouchItem",
         "display_name": "Ring of Sacred Touch",
         "description": "Whenever the wearer of this ring lands any touch attack against the enemy, this attack deals additional 1d6 holy damage and whenever the wearer heals a target via touch spells, the spell heals for additional 1d6 points.",
-        "cost": 23000,
+        "cost": 35000,
         "id": "e71794e3f78dea249951fe1fe01af589",
         "enchant": [
             {
@@ -2226,7 +2595,7 @@
         "name": "RingOfSharpStrikeItem",
         "display_name": "Ring of Sharp Strike",
         "description": "Whenever the wearer of this ring shoots an enemy engaged in melee combat, and hits, the enemy suffers a -1 penalty on attack rolls for one round.",
-        "cost": 1200,
+        "cost": 5000,
         "id": "c400893b91a9d604abb58da1776a9007",
         "enchant": [
             {
@@ -2299,7 +2668,7 @@
         "name": "RingOfTheDeadItem",
         "display_name": "Ring of the Dead",
         "description": "This ring allows the owner to use the Dead Inside ability on a living creature for 1 minute 3 times per day. While under the effect, the creature is immune to all mind-affecting effects, death effects, disease, paralysis, poison, sleep effects, and stunning; not subject to nonlethal damage, ability drain, or energy drain, immune to damage to its physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects. However, both positive and negative energy deal damage to it.\nThis ring also grants the wearer a +2 morale bonus on saving throws against all effects that are mentioned in Dead Inside ability.",
-        "cost": 28000,
+        "cost": 38000,
         "id": "14b525f36c1856544863501824676262",
         "enchant": [
             {
@@ -2337,8 +2706,8 @@
     {
         "name": "RingOfTheSneakyWizard",
         "display_name": "Magician's Ring",
-        "description": "This ring grants the wearer a +5 competence bonus on all Use Magic Device skill checks and a +2 bonus to Illusion school spells' DC.",
-        "cost": 3900,
+        "description": "This ring grants the wearer a +5 competence bonus on all Use Magic Device skill checks and increases the save DC against all spells of the Illusion school the wearer casts by 2.",
+        "cost": 5900,
         "id": "a821e1c6b8799b74490a5b0dd3bd0dd1",
         "enchant": [
             {
@@ -2438,7 +2807,7 @@
         "name": "RingOfUndercoverWizardItem",
         "display_name": "Ring of Undercover Wizard",
         "description": "Whenever the wearer of this ring hits 2 or more enemies with a single spell, it grants the wearer total concealment against ranged attacks for 2 rounds. Whenever the wearer kills two or more enemies with a single spell, it grants the wearer total concealment against ranged attacks for the rest of the battle.",
-        "cost": 37000,
+        "cost": 52000,
         "id": "ccd79131ecc2ea34aaadfedd8fc6ca44",
         "enchant": [
             {
@@ -2547,9 +2916,13 @@
         "id": "2e8868ceffb4d7f4baa53cd21c62416c",
         "area": [
             "AlushinyrraLowerCity, AngelMinaghoChest#1",
+            "Iz, PF2_CoolDemons_Loot10Skeleton",
+            "AlushinyrraMediumCity, PF2_CoolDemons_LuxChest",
             "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenUnlockedPoor3",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_1_HIdden_Locked",
             "IvorySanctum, PF2_Demons_PoorLootChest1#3",
             "IvorySanctum, PF2_Demons_PoorLootChest4#1",
+            "DemonicAssaultSquad_Lair, PF2_Demons_TrashLoot",
             "AlushinyrraLowerCity, RottenGuttingChest"
         ]
     },
@@ -2557,7 +2930,7 @@
         "name": "SacredCommandmentItem",
         "display_name": "Sacred Commandment",
         "description": "If the wearer of this ring has the ability to cast spells spontaneously, it grants them the ability to cast the following spells",
-        "cost": 37000,
+        "cost": 75000,
         "id": "0c8977ea599481c4abfe4522b8582bec",
         "enchant": [
             {
@@ -2582,8 +2955,20 @@
         "id": "80e3fe7c341165548abfecd22b1f6069",
         "area": [
             "AlushinyrraLowerCity, AngelMinaghoChest#1",
+            "SilkShadowLair, Forest_Loot",
+            "AlushinyrraHigherCity, PF2_CoolDemons_Chest4",
+            "TheIvoryLabyrinth, PF2_CoolDemons_VrokHeap_Trash",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_5_Locked",
+            "Iz, PF2_Sarkoris_Loot8Chest",
             "AlushinyrraLowerCity, RottenGuttingChest"
         ]
+    },
+    {
+        "name": "SarkorianWeddingSignetItem",
+        "display_name": "Sarkorian Bride's Ring",
+        "description": "",
+        "cost": 2500,
+        "id": "9f8324afafbf4e11aad954273e554b1b"
     },
     {
         "name": "SealedRingItem",
@@ -2614,7 +2999,7 @@
         "name": "ShootDownItem",
         "display_name": "Merciless Shot",
         "description": "The wearer of this ring gets a +1 bonus to attack while using Point Blank Shot.",
-        "cost": 15000,
+        "cost": 30000,
         "id": "50a96500ad8974c48873a690a0414a25",
         "enchant": [
             {
@@ -2682,11 +3067,17 @@
         "cost": 40,
         "id": "212a1a78c7865154482ffda45796510e",
         "area": [
+            "DragonsGraveyard, Forest_Loot (3)",
             "ArueshalaeRedoubt, Forest_Loot#5",
             "GibberingSwarm, NaturalCaves_TrashLoot04_Hidden",
             "Iz, PF2_CoolDemons_Loot1",
             "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenUnlockedPoor3",
             "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenUnlockedPoor4",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_1_Locked",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_25",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_3_HIdden_Locked",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_4_HIdden",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_4_Locked",
             "ColyphyrDungeon, PF2_DemonWorld_ElementalProtectorItem (Kitchen, Hidden)",
             "Woljif_Q3_AbandonedMansion, PF2_DemonWorld_Loot1",
             "ColyphyrDungeon, PF2_DemonWorld_PoorLocked_3",
@@ -2704,7 +3095,7 @@
         "name": "ThieflingRingItem",
         "display_name": "Thiefling Ring",
         "description": "This ring grants its wearer a +2 competence bonus on Trickery and Stealth skill checks. If the wearer is a Tiefling, the bonus increases to +3.",
-        "cost": 1200,
+        "cost": 3800,
         "id": "ce0eb16ed3b57fa408cc14a42af8abf2",
         "enchant": [
             {
@@ -2727,13 +3118,23 @@
         "area": [
             "Seelah_Q1_Warcamp, Forest_LootBox (4)",
             "AlushinyrraHigherCity, PF2_CoolDemons_HiddenUnlockedPoor2",
+            "TheIvoryLabyrinth, PF2_CoolDemons_PuzzleChestPoor",
+            "TheIvoryLabyrinth, PF2_Crusaders_",
+            "ReturnToDrezen, PF2_Crusaders_luxery_chest_02_loot_object",
+            "ReturnToDrezen, PF2_Crusaders_market_place_chest_medium_01_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_15",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_3_HIdden_Locked",
             "Nexus, PF2_DemonWorld_PoorLoot03",
             "Nexus, PF2_DemonWorld_PoorLoot09",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot7_Poor",
             "MidnightFane, PF2_Demons_FullplateOfSpellNullifyItem",
-            "IvorySanctum, PF2_Demons_PoorLootChest4#1",
+            "DemonicAssaultSquad_Lair, PF2_Demons_TrashLoot",
             "GrayGarrison, PF2_GrayGarrison_Loot13",
             "Seelah_Q2_Wedding, PF2_RichHuman_LootChest (1)",
             "Seelah_Q2_Wedding, PF2_RichHuman_LootChest (4)",
+            "Ziggurat, PF2_RichHuman_LootPoor01",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_market_place_barrel_01(7)_loot_object",
+            "Kaylessa_DrowAmbush, PF2_Worldwound_Loot5_hidden",
             "DemodandLair, PF2_Worldwound_LootKnightGrave",
             "LostChapel, PoorHuman_PoorLoot08",
             "WarCamp, PoorHuman_WarCamp_PoorLoot_7",
@@ -2763,7 +3164,7 @@
         "name": "UnholyShepherdItem",
         "display_name": "Unholy Shepherd",
         "description": "While wielding this ring with a sign of Baphomet, you can summon 2 CR 14 Half-Fiendish Minotaurs 3 times per day and they will fight on your side for 10 minutes. However, if you die while wearing this ring, they are summoned too, but now as enemies.",
-        "cost": 42000,
+        "cost": 66613,
         "id": "e75173b870a9d7f4ca1e18b576c5e3a3",
         "enchant": [
             {
@@ -2771,6 +3172,31 @@
                 "display_name": "",
                 "description": "",
                 "id": "1ba930da89ff7e84ca40d83d7aaca2aa",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "UnholySignet",
+        "display_name": "Unholy Signet",
+        "description": "This signet grants its wearer the ability to cast bane spell as a 3rd level cleric three times a day.",
+        "cost": 1500,
+        "id": "7840bf8ed0674fc5831e1b09a6cabb89"
+    },
+    {
+        "name": "UniversalRemedyItem",
+        "display_name": "Universal Remedy",
+        "description": "This ring grants its wearer a +1 bonus per die rolled on all Cure and Healing spells as well as Channel Positive Energy used to heal living.",
+        "cost": 100000,
+        "id": "43d0f7e972da429c8f64d05fc129f1fe",
+        "enchant": [
+            {
+                "name": "UniversalRemedyEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "422274d8e41d41b1afdad119c34c1d8e",
                 "effect": [
                     "AddUnitFactEquipment"
                 ]
@@ -2794,6 +3220,63 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "WeddingRingItemFirst",
+        "display_name": "Wedding Ring",
+        "description": "Whenever the wearer of this ring is hit by an enemy, the wearer of the second ring gains bane against this enemy for 1 round.",
+        "cost": 75000,
+        "id": "b02a19d1087b483a9c72905f5c5cc704"
+    },
+    {
+        "name": "WeddingRingItemSecond",
+        "display_name": "Wedding Ring",
+        "description": "Whenever the wearer of this ring is hit by an enemy, the wearer of the second ring gains bane against this enemy for 1 round.",
+        "cost": 75000,
+        "id": "20d2c8b320e84e719852827c550cd456"
+    },
+    {
+        "name": "ZeorisDaggerRing_Betrayal",
+        "display_name": "Conthyr's Wisdom",
+        "description": "Whenever the wearer of this ring deals a sneak attack damage for the first time in a fight against an enemy, that enemy becomes filled with paranoia. For each adjacent ally of the affected target they suffer -1 penalty on saving throws and -2 penalty on damage rolls. This effect stacks up to 3 times and persists for 1d4 rounds.",
+        "cost": 90000,
+        "id": "50f28e3830734174aa9b355c737d3e08",
+        "enchant": [
+            {
+                "name": "ZeorisDaggerRing_BetrayalEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0dc4254f731346ce99f981c769b0ec9d",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ZeorisDaggerRing_Governing",
+        "display_name": "Zaoris's Beauty",
+        "description": "If the companions of the wearer of this ring attack the same target as the wearer, they deal an additional 1d6 points of precision damage with each successful melee attack. They also gain a +2 circumstance bonus on attack rolls against this target.",
+        "cost": 90000,
+        "id": "cb30b69394a847b2b8ec1db71541685a",
+        "enchant": [
+            {
+                "name": "ZeorisDaggerRing_GoverningEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2a4e61dcd2b74da3b742e1e67837b825",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ZeorisDaggerRing_IntermediateItem",
+        "display_name": "Zaoris's Ring",
+        "description": "This is an intermediate step of relic creation.",
+        "cost": 67500,
+        "id": "8ea57f9b86d84b4c88059240996122b2"
     },
     {
         "name": "ZeriexCharmedRing",
