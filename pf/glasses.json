@@ -1,0 +1,151 @@
+[
+    {
+        "name": "CrystallEyeItem",
+        "display_name": "Eye in Crystal",
+        "description": "",
+        "cost": 41000,
+        "id": "478599b731b44d243a65e06e9f2fc50e",
+        "enchant": [
+            {
+                "name": "CrystallEyeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8aea2864d9a077a4280baaccfb6cd194"
+            }
+        ]
+    },
+    {
+        "name": "GogglesOfFeriociousPactItem",
+        "display_name": "Goggles Of Ferocious Pact",
+        "description": "The wearer gets a -2 penalty to AC, a -5 penalty to Persuasion skill checks and a -2 penalty to Fortitude saving throws, but gets a +4 bonus to damage rolls, a +3 bonus to Will saving throws and a +2 enhancement bonus to Wisdom score.",
+        "cost": 26500,
+        "id": "76d219c4b02f2d64bbf15363565647c3",
+        "enchant": [
+            {
+                "name": "GogglesOfFeriociousPactEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "11095d4f0a37a534e92e8125a3f4ebb4",
+                "effect": [
+                    "Add stat bonus -2 to AC (descriptor: UntypedStackable)",
+                    "Add stat bonus -5 to SkillPersuasion (descriptor: UntypedStackable)",
+                    "Add stat bonus -2 to SaveFortitude (descriptor: UntypedStackable)",
+                    "Add stat bonus 4 to AdditionalDamage (descriptor: UntypedStackable)",
+                    "Add stat bonus 3 to SaveWill (descriptor: UntypedStackable)",
+                    "Add stat bonus 2 to Wisdom (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel14, Player",
+            "ArueshalaePregenLevel15, Player",
+            "ArueshalaePregenLevel16, Player",
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player"
+        ]
+    },
+    {
+        "name": "GogglesOfMalocchioItem",
+        "display_name": "Goggles of Malocchio",
+        "description": "These goggles grant the wearer a +10 competence bonus on Perception checks. Whenever the wearer confirms a critical hit with any bow, the target becomes disoriented 1d4 rounds, suffering a -4 circumstance penalty to initiative checks, attack rolls, Athletic, and Perception checks.",
+        "cost": 34000,
+        "id": "8f476e6a796971a48b1c87e822aca941",
+        "enchant": [
+            {
+                "name": "GogglesOfMalocchioEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "256e94351c08aa94f91b110b7362c264",
+                "effect": [
+                    "Add feature GogglesOfMalocchioFeature",
+                    "Add stat bonus 10 to SkillPerception (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel14, Player"
+        ]
+    },
+    {
+        "name": "GogglesOfPiercingGazeItem",
+        "display_name": "Goggles of Piercing Gaze",
+        "description": "These goggles grant their wearer a +1 insight bonus on attack and damage rolls against outsiders, as well as +10 competence bonus on Persuasion skill checks.",
+        "cost": 25000,
+        "id": "f1bb19cd55a5d6a47ae9661c55614f2e",
+        "enchant": [
+            {
+                "name": "GogglesOfPiercingGazeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "826ea5e205e77004e830c2864d924583",
+                "effect": [
+                    "Add stat bonus 10 to SkillPersuasion (descriptor: Competence)",
+                    "Add feature GogglesOfPiercingGazeFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraHigherCity, PF2_CoolDemons_Chest4",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "GogglesOfPureSightItem",
+        "display_name": "Goggles of Pure Sight",
+        "description": "These goggles allow their wearer to take 20 on their next dispel magic attempt once per day. They also grant a +1 bonus to caster level checks made to overcome spell resistance.",
+        "cost": 20000,
+        "id": "76e7576aedf928e409dba7b2da87fc1e",
+        "enchant": [
+            {
+                "name": "GogglesOfPureSightEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e054c9ec3b9077f499fdb27e841a2919",
+                "effect": [
+                    "Add feature GogglesOfPureSightFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "EmberTestLevel15, Player",
+            "NenioTestLevel14, Player",
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "RascalsGogglesItem",
+        "display_name": "Rascal's Goggles",
+        "description": "These goggles grant their wearer a +10 competence bonus on Perception and Trickery skill checks.",
+        "cost": 68000,
+        "id": "0cea5c218f759bc44a24ac626706a35e",
+        "enchant": [
+            {
+                "name": "RascalsGogglesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "99f1a30c80639fc4db1776aaa3160319",
+                "effect": [
+                    "Add stat bonus 10 to SkillPerception (descriptor: Competence)",
+                    "Add stat bonus 10 to SkillThievery (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel15, Player",
+            "LannTestLevel16, Player",
+            "LannTestLevel17, Player",
+            "LannTestLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    }
+]

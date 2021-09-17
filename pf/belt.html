@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Belts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+  <link
+    href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css"
+    rel="stylesheet"
+    />
+</head>
+
+<body>
+  
+<div id="container"></div>
+
+<script>
+    $.get('belt.json', function(data) {
+        console.log(data);
+        new gridjs.Grid({
+            columns: [
+                {
+                    name: 'name',
+                    hidden : true,
+                },{
+                    name: 'display_name',
+                },{
+                    name: 'cost'
+                },{
+                    name: 'description',
+                    width: '400px',
+                },{
+                    name: 'enchant',
+                    width: '400px',
+                    formatter: (cell) => {
+                        var msg = "\n";
+                        $.each(cell, function (key, value) {
+                            msg += '🔸';
+                            msg += (value.display_name ? value.display_name : value.name);
+                            msg += (value.description ? ' - ' + value.description : '') + ' ';
+                            if (!value.display_name && !value.description) {
+                                msg = msg.slice(0, -1);
+                                msg += ' - ';
+                                $.each(value.effect, function (key, effect) {
+                                    msg += effect + ', ';
+                                });
+                                msg = msg.toString().slice(0, -2);
+                            }
+                        });
+                        return msg;
+                    }
+                },{
+                    name: 'id',
+                    hidden : false
+                },{
+                    name: 'unit',
+                    width: '250px',
+                    formatter: (cell) => {
+                        var msg = "\n";
+                        $.each(cell, function (key, value) {
+                            msg += '🔹';
+                            msg += value + ' ';
+                        });
+                        return msg.toString().split('_').join(' ');
+                    }
+                },{
+                    name: 'area',
+                    width: '250px',
+                    formatter: (cell) => {
+                        var msg = "\n";
+                        $.each(cell, function (key, value) {
+                            msg += '◼️';
+                            msg += value + ' ';
+                        });
+                        return msg.toString().split('_').join(' ');
+                    }
+                }
+            ],
+            data: data,
+            width: '100%',
+            resizable: true,
+            sort: true,
+            style: {
+                td: {
+                    padding: '5px'
+                },
+                th: {
+                    padding: '5px',
+                },
+                table: {
+                    'font-size': '14px'
+                }
+            },
+            search: {
+                enabled: true
+            },
+            pagination: {
+                enabled: true,
+                limit: 100,
+                summary: false
+            }
+        }).render(document.getElementById("container"));
+    }, 'json');
+</script>
+
+</body>
+</html>

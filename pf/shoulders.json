@@ -1,0 +1,1668 @@
+[
+    {
+        "name": "Artifact_AeonCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "b24d6185acea1f949b026c3b58e47947"
+    },
+    {
+        "name": "Artifact_AngelCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "2f45a11adb74b5a4a81f857a9886c5bd"
+    },
+    {
+        "name": "Artifact_AzataCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "78cd50deada655e4cbe49765c0bbb7e4"
+    },
+    {
+        "name": "Artifact_DemonCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "cdc95a3c4a74a874a895b3be61369564"
+    },
+    {
+        "name": "Artifact_DevilCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "d7a89e21497bcd94a8f8c0e278574b5b"
+    },
+    {
+        "name": "Artifact_DragonCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "2c0129fc1485da149a68a1b0584cad91"
+    },
+    {
+        "name": "Artifact_LegendCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "ceaf9f93f42d40f468fc89ba6c32ea9d"
+    },
+    {
+        "name": "Artifact_LichCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "1622ceba1d7829b4f9ee709b71bd6baf"
+    },
+    {
+        "name": "Artifact_LocustCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "217ca79948e2c7a4698b4944b1ed9bf3"
+    },
+    {
+        "name": "Artifact_SoulsCloakItem",
+        "display_name": "",
+        "description": "",
+        "cost": 45000,
+        "id": "d53d1c60393cfc84c970c8029de75ad1",
+        "enchant": [
+            {
+                "name": "SoulsCloakEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "94bd205306520f34cb48769dde4172d1",
+                "effect": [
+                    "Add feature SoulsCloakFeature"
+                ]
+            },
+            {
+                "name": "SoulsCloakCurseEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "c6c9e91b0040f8548a3887c4aa861918",
+                "effect": [
+                    "Add feature SoulsCloakCurseFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_TricksterCloakItem",
+        "display_name": "The bound of possibility",
+        "description": "",
+        "cost": 700,
+        "id": "50b398d4630d9f244a5db288124ff181"
+    },
+    {
+        "name": "BlackFurCloakItem",
+        "display_name": "Black Fur Cloak",
+        "description": "This cloak grants its wearer a +10 competence bonus to all Stealth checks and cold resistance 30.",
+        "cost": 35000,
+        "id": "ae0cf84fb23478f4aaa07e3d10984bea",
+        "enchant": [
+            {
+                "name": "BlackFurCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "596fbdc1a0341624c9e1cb6252a54877",
+                "effect": [
+                    "Add stat bonus 10 to SkillStealth (descriptor: Competence)"
+                ]
+            },
+            {
+                "name": "ColdResistance30Enchant",
+                "display_name": "Cold Resistance 30",
+                "description": "",
+                "id": "7ef70c319ca74fe4cb5eddea792bb353",
+                "effect": [
+                    "Add feature ColdResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BlackKnightCloakItem",
+        "display_name": "Castigator's Cloak",
+        "description": "This cloak grants its wearer a +4 deflection bonus to AC, a +4 resistance bonus to all saves, a +4 enhancement bonus to Persuasion skill checks when used to intimidate, and a +2 bonus on attack and damage rolls against shaken targets. Can be used only by characters of evil alignment.",
+        "cost": 65400,
+        "id": "7bbe13f76b9c91141a98a145d2832f4a",
+        "enchant": [
+            {
+                "name": "Deflection4",
+                "display_name": "",
+                "description": "",
+                "id": "be195c1cea964e745a198ddadecbaec5",
+                "effect": [
+                    "Add stat bonus 4 to AC (descriptor: Deflection)"
+                ]
+            },
+            {
+                "name": "BlackKnightCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1ad2e26850bfef7409199c2fa23e1fa3",
+                "effect": [
+                    "AllSavesBonusEquipment",
+                    "DamageBonusAgainstFactOwnerEquipment",
+                    "Add stat bonus 4 to CheckIntimidate (descriptor: Enhancement)",
+                    "Add feature BlackKnightCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CapeOfDesinsectorItem",
+        "display_name": "Disinsector's Cape",
+        "description": "This cloak of resistance +2 grants the wearer DR 5\/- against all swarms' attacks.",
+        "cost": 13000,
+        "id": "b7a92cca052b687469ab53ed5d6a36c5",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CapeOfDesinsectorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "28519dec9c9dcc64c9c6cad53b650826",
+                "effect": [
+                    "Add feature CapeOfDesinsectorFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CapeOfDivinationItem",
+        "display_name": "Augur's Cape",
+        "description": "This cape increases by 3 the DC of all Divination school spells cast by the wearer.",
+        "cost": 3500,
+        "id": "7d3f4612780724b458836605cc769b73",
+        "enchant": [
+            {
+                "name": "CapeOfDivinationEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "d138587e9193f7245931d9183c640d97",
+                "effect": [
+                    "Add feature CapeOfDivinationFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CelestialProtectionItem",
+        "display_name": "Celestial Protection",
+        "description": "This cloak grants the wearer a +5 resistance bonus on saving throws against demons and a +5 competence bonus on Lore (Religion) skill checks.",
+        "cost": 150000,
+        "id": "38ab96e73df32c448ad72b6b2097aa7a",
+        "enchant": [
+            {
+                "name": "CelestialProtectionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fb1630b28e902e04ab47032a326b64b9",
+                "effect": [
+                    "Add feature CelestialProtectionFeature",
+                    "Add stat bonus 5 to SkillLoreReligion (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "SeelahTestLevel14, Player",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player",
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "CloakFromThickPeltItem",
+        "display_name": "Thick Pelt Cloak",
+        "description": "This cloak of resistance +2 grants the wearer immunity to fire.",
+        "cost": 31000,
+        "id": "0c69a27820d52ed4ead5476786f91aa0",
+        "enchant": [
+            {
+                "name": "CloakFromThickPeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "11dabeee4547c61438cc0044611de449",
+                "effect": [
+                    "Add feature CloakFromThickPeltFeature"
+                ]
+            },
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "EmberTestLevel15, Player",
+            "SosielTestLevel14, Player",
+            "SosielTestLevel15, Player",
+            "SosielTestLevel16, Player",
+            "SosielTestLevel17, Player",
+            "SosielTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "CloakOfArcaneReservesItem",
+        "display_name": "Cloak of Arcane Reserves",
+        "description": "Whenever the wearer of this cloak suffers ability damage, next time they cast a spell, its caster level and the difficulty of saving throws against it are increased by 2.",
+        "cost": 28000,
+        "id": "2d38bb0ae9d48904ab2bebf5dac57a36",
+        "enchant": [
+            {
+                "name": "CloakOfArcaneReservesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "79ab6916d9732a049973d6ebf4ac0c18",
+                "effect": [
+                    "Add feature CloakOfArcaneReservesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfCarnageItem",
+        "display_name": "Cloak of Carnage",
+        "description": "This cloak grants the wearer a +5 competence bonus on Knowledge",
+        "cost": 15000,
+        "id": "638283d23c388174e9e27c7d02d543a2",
+        "enchant": [
+            {
+                "name": "CloakOfCaranageEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3641d35ec8817c24692995ec98a30402",
+                "effect": [
+                    "Add feature CloakOfCaranageFeature",
+                    "Add stat bonus 5 to SkillKnowledgeArcana (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "NenioTestLevel14, Player"
+        ],
+        "area": [
+            "IvorySanctum, PF2_Demons_GoodLootChest"
+        ]
+    },
+    {
+        "name": "CloakOfCleansingItem",
+        "display_name": "Cloak of Cleansing",
+        "description": "This cloak of resistance +2 additionally grants the wearer a +2 bonus on saving throws against compulsion and disease effects.",
+        "cost": 13000,
+        "id": "6377f6b75ecef5c40b40e9f3b9efd65d",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfCleansingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c0e9729679d54f0459f19bf8c541b355",
+                "effect": [
+                    "Add feature CloakOfCleansingFeature"
+                ]
+            }
+        ],
+        "area": [
+            "NamelessRuins, PF2_Forest_NamelessRuins_GoodLoot_2"
+        ]
+    },
+    {
+        "name": "CloakOfHeroism",
+        "display_name": "Cloak of Heroism",
+        "description": "This cloak grants its wearer the ability to cast heroism spell once per day as a 2nd level wizard.",
+        "cost": 1800,
+        "id": "dd7e65ef127b930488b85a48616b4baa"
+    },
+    {
+        "name": "CloakOfInnerWarmthItem",
+        "display_name": "Cloak Of Inner Warmth",
+        "description": "This cloak grants its wearer acid resistance 30 and cold resistance 30.",
+        "cost": 44000,
+        "id": "8dfafc99c41d5f645888eb15388904ea",
+        "enchant": [
+            {
+                "name": "ColdResistance30Enchant",
+                "display_name": "Cold Resistance 30",
+                "description": "",
+                "id": "7ef70c319ca74fe4cb5eddea792bb353",
+                "effect": [
+                    "Add feature ColdResistance30Feature"
+                ]
+            },
+            {
+                "name": "AcidResistance30Enchant",
+                "display_name": "Acid Resistance 30",
+                "description": "",
+                "id": "e6fa2f59c7f1bb14ebfc429f17d0a4c6",
+                "effect": [
+                    "Add feature AcidResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfLoneWolfItem",
+        "display_name": "",
+        "description": "",
+        "cost": 29000,
+        "id": "700eae066f5a50c47a482fbdf8378327",
+        "enchant": [
+            {
+                "name": "ToxicWrapEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "890c34b1031e1484e902213bf9f7cacf",
+                "effect": [
+                    "Add feature ToxicWrapFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraHigherCity, PF2_CoolDemons_Chest5"
+        ]
+    },
+    {
+        "name": "CloakOfResistance1",
+        "display_name": "Cloak of Resistance +1",
+        "description": "This cloak grants its wearer a +1 resistance bonus on all saving throws. Bonuses of the same type usually don't stack.",
+        "cost": 1000,
+        "id": "4aea6773c1da01c42bd382c1b7c384bc",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AneviaTirabade, Friends",
+            "AneviaTirabade_DH, Friends",
+            "AneviaTirabade_DrezenCapital, Friends",
+            "AneviaTirabade_GibberingSwarm, Friends",
+            "AneviaTirabade_GorgoyleAttack, Friends",
+            "AneviaTirabade_LostChapel, Friends",
+            "ArueshalaePregenLevel6, Player",
+            "ArueshalaePregenLevel9, Player",
+            "BlackFireAdeptVampire, Mobs",
+            "CR12_DreadZombieCyclopCleric, Mobs",
+            "CR12_Sarcorian_Druid_Caster, Mobs",
+            "CR15_ColoxusEmissary, Mobs",
+            "CR17_ColoxusToughCaster_1, Mobs",
+            "CR21_BalorAdvanced, Mobs",
+            "CR5_BoggardProphet, Mobs",
+            "CameliaPregenLevel4, Player",
+            "CameliaPregenLevel5, Player",
+            "CameliaPregenLevel6, Player",
+            "CameliaPregenLevel7, Player",
+            "CameliaPregenLevel8, Player",
+            "CameliaPregenLevel9, Player",
+            "Chorussina_Miniboss_LuckyDices, Mobs",
+            "Ciar_Companion, Player",
+            "DaeranPregenTestLevel3, Player",
+            "DaeranPregenTestLevel4, Player",
+            "DaeranPregenTestLevel6, Player",
+            "EmberTestLevel2, Player",
+            "EmberTestLevel3, Player",
+            "EmberTestLevel4, Player",
+            "EmberTestLevel9, Player",
+            "Fake_Anorel_GibberingSwarm, Friends",
+            "GateGuard_MediumToHigher, CutsceneNeutrals",
+            "GreyborInIvorySunctum_BowHunterNPC, Mobs",
+            "GreyborInIvorySunctum_ClericNPC, Mobs",
+            "GreyborInIvorySunctum_EldritchArcherNPC, Mobs",
+            "GreyborTestLevel2, Player",
+            "GreyborTestLevel3, Player",
+            "GreyborTestLevel4, Player",
+            "GreyborTestLevel9, Player",
+            "IncubusBandLair_IncubusBoss, Mobs",
+            "LannTestLevel4, Player",
+            "LannTestLevel6, Player",
+            "LannTestLevel9, Player",
+            "LostChapel_GargoyleMiniboss, Mobs",
+            "MarauderAlchemist, Bandits",
+            "Nulkineth_LostChapel, Mobs",
+            "PlayerAeonWizardTestLevel9, Player",
+            "PlayerAzataRangerTestLevel6, Player",
+            "PlayerAzataRangerTestLevel9, Player",
+            "PlayerLichWizardTestLevel2, Player",
+            "PlayerLichWizardTestLevel3, Player",
+            "PlayerLichWizardTestLevel4, Player",
+            "PlayerLichWizardTestLevel9, Player",
+            "PlayerTestLevel4, Player",
+            "PlayerTestLevel5, Player",
+            "PlayerTestLevel6, Player",
+            "PlayerTricksterRangerTestLevel9, Player",
+            "RegillPregenLevel1, Player",
+            "RegillPregenLevel2, Player",
+            "RegillPregenLevel3, Player",
+            "RegillPregenLevel4, Player",
+            "RegillPregenLevel5, Player",
+            "RegillPregenLevel6, Player",
+            "Regill_HellknightsCamp, Friends",
+            "Regill_Level6, Player",
+            "RobedDwarf, Friends",
+            "Sarcorian_Druid_Caster_Sweep, Mobs",
+            "SeelahTestLevel3, Player",
+            "SeelahTestLevel4, Player",
+            "SeelahTestLevel5, Player",
+            "SeelahTestLevel6, Player",
+            "Seelah_Level6, Player",
+            "Seelah_Level7, Player",
+            "SosielTestLevel3, Player",
+            "SosielTestLevel4, Player",
+            "WarCamp_ScrollVendorOld, CutsceneNeutrals",
+            "WintersunSiabrae, Mobs",
+            "WoljifTestLeve6, Player",
+            "WoljifTestLeve7, Player",
+            "Zacharius, Mobs",
+            "Zacharius_LostChapel, Friends",
+            "Zacharius_Ziggurat, Mobs",
+            "Zanedra, Neutrals",
+            "Zanedra_Sanctum, CutsceneNeutrals"
+        ],
+        "area": [
+            "Prologue_Caves_1, PF2_NaturalCaves_Loot_1"
+        ]
+    },
+    {
+        "name": "CloakOfResistance2",
+        "display_name": "Cloak of Resistance +2",
+        "description": "This cloak grants its wearer a +2 resistance bonus on all saving throws. Bonuses of the same type usually don't stack.",
+        "cost": 4000,
+        "id": "04dff7841c5f499478c91487d9bbdcef",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "Arsinoe, Neutrals",
+            "ArueshalaePregenLevel7, Player",
+            "BlackMaskSlaveTrader, CutsceneNeutrals",
+            "CR14_CambionBard_Ranged, Mobs",
+            "CR15_CambionAlchemist_Ranged, Mobs",
+            "CR15_MercenarySupportCaster, Mobs",
+            "CR17_DevourerAdvanced, Mobs",
+            "CR19_CambionBard_Melee, Mobs",
+            "CR19_GlabrezuDrezenOptional, Mobs",
+            "CR22_MinotaurPriest, Mobs",
+            "CameliaPregenLevel10, Player",
+            "CameliaPregenLevel11, Player",
+            "DaeranPregenTestLevel10, Player",
+            "DaeranPregenTestLevel7, Player",
+            "DaeranPregenTestLevel8, Player",
+            "DaeranPregenTestLevel9, Player",
+            "EmberTestLevel7, Player",
+            "EmberTestLevel8, Player",
+            "GreyborTestLevel6, Player",
+            "GreyborTestLevel7, Player",
+            "GreyborTestLevel8, Player",
+            "Inquisitor_Letr, Neutrals",
+            "IvoryLabyrinthMinotaurCasterFinal1_20, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal2_20, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal3_20, Mobs",
+            "Jeslyn_Boss, Mobs",
+            "LannTestLevel11, Player",
+            "LannTestLevel14, Player",
+            "LannTestLevel7, Player",
+            "LannTestLevel8, Player",
+            "MutasafenAssistent, Mobs",
+            "PlayerAzataRangerTestLevel7, Player",
+            "PlayerLichWizardTestLevel6, Player",
+            "PlayerLichWizardTestLevel7, Player",
+            "PlayerLichWizardTestLevel8, Player",
+            "PlayerTestLevel7, Player",
+            "PlayerTestLevel8, Player",
+            "PlayerTestLevel9, Player",
+            "Pregen_Cleric_MVP, Player",
+            "Pregen_Fighter_MVP, Player",
+            "Pregen_Grimbor_MVP, Player",
+            "Pregen_Lann_MVP, Player",
+            "Pregen_PlayerAlchemist_MVP, Player",
+            "Pregen_Regill_MVP, Player",
+            "Pregen_Seelah_MVP, Player",
+            "RegillPregenLevel10, Player",
+            "RegillPregenLevel11, Player",
+            "RegillPregenLevel7, Player",
+            "RegillPregenLevel8, Player",
+            "RegillPregenLevel9, Player",
+            "SailorSupportCaster, Neutrals",
+            "SeelahTestLevel10, Player",
+            "SeelahTestLevel7, Player",
+            "SeelahTestLevel8, Player",
+            "SeelahTestLevel9, Player",
+            "SosielTestLevel10, Player",
+            "SosielTestLevel6, Player",
+            "SosielTestLevel7, Player",
+            "SosielTestLevel8, Player",
+            "SosielTestLevel9, Player",
+            "TestPregen_Arcanist, Player",
+            "TestPregen_Shaman, Player",
+            "VentureCaptainChristoff, CutsceneNeutrals",
+            "VentureCaptainHilor, CutsceneNeutrals",
+            "VentureCaptainHilorDamaged, CutsceneNeutrals",
+            "WoljifTestLeve8, Player"
+        ],
+        "area": [
+            "ColyphyrDungeon, PF2_DemonWorld_TrueTreasures#1"
+        ]
+    },
+    {
+        "name": "CloakOfResistance3",
+        "display_name": "Cloak of Resistance +3",
+        "description": "This cloak grants its wearer a +3 resistance bonus on all saving throws. Bonuses of the same type usually don't stack.",
+        "cost": 9000,
+        "id": "9f3c56d5247154e47b5ca9500f4d86ce",
+        "enchant": [
+            {
+                "name": "Resistance3",
+                "display_name": "",
+                "description": "",
+                "id": "9d6f77c05099caf4eab25228632fdf64",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AasimarRedMask, CutsceneNeutrals",
+            "ArueshalaePregenLevel10, Player",
+            "ArueshalaePregenLevel11, Player",
+            "ArueshalaePregenLevel12, Player",
+            "ArueshalaePregenLevel13, Player",
+            "ArueshalaePregenLevel8, Player",
+            "Arueshalae_Level9, Player",
+            "Berengar, NeutralGuards",
+            "CR17_AlushinyrraVampireRanged, Mobs",
+            "CR17_MercenaryMelee, Mobs",
+            "CR18_CambionToughCaster, Mobs",
+            "CR19_Cultist_Areshkagal_MeleeCaster, Mobs",
+            "CR24_CambionMinibossCaster, Mobs",
+            "CambionSlaverLeader, Mobs",
+            "CameliaPregenLevel12, Player",
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "Chadali, Friends",
+            "Dimalchio, CutsceneNeutrals",
+            "EmberTestLevel10, Player",
+            "EmberTestLevel11, Player",
+            "EmberTestLevel12, Player",
+            "EmberTestLevel13, Player",
+            "Eritrice, Friends",
+            "GateGuard_HigherToMedium, CutsceneNeutrals",
+            "Gelderfang, CutsceneNeutrals",
+            "GreyborInIvorySunctumAsNPC, Mobs",
+            "GreyborNPC, Player",
+            "GreyborNPCLevel10, Friends",
+            "GreyborTestLevel10, Player",
+            "GreyborTestLevel11, Player",
+            "GreyborTestLevel12, Player",
+            "Horzalah_AssasinElfFighterRanged, Bandits",
+            "Horzalah_AssasinKitsuneMagusMelee, Bandits",
+            "Kerz, Neutrals",
+            "Kestoglyr_Companion, Player",
+            "LannTestLevel10, Player",
+            "LannTestLevel12, Player",
+            "LannTestLevel13, Player",
+            "Mielara, CutsceneNeutrals",
+            "Mutasafen, Mobs",
+            "MutasafenSecond, Mobs",
+            "MutasafenThird, Mobs",
+            "Mutasafen_MidnightFaneInThePast, Mobs",
+            "PlayerAeonWizardTestLevel10, Player",
+            "PlayerAeonWizardTestLevel11, Player",
+            "PlayerAeonWizardTestLevel12, Player",
+            "PlayerAeonWizardTestLevel13, Player",
+            "PlayerAzataRangerTestLevel10, Player",
+            "PlayerAzataRangerTestLevel11, Player",
+            "PlayerAzataRangerTestLevel12, Player",
+            "PlayerAzataRangerTestLevel13, Player",
+            "PlayerAzataRangerTestLevel8, Player",
+            "PlayerDemonMythicTestLevel10, Player",
+            "PlayerDemonMythicTestLevel11, Player",
+            "PlayerDemonMythicTestLevel12, Player",
+            "PlayerLichWizardTestLevel10, Player",
+            "PlayerLichWizardTestLevel11, Player",
+            "PlayerLichWizardTestLevel12, Player",
+            "PlayerLichWizardTestLevel13, Player",
+            "PlayerTestLevel10, Player",
+            "PlayerTestLevel11, Player",
+            "PlayerTestLevel12, Player",
+            "PlayerTestLevel16, Player",
+            "PlayerTricksterRangerTestLevel10, Player",
+            "PlayerTricksterRangerTestLevel11, Player",
+            "PlayerTricksterRangerTestLevel12, Player",
+            "PlayerTricksterRangerTestLevel13, Player",
+            "PuluraFall_Eliandra, AngelTeam",
+            "RegillPregenLevel15, Player",
+            "RegillPregenLevel16, Player",
+            "RegillQ2_KTC_Yaker, Friends",
+            "SailorMelee, Neutrals",
+            "SeelahTestLevel11, Player",
+            "SosielTestLevel11, Player",
+            "SosielTestLevel12, Player",
+            "SosielTestLevel13, Player",
+            "UndeadKingAlberie, Neutrals",
+            "UrgathoaPatrols_Cleric, NeutralGuards",
+            "UrgathoaPatrols_SkeletalChampion, NeutralGuards",
+            "VampirePatrols_VampireSpawn, NeutralGuards",
+            "WildHunt_Atselm, CutsceneNeutrals",
+            "WildHunt_AtselmOld, CutsceneNeutrals",
+            "WildHunt_AtselmYoung, CutsceneNeutrals",
+            "WoljifTestLeve10, Player",
+            "WoljifTestLeve11, Player",
+            "WoljifTestLeve12, Player",
+            "WoljifTestLeve13, Player",
+            "WoljifTestLeve14, Player",
+            "WoljifTestLeve15, Player",
+            "WoljifTestLeve9, Player",
+            "Xantir_MidnightFaneInThePast, CutsceneNeutrals",
+            "YakerAnkelli_Hellknight, Friends",
+            "YakerWithTorch_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightsCamp, Friends",
+            "Yaker_WarCamp, Friends",
+            "Yaniel, AngelTeam",
+            "Yaniel_DrezenCitadelLevel2, AngelTeam"
+        ]
+    },
+    {
+        "name": "CloakOfResistance4",
+        "display_name": "Cloak of Resistance +4",
+        "description": "This cloak grants its wearer a +4 resistance bonus on all saving throws. Bonuses of the same type usually don't stack.",
+        "cost": 16000,
+        "id": "096125bfb3b364849b02ab65297f71de",
+        "enchant": [
+            {
+                "name": "Resistance4",
+                "display_name": "",
+                "description": "",
+                "id": "cdba7ef2a02a2b9499059bd558e5354d",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AlderpashLich25, CutsceneNeutrals",
+            "Alichino, Friends",
+            "Anemora, Mobs",
+            "ArueshalaePregenLevel14, Player",
+            "ArueshalaePregenLevel15, Player",
+            "Baphomet, Neutrals",
+            "CR17_Cultist_Areshkagal_DamageFullCaster, Mobs",
+            "CR17_Cultist_Areshkagal_MeleeFighterDefensive, Mobs",
+            "CR18_Cultist_Areshkagal_MeleeFighterTwoHanded, Mobs",
+            "CR18_Cultist_Areshkagal_MeleeRogue, Mobs",
+            "CR18_Cultist_Areshkagal_RangedFighter, Mobs",
+            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
+            "CR25_AreshkagalFullCasterBoss, Mobs",
+            "CameliaPregenLevel16, Player",
+            "CameliaPregenLevel17, Player",
+            "DaeranPregenTestLevel11, Player",
+            "DaeranPregenTestLevel12, Player",
+            "DaeranPregenTestLevel13, Player",
+            "DaeranPregenTestLevel14, Player",
+            "DaeranPregenTestLevel15, Player",
+            "EmberTestLevel14, Player",
+            "GreyborTestLevel13, Player",
+            "GreyborTestLevel14, Player",
+            "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_Septimus, Civilians",
+            "PlayerAeonWizardTestLevel14, Player",
+            "PlayerAzataRangerTestLevel14, Player",
+            "PlayerAzataRangerTestLevel15, Player",
+            "PlayerAzataRangerTestLevel16, Player",
+            "PlayerDemonMythicTestLevel13, Player",
+            "PlayerDemonMythicTestLevel14, Player",
+            "PlayerDemonMythicTestLevel15, Player",
+            "PlayerLichWizardTestLevel14, Player",
+            "PlayerTestLevel13, Player",
+            "PlayerTestLevel14, Player",
+            "PlayerTestLevel15, Player",
+            "PlayerTricksterRangerTestLevel14, Player",
+            "PlayerTricksterRangerTestLevel15, Player",
+            "PlayerTricksterRangerTestLevel16, Player",
+            "PuluraFall_Katair, NeutralGuards",
+            "RegillPregenLevel12, Player",
+            "SeelahTestLevel12, Player",
+            "SeelahTestLevel13, Player",
+            "SeelahTestLevel19, Player",
+            "Svendack22, Mobs",
+            "WoljifTestLeve16, Player",
+            "WoljifTestLeve17, Player",
+            "WoljifTestLeve18, Player",
+            "Yozz, CutsceneNeutrals"
+        ],
+        "area": [
+            "WintersunOutdoor, PF2_Forest_GoodLoot_20_Hidden"
+        ]
+    },
+    {
+        "name": "CloakOfResistance5",
+        "display_name": "Cloak of Resistance +5",
+        "description": "This cloak grants its wearer a +5 resistance bonus on all saving throws. Bonuses of the same type usually don't stack.",
+        "cost": 25000,
+        "id": "a34cd0f80d04ec647af741d924a3e2a3",
+        "enchant": [
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel16, Player",
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player",
+            "CR22_AreshkagalMinotaurMiniBoss, Mobs",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel20, Player",
+            "DaeranPregenTestLevel16, Player",
+            "DaeranPregenTestLevel17, Player",
+            "DarekSunhammer, Neutrals",
+            "EmberTestLevel16, Player",
+            "EmberTestLevel17, Player",
+            "EmberTestLevel18, Player",
+            "EmberTestLevel19, Player",
+            "GreyborTestLevel15, Player",
+            "GreyborTestLevel16, Player",
+            "GreyborTestLevel17, Player",
+            "GreyborTestLevel18, Player",
+            "GreyborTestLevel19, Player",
+            "HellknightsParaliktor_Aminas, Friends",
+            "HellknightsParaliktor_Gerren, Friends",
+            "HellknightsParaliktor_Lerana, Friends",
+            "LannTestLevel19, Player",
+            "PlayerAeonWizardTestLevel15, Player",
+            "PlayerAeonWizardTestLevel16, Player",
+            "PlayerAeonWizardTestLevel17, Player",
+            "PlayerAeonWizardTestLevel18, Player",
+            "PlayerAeonWizardTestLevel19, Player",
+            "PlayerAzataRangerTestLevel17, Player",
+            "PlayerAzataRangerTestLevel18, Player",
+            "PlayerDemonMythicTestLevel16, Player",
+            "PlayerDemonMythicTestLevel17, Player",
+            "PlayerLichWizardTestLevel15, Player",
+            "PlayerLichWizardTestLevel16, Player",
+            "PlayerLichWizardTestLevel17, Player",
+            "PlayerLichWizardTestLevel18, Player",
+            "PlayerLichWizardTestLevel19, Player",
+            "PlayerTestLevel17, Player",
+            "PlayerTricksterRangerTestLevel17, Player",
+            "PlayerTricksterRangerTestLevel18, Player",
+            "RegillPregenLevel13, Player",
+            "RegillPregenLevel14, Player",
+            "RegillQ2_KTC_ParaliktorAminas, Friends",
+            "RegillQ2_KTC_ParaliktorGerren, Friends",
+            "RegillQ2_KTC_ParaliktorLerana, Friends",
+            "SosielTestLevel19, Player",
+            "SosielTestLevel20, Player",
+            "WoljifTestLeve19, Player",
+            "WoljifTestLeve20, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_Chest2",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "CloakOfResistance6",
+        "display_name": "Cloak of Resistance +6",
+        "description": "This cloak grants its wearer a +6 resistance bonus on all saving throws. Bonuses of the same type usually don't stack.",
+        "cost": 140000,
+        "id": "37090c79c13262f45821d91071efc138",
+        "enchant": [
+            {
+                "name": "Resistance6",
+                "display_name": "",
+                "description": "",
+                "id": "c67c2306707c3284db43c1ea35a03715",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel19, Player",
+            "ArueshalaePregenLevel20, Player",
+            "DaeranPregenTestLevel18, Player",
+            "DaeranPregenTestLevel19, Player",
+            "DaeranPregenTestLevel20, Player",
+            "EmberTestLevel20, Player",
+            "GreyborTestLevel20, Player",
+            "LannTestLevel20, Player",
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataRangerTestLevel19, Player",
+            "PlayerAzataRangerTestLevel20, Player",
+            "PlayerDemonMythicTestLevel18, Player",
+            "PlayerDemonMythicTestLevel19, Player",
+            "PlayerDemonMythicTestLevel20, Player",
+            "PlayerLichWizardTestLevel20, Player",
+            "PlayerTestLevel18, Player",
+            "PlayerTestLevel19, Player",
+            "PlayerTestLevel20, Player",
+            "PlayerTricksterRangerTestLevel19, Player",
+            "PlayerTricksterRangerTestLevel20, Player",
+            "RegillPregenLevel17, Player",
+            "RegillPregenLevel18, Player",
+            "RegillPregenLevel19, Player",
+            "RegillPregenLevel20, Player",
+            "SeelahTestLevel20, Player",
+            "StartGameSorcererPregenUnitLevel20, Player"
+        ]
+    },
+    {
+        "name": "CloakOfSeerItem",
+        "display_name": "Cloak of the Seer",
+        "description": "This cloak grants its wearer a +3 deflection bonus to AC, a +3 bonus to Fortitude and Will saving throws, and an ability to cast see invisibility spell once per day as a 3rd level wizard.",
+        "cost": 48600,
+        "id": "017f9cbc5ff31e74598e2ef0379d3c82",
+        "enchant": [
+            {
+                "name": "Fortitude3",
+                "display_name": "",
+                "description": "",
+                "id": "bdf029b3d7f6a4e4bb00c1393ee3de64",
+                "effect": [
+                    "Add stat bonus 3 to SaveFortitude (descriptor: Resistance)"
+                ]
+            },
+            {
+                "name": "Will3",
+                "display_name": "",
+                "description": "",
+                "id": "8e19a6dde2e4bd94eba2bb2fc6cb1cf5",
+                "effect": [
+                    "Add stat bonus 3 to SaveWill (descriptor: Resistance)"
+                ]
+            },
+            {
+                "name": "Deflection3",
+                "display_name": "",
+                "description": "",
+                "id": "770ff94f548368743a5fc63f2cf5b0b6",
+                "effect": [
+                    "Add stat bonus 3 to AC (descriptor: Deflection)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfShadows",
+        "display_name": "Cloak of Shadows",
+        "description": "This cloak grants its wearer a +10 enhancement bonus to all Stealth skill checks, and immunity to blindness and dazzling.",
+        "cost": 6000,
+        "id": "42aa20c20917c41448fd6cb27de98d60",
+        "enchant": [
+            {
+                "name": "Stealth10",
+                "display_name": "",
+                "description": "",
+                "id": "2dca32da290bfb740bafe13395419f77",
+                "effect": [
+                    "Add stat bonus 10 to SkillStealth (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BlindnessImmunity",
+                "display_name": "",
+                "description": "",
+                "id": "dc6927b978fd07a4dae6bc1bce93d8ef",
+                "effect": [
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment",
+                    "Add feature BlindnessImmunity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfSharpFangs",
+        "display_name": "",
+        "description": "",
+        "cost": 10000,
+        "id": "79d4c7eb1cafab94984205bb2fe54dcd",
+        "enchant": [
+            {
+                "name": "CloakOfSharpFangsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "800d2e5571d292e44b1dcf145b407dbe",
+                "effect": [
+                    "Add feature CloakOfSharpFangsFeature",
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfSparklesItem",
+        "display_name": "Cloak Of Sparkles",
+        "description": "This cloak grants its wearer fire resistance 30 and electricity resistance 30.",
+        "cost": 1800,
+        "id": "5dbe5da0779cb7b47b742ac3f56f1086",
+        "enchant": [
+            {
+                "name": "FireResistance30Enchant",
+                "display_name": "Fire Resistance 30",
+                "description": "",
+                "id": "0e98403449de8ce4c846361c6df30d1f",
+                "effect": [
+                    "Add feature FireResistance30Feature"
+                ]
+            },
+            {
+                "name": "ElectricityResistance30Enchant",
+                "display_name": "Electricity Resistance 30",
+                "description": "",
+                "id": "26b91513989a653458986fabce24ba95",
+                "effect": [
+                    "Add feature ElectricityResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfStagLord",
+        "display_name": "Cloak of Winter Veil",
+        "description": "This cloak grants its wearer a +1 resistance bonus on all saving throws and cold resistance 10. Bonuses of the same type usually don't stack.",
+        "cost": 3000,
+        "id": "3496c0af23640bf4a9f0881771514630",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "ColdResistance10Enchantment",
+                "display_name": "Cold Resistance 10",
+                "description": "",
+                "id": "04fa37ad59430984987ae8f396c0d1fd",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "StartGameSorcererPregenUnitLevel8, Player"
+        ]
+    },
+    {
+        "name": "CloakOfStrongWilledItem",
+        "display_name": "Cloak of Unbending Will",
+        "description": "This cloak grants the wearer a +3 resistance bonus on Will saving throws.",
+        "cost": 700,
+        "id": "f0623bbb6fedd54489e7ebbfe2dc4b48",
+        "enchant": [
+            {
+                "name": "CloakOfStrongWilledEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "402649cec0238d441ac6d08c3d44412d",
+                "effect": [
+                    "Add stat bonus 3 to SaveWill (descriptor: Resistance)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheBearItem",
+        "display_name": "Cloak of the Bear",
+        "description": "This cloak grants its wearer a +4 resistance bonus on all saving throws and a +4 competence bonus to CMD.",
+        "cost": 45000,
+        "id": "9af35985be20c384a957e5c7dfdb41f2",
+        "enchant": [
+            {
+                "name": "CloakOfTheBearEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "83f696e9e6fe62b45876fde233914506",
+                "effect": [
+                    "Add stat bonus 4 to AdditionalCMD (descriptor: Competence)",
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheChosenItem",
+        "display_name": "Cloak of the Chosen",
+        "description": "This cloak grants its wearer immunity to blindness and dazzle, a +3 resistance bonus on Will saving throws, and the ability to cast prayer spell at will as a 9th level cleric.",
+        "cost": 81000,
+        "id": "e8596ae383f840c4899f6b1228c731e0",
+        "enchant": [
+            {
+                "name": "BlindnessImmunity",
+                "display_name": "",
+                "description": "",
+                "id": "dc6927b978fd07a4dae6bc1bce93d8ef",
+                "effect": [
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment",
+                    "Add feature BlindnessImmunity"
+                ]
+            },
+            {
+                "name": "Will3",
+                "display_name": "",
+                "description": "",
+                "id": "8e19a6dde2e4bd94eba2bb2fc6cb1cf5",
+                "effect": [
+                    "Add stat bonus 3 to SaveWill (descriptor: Resistance)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheLion",
+        "display_name": "Cloak of the Lion",
+        "description": "This cloak gives its wearer a +3 resistance bonus on all saving throws. If the wearer is Lawful Good, this bonus is increased to +5. If the wearer is a paladin, they gain an ability to spend one use of their Smite Evil ability to grant all allies in the range of 20 feet immunity to fear effects for the number of rounds equal to the wearer's paladin level.",
+        "cost": 32000,
+        "id": "465bcf20235d0d04593d671bf9b607f0",
+        "enchant": [
+            {
+                "name": "Resistance3",
+                "display_name": "",
+                "description": "",
+                "id": "9d6f77c05099caf4eab25228632fdf64",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfTheLionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "af24e674d4279cf468182bf612513b73",
+                "effect": [
+                    "Add feature CloakOfTheLionFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheWinterWolfItem",
+        "display_name": "Cloak of the Winter Wolf",
+        "description": "Whenever the wearer of this cloak makes a successful bite attack, it deals additional 1d6 cold damages and trips the target.",
+        "cost": 46000,
+        "id": "77491022ca26d194fbee5e04395ae967",
+        "enchant": [
+            {
+                "name": "CloakOfTheWinterWolfEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d89021651911c1a48bad11c599e9eff3",
+                "effect": [
+                    "Add feature CloakOfTheWinterWolfFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakWyvernItem",
+        "display_name": "Wyvern Skin Cloak",
+        "description": "This cloak grants its wearer a +2 enhancement bonus to natural armor and +4 resistance bonus on saving throws against poison, sleep and paralysis.",
+        "cost": 1800,
+        "id": "b20919f1a98333f449956f0380fae855",
+        "enchant": [
+            {
+                "name": "CloakOfWyvernEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2421a9a5ceac85b488d7df4ed289d9b5",
+                "effect": [
+                    "Add feature CloakWyvernFeature"
+                ]
+            }
+        ],
+        "enhance": "2"
+    },
+    {
+        "name": "ContagiousShroudItem",
+        "display_name": "Contagious Shroud",
+        "description": "Whenever the wearer of this cloak is attacked in melee, the attacker must pass a Fortitude saving throw (DC 29) or become sickened and vulnerable to acid for 4 rounds. This effect can only occur once per attacker during a combat.",
+        "cost": 28000,
+        "id": "80f028d846d9e47408f35739b93bde4b",
+        "enchant": [
+            {
+                "name": "ContagiousShroudEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7eebb46a3368e9b458f605611aec89d5",
+                "effect": [
+                    "Add feature ContagiousShroudFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DervishCloakItem",
+        "display_name": "Thaumaturgist's Cloak",
+        "description": "This cloak grants its wearer a +5 competence bonus to Knowledge (World) and Knowledge (Arcana) skill checks, and a +2 enhancement bonus to Charisma.",
+        "cost": 7800,
+        "id": "2595ae738523d9c4ea96f0d7e8b35470",
+        "enchant": [
+            {
+                "name": "DervishCloakEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "b2fc25f53129c2548b5e4048497bb43d",
+                "effect": [
+                    "Add stat bonus 5 to SkillKnowledgeWorld (descriptor: Competence)",
+                    "Add stat bonus 5 to SkillKnowledgeArcana (descriptor: Competence)"
+                ]
+            },
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EnchantersCapeItem",
+        "display_name": "Enchanter's Cape",
+        "description": "This cape grants its wearer a +1 bonus to Enchantment school spells' DC.",
+        "cost": 3500,
+        "id": "41cd16a5d7c786c4ab7fb134f436a135",
+        "enchant": [
+            {
+                "name": "EnchantersCapeEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "753b311c2c30c61479057b16db24e32e",
+                "effect": [
+                    "Add feature EnchantersCapeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ExtraplanarCloakItem",
+        "display_name": "Extraplanar Cloak",
+        "description": "This cloak grants its wearer a +4 enhancement bonus to Constitution and the ability to cast summon monster V spell once per day for 9 rounds.",
+        "cost": 19600,
+        "id": "dafc585c01487b74781ae43f1a747d9e",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GrimMantleItem",
+        "display_name": "",
+        "description": "This cloak grants its wearer a +5 resistance bonus on all saving throws and immunity to poison.",
+        "cost": 35000,
+        "id": "aff7db5f5fa7c1a429ad1338908fd8a3",
+        "enchant": [
+            {
+                "name": "GrimMantleEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3274a4379deb80e4795df2046debf89e",
+                "effect": [
+                    "AllSavesBonusEquipment",
+                    "Add feature GrimMantleFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HerbalistCapeItem",
+        "display_name": "Herbalist's Cape",
+        "description": "This cloak grants its wearer a +4 enhancement bonus to Intelligence, a +5 competence bonus on all Lore (Nature) checks and the ability to cast delay poison spell three times per day as a 3rd level cleric.",
+        "cost": 48000,
+        "id": "e8157dd509418c449a642dbe4c4dd102",
+        "enchant": [
+            {
+                "name": "Intelligence4",
+                "display_name": "",
+                "description": "",
+                "id": "4a235cbdeebd2524681870153bab3cba",
+                "effect": [
+                    "Add stat bonus 4 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "HerbalistCapeEcnhant",
+                "display_name": "",
+                "description": "",
+                "id": "b634a816194535f468b2e3b1f1d6cad4",
+                "effect": [
+                    "Add stat bonus 5 to SkillLoreNature (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HermitsCloakItem",
+        "display_name": "Hermit's Cloak",
+        "description": "This cloak grants the wearer a +6 bonus on Fortitude saving throws, a +5 competence bonus on Lore (Nature) skill checks, and cold resistance 10.",
+        "cost": 11000,
+        "id": "53bdf36992b80e74baed47e99bc1d07e",
+        "enchant": [
+            {
+                "name": "HermitsCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "08d99b1ce1179254ca9236a77a2601b2",
+                "effect": [
+                    "Add feature HermitsCloakFeature",
+                    "Add stat bonus 5 to SkillLoreNature (descriptor: Competence)",
+                    "Add stat bonus 6 to SaveFortitude (descriptor: UntypedStackable)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LibrariansCloakItem",
+        "display_name": "Librarian's Cloak",
+        "description": "This cloak grants its wearer a +10 competence bonus on Use Magic Device skill checks. It also increases the effective caster level by 4 when using scrolls.",
+        "cost": 28400,
+        "id": "e35dcb7082ec47a47bc5cf56ed038147",
+        "enchant": [
+            {
+                "name": "LibrariansCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e5b91c171f0c0754f986fe74c2d8e274",
+                "effect": [
+                    "Add feature LibrariansCloakFeature",
+                    "Add stat bonus 10 to SkillUseMagicDevice (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraLowerCity, PF2_Demons_Chest6",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "LivingFlameItem",
+        "display_name": "Living Flame",
+        "description": "Whenever the wearer of this cloak channels energy to harm undead, for the next 2 rounds they become surrounded with a fire shield that deals 1d6 + character level fire damage to the attackers for each successful melee attack against the wearer.",
+        "cost": 28000,
+        "id": "a7a80b6886951c141834fdc171ac6679",
+        "enchant": [
+            {
+                "name": "LivingFlameEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "280fc4781b253a548bc52ccbd2fbcfbf",
+                "effect": [
+                    "Add feature LivingFlameFeature"
+                ]
+            }
+        ],
+        "area": [
+            "Sosiel_Q2_EradikatorsMassacre, PF2_Worldwound_GoodLoot"
+        ]
+    },
+    {
+        "name": "MistyCoverItem",
+        "display_name": "Misty Cover",
+        "description": "This cloak of resistance +4 grants the wearer +2 insight bonus to AC against flying creatures and summoned creatures.",
+        "cost": 26000,
+        "id": "e51033a3aad5c524ba73e851f3f3e0a1",
+        "enchant": [
+            {
+                "name": "MistyCoverEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7d8507e1d3b97cf428c23fae9cd45769",
+                "effect": [
+                    "Add feature MistyCoverFeature"
+                ]
+            },
+            {
+                "name": "Resistance4",
+                "display_name": "",
+                "description": "",
+                "id": "cdba7ef2a02a2b9499059bd558e5354d",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel15, Player",
+            "LannTestLevel16, Player",
+            "LannTestLevel17, Player",
+            "LannTestLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    },
+    {
+        "name": "RoguesCompanionItem",
+        "display_name": "Rogue's Companion",
+        "description": "This cloak grants its wearer a +5 competence bonus on Trickery checks and the ability to cast expeditious retreat three times per day as a 1st level wizard.",
+        "cost": 10100,
+        "id": "d24d5bcf3b99c6948a85c83d8c711ed2",
+        "enchant": [
+            {
+                "name": "RoguesCompanionEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "b3a0e042daee19242bcde2a1665d2643",
+                "effect": [
+                    "Add stat bonus 5 to SkillThievery (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RovagugSpawnCloakItem",
+        "display_name": "Skin of the Rough Beast",
+        "description": "This cloak grants its wearer 50% of Fortification (providing a 50% chance to negate a critical hit or a sneak attack extra damage) and immunity to confusion, fear, paralysis and insanity. It also imbues the wearer with the powers of the Spawn of Rovagug allowing to use the Corruption of the Rough Beast ability three times per day.\nCorruption of the Rough Beast applies one of the following effects to all enemies within 100 feet radius for 1d6+1 rounds",
+        "cost": 140000,
+        "id": "59f597dee4897064dbac47d71131bd34",
+        "enchant": [
+            {
+                "name": "RovagugSpawnCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "34562d1aab15787409755d094cf67862",
+                "effect": [
+                    "Add feature RovagugSpawnCloakFeature",
+                    "AddFactContextActions"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RulersMantleItem",
+        "display_name": "Ruler's Mantle",
+        "description": "This mantle grants its wearer a +1 resistance bonus on all saving throws, and a +3 resistance bonus on saving throws against poison.",
+        "cost": 1000,
+        "id": "d243856faedafb348ac448402efc1d12",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "RulersMantleEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "01dd9b1d29abf4a46b4b1c5fa4fe0b1d",
+                "effect": [
+                    "Add feature RulersMantleFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ScarletAllureItem",
+        "display_name": "Scarlet Allure",
+        "description": "This red cloak of resistance +3 makes anyone look good. It grants the wearer a +5 morale bonus on Persuasion skill checks. Whenever an enemy confirms a critical hit, lands a sneak attack or attack of opportunity against the wearer, the enemy must pass a Will saving throw (DC 27) or become devastated by hitting such beauty. In this devastated mood they suffer a -2 penalty to attack and damage rolls, as well as AC, until the end of combat.",
+        "cost": 44000,
+        "id": "b439462e8bb5bfc47a45e0874b94ee62",
+        "enchant": [
+            {
+                "name": "Resistance3",
+                "display_name": "",
+                "description": "",
+                "id": "9d6f77c05099caf4eab25228632fdf64",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "ScarletAllureEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e82b3af9ee9ff4b4b85a88d711cd8db7",
+                "effect": [
+                    "Add feature ScarletAllureFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShamansCloak",
+        "display_name": "Shaman's Cloak",
+        "description": "This cloak grants its wearer a +5 resistance bonus on all saving throws, and the ability to cast elemental body IV (earth) spell once per day as a 17th level wizard.",
+        "cost": 185000,
+        "id": "029d52c91f3e6af488610609033bb011",
+        "enchant": [
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShroudOfAbaddon",
+        "display_name": "Shroud of Abaddon",
+        "description": "This cape grants its wearer a +2 resistance bonus on all saving throws, fire resistance 15, cold resistance 15, electricity resistance 15 and acid resistance 15.",
+        "cost": 36000,
+        "id": "03d72918c5f5c4d498607e76231e3487",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "ElementalResistance15Enchantment",
+                "display_name": "Elemental Resistance 10",
+                "description": "",
+                "id": "ddf8b2846afe3ad40bcb80650bba6128",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShroudOfDecayItem",
+        "display_name": "Noxious Veil",
+        "description": "This cloak grants its wearer acid resistance 30 and the ability to cast acid fog spell twice per day as a 11th level wizard.",
+        "cost": 64900,
+        "id": "4b7d966416275e545b4214276e6ae5a2",
+        "enchant": [
+            {
+                "name": "AcidResistance30Enchant",
+                "display_name": "Acid Resistance 30",
+                "description": "",
+                "id": "e6fa2f59c7f1bb14ebfc429f17d0a4c6",
+                "effect": [
+                    "Add feature AcidResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShroudOfEternalMadness",
+        "display_name": "Strigoi's Embrace",
+        "description": "This cloak grants its wearer a +8 enhancement bonus to Charisma and the ability to cast energy drain spell once per day as a 13th level wizard.",
+        "cost": 163800,
+        "id": "c64b02049acdafe429d01ddc5d112d54",
+        "enchant": [
+            {
+                "name": "Charisma8",
+                "display_name": "",
+                "description": "",
+                "id": "7669e7a9af237314dbb2a22e78e1a0b4",
+                "effect": [
+                    "Add stat bonus 8 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SkinnedLeatherCloakItem",
+        "display_name": "Skinned Leather Cloak",
+        "description": "Whenever the wearer lands a hit on an enemy first time in a round, the enemy must pass a Fortitude saving throw (DC 29) or be partially skinned. Those who fail the save become staggered and take 2 points of Constitution drain per round for 1d4 rounds.",
+        "cost": 17000,
+        "id": "98d3ea2a37f566c4ebce104c2d60fdb9",
+        "enchant": [
+            {
+                "name": "SkinnedLeatherCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4ce017d8c8dd45d4e9e16ff3aa82b4e8",
+                "effect": [
+                    "Add feature SkinnedLeatherCloakFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CameliaPregenLevel15, Player",
+            "PlayerTestRangedFighterLevel14, Player",
+            "PlayerTestRangedFighterLevel15, Player",
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player"
+        ],
+        "area": [
+            "EcorcheLair, PF2_Worldwound_Loot11"
+        ]
+    },
+    {
+        "name": "ToxicWrapItem",
+        "display_name": "Toxic Wrap",
+        "description": "This cloak grants its wearer immunity to acid. It also makes enemies sickened for 1d3 rounds upon landing a sneak attack unless they pass a Fortitude saving throw (DC 26).",
+        "cost": 39000,
+        "id": "475409af2b004ed45873ff7057d1dab1",
+        "enchant": [
+            {
+                "name": "ToxicWrapEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "890c34b1031e1484e902213bf9f7cacf",
+                "effect": [
+                    "Add feature ToxicWrapFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "WarmEmbrace",
+        "display_name": "Warm Embrace",
+        "description": "This cloak grants its wearer cold resistance 10 and the ability to cast deep slumber spell one per day as a 5th level wizard.",
+        "cost": 27000,
+        "id": "4b6af84f2f1821841b6f71d32585208e",
+        "enchant": [
+            {
+                "name": "ColdResistance10Enchant",
+                "display_name": "Cold Resistance 10",
+                "description": "",
+                "id": "c872314ecfab32949ad2e0eebd834919",
+                "effect": [
+                    "Add feature ColdResistance10Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "WhiteKnightCloakItem",
+        "display_name": "Absolver's Cloak",
+        "description": "This cloak grants its wearer a +4 deflection bonus to AC, a +4 resistance bonus on all saving throws, a +4 enhancement bonus to Persuasion skill checks and +1 bonus to AC against evil-aligned creatures' attacks. This cloak can be worn only by good characters.",
+        "cost": 65400,
+        "id": "9e0932ac3db662746b85e92aecb4caaa",
+        "enchant": [
+            {
+                "name": "Deflection4",
+                "display_name": "",
+                "description": "",
+                "id": "be195c1cea964e745a198ddadecbaec5",
+                "effect": [
+                    "Add stat bonus 4 to AC (descriptor: Deflection)"
+                ]
+            },
+            {
+                "name": "WhiteKnightCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6a37e931c20406e488be6250b5d79a44",
+                "effect": [
+                    "AllSavesBonusEquipment",
+                    "Add stat bonus 4 to SkillPersuasion (descriptor: Enhancement)",
+                    "ACBonusAgainstFactOwnerEquipment"
+                ]
+            }
+        ]
+    }
+]

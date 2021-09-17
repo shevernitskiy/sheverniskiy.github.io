@@ -1,0 +1,627 @@
+[
+    {
+        "name": "AbyssWalkersItem",
+        "display_name": "Abyss Walkers",
+        "description": "These boots grant their wearer a +1 dodge bonus to AC against demons and one additional attack of opportunity per round.",
+        "cost": 47000,
+        "id": "9d93b46898e710544bf125ba7b227cee",
+        "enchant": [
+            {
+                "name": "AbyssWalkersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "502459ea2f9390745864dbd27ef6677a",
+                "effect": [
+                    "ACBonusAgainstFactOwnerEquipment",
+                    "Add feature AbyssWalkersFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "SeelahTestLevel14, Player",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player",
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "AcrobatsFootwearItem",
+        "display_name": "Acrobat's Footwear",
+        "description": "These boots allow its wearer to stand up without provoking an attack of opportunity.",
+        "cost": 40000,
+        "id": "e8a76b5341f32994d8dfa8d18bfd85a8"
+    },
+    {
+        "name": "Artifact_FeetItem",
+        "display_name": "Ronneck's Sacrifice",
+        "description": "These boots of Dexterity +8 grant its wearer a + 10 bonus on Mobility and Athletics skill checks. They also double bonuses to AC, attack rolls and Reflex saving throw from Haste spell cast upon the wearer. In addition, whenever the enemy confirms a critical hit against the wearer it becomes stunned for 1d4 rounds.",
+        "cost": 21000,
+        "id": "ad08a9676a9be2c46ac512aae0151c35",
+        "enchant": [
+            {
+                "name": "Artifact_FeetEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0f22f4c02677e6a4aaf82d7b2942b6fc",
+                "effect": [
+                    "Add feature AbyssWalkersFeature",
+                    "Add stat bonus 10 to SkillMobility (descriptor: UntypedStackable)",
+                    "Add stat bonus 10 to SkillAthletics (descriptor: UntypedStackable)"
+                ]
+            },
+            {
+                "name": "Dexterity8",
+                "display_name": "",
+                "description": "",
+                "id": "5614fc22a6e629c43a72a2559ab8213f",
+                "effect": [
+                    "Add stat bonus 8 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BonethreaderBootsItem",
+        "display_name": "Bonethreader Boots",
+        "description": "These boots grant their wearer DR 5\/bludgeoning.",
+        "cost": 50000,
+        "id": "591b91f6bd5b7d841a6cf3a9d401f4eb",
+        "enchant": [
+            {
+                "name": "BonethreaderBootsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "47bf222183c27d34a9481f19e7045613",
+                "effect": [
+                    "Add feature BonethreaderBootsFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BootsOfArcanePersistanceItem",
+        "display_name": "Boots of Arcane Persistence",
+        "description": "Whenever the wearer of these boots casts the same spell for the fourth time during the day, their next spell becomes quickened, as though using the Quicken Spell feat.\nQuicken Spell",
+        "cost": 56000,
+        "id": "778e95cc2617fe846b4fdf81bc1015d5",
+        "enchant": [
+            {
+                "name": "BootsOfArcanePersistanceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "76df407bc7e8e5e4cafc244878542f53",
+                "effect": [
+                    "Add feature BootsOfArcanePersistanceFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BootsOfElvenKind",
+        "display_name": "Boots of Elvenkind",
+        "description": "These boots grant its wearer a +5 competence bonus on Mobility checks.",
+        "cost": 2500,
+        "id": "1223ceb45ed647b44a04b44a9312328b",
+        "enchant": [
+            {
+                "name": "Mobility5",
+                "display_name": "",
+                "description": "",
+                "id": "fc81088f58c109f49a9ff3fb3f8f83a5",
+                "effect": [
+                    "Add stat bonus 5 to SkillMobility (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "SosielTestLevel19, Player",
+            "SosielTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "BootsOfFreereinItem",
+        "display_name": "Boots Of Free Rein",
+        "description": "These boots grant the wearer a permanent effect of the freedom of movement spell.",
+        "cost": 24000,
+        "id": "1fa18e276bff19f4392805c5c22cee20",
+        "enchant": [
+            {
+                "name": "BootsOfFreereinEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8bd1fe6694ababf4aa0fd94b9d20d0c2",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "CameliaPregenLevel15, Player",
+            "CameliaPregenLevel16, Player",
+            "CameliaPregenLevel17, Player",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel20, Player",
+            "NenioTestLevel14, Player",
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ],
+        "area": [
+            "ArueshalaeRedoubt, PF2_MagicLaboratory_CampFinalLoot",
+            "ArueshalaeRedoubt, PF2_OldCrusaders_Loot (L)"
+        ]
+    },
+    {
+        "name": "BootsOfManticoreItem",
+        "display_name": "Manticore Skin Boots",
+        "description": "These boots grant its wearer a +10 bonus to speed and +4 enhancement bonus to natural armor.",
+        "cost": 67000,
+        "id": "f52308050f98ebe4a8e22f05024ddc94",
+        "enchant": [
+            {
+                "name": "BootsOfManticoreEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8d1485b6964856244aa9444d36052e68",
+                "effect": [
+                    "Add stat bonus 10 to Speed (descriptor: UntypedStackable)"
+                ]
+            }
+        ],
+        "enhance": "4",
+        "unit": [
+            "PlayerDemonMythicTestLevel16, Player",
+            "PlayerDemonMythicTestLevel17, Player",
+            "PlayerDemonMythicTestLevel18, Player",
+            "PlayerDemonMythicTestLevel19, Player",
+            "PlayerTestLevel16, Player",
+            "PlayerTestLevel17, Player",
+            "PlayerTestLevel18, Player",
+            "PlayerTestLevel19, Player",
+            "RegillPregenLevel11, Player",
+            "RegillPregenLevel12, Player",
+            "RegillPregenLevel13, Player",
+            "RegillPregenLevel14, Player",
+            "RegillPregenLevel15, Player",
+            "RegillPregenLevel16, Player",
+            "RegillPregenLevel17, Player",
+            "RegillPregenLevel18, Player",
+            "RegillPregenLevel19, Player",
+            "RegillPregenLevel20, Player"
+        ]
+    },
+    {
+        "name": "BootsOfOutbreakItem",
+        "display_name": "Boots of Outbreak",
+        "description": "These boots grant the wearer a +20 feet bonus to moving speed and an immunity to prone condition.",
+        "cost": 26000,
+        "id": "e55f0210859bb3b4883958e41c155490",
+        "enchant": [
+            {
+                "name": "BootsOfOutbreakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d8ae1da0ef3ad9f43be86feea0ec3b2a",
+                "effect": [
+                    "Add stat bonus 10 to Speed (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerTestLevel15, Player",
+            "PlayerTestRangedFighterLevel14, Player",
+            "PlayerTestRangedFighterLevel15, Player",
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player",
+            "WoljifTestLeve12, Player",
+            "WoljifTestLeve13, Player",
+            "WoljifTestLeve14, Player",
+            "WoljifTestLeve15, Player",
+            "WoljifTestLeve16, Player",
+            "WoljifTestLeve17, Player",
+            "WoljifTestLeve18, Player",
+            "WoljifTestLeve19, Player",
+            "WoljifTestLeve20, Player"
+        ]
+    },
+    {
+        "name": "BootsOfStampedeItem",
+        "display_name": "Boots of Stampede",
+        "description": "The wearer of these boots adds their rank in Athletics skill as a bonus to the damage roll on a successful charge attack.",
+        "cost": 38000,
+        "id": "1e67f0071700eb5418b82009427bce8a",
+        "enchant": [
+            {
+                "name": "BootsOfStampedeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9cf06515dfaf8894993872bca399c689",
+                "effect": [
+                    "Add feature BootsOfStampedeFeature"
+                ]
+            }
+        ],
+        "area": [
+            "Nexus, PF2_DemonWorld_GoodLoot02"
+        ]
+    },
+    {
+        "name": "BootsOfSwiftFoot",
+        "display_name": "Swiftfoot Boots",
+        "description": "These boots increase the wearer's movement speed by 10. That's a enhancement bonus and it does not stack with other enhancement bonuses.",
+        "cost": 3500,
+        "id": "8644bca1c3bf6f64ab4d89be643a8850",
+        "enchant": [
+            {
+                "name": "SpeedIncrease",
+                "display_name": "",
+                "description": "",
+                "id": "b7f6bb4a2ad6970409df85bf6db587a5",
+                "effect": [
+                    "Add stat bonus 10 to Speed (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BootsOfTheCreepingDeath",
+        "display_name": "Boots of the Creeping Death",
+        "description": "These boots grant their wearer a +5 competence bonus on all Stealth checks, and the ability to cast the greater invisibility spell once per day as a 7th level wizard.",
+        "cost": 13830,
+        "id": "11e350708227f3b4eaf641a5b5fd2863",
+        "enchant": [
+            {
+                "name": "BootsOfTheCreepingDeathEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e643d996dcbf83949a50abff4d5f90e9",
+                "effect": [
+                    "Add stat bonus 5 to SkillStealth (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BootsOfTheLightStepItem",
+        "display_name": "Boots of the Light Step",
+        "description": "Thses boots grant the wearer a constant effect of the feather step spell.",
+        "cost": 7800,
+        "id": "815cc85ce13ab64428253aea3b6708a8",
+        "enchant": [
+            {
+                "name": "BootsOfTheLightStepEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8bfc92d8255e36242a5a4a9a9ccab264",
+                "effect": [
+                    "Add feature BootsOfTheLightStepFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel19, Player",
+            "PlayerDemonMythicTestLevel13, Player",
+            "PlayerDemonMythicTestLevel14, Player",
+            "PlayerDemonMythicTestLevel15, Player",
+            "PlayerTestLevel13, Player",
+            "PlayerTestLevel14, Player",
+            "SeelahTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "BootsOfTheSwampItem",
+        "display_name": "Swamp Dweller's Boots",
+        "description": "These boots grant the wearer immunity to ability damage and ability drain.",
+        "cost": 75000,
+        "id": "1ccb68fd1e0f6d141b739e3744e5af4e",
+        "enchant": [
+            {
+                "name": "BootsOfTheSwampEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4ba297e98fa307340a2bf249ad5b8781",
+                "effect": [
+                    "Add feature BootsOfTheSwampFeature",
+                    "Add feature BootsOfTheSwampFeatureSecond"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BootsOfWaryStepsItem",
+        "display_name": "Boots of Wary Steps",
+        "description": "These boots grant its wearer blindsight with a radius of 10 feet and a +10 competence bonus on Stealth checks.",
+        "cost": 28000,
+        "id": "c567d113d0b7053428fcb76e5175e37f",
+        "enchant": [
+            {
+                "name": "BootsOfWaryStepsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f327a2d896e87a249b0662786284f569",
+                "effect": [
+                    "Add feature BootsOfWaryStepsBlindsight",
+                    "Add stat bonus 10 to SkillStealth (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel15, Player",
+            "ArueshalaePregenLevel16, Player",
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, Forest_AasimarsSecretLoot",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "ConnectiontoEarthBoostItem",
+        "display_name": "Earth's Children",
+        "description": "These boots add +4 to the wearer's caster level when they cast the following spells",
+        "cost": 35000,
+        "id": "57d89d9340dedb449a279622ec0541be",
+        "enchant": [
+            {
+                "name": "ConnectiontoEarthBoostEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f5469ce203c55ab48b05abbc8a21e475",
+                "effect": [
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DevilsBootsItem",
+        "display_name": "Hellstrider Boots",
+        "description": "These boots grant its wearer fire resistance 30 and immunity to poison.",
+        "cost": 53000,
+        "id": "0da402fcbd1ab3d4e852a4a831c3f468",
+        "enchant": [
+            {
+                "name": "FireResistance30Enchant",
+                "display_name": "Fire Resistance 30",
+                "description": "",
+                "id": "0e98403449de8ce4c846361c6df30d1f",
+                "effect": [
+                    "Add feature FireResistance30Feature"
+                ]
+            },
+            {
+                "name": "DevilsBootsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "91501be1ada12304eb3c654e3afce24c",
+                "effect": [
+                    "Add feature DevilsBootsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "PlayerDemonMythicTestLevel20, Player",
+            "PlayerTestLevel20, Player",
+            "StartGameSorcererPregenUnitLevel20, Player"
+        ]
+    },
+    {
+        "name": "EvadingStepsItem",
+        "display_name": "Easy Stride",
+        "description": "These boots grant the wearer a +5 competence bonus on all Stealth checks and the ability to cast dimension door spell once per day as a 7th level wizard.",
+        "cost": 52000,
+        "id": "91b1162500bb78545b0f802e33dfd8d6",
+        "enchant": [
+            {
+                "name": "SpeedIncrease5",
+                "display_name": "",
+                "description": "",
+                "id": "b39fd8d4589d668459e2924df2deb19a",
+                "effect": [
+                    "Add stat bonus 5 to Speed (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "EvadingStepsStealth5",
+                "display_name": "",
+                "description": "",
+                "id": "551ffd64d1bb15e4f97e9afcb762589d",
+                "effect": [
+                    "Add stat bonus 5 to SkillStealth (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "EmberTestLevel14, Player",
+            "EmberTestLevel16, Player",
+            "EmberTestLevel17, Player",
+            "EmberTestLevel18, Player",
+            "EmberTestLevel19, Player",
+            "EmberTestLevel20, Player",
+            "GreyborTestLevel13, Player",
+            "GreyborTestLevel14, Player",
+            "GreyborTestLevel15, Player",
+            "GreyborTestLevel16, Player",
+            "GreyborTestLevel17, Player",
+            "GreyborTestLevel18, Player",
+            "GreyborTestLevel19, Player",
+            "GreyborTestLevel20, Player",
+            "LannTestLevel20, Player",
+            "PlayerAeonWizardTestLevel14, Player",
+            "PlayerAeonWizardTestLevel15, Player",
+            "PlayerAeonWizardTestLevel16, Player",
+            "PlayerAeonWizardTestLevel17, Player",
+            "PlayerAeonWizardTestLevel18, Player",
+            "PlayerAeonWizardTestLevel19, Player",
+            "PlayerAeonWizardTestLevel20, Player",
+            "PlayerDemonMythicTestLevel10, Player",
+            "PlayerDemonMythicTestLevel11, Player",
+            "PlayerDemonMythicTestLevel12, Player",
+            "PlayerLichWizardTestLevel14, Player",
+            "PlayerLichWizardTestLevel15, Player",
+            "PlayerLichWizardTestLevel16, Player",
+            "PlayerLichWizardTestLevel17, Player",
+            "PlayerLichWizardTestLevel18, Player",
+            "PlayerLichWizardTestLevel19, Player",
+            "PlayerLichWizardTestLevel20, Player",
+            "PlayerTestLevel10, Player",
+            "PlayerTestLevel11, Player",
+            "PlayerTestLevel12, Player",
+            "PlayerTestLevel9, Player"
+        ]
+    },
+    {
+        "name": "ExpeditionBootsItem",
+        "display_name": "Expedition Boots",
+        "description": "These boots grant the wearer a +10 competence bonus on Athletics skill checks and a +5 competence bonus on Mobility skill checks.",
+        "cost": 17500,
+        "id": "35f1391907ebb3948bbac3ccb9ccd4c5",
+        "enchant": [
+            {
+                "name": "ExpeditionBootsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "161290b71e19e0044855da7535018486",
+                "effect": [
+                    "Add stat bonus 10 to SkillAthletics (descriptor: Competence)",
+                    "Add stat bonus 5 to SkillMobility (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "SosielTestLevel14, Player",
+            "SosielTestLevel15, Player",
+            "SosielTestLevel16, Player",
+            "SosielTestLevel17, Player",
+            "SosielTestLevel18, Player"
+        ],
+        "area": [
+            "AreeluLab, RichHuman_GoodLoot01"
+        ]
+    },
+    {
+        "name": "OpportunistsBoots",
+        "display_name": "Opportunist's Boots",
+        "description": "These boots grant their wearer the ability to make two additional attacks of opportunity per round.",
+        "cost": 13670,
+        "id": "05996c33b27ac4849ab3d02b5cb460a2",
+        "enchant": [
+            {
+                "name": "OpportunistsBootsEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "a83662660e269004d80e1c290ea9d20c",
+                "effect": [
+                    "Add stat bonus 2 to AttackOfOpportunityCount (descriptor: Luck)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PerfectedManeuverItem",
+        "display_name": "Perfected Maneuver",
+        "description": "These boots grant the wearer a +3 competence bonus to CMD and a +3 competence bonus to CMB.",
+        "cost": 36000,
+        "id": "651b49a7774ea704195f3c7dc98b69c9",
+        "enchant": [
+            {
+                "name": "PerfectedManeuverEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "42b59277ed97cc546a9e242b4f51f624",
+                "effect": [
+                    "Add stat bonus 3 to AdditionalCMD (descriptor: Competence)",
+                    "Add stat bonus 3 to AdditionalCMB (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PermanentFreedomItem",
+        "display_name": "Owlbear Skin Boots",
+        "description": "These boots grants their wearer immunity to slowing and paralyzing effects, entanglement, and difficult terrain.",
+        "cost": 47000,
+        "id": "29ec0781b00678541acd9d0f30043967",
+        "enchant": [
+            {
+                "name": "PermanentFreedomHoldImmun",
+                "display_name": "",
+                "description": "",
+                "id": "1bc0bb7cef5ee4c4c81294ead983dbf3",
+                "effect": [
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel12, Player",
+            "ArueshalaePregenLevel13, Player",
+            "ArueshalaePregenLevel19, Player",
+            "ArueshalaePregenLevel20, Player",
+            "PlayerAzataRangerTestLevel12, Player",
+            "PlayerAzataRangerTestLevel13, Player",
+            "PlayerAzataRangerTestLevel14, Player",
+            "PlayerAzataRangerTestLevel15, Player",
+            "PlayerAzataRangerTestLevel16, Player",
+            "PlayerAzataRangerTestLevel17, Player",
+            "PlayerAzataRangerTestLevel18, Player",
+            "PlayerAzataRangerTestLevel19, Player",
+            "PlayerAzataRangerTestLevel20, Player",
+            "PlayerTricksterRangerTestLevel12, Player",
+            "PlayerTricksterRangerTestLevel13, Player",
+            "PlayerTricksterRangerTestLevel14, Player",
+            "PlayerTricksterRangerTestLevel15, Player",
+            "PlayerTricksterRangerTestLevel16, Player",
+            "PlayerTricksterRangerTestLevel17, Player",
+            "PlayerTricksterRangerTestLevel18, Player",
+            "PlayerTricksterRangerTestLevel19, Player",
+            "PlayerTricksterRangerTestLevel20, Player",
+            "SeelahTestLevel19, Player"
+        ]
+    },
+    {
+        "name": "SpiritTrackersItem",
+        "display_name": "Spirit Trackers",
+        "description": "These boots grant a spirit hunter four additional uses of Spirit Weapon Enchantment ability per day.",
+        "cost": 30000,
+        "id": "c5aeb081a0dd85a47b3190a187cad9a0",
+        "enchant": [
+            {
+                "name": "SpiritTrackersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7fe766fa2e2b4df4e8aae015335f65f1",
+                "effect": [
+                    "Add feature SpiritTrackersFeature"
+                ]
+            }
+        ],
+        "area": [
+            "StorytellerTower, PF2_CoolDemons_SecretLoot2"
+        ]
+    },
+    {
+        "name": "StabilityStanceItem",
+        "display_name": "Sure Step",
+        "description": "These boots grant the wearer a +4 bonus to CMD, a +4 enhancement bonus to Constitution, and immunity to forced movement effects, slow and tripping.",
+        "cost": 108000,
+        "id": "1efbe2ef6e22cf34eaa24ab7b6c061ad",
+        "enhance": ""
+    }
+]
