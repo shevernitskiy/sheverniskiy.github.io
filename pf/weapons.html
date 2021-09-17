@@ -60,18 +60,19 @@
                     formatter: (cell) => {
                         var msg = "\n";
                         $.each(cell, function (key, value) {
+                            msg += '🔸';
                             msg += (value.display_name ? value.display_name : value.name);
-                            msg += (value.description ? ' - ' + value.description : '') + ' | ';
+                            msg += (value.description ? ' - ' + value.description : '') + ' ';
                             if (!value.display_name && !value.description) {
                                 msg = msg.slice(0, -2);
                                 msg += ' - ';
                                 $.each(value.effect, function (key, effect) {
                                     msg += effect + ', ';
                                 });
-                                msg.toString().slice(0, -1);
+                                msg = msg.toString().slice(0, -2);
                             }
                         });
-                        return msg.toString().slice(0, -2);
+                        return msg;
                     }
                 },{
                     name: 'id',
@@ -82,9 +83,10 @@
                     formatter: (cell) => {
                         var msg = "\n";
                         $.each(cell, function (key, value) {
-                            msg += value + ' | ';
+                            msg += '🔹';
+                            msg += value + ' ';
                         });
-                        return msg.toString().slice(0, -2).split('_').join(' ');
+                        return msg.toString().split('_').join(' ');
                     }
                 },{
                     name: 'area',
@@ -92,7 +94,8 @@
                     formatter: (cell) => {
                         var msg = "\n";
                         $.each(cell, function (key, value) {
-                            msg += value + ' | ';
+                            msg += '◼️';
+                            msg += value + ' ';
                         });
                         return msg.toString().slice(0, -2).split('_').join(' ');
                     }
