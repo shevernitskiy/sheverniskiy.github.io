@@ -30,10 +30,16 @@
 
 <script>
     $.get('head.json', function(data) {
-        console.log(data);
         new gridjs.Grid({
             columns: [
                 {
+                    name: 'icon',
+                    formatter: (cell) => {
+                        if (cell) {
+                            return new gridjs.html(`<img src="http://r92681fa.bget.ru/pf/${cell}.png" height="65" width="65" style="object-fit: contain;"/>`);
+                        }
+                    }
+                },{
                     name: 'name',
                     hidden : true,
                 },{
