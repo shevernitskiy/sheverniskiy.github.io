@@ -1,0 +1,2292 @@
+[
+    {
+        "name": "Artifact_AeonCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u041d\u0430\u0445\u043e\u0434\u044f\u0441\u044c \u0432 \u0431\u043e\u044e, \u044d\u043e\u043d, \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449, \u0438\u0441\u043a\u0430\u0436\u0430\u0435\u0442 \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e \u0438 \u0432\u0440\u0435\u043c\u044f \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 30 \u0444\u0443\u0442\u043e\u0432. \u0412 \u043a\u0430\u0436\u0434\u043e\u043c \u0440\u0430\u0443\u043d\u0434\u0435 \u0432\u0440\u0430\u0433\u0438 \u0434\u043e\u043b\u0436\u043d\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c = 10 + \u043c\u0438\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c + \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u041c\u0443\u0434\u0440\u043e\u0441\u0442\u0438), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d\u0438 \u043e\u043a\u0430\u0436\u0443\u0442\u0441\u044f \u0437\u0430\u043c\u0435\u0434\u043b\u0435\u043d\u044b \u043d\u0430 \u043e\u0434\u0438\u043d \u0440\u0430\u0443\u043d\u0434, \u043a\u0430\u043a \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0437\u0430\u043c\u0435\u0434\u043b\u0435\u043d\u0438\u0435. \u0421\u043e\u044e\u0437\u043d\u0438\u043a\u0438 \u0436\u0435 \u043d\u0430\u0445\u043e\u0434\u044f\u0442\u0441\u044f \u043f\u043e\u0434 \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u044b\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u0438\u0435. \u041e\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435, \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432.",
+        "cost": 700,
+        "id": "b24d6185acea1f949b026c3b58e47947",
+        "enchant": [
+            {
+                "name": "Artifact_AeonCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4720a88cdc8e47fe8526041cdfe2a5a4",
+                "effect": [
+                    "Add feature Artifact_AeonCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_AngelCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u0430\u043d\u0433\u0435\u043b \u043d\u043e\u0441\u0438\u0442 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449, \u0435\u0433\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u041d\u0435\u0431\u0435\u0441\u043d\u044b\u0439 \u043c\u0435\u0447 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 4 \u043a\u043e\u0441\u0442\u0438 \u0443\u0440\u043e\u043d\u0430 \u0438\u043b\u0438 \u0438\u0437\u043b\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 4 \u043a\u043e\u0441\u0442\u0438 \u0443\u0440\u043e\u043d\u0430 \u0432\u043c\u0435\u0441\u0442\u043e 2.",
+        "cost": 700,
+        "id": "2f45a11adb74b5a4a81f857a9886c5bd",
+        "enchant": [
+            {
+                "name": "Artifact_AngelCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "10b62f56302c49c887d53787948c5cda",
+                "effect": [
+                    "Add feature Artifact_AeonCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_AzataCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u0410\u0437\u0430\u0442\u0430 \u0441\u043e\u0437\u0434\u0430\u0435\u0442 \u0441\u0432\u044f\u0437\u044c \u0441\u043e \u0441\u0432\u043e\u0438\u043c \u0434\u0440\u0430\u043a\u043e\u043d\u043e\u043c. 50% \u0443\u0440\u043e\u043d\u0430 \u043f\u0435\u0440\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u0430 \u0410\u0439\u0432\u0443. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0410\u0439\u0432\u0443 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 N\/-, \u0433\u0434\u0435 N \u0440\u0430\u0432\u043d\u043e \u043c\u0438\u0444\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u0443\u0440\u043e\u0432\u043d\u044e \u0430\u0437\u0430\u0442\u044b.",
+        "cost": 700,
+        "id": "78cd50deada655e4cbe49765c0bbb7e4",
+        "enchant": [
+            {
+                "name": "Artifact_AzataCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6f98cfca5c3349e5b84234d2b0de1528",
+                "effect": [
+                    "Add feature Artifact_AzataCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_DemonCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u0414\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u044f\u0440\u043e\u0441\u0442\u044c \u0438 \u0434\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u0442\u0435\u043f\u0435\u0440\u044c \u0434\u0430\u044e\u0442 \u0431\u043e\u043d\u0443\u0441\u044b \u0442\u0430\u043a, \u043a\u0430\u043a \u0435\u0441\u043b\u0438 \u0431\u044b \u0432\u044b \u0431\u044b\u043b\u0438 \u043d\u0430 3 \u043c\u0438\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0440\u043e\u0432\u043d\u044f \u0432\u044b\u0448\u0435.",
+        "cost": 700,
+        "id": "cdc95a3c4a74a874a895b3be61369564",
+        "enchant": [
+            {
+                "name": "Artifact_DemonCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "cac396c6bf504897a713e631eaa29334",
+                "effect": [
+                    "Add feature Artifact_DemonCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_DevilCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u0434\u044c\u044f\u0432\u043e\u043b\u0443 3 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0410\u0434\u0441\u043a\u043e\u0439 \u043f\u0435\u0447\u0430\u0442\u0438 \u0432 \u0434\u0435\u043d\u044c.",
+        "cost": 700,
+        "id": "d7a89e21497bcd94a8f8c0e278574b5b",
+        "enchant": [
+            {
+                "name": "Artifact_DevilCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3d4e6d1891274d359231146377d8e5a6",
+                "effect": [
+                    "Add feature Artifact_DevilCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_DragonCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u0434\u0440\u0430\u043a\u043e\u043d\u0443 2 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0441\u043b\u043e\u0442\u0430 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0434\u043b\u044f \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 9 \u043a\u0440\u0443\u0433\u0430. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0434\u0440\u0430\u043a\u043e\u043d\u044c\u0435 \u0434\u044b\u0445\u0430\u043d\u0438\u0435 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 20 \u0431\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u0438 \u0435\u0433\u043e \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 2.",
+        "cost": 700,
+        "id": "2c0129fc1485da149a68a1b0584cad91",
+        "enchant": [
+            {
+                "name": "Artifact_DragonCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9d7b562fa7e44ae281963716fc00b91b",
+                "effect": [
+                    "Add feature Artifact_DragonCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_LegendCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043b\u0435\u0433\u0435\u043d\u0434\u0435 \u043f\u0435\u0440\u0435\u0431\u0440\u043e\u0441\u0438\u0442\u044c \u043b\u044e\u0431\u043e\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0438 \u0432\u044b\u0431\u0440\u0430\u0442\u044c \u043d\u0430\u0438\u043b\u0443\u0447\u0448\u0438\u0439 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u0438\u0437 \u0434\u0432\u0443\u0445.",
+        "cost": 700,
+        "id": "ceaf9f93f42d40f468fc89ba6c32ea9d",
+        "enchant": [
+            {
+                "name": "Artifact_LegendCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b2ba70c11729488184073ba9c1f1c463",
+                "effect": [
+                    "Add feature Artifact_LegendCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_LichCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u0430 \u043b\u0438\u0447\u0435 \u043d\u0430\u0434\u0435\u0442 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449, \u0435\u0433\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0412\u043b\u0430\u0434\u044b\u043a\u0430 \u0437\u0430\u0433\u0440\u043e\u0431\u043d\u043e\u0433\u043e \u043c\u0438\u0440\u0430 \u0434\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f\u043c \u0421\u0438\u043b\u044b, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0425\u0430\u0440\u0438\u0437\u043c\u044b.",
+        "cost": 700,
+        "id": "1622ceba1d7829b4f9ee709b71bd6baf",
+        "enchant": [
+            {
+                "name": "Artifact_LichCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "79a17694ce3944a7b10e6bea48a7688e",
+                "effect": [
+                    "Add feature Artifact_LichCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_LocustCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0443\u043c\u0438\u0440\u0430\u0435\u0442 \u043e\u0434\u0438\u043d \u0438\u0437 \u043a\u043b\u043e\u043d\u043e\u0432 \u0441\u0430\u0440\u0430\u043d\u0447\u0438, \u043e\u043d \u043f\u043e\u0440\u043e\u0436\u0434\u0430\u0435\u0442 \u0437\u0430 \u0441\u043e\u0431\u043e\u0439 \u0440\u043e\u0439 \u0441\u0430\u0440\u0430\u043d\u0447\u0438 (\u0440\u0435\u0439\u0442\u0438\u043d\u0433 \u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 18), \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0430\u0442\u0430\u043a\u0443\u0435\u0442 \u0432\u0430\u0448\u0438\u0445 \u0432\u0440\u0430\u0433\u043e\u0432 \u0442\u0430\u043a \u0445\u043e\u0440\u043e\u0448\u043e, \u043a\u0430\u043a \u043c\u043e\u0436\u0435\u0442, \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 3 \u043c\u0438\u043d\u0443\u0442.",
+        "cost": 700,
+        "id": "217ca79948e2c7a4698b4944b1ed9bf3",
+        "enchant": [
+            {
+                "name": "Artifact_LocustCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f6487579bcb34d63ba686f1cd979d6c0",
+                "effect": [
+                    "Add feature Artifact_LocustCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_SoulsCloakItem",
+        "display_name": "",
+        "description": "",
+        "cost": 45000,
+        "id": "d53d1c60393cfc84c970c8029de75ad1",
+        "enchant": [
+            {
+                "name": "SoulsCloakEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "94bd205306520f34cb48769dde4172d1",
+                "effect": [
+                    "Add feature SoulsCloakFeature"
+                ]
+            },
+            {
+                "name": "SoulsCloakCurseEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "c6c9e91b0040f8548a3887c4aa861918",
+                "effect": [
+                    "Add feature SoulsCloakCurseFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_TricksterCloakItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u0435\u043b \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0433\u043e",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u0440\u043e\u0432\u0430\u043b\u0438\u0432\u0430\u0435\u0442 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +10 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0438 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434. \u041e\u0434\u043d\u0430\u043a\u043e \u043f\u043e\u0441\u043b\u0435 \u044d\u0442\u043e\u0433\u043e \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0432\u043f\u0430\u0434\u0430\u0435\u0442 \u0432 \u043f\u0435\u0447\u0430\u043b\u044c \u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -1 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u0431\u043e\u044f.",
+        "cost": 700,
+        "id": "50b398d4630d9f244a5db288124ff181",
+        "enchant": [
+            {
+                "name": "Artifact_TricksterCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "86a60874bdeb4e999b4fa18310100574",
+                "effect": [
+                    "Add feature Artifact_TricksterCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BlackFurCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0438\u0437 \u0447\u0435\u0440\u043d\u043e\u0433\u043e \u043c\u0435\u0445\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0421\u043a\u0440\u044b\u0442\u043d\u043e\u0441\u0442\u044c \u0438 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 30 \u043a \u0445\u043e\u043b\u043e\u0434\u0443.",
+        "cost": 35000,
+        "id": "ae0cf84fb23478f4aaa07e3d10984bea",
+        "enchant": [
+            {
+                "name": "BlackFurCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "596fbdc1a0341624c9e1cb6252a54877",
+                "effect": [
+                    "Add stat bonus 10 to SkillStealth (descriptor: Competence)"
+                ]
+            },
+            {
+                "name": "ColdResistance30Enchant",
+                "display_name": "Cold Resistance 30",
+                "description": "",
+                "id": "7ef70c319ca74fe4cb5eddea792bb353",
+                "effect": [
+                    "Add feature ColdResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BlackKnightCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043e\u0431\u043b\u0438\u0447\u0438\u0442\u0435\u043b\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f +4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435, \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c, \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u044f, \u043a\u043e\u0433\u0434\u0430 \u043e\u043d \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0434\u043b\u044f \u0437\u0430\u043f\u0443\u0433\u0438\u0432\u0430\u043d\u0438\u044f, \u0438 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u043f\u0440\u043e\u0442\u0438\u0432 \u043f\u043e\u0442\u0440\u044f\u0441\u0435\u043d\u043d\u044b\u0445 \u0446\u0435\u043b\u0435\u0439. \u0415\u0433\u043e \u043c\u043e\u0436\u0435\u0442 \u043d\u043e\u0441\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436 \u0441\u043e \u0437\u043b\u044b\u043c \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435\u043c.",
+        "cost": 65400,
+        "id": "7bbe13f76b9c91141a98a145d2832f4a",
+        "enchant": [
+            {
+                "name": "Deflection4",
+                "display_name": "",
+                "description": "",
+                "id": "be195c1cea964e745a198ddadecbaec5",
+                "effect": [
+                    "Add stat bonus 4 to AC (descriptor: Deflection)"
+                ]
+            },
+            {
+                "name": "BlackKnightCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1ad2e26850bfef7409199c2fa23e1fa3",
+                "effect": [
+                    "AllSavesBonusEquipment",
+                    "DamageBonusAgainstFactOwnerEquipment",
+                    "Add stat bonus 4 to CheckIntimidate (descriptor: Enhancement)",
+                    "Add feature BlackKnightCloakFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BloodClarityItem",
+        "display_name": "\u041a\u0440\u043e\u0432\u0430\u0432\u0430\u044f \u044f\u0441\u043d\u043e\u0441\u0442\u044c",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f\u043c, \u0432\u043b\u0438\u044f\u044e\u0449\u0438\u043c \u043d\u0430 \u0440\u0430\u0437\u0443\u043c, \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 13000,
+        "id": "66f98b74960cecc4f94d039539463d33",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "BloodClarityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "44032c66e9f0eea4f84ef8d534e13450",
+                "effect": [
+                    "Add feature BloodClarityFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CR8_Marauder_Gnome_Boss_Male, Bandits"
+        ]
+    },
+    {
+        "name": "CallToViolenceItem",
+        "display_name": "\u041f\u0440\u0438\u0437\u044b\u0432 \u043a \u043d\u0430\u0441\u0438\u043b\u0438\u044e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u0442\u0430\u043a\u0436\u0435 \u0441\u043e\u0437\u0434\u0430\u0435\u0442 \u0432\u043e\u043a\u0440\u0443\u0433 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0430\u0443\u0440\u0443 \u0440\u0430\u0434\u0438\u0443\u0441\u043e\u043c \u0432 30 \u0444\u0443\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0434\u0430\u0435\u0442 \u0432\u0441\u0435\u043c \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u043c\u0441\u044f \u0432 \u044f\u0440\u043e\u0441\u0442\u0438 \u0441\u043e\u044e\u0437\u043d\u0438\u043a\u0430\u043c \u0432 \u044d\u0442\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d.",
+        "cost": 38000,
+        "id": "25b37490da95d9541b73972837354eff",
+        "enchant": [
+            {
+                "name": "CallToViolenceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a864da8cc74065e4aad897d24a66e3e1",
+                "effect": [
+                    "Add feature CallToViolenceFeature"
+                ]
+            },
+            {
+                "name": "Resistance4",
+                "display_name": "",
+                "description": "",
+                "id": "cdba7ef2a02a2b9499059bd558e5354d",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CapeOfDesinsectorItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0434\u0435\u0437\u0438\u043d\u0441\u0435\u043a\u0442\u043e\u0440\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 5\/- \u043f\u0440\u043e\u0442\u0438\u0432 \u043b\u044e\u0431\u044b\u0445 \u0430\u0442\u0430\u043a \u0441\u0442\u0430\u0438.",
+        "cost": 14000,
+        "id": "b7a92cca052b687469ab53ed5d6a36c5",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CapeOfDesinsectorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "28519dec9c9dcc64c9c6cad53b650826",
+                "effect": [
+                    "Add feature CapeOfDesinsectorFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CapeOfDivinationItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0430\u0432\u0433\u0443\u0440\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u043d\u0430 3 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0441\u0435\u0445 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0448\u043a\u043e\u043b\u044b \u041f\u0440\u043e\u0440\u0438\u0446\u0430\u043d\u0438\u044f, \u0441\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044b\u0445 \u043d\u043e\u0441\u044f\u0449\u0438\u043c.",
+        "cost": 3500,
+        "id": "7d3f4612780724b458836605cc769b73",
+        "enchant": [
+            {
+                "name": "CapeOfDivinationEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "d138587e9193f7245931d9183c640d97",
+                "effect": [
+                    "Add feature CapeOfDivinationFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CelestialProtectionItem",
+        "display_name": "\u041d\u0435\u0431\u0435\u0441\u043d\u0430\u044f \u0437\u0430\u0449\u0438\u0442\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +5 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0434\u0435\u043c\u043e\u043d\u043e\u0432 \u0438 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0417\u043d\u0430\u043d\u0438\u0435 (\u0440\u0435\u043b\u0438\u0433\u0438\u044f).",
+        "cost": 17000,
+        "id": "38ab96e73df32c448ad72b6b2097aa7a",
+        "enchant": [
+            {
+                "name": "CelestialProtectionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fb1630b28e902e04ab47032a326b64b9",
+                "effect": [
+                    "Add feature CelestialProtectionFeature",
+                    "Add stat bonus 5 to SkillLoreReligion (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "SeelahTestLevel14, Player",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player",
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "CloakFromThickPeltItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0438\u0437 \u0442\u043e\u043b\u0441\u0442\u043e\u0439 \u0448\u043a\u0443\u0440\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u0434\u0435\u043b\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b\u043c \u043a \u043e\u0433\u043d\u044e.",
+        "cost": 31000,
+        "id": "0c69a27820d52ed4ead5476786f91aa0",
+        "enchant": [
+            {
+                "name": "CloakFromThickPeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "11dabeee4547c61438cc0044611de449",
+                "effect": [
+                    "Add feature CloakFromThickPeltFeature"
+                ]
+            },
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "EmberTestLevel15, Player",
+            "SosielTestLevel14, Player",
+            "SosielTestLevel15, Player",
+            "SosielTestLevel16, Player",
+            "SosielTestLevel17, Player",
+            "SosielTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "CloakOfArcaneReservesItem",
+        "display_name": "\u041f\u043b\u0430\u0449\u0438 \u043c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0440\u0435\u0437\u0435\u0440\u0432\u043e\u0432",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0443\u0440\u043e\u043d \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0435, \u043a\u043e\u0433\u0434\u0430 \u043e\u043d \u0432 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u0440\u0430\u0437 \u0442\u0432\u043e\u0440\u0438\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435, \u0435\u0433\u043e \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \u0438 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u043d\u0435\u0433\u043e \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u043d\u0430 2.",
+        "cost": 38000,
+        "id": "2d38bb0ae9d48904ab2bebf5dac57a36",
+        "enchant": [
+            {
+                "name": "CloakOfArcaneReservesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "79ab6916d9732a049973d6ebf4ac0c18",
+                "effect": [
+                    "Add feature CloakOfArcaneReservesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfAstoundingProwessItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043f\u043e\u0440\u0430\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043c\u043e\u0449\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440, \u0432\u0441\u0435 \u0432\u0440\u0430\u0433\u0438 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 15 \u0444\u0443\u0442\u043e\u0432 \u0434\u043e\u043b\u0436\u043d\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 32), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d\u0438 \u043e\u043a\u0430\u0436\u0443\u0442\u0441\u044f \u043e\u0441\u043b\u0435\u043f\u043b\u0435\u043d\u044b \u043d\u0430 4 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 58400,
+        "id": "6d14fc0b4c6a421e921f68ee3172311a",
+        "enchant": [
+            {
+                "name": "CloakOfAstoundingProwessEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "430bf7cabb9c494195e7b0dc9a192900",
+                "effect": [
+                    "Add feature CloakOfAstoundingProwessFeature"
+                ]
+            },
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfBloodScentItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043a\u0440\u043e\u0432\u0430\u0432\u043e\u0433\u043e \u0441\u043b\u0435\u0434\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442 \u043f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u044f\u0440\u043e\u0441\u0442\u044c, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0440\u0430\u043d\u0435\u043d\u044b\u0445 \u0432\u0440\u0430\u0433\u043e\u0432.",
+        "cost": 12200,
+        "id": "876255a39ab11734a8c12cfb451a146e",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfBloodScentEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0436324f1191ec64687efcfc0b790aee",
+                "effect": [
+                    "Add feature CloakOfBloodScentFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "DrezenCitadelLevel1_CultistMiniboss_Chapel, Mobs"
+        ]
+    },
+    {
+        "name": "CloakOfCarnageItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0440\u0430\u0441\u043f\u0440\u0430\u0432\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0430\u0433\u0438\u044f) \u0438 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 +2 \u043a \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0432\u0441\u0435\u0445 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0438\u0437 \u0448\u043a\u043e\u043b\u044b \u0440\u0430\u0437\u0440\u0443\u0448\u0435\u043d\u0438\u044f.",
+        "cost": 21000,
+        "id": "638283d23c388174e9e27c7d02d543a2",
+        "enchant": [
+            {
+                "name": "CloakOfCaranageEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3641d35ec8817c24692995ec98a30402",
+                "effect": [
+                    "Add feature CloakOfCaranageFeature",
+                    "Add stat bonus 5 to SkillKnowledgeArcana (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "NenioTestLevel14, Player"
+        ],
+        "area": [
+            "IvorySanctum, PF2_Demons_GoodLootChest"
+        ]
+    },
+    {
+        "name": "CloakOfCleansingItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043e\u0447\u0438\u0449\u0435\u043d\u0438\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u043f\u0440\u0438\u043d\u0443\u0436\u0434\u0435\u043d\u0438\u044f \u0438 \u0431\u043e\u043b\u0435\u0437\u043d\u0438.",
+        "cost": 12000,
+        "id": "6377f6b75ecef5c40b40e9f3b9efd65d",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfCleansingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c0e9729679d54f0459f19bf8c541b355",
+                "effect": [
+                    "Add feature CloakOfCleansingFeature"
+                ]
+            }
+        ],
+        "area": [
+            "NamelessRuins, PF2_Forest_NamelessRuins_GoodLoot_2"
+        ]
+    },
+    {
+        "name": "CloakOfDarkestRitesItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0442\u0435\u043c\u043d\u044b\u0445 \u043e\u0431\u0440\u044f\u0434\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0438\u043b\u0438\u0432\u0430\u0435\u0442 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u043b\u0438\u0447\u0430 \u0422\u0435\u043c\u043d\u044b\u0435 \u043e\u0431\u0440\u044f\u0434\u044b, \u0434\u0430\u0432\u0430\u044f \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u043d\u0435\u0447\u0438\u0441\u0442\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043b\u0438\u0447\u0443 \u0438 \u0435\u0433\u043e \u0441\u043e\u044e\u0437\u043d\u0438\u043a\u0430\u043c \u043d\u0430 \u0432\u0441\u0451 \u0432\u0440\u0435\u043c\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u044d\u0442\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438.",
+        "cost": 56300,
+        "id": "ed3e8b648fce4b33b809606cd1c4b933",
+        "enchant": [
+            {
+                "name": "CloakOfDarkestRitesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "22a1fe3336a04072a8412751ac60d43c",
+                "effect": [
+                    "Add feature CloakOfDarkestRitesFeature"
+                ]
+            },
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfDisguiseItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043c\u0430\u0441\u043a\u0438\u0440\u043e\u0432\u043a\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +1 \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +3 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043d\u0430\u0432\u044b\u043a\u0430 \u0421\u043a\u0440\u044b\u0442\u043d\u043e\u0441\u0442\u044c.",
+        "cost": 8000,
+        "id": "dfcc9dc3411234d4a902960a7e00d669",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfDisguiseEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a222d78bd600dbc45bf42b79844cf7ee",
+                "effect": [
+                    "Add feature CloakOfDisguiseFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Lair_SuccubusBoss, Bosses"
+        ]
+    },
+    {
+        "name": "CloakOfEfficientInvisibilityItem",
+        "display_name": "\u0418\u043b\u043b\u044e\u0437\u043e\u0440\u043d\u044b\u0439 \u043f\u043b\u0430\u0449-\u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043a\u0430",
+        "description": "\u041d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0443\u043c\u0430\u0435\u0442, \u0447\u0442\u043e \u043d\u0435\u0432\u0438\u0434\u0438\u043c. \u041d\u043e \u044d\u0442\u043e \u0438\u043b\u043b\u044e\u0437\u0438\u044f!",
+        "cost": 1000,
+        "id": "3dbd64fdfe9f43d2b49ff5110821a213",
+        "enchant": [
+            {
+                "name": "CloakOfEfficientInvisibilityEnchnatment",
+                "display_name": "",
+                "description": "",
+                "id": "5361764e77f641039f9c39afa438b061",
+                "effect": [
+                    "Add feature CloakOfEfficientInvisibilityBuff"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfHeroism",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0433\u0435\u0440\u043e\u0438\u0437\u043c\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043e\u0434\u0438\u043d \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0433\u0435\u0440\u043e\u0438\u0437\u043c \u043a\u0430\u043a \u043c\u0430\u0433 2 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 1800,
+        "id": "dd7e65ef127b930488b85a48616b4baa"
+    },
+    {
+        "name": "CloakOfInnerWarmthItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0433\u043e \u0442\u0435\u043f\u043b\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 30 \u043a \u043a\u0438\u0441\u043b\u043e\u0442\u0435 \u0438 \u0445\u043e\u043b\u043e\u0434\u0443.",
+        "cost": 44000,
+        "id": "8dfafc99c41d5f645888eb15388904ea",
+        "enchant": [
+            {
+                "name": "ColdResistance30Enchant",
+                "display_name": "Cold Resistance 30",
+                "description": "",
+                "id": "7ef70c319ca74fe4cb5eddea792bb353",
+                "effect": [
+                    "Add feature ColdResistance30Feature"
+                ]
+            },
+            {
+                "name": "AcidResistance30Enchant",
+                "display_name": "Acid Resistance 30",
+                "description": "",
+                "id": "e6fa2f59c7f1bb14ebfc429f17d0a4c6",
+                "effect": [
+                    "Add feature AcidResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfLoneWolfItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0432\u043e\u043b\u043a\u0430-\u043e\u0434\u0438\u043d\u043e\u0447\u043a\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 10 \u0444\u0443\u0442\u043e\u0432 \u043e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043d\u0435 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0432\u0440\u0430\u0433\u043e\u0432, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +3 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u043a \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u043c \u0430\u0442\u0430\u043a\u0430\u043c \u0438 \u0431\u043e\u043d\u0443\u0441 +2 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c.",
+        "cost": 29000,
+        "id": "700eae066f5a50c47a482fbdf8378327",
+        "enchant": [
+            {
+                "name": "CloakOfLoneWolfEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1582d0c65dcb4523a6ab61b792da0c1e",
+                "effect": [
+                    "Add feature CloakOfLoneWolfFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraHigherCity, PF2_CoolDemons_Chest5"
+        ]
+    },
+    {
+        "name": "CloakOfResistance1",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +1",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +1 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 1000,
+        "id": "4aea6773c1da01c42bd382c1b7c384bc",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AlushynirraDemodandKineticist, Mobs",
+            "Alushynirra_BalorNocticulaGuard, Mobs",
+            "AneviaTirabade, Friends",
+            "AneviaTirabade_DH, Friends",
+            "AneviaTirabade_DrezenCapital, Friends",
+            "AneviaTirabade_GibberingSwarm, Friends",
+            "AneviaTirabade_GorgoyleAttack, Friends",
+            "AneviaTirabade_LostChapel, Friends",
+            "ArueshalaePregenLevel6, Player",
+            "ArueshalaePregenLevel9, Player",
+            "Berengar_Balor, Mobs",
+            "BlackFireAdeptVampire, Mobs",
+            "CR12_Sarcorian_Druid_Caster_Male, Mobs",
+            "CR12_Sarcorian_Druid_Caster_Sweep_Male, Mobs",
+            "CR14_Sarcorian_Ranger_Ranged_female, Mobs",
+            "CR15_ColoxusEmissary, Mobs",
+            "CR15_ColoxusEmissary_RE_high, Mobs",
+            "CR17_AlushinyrraBandit_RangedDemonCh3_Prisoner, CutsceneNeutrals",
+            "CR17_AreshkagalLilitu, Mobs",
+            "CR17_ColoxusToughCaster_1, Mobs",
+            "CR17_Mercenary_Dwarf_Ranged_Male, Mobs",
+            "CR17_Mercenary_Human_MeleeWithLoot_Male, Mobs",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
+            "CR21_BalorAdvanced, Mobs",
+            "CR21_BalorAdvanced_RE, Mobs",
+            "CR5_Marauder_HalfOrc_Alchemist_Male, Bandits",
+            "CR9_Sarcorian_Ranger_Ranged_Female, Mobs",
+            "CameliaPregenLevel4, Player",
+            "CameliaPregenLevel5, Player",
+            "CameliaPregenLevel6, Player",
+            "CameliaPregenLevel7, Player",
+            "CameliaPregenLevel8, Player",
+            "CameliaPregenLevel9, Player",
+            "Chorussina_Miniboss_LuckyDices, Mobs",
+            "Ciar_Companion, Player",
+            "DaeranPregenTestLevel3, Player",
+            "DaeranPregenTestLevel4, Player",
+            "DaeranPregenTestLevel6, Player",
+            "EmberTestLevel2, Player",
+            "EmberTestLevel3, Player",
+            "EmberTestLevel4, Player",
+            "EmberTestLevel9, Player",
+            "GateGuard_MediumToHigher, CutsceneNeutrals",
+            "GateGuard_NocticulaPalace, CutsceneNeutrals",
+            "GreyborInIvorySunctum_BowHunterNPC, Mobs",
+            "GreyborInIvorySunctum_ClericNPC, Mobs",
+            "GreyborInIvorySunctum_EldritchArcherNPC, Mobs",
+            "GreyborTestLevel2, Player",
+            "GreyborTestLevel3, Player",
+            "GreyborTestLevel4, Player",
+            "GreyborTestLevel9, Player",
+            "Inquisitor_Liotr, NeutralGuards",
+            "LannTestLevel4, Player",
+            "LannTestLevel6, Player",
+            "LannTestLevel9, Player",
+            "LostChapel_GargoyleMiniboss, Mobs",
+            "MC_Human_M_Cavalier_GrayGarrison, Player",
+            "MC_Human_M_Cavalier_KenabresBurning , Player",
+            "MendevianInquisitor, NeutralGuards",
+            "MidnightFane_DeskariPriestess, Mobs",
+            "MidnightFane_NocticulaPriestess, Mobs",
+            "Morveg, CutsceneNeutrals",
+            "Nexus_CambionWithLoot_ForAssault, Mobs",
+            "Nexus_CambionWithLoot_ForAssault_2, Mobs",
+            "NuraDrezen, CutsceneNeutrals",
+            "NuraDrezenBoss, CutsceneNeutrals",
+            "Nura_DrezenCitadel_Miniboss, CutsceneNeutrals",
+            "Nura_GibberingSwarm, CutsceneNeutrals",
+            "Nurah, CutsceneNeutrals",
+            "NurahCapital, CutsceneNeutrals",
+            "Nurah_GargoyleAttack, CutsceneNeutrals",
+            "Pharasma, CutsceneNeutrals",
+            "PlayerAeonWizardTestLevel9, Player",
+            "PlayerAzataRangerTestLevel6, Player",
+            "PlayerAzataRangerTestLevel9, Player",
+            "PlayerLichWizardTestLevel2, Player",
+            "PlayerLichWizardTestLevel3, Player",
+            "PlayerLichWizardTestLevel4, Player",
+            "PlayerLichWizardTestLevel9, Player",
+            "PlayerTestLevel4, Player",
+            "PlayerTestLevel5, Player",
+            "PlayerTestLevel6, Player",
+            "PlayerTricksterRangerTestLevel9, Player",
+            "Rathimus_ScrollVendorOld_DH, CutsceneNeutrals",
+            "RegillPregenLevel1, Player",
+            "RegillPregenLevel2, Player",
+            "RegillPregenLevel3, Player",
+            "RegillPregenLevel4, Player",
+            "RegillPregenLevel5, Player",
+            "RegillPregenLevel6, Player",
+            "Regill_HellknightsCamp, Friends",
+            "Regill_Level6, Player",
+            "RobedDwarf, Friends",
+            "SailorRanged, CutsceneNeutrals",
+            "SeelahTestLevel3, Player",
+            "SeelahTestLevel4, Player",
+            "SeelahTestLevel5, Player",
+            "SeelahTestLevel6, Player",
+            "Seelah_Level6, Player",
+            "Seelah_Level7, Player",
+            "SetrayDevimaiHuman, CutsceneNeutrals",
+            "SosielTestLevel3, Player",
+            "SosielTestLevel4, Player",
+            "StauntonVane_Boss, Bosses",
+            "StauntonVane_LostChapel, CutsceneNeutrals",
+            "StauntonVane_Undead, Bosses",
+            "TigerOfSin, Neutrals",
+            "TigerOfSin1, Neutrals",
+            "TigerOfSin2, Neutrals",
+            "WarCamp_ScrollVendorOld, CutsceneNeutrals",
+            "WoljifTestLeve6, Player",
+            "WoljifTestLeve7, Player",
+            "Zacharius, Mobs",
+            "Zacharius_LostChapel, Friends",
+            "Zacharius_Ziggurat, Mobs",
+            "Zanedra, Neutrals",
+            "Zanedra_Sanctum, CutsceneNeutrals"
+        ],
+        "area": [
+            "Prologue_Caves_1, PF2_NaturalCaves_Loot_1",
+            "Prologue_Caves_1, Prologue_Kenabres_Loot"
+        ]
+    },
+    {
+        "name": "CloakOfResistance2",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 4000,
+        "id": "04dff7841c5f499478c91487d9bbdcef",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "Alushinyrra_Minagho, Mobs",
+            "AngryIncubusRanger, Mobs",
+            "Arsinoe, Neutrals",
+            "ArueshalaePregenLevel7, Player",
+            "BlackMaskSlaveTrader, CutsceneNeutrals",
+            "Boulder, Neutrals",
+            "CR14_CambionBard_Ranged, Mobs",
+            "CR15_BabauSpecial, Mobs",
+            "CR15_BabauSpecial_RE, Mobs",
+            "CR15_Mercenary_Oread_Caster_Male, Mobs",
+            "CR16_IncubusGladiator, CutsceneNeutrals",
+            "CR17_AreshkagalMarilith, Mobs",
+            "CR17_Assassin_Human_MeleeRogue_Male, Neutrals",
+            "CR19_CambionBard_Melee, Mobs",
+            "CR19_GlabrezuDrezenOptional, Mobs",
+            "CR20M_OolioddrooAdvanced, Mobs",
+            "CR20M_OolioddrooAdvanced_RE, Mobs",
+            "CR20M_OolioddrooAdvanced_RE_high, Mobs",
+            "CR22_MinotaurPriest, Mobs",
+            "CambionFlameShaman, Mobs",
+            "CameliaPregenLevel10, Player",
+            "CameliaPregenLevel11, Player",
+            "Chivarro, CutsceneNeutrals",
+            "CrazyPrisoner1, Mobs",
+            "CrazyPrisoner2, Mobs",
+            "DaeranPregenTestLevel10, Player",
+            "DaeranPregenTestLevel7, Player",
+            "DaeranPregenTestLevel8, Player",
+            "DaeranPregenTestLevel9, Player",
+            "EmberTestLevel7, Player",
+            "EmberTestLevel8, Player",
+            "FleshmarketGuard_Cambion17, CutsceneNeutrals",
+            "Fleshmarket_CambionGuardCaptain_WithLoot, CutsceneNeutrals",
+            "Forn, CutsceneNeutrals",
+            "GateGuard_MediumToLower, CutsceneNeutrals",
+            "GreyborTestLevel6, Player",
+            "GreyborTestLevel7, Player",
+            "GreyborTestLevel8, Player",
+            "IncubusBandLair_IncubusBoss, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal1_20, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal2_20, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal3_20, Mobs",
+            "Jeslyn_Boss, Mobs",
+            "LannTestLevel11, Player",
+            "LannTestLevel14, Player",
+            "LannTestLevel7, Player",
+            "LannTestLevel8, Player",
+            "MC_Human_M_Cavalier_Drezen, Player",
+            "MC_Human_M_Cavalier_LostChapel, Player",
+            "MC_Human_M_Cavalier_Warcamp, Player",
+            "Marhevok, Mobs",
+            "Marhevok_cutscene, CutsceneNeutrals",
+            "Melazmera, CutsceneNeutrals",
+            "Minagho, Mobs",
+            "MinaghoDemonCh3, CutsceneNeutrals",
+            "Minagho_DrezenCitadel_Boss, Bosses",
+            "Minagho_DrezenInThePast, Neutrals",
+            "Minagho_DrezenInThePast_ForPolymorth, Neutrals",
+            "Minagho_GreyGarrison, Bosses",
+            "Minagho_LostChapel, CutsceneNeutrals",
+            "NamedEliteDemonCaster, Mobs",
+            "NamedEliteMercenaryCaster, Mobs",
+            "NonameSlaveTrader, CutsceneNeutrals",
+            "Nulkineth_LostChapel, Mobs",
+            "PlayerAzataRangerTestLevel7, Player",
+            "PlayerLichWizardTestLevel6, Player",
+            "PlayerLichWizardTestLevel7, Player",
+            "PlayerLichWizardTestLevel8, Player",
+            "PlayerTestLevel7, Player",
+            "PlayerTestLevel8, Player",
+            "PlayerTestLevel9, Player",
+            "Pregen_Cleric_MVP, Player",
+            "Pregen_Fighter_MVP, Player",
+            "Pregen_Grimbor_MVP, Player",
+            "Pregen_Lann_MVP, Player",
+            "Pregen_PlayerAlchemist_MVP, Player",
+            "Pregen_Regill_MVP, Player",
+            "Pregen_Seelah_MVP, Player",
+            "RegillPregenLevel10, Player",
+            "RegillPregenLevel11, Player",
+            "RegillPregenLevel7, Player",
+            "RegillPregenLevel8, Player",
+            "RegillPregenLevel9, Player",
+            "SailorMelee, CutsceneNeutrals",
+            "SeelahTestLevel10, Player",
+            "SeelahTestLevel7, Player",
+            "SeelahTestLevel8, Player",
+            "SeelahTestLevel9, Player",
+            "Shrine_Glabrezu_Caster, Mobs",
+            "Shrine_Incubus_Melee, Mobs",
+            "SosielTestLevel10, Player",
+            "SosielTestLevel6, Player",
+            "SosielTestLevel7, Player",
+            "SosielTestLevel8, Player",
+            "SosielTestLevel9, Player",
+            "TestPregen_Arcanist, Player",
+            "TestPregen_Shaman, Player",
+            "Torlek, Mobs",
+            "TraitorCrusaderSupport, Mobs",
+            "TraitorCrusaderSupportDemonCh3_Prisoner, CutsceneNeutrals",
+            "Vellexia_CambionToughMelee_WithLoot, Mobs",
+            "VentureCaptainHilor, CutsceneNeutrals",
+            "VentureCaptainHilorDamaged, CutsceneNeutrals",
+            "WintersunSiabrae, Mobs",
+            "WoljifTestLeve8, Player",
+            "YouOnlyMortalsLeader, Mobs"
+        ],
+        "area": [
+            "ColyphyrDungeon, PF2_DemonWorld_TrueTreasures#1"
+        ]
+    },
+    {
+        "name": "CloakOfResistance3",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 9000,
+        "id": "9f3c56d5247154e47b5ca9500f4d86ce",
+        "enchant": [
+            {
+                "name": "Resistance3",
+                "display_name": "",
+                "description": "",
+                "id": "9d6f77c05099caf4eab25228632fdf64",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AlushynirraDemodandMiniboss, Mobs",
+            "ArueshalaePregenLevel10, Player",
+            "ArueshalaePregenLevel11, Player",
+            "ArueshalaePregenLevel12, Player",
+            "ArueshalaePregenLevel13, Player",
+            "ArueshalaePregenLevel8, Player",
+            "Arueshalae_Level9, Player",
+            "Berengar, NeutralGuards",
+            "CR17_AlushinyrraVampireRanged, Mobs",
+            "CR17_Cultist_Areshkagal_MeleeFighterDefensive, Mobs",
+            "CR19_Cultist_Areshkagal_MeleeCaster, Mobs",
+            "CR21_ColoxusCaster, Mobs",
+            "CR21_ColoxusCaster_RE_high, Mobs",
+            "CambionMinibossKineticist, Mobs",
+            "CameliaPregenLevel12, Player",
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "Chadali, Friends",
+            "ChadaliEnemy, Mobs",
+            "Dimalchio, CutsceneNeutrals",
+            "DyunkSlaveTrader, CutsceneNeutrals",
+            "EmberTestLevel10, Player",
+            "EmberTestLevel11, Player",
+            "EmberTestLevel12, Player",
+            "EmberTestLevel13, Player",
+            "Eritrice, Friends",
+            "EritriceEnemy, Mobs",
+            "Gelderfang, CutsceneNeutrals",
+            "GreyborInIvorySunctumAsNPC, Mobs",
+            "GreyborNPCLevel10, Friends",
+            "GreyborTestLevel10, Player",
+            "GreyborTestLevel11, Player",
+            "GreyborTestLevel12, Player",
+            "Horzalah_AssasinElfFighterRanged, Bandits",
+            "Horzalah_AssasinKitsuneMagusMelee, Bandits",
+            "IvoryHardmod_WildhuntAsassin24, Mobs",
+            "Kerz, CutsceneNeutrals",
+            "Kestoglyr_Companion, Player",
+            "LannTestLevel10, Player",
+            "LannTestLevel12, Player",
+            "LannTestLevel13, Player",
+            "Latwerk, CutsceneNeutrals",
+            "LatwerkNoWeapons, CutsceneNeutrals",
+            "MC_Human_M_Cavalier_DemonUnit, Player",
+            "MC_Human_M_Cavalier_IvorySanctum, Player",
+            "MC_Human_M_Cavalier_TricksterUnit, Player",
+            "Mielara, CutsceneNeutrals",
+            "PlayerAeonWizardTestLevel10, Player",
+            "PlayerAeonWizardTestLevel11, Player",
+            "PlayerAeonWizardTestLevel12, Player",
+            "PlayerAeonWizardTestLevel13, Player",
+            "PlayerAzataRangerTestLevel10, Player",
+            "PlayerAzataRangerTestLevel11, Player",
+            "PlayerAzataRangerTestLevel12, Player",
+            "PlayerAzataRangerTestLevel13, Player",
+            "PlayerAzataRangerTestLevel8, Player",
+            "PlayerDemonMythicTestLevel10, Player",
+            "PlayerDemonMythicTestLevel11, Player",
+            "PlayerDemonMythicTestLevel12, Player",
+            "PlayerLichWizardTestLevel10, Player",
+            "PlayerLichWizardTestLevel11, Player",
+            "PlayerLichWizardTestLevel12, Player",
+            "PlayerLichWizardTestLevel13, Player",
+            "PlayerTestLevel10, Player",
+            "PlayerTestLevel11, Player",
+            "PlayerTestLevel12, Player",
+            "PlayerTestLevel16, Player",
+            "PlayerTricksterRangerTestLevel10, Player",
+            "PlayerTricksterRangerTestLevel11, Player",
+            "PlayerTricksterRangerTestLevel12, Player",
+            "PlayerTricksterRangerTestLevel13, Player",
+            "PlayfulDarknessDeathsnatcher, Mobs",
+            "PuluraFall_Eliandra, AngelTeam",
+            "RegillPregenLevel15, Player",
+            "RegillPregenLevel16, Player",
+            "RegillQ2_KTC_Yaker, Friends",
+            "RvaniySlaveTrader, CutsceneNeutrals",
+            "SarzaksisSlaverTrader_Gibrileth, CutsceneNeutrals",
+            "SeelahTestLevel11, Player",
+            "Shrine_Succubus_Ranged, Mobs",
+            "SosielTestLevel11, Player",
+            "SosielTestLevel12, Player",
+            "SosielTestLevel13, Player",
+            "ToughMinaghoCambion, Mobs",
+            "UndeadKingAlberie, Neutrals",
+            "UrgathoaPatrols_Cleric, NeutralGuards",
+            "UrgathoaPatrols_SkeletalChampion, NeutralGuards",
+            "VampirePatrols_VampireSpawn, NeutralGuards",
+            "WildHunt_Atselm, CutsceneNeutrals",
+            "WildHunt_AtselmOld, CutsceneNeutrals",
+            "WildHunt_AtselmYoung, CutsceneNeutrals",
+            "WizardArcaneBomberAlchemist, CutsceneNeutrals",
+            "WoljifTestLeve10, Player",
+            "WoljifTestLeve11, Player",
+            "WoljifTestLeve12, Player",
+            "WoljifTestLeve13, Player",
+            "WoljifTestLeve14, Player",
+            "WoljifTestLeve15, Player",
+            "WoljifTestLeve9, Player",
+            "Xantir_MidnightFaneInThePast, CutsceneNeutrals",
+            "YakerAnkelli_Hellknight, Friends",
+            "YakerWithTorch_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightsCamp, Friends",
+            "Yaker_WarCamp, Friends",
+            "Yaniel, AngelTeam",
+            "Yaniel_DrezenCitadelLevel2, AngelTeam"
+        ]
+    },
+    {
+        "name": "CloakOfResistance4",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 16000,
+        "id": "096125bfb3b364849b02ab65297f71de",
+        "enchant": [
+            {
+                "name": "Resistance4",
+                "display_name": "",
+                "description": "",
+                "id": "cdba7ef2a02a2b9499059bd558e5354d",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AasimarRedMask, CutsceneNeutrals",
+            "Alichino, Friends",
+            "AlichinoEnemy, Mobs",
+            "Anemora, Mobs",
+            "ArueshalaePregenLevel14, Player",
+            "ArueshalaePregenLevel15, Player",
+            "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
+            "CR17_Cultist_Areshkagal_DamageFullCaster, Mobs",
+            "CR18_Cultist_Areshkagal_MeleeFighterTwoHanded, Mobs",
+            "CR18_Cultist_Areshkagal_MeleeRogue, Mobs",
+            "CR18_Cultist_Areshkagal_RangedFighter, Mobs",
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs",
+            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
+            "CR24_Areshkagal_MarilithBoss, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
+            "CR26_Minotaur_IngerMaggor, Mobs",
+            "CameliaPregenLevel16, Player",
+            "CameliaPregenLevel17, Player",
+            "DaeranPregenTestLevel11, Player",
+            "DaeranPregenTestLevel12, Player",
+            "DaeranPregenTestLevel13, Player",
+            "DaeranPregenTestLevel14, Player",
+            "DaeranPregenTestLevel15, Player",
+            "EchoOfDeskari_ForFight, Mobs",
+            "EmberTestLevel14, Player",
+            "GreyborTestLevel13, Player",
+            "GreyborTestLevel14, Player",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals",
+            "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
+            "MythicLich_KTC_Septimus, Civilians",
+            "PlayerAeonWizardTestLevel14, Player",
+            "PlayerAzataRangerTestLevel14, Player",
+            "PlayerAzataRangerTestLevel15, Player",
+            "PlayerAzataRangerTestLevel16, Player",
+            "PlayerDemonMythicTestLevel13, Player",
+            "PlayerDemonMythicTestLevel14, Player",
+            "PlayerDemonMythicTestLevel15, Player",
+            "PlayerLichWizardTestLevel14, Player",
+            "PlayerTestLevel13, Player",
+            "PlayerTestLevel14, Player",
+            "PlayerTestLevel15, Player",
+            "PlayerTricksterRangerTestLevel14, Player",
+            "PlayerTricksterRangerTestLevel15, Player",
+            "PlayerTricksterRangerTestLevel16, Player",
+            "PuluraFall_Katair, NeutralGuards",
+            "RegillPregenLevel12, Player",
+            "SeelahTestLevel12, Player",
+            "SeelahTestLevel13, Player",
+            "SeelahTestLevel19, Player",
+            "Svendack22, Mobs",
+            "Svendack22_WithTiara, Mobs",
+            "VentureCaptainChristoff, CutsceneNeutrals",
+            "WoljifTestLeve16, Player",
+            "WoljifTestLeve17, Player",
+            "WoljifTestLeve18, Player",
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals",
+            "Zacharius_SecondStage_Ch5, Mobs"
+        ],
+        "area": [
+            "WintersunOutdoor, PF2_Forest_GoodLoot_20_Hidden"
+        ]
+    },
+    {
+        "name": "CloakOfResistance5",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 25000,
+        "id": "a34cd0f80d04ec647af741d924a3e2a3",
+        "enchant": [
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "Areelu, CutsceneNeutrals",
+            "AreeluDemonicForm, CutsceneNeutrals",
+            "AreeluHologram, CutsceneNeutrals",
+            "AreeluHumanHologram, CutsceneNeutrals",
+            "AreeluInThePast, CutsceneNeutrals",
+            "AreeluNoName, CutsceneNeutrals",
+            "Areelu_MidnightFaneInThePast, CutsceneNeutrals",
+            "Areelu_ShadowCopy, CutsceneNeutrals",
+            "Arilu_DrezenCitadelLevel2, CutsceneNeutrals",
+            "ArueshalaePregenLevel16, Player",
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel20, Player",
+            "DaeranPregenTestLevel16, Player",
+            "DaeranPregenTestLevel17, Player",
+            "DarekSunhammer, Neutrals",
+            "EmberTestLevel16, Player",
+            "EmberTestLevel17, Player",
+            "EmberTestLevel18, Player",
+            "EmberTestLevel19, Player",
+            "GreyborTestLevel15, Player",
+            "GreyborTestLevel16, Player",
+            "GreyborTestLevel17, Player",
+            "GreyborTestLevel18, Player",
+            "GreyborTestLevel19, Player",
+            "HellknightsParaliktor_Aminas, Friends",
+            "HellknightsParaliktor_Gerren, Friends",
+            "HellknightsParaliktor_Lerana, Friends",
+            "Khorramzadeh, Mobs",
+            "Khorramzadeh_Aeon, Mobs",
+            "Khorramzadeh_Undead, Mobs",
+            "LannTestLevel19, Player",
+            "LiLura, CutsceneNeutrals",
+            "LiLura_Kenabres, CutsceneNeutrals",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "Locust_EmberEnemy, CutsceneNeutrals",
+            "Locust_LannEnemy, CutsceneNeutrals",
+            "Locust_RegillEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "Locust_TreverEnemy, CutsceneNeutrals",
+            "PlayerAeonWizardTestLevel15, Player",
+            "PlayerAeonWizardTestLevel16, Player",
+            "PlayerAeonWizardTestLevel17, Player",
+            "PlayerAeonWizardTestLevel18, Player",
+            "PlayerAeonWizardTestLevel19, Player",
+            "PlayerAzataRangerTestLevel17, Player",
+            "PlayerAzataRangerTestLevel18, Player",
+            "PlayerDemonMythicTestLevel16, Player",
+            "PlayerDemonMythicTestLevel17, Player",
+            "PlayerLichWizardTestLevel15, Player",
+            "PlayerLichWizardTestLevel16, Player",
+            "PlayerLichWizardTestLevel17, Player",
+            "PlayerLichWizardTestLevel18, Player",
+            "PlayerLichWizardTestLevel19, Player",
+            "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
+            "PlayerTricksterRangerTestLevel17, Player",
+            "PlayerTricksterRangerTestLevel18, Player",
+            "RegillPregenLevel13, Player",
+            "RegillPregenLevel14, Player",
+            "RegillQ2_KTC_ParaliktorAminas, Friends",
+            "RegillQ2_KTC_ParaliktorGerren, Friends",
+            "RegillQ2_KTC_ParaliktorLerana, Friends",
+            "SosielTestLevel19, Player",
+            "SosielTestLevel20, Player",
+            "WoljifTestLeve19, Player",
+            "WoljifTestLeve20, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_Chest2",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "CloakOfResistance6",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +6 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 75000,
+        "id": "37090c79c13262f45821d91071efc138",
+        "enchant": [
+            {
+                "name": "Resistance6",
+                "display_name": "",
+                "description": "",
+                "id": "c67c2306707c3284db43c1ea35a03715",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel19, Player",
+            "ArueshalaePregenLevel20, Player",
+            "DaeranPregenTestLevel18, Player",
+            "DaeranPregenTestLevel19, Player",
+            "DaeranPregenTestLevel20, Player",
+            "EmberTestLevel20, Player",
+            "GreyborTestLevel20, Player",
+            "LannTestLevel20, Player",
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
+            "PlayerAzataRangerTestLevel19, Player",
+            "PlayerAzataRangerTestLevel20, Player",
+            "PlayerDemonMythicTestLevel18, Player",
+            "PlayerDemonMythicTestLevel19, Player",
+            "PlayerDemonMythicTestLevel20, Player",
+            "PlayerLichWizardTestLevel20, Player",
+            "PlayerTestLevel18, Player",
+            "PlayerTestLevel19, Player",
+            "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
+            "PlayerTricksterRangerTestLevel19, Player",
+            "PlayerTricksterRangerTestLevel20, Player",
+            "RegillPregenLevel17, Player",
+            "RegillPregenLevel18, Player",
+            "RegillPregenLevel19, Player",
+            "RegillPregenLevel20, Player",
+            "SeelahTestLevel20, Player",
+            "StartGameSorcererPregenUnitLevel20, Player"
+        ],
+        "area": [
+            "TheIvoryLabyrinth, PF2_CoolDemons_MirrorRoomLoot_Locked"
+        ]
+    },
+    {
+        "name": "CloakOfSacredStudiesItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0441\u0430\u043a\u0440\u0430\u043b\u044c\u043d\u044b\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0441\u043e\u043f\u0440\u043e\u0442\u0438\u0432\u043b\u0435\u043d\u0438\u044f +5 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +12 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0417\u043d\u0430\u043d\u0438\u0435 (\u0440\u0435\u043b\u0438\u0433\u0438\u044f) \u0438 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0430\u0433\u0438\u044f).",
+        "cost": 55000,
+        "id": "bb8d01d4726941269c88386aa2aeb906",
+        "enchant": [
+            {
+                "name": "CloakOfSacredStudiesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7df1e77c65d44b87a290a4b3aee41683",
+                "effect": [
+                    "Add feature CloakOfSacredStudiesFeature"
+                ]
+            },
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "MutasafenLair_MythicGlabrezu, Mobs"
+        ]
+    },
+    {
+        "name": "CloakOfSeerItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043f\u0440\u043e\u0437\u043e\u0440\u043b\u0438\u0432\u0446\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435, \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 \u0438 \u0432\u043e\u043b\u0438, \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0443\u0432\u0438\u0434\u0435\u0442\u044c \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0435 \u043a\u0430\u043a \u043c\u0430\u0433 3 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 48600,
+        "id": "017f9cbc5ff31e74598e2ef0379d3c82",
+        "enchant": [
+            {
+                "name": "Fortitude3",
+                "display_name": "",
+                "description": "",
+                "id": "bdf029b3d7f6a4e4bb00c1393ee3de64",
+                "effect": [
+                    "Add stat bonus 3 to SaveFortitude (descriptor: Resistance)"
+                ]
+            },
+            {
+                "name": "Will3",
+                "display_name": "",
+                "description": "",
+                "id": "8e19a6dde2e4bd94eba2bb2fc6cb1cf5",
+                "effect": [
+                    "Add stat bonus 3 to SaveWill (descriptor: Resistance)"
+                ]
+            },
+            {
+                "name": "Deflection3",
+                "display_name": "",
+                "description": "",
+                "id": "770ff94f548368743a5fc63f2cf5b0b6",
+                "effect": [
+                    "Add stat bonus 3 to AC (descriptor: Deflection)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfShadows",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0442\u0435\u043d\u0435\u0439",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0421\u043a\u0440\u044b\u0442\u043d\u043e\u0441\u0442\u044c \u0438 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044d\u0444\u0444\u0435\u043a\u0442\u0430\u043c \u0441\u043b\u0435\u043f\u043e\u0442\u044b \u0438 \u0440\u0430\u0441\u0442\u0435\u0440\u044f\u043d\u043d\u043e\u0441\u0442\u0438.",
+        "cost": 6000,
+        "id": "42aa20c20917c41448fd6cb27de98d60",
+        "enchant": [
+            {
+                "name": "Stealth10",
+                "display_name": "",
+                "description": "",
+                "id": "2dca32da290bfb740bafe13395419f77",
+                "effect": [
+                    "Add stat bonus 10 to SkillStealth (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BlindnessImmunity",
+                "display_name": "",
+                "description": "",
+                "id": "dc6927b978fd07a4dae6bc1bce93d8ef",
+                "effect": [
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment",
+                    "Add feature BlindnessImmunity"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfSharpFangs",
+        "display_name": "",
+        "description": "",
+        "cost": 10000,
+        "id": "79d4c7eb1cafab94984205bb2fe54dcd",
+        "enchant": [
+            {
+                "name": "CloakOfSharpFangsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "800d2e5571d292e44b1dcf145b407dbe",
+                "effect": [
+                    "Add feature CloakOfSharpFangsFeature",
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfSparklesItem",
+        "display_name": "\u0418\u0441\u043a\u0440\u044f\u0449\u0438\u0439\u0441\u044f \u043f\u043b\u0430\u0449",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 30 \u043a \u043e\u0433\u043d\u044e \u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u0443.",
+        "cost": 1800,
+        "id": "5dbe5da0779cb7b47b742ac3f56f1086",
+        "enchant": [
+            {
+                "name": "FireResistance30Enchant",
+                "display_name": "Fire Resistance 30",
+                "description": "",
+                "id": "0e98403449de8ce4c846361c6df30d1f",
+                "effect": [
+                    "Add feature FireResistance30Feature"
+                ]
+            },
+            {
+                "name": "ElectricityResistance30Enchant",
+                "display_name": "Electricity Resistance 30",
+                "description": "",
+                "id": "26b91513989a653458986fabce24ba95",
+                "effect": [
+                    "Add feature ElectricityResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfStagLord",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0437\u0438\u043c\u043d\u0435\u0433\u043e \u043f\u043e\u043a\u0440\u043e\u0432\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +1 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 10 \u043a \u0445\u043e\u043b\u043e\u0434\u0443. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 3000,
+        "id": "3496c0af23640bf4a9f0881771514630",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "ColdResistance10Enchantment",
+                "display_name": "Cold Resistance 10",
+                "description": "",
+                "id": "04fa37ad59430984987ae8f396c0d1fd",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "StartGameSorcererPregenUnitLevel8, Player"
+        ]
+    },
+    {
+        "name": "CloakOfStrongWilledItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043d\u0435\u0441\u0433\u0438\u0431\u0430\u0435\u043c\u043e\u0439 \u0432\u043e\u043b\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0432\u043e\u043b\u0438.",
+        "cost": 700,
+        "id": "f0623bbb6fedd54489e7ebbfe2dc4b48",
+        "enchant": [
+            {
+                "name": "CloakOfStrongWilledEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "402649cec0238d441ac6d08c3d44412d",
+                "effect": [
+                    "Add stat bonus 3 to SaveWill (descriptor: Resistance)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheAncientHeraldItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0434\u0440\u0435\u0432\u043d\u0435\u0433\u043e \u0432\u0435\u0441\u0442\u043d\u0438\u043a\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442 \u044d\u043d\u0435\u0440\u0433\u0438\u044e \u0434\u043b\u044f \u0438\u0437\u043b\u0435\u0447\u0435\u043d\u0438\u044f, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435, \u0430 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430 \u0434\u043b\u044f \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0441 \u0434\u0435\u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0440\u043e\u043c \"\u043f\u0440\u0438\u043d\u0443\u0436\u0434\u0435\u043d\u0438\u0435\" \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 2. \u042d\u0442\u043e\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u0434\u043b\u0438\u0442\u0441\u044f \u0447\u0438\u0441\u043b\u043e \u0440\u0430\u0443\u043d\u0434\u043e\u0432, \u0440\u0430\u0432\u043d\u043e\u0435 \u0443\u0440\u043e\u0432\u043d\u044e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0430.\n\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442 \u044d\u043d\u0435\u0440\u0433\u0438\u044e \u0434\u043b\u044f \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u044f, \u0437\u0430\u0442\u0440\u043e\u043d\u0443\u0442\u044b\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0434\u043e\u043b\u0436\u043d\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438, \u0438\u043d\u0430\u0447\u0435 \u043e\u043d\u0438 \u043e\u043a\u0430\u0436\u0443\u0442\u0441\u044f \u0432 \u0441\u0442\u0443\u043f\u043e\u0440\u0435 \u043d\u0430 \u043e\u0434\u0438\u043d \u0440\u0430\u0443\u043d\u0434. \u0421\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430 = 10 + \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u0443\u0440\u043e\u0432\u043d\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0430 + \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u0425\u0430\u0440\u0438\u0437\u043c\u044b.",
+        "cost": 7000,
+        "id": "ffcad7e6a9d02474ea93b698eec94d1d",
+        "enchant": [
+            {
+                "name": "CloakOfTheAncientHeraldEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6280c2967a4a3d340b0cbe6ca0c306b9",
+                "effect": [
+                    "Add feature CloakOfTheAncientHeraldFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AreeluLab, PF2_MagicLaboratory_PoorLoot02"
+        ]
+    },
+    {
+        "name": "CloakOfTheBearItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043c\u0435\u0434\u0432\u0435\u0434\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043e\u0442 \u0431\u043e\u0435\u0432\u044b\u0445 \u043c\u0430\u043d\u0435\u0432\u0440\u043e\u0432.",
+        "cost": 45000,
+        "id": "9af35985be20c384a957e5c7dfdb41f2",
+        "enchant": [
+            {
+                "name": "CloakOfTheBearEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "83f696e9e6fe62b45876fde233914506",
+                "effect": [
+                    "Add stat bonus 4 to AdditionalCMD (descriptor: Competence)",
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheChosenItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0438\u0437\u0431\u0440\u0430\u043d\u043d\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u0441\u043b\u0435\u043f\u043e\u0442\u0435 \u0438 \u0440\u0430\u0441\u0442\u0435\u0440\u044f\u043d\u043d\u043e\u0441\u0442\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0432\u043e\u043b\u0438. \u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e \u0436\u0435\u043b\u0430\u043d\u0438\u044e \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043c\u043e\u043b\u0435\u0431\u0435\u043d \u043a\u0430\u043a \u0436\u0440\u0435\u0446 9 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 81000,
+        "id": "e8596ae383f840c4899f6b1228c731e0",
+        "enchant": [
+            {
+                "name": "BlindnessImmunity",
+                "display_name": "",
+                "description": "",
+                "id": "dc6927b978fd07a4dae6bc1bce93d8ef",
+                "effect": [
+                    "AddConditionImmunityEquipment",
+                    "AddConditionImmunityEquipment",
+                    "Add feature BlindnessImmunity"
+                ]
+            },
+            {
+                "name": "Will3",
+                "display_name": "",
+                "description": "",
+                "id": "8e19a6dde2e4bd94eba2bb2fc6cb1cf5",
+                "effect": [
+                    "Add stat bonus 3 to SaveWill (descriptor: Resistance)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheLion",
+        "display_name": "\u041b\u044c\u0432\u0438\u043d\u044b\u0439 \u043f\u043b\u0430\u0449",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c. \u0415\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0438\u043c\u0435\u0435\u0442 \u0437\u0430\u043a\u043e\u043d\u043e\u043f\u043e\u0441\u043b\u0443\u0448\u043d\u043e\u0435 \u0434\u043e\u0431\u0440\u043e\u0435 \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435, \u044d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0434\u043e +5. \u0415\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u2014 \u043f\u0430\u043b\u0430\u0434\u0438\u043d, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u043f\u043e\u0442\u0440\u0430\u0442\u0438\u0442\u044c \u043e\u0434\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0441\u0432\u043e\u0435\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u0421\u043e\u043a\u0440\u0443\u0448\u0435\u043d\u0438\u0435 \u0437\u043b\u0430, \u0447\u0442\u043e\u0431\u044b \u0434\u0430\u0442\u044c \u0432\u0441\u0435\u043c \u0441\u043e\u044e\u0437\u043d\u0438\u043a\u0430\u043c \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 20 \u0444\u0443\u0442\u043e\u0432 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044d\u0444\u0444\u0435\u043a\u0442\u0430\u043c \u0441\u0442\u0440\u0430\u0445\u0430 \u043d\u0430 \u0447\u0438\u0441\u043b\u043e \u0440\u0430\u0443\u043d\u0434\u043e\u0432, \u0440\u0430\u0432\u043d\u043e\u0435 \u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044e \u043f\u0430\u043b\u0430\u0434\u0438\u043d\u0430.",
+        "cost": 32000,
+        "id": "465bcf20235d0d04593d671bf9b607f0",
+        "enchant": [
+            {
+                "name": "Resistance3",
+                "display_name": "",
+                "description": "",
+                "id": "9d6f77c05099caf4eab25228632fdf64",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfTheLionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "af24e674d4279cf468182bf612513b73",
+                "effect": [
+                    "Add feature CloakOfTheLionFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakOfTheWinterWolfItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0437\u0438\u043c\u043d\u0435\u0433\u043e \u0432\u043e\u043b\u043a\u0430",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442 \u043f\u043e \u0432\u0440\u0430\u0433\u0443 \u0443\u043a\u0443\u0441\u043e\u043c, \u0435\u0433\u043e \u0430\u0442\u0430\u043a\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0446\u0435\u043b\u0438 1d6 \u0443\u0440\u043e\u043d\u0430 \u0445\u043e\u043b\u043e\u0434\u043e\u043c \u0438 \u0441\u0431\u0438\u0432\u0430\u0435\u0442 \u0435\u0435 \u0441 \u043d\u043e\u0433.",
+        "cost": 46000,
+        "id": "77491022ca26d194fbee5e04395ae967",
+        "enchant": [
+            {
+                "name": "CloakOfTheWinterWolfEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d89021651911c1a48bad11c599e9eff3",
+                "effect": [
+                    "Add feature CloakOfTheWinterWolfFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CloakWyvernItem",
+        "display_name": "\u041d\u0430\u043a\u0438\u0434\u043a\u0430 \u0438\u0437 \u0448\u043a\u0443\u0440\u044b \u0432\u0438\u0432\u0435\u0440\u043d\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0435 \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u044f\u0434\u0430, \u0441\u043d\u0430 \u0438 \u043f\u0430\u0440\u0430\u043b\u0438\u0447\u0430.",
+        "cost": 1800,
+        "id": "b20919f1a98333f449956f0380fae855",
+        "enchant": [
+            {
+                "name": "CloakOfWyvernEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2421a9a5ceac85b488d7df4ed289d9b5",
+                "effect": [
+                    "Add feature CloakWyvernFeature"
+                ]
+            }
+        ],
+        "enhance": "2"
+    },
+    {
+        "name": "ContagiousShroudItem",
+        "display_name": "\u041f\u043e\u0440\u0430\u0436\u0430\u044e\u0449\u0438\u0439 \u043f\u043e\u043a\u0440\u043e\u0432",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u0430 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043d\u0430\u043f\u0430\u0434\u0430\u044e\u0442 \u0432 \u0431\u043b\u0438\u0436\u043d\u0435\u043c \u0431\u043e\u044e, \u043d\u0430\u043f\u0430\u0434\u0430\u044e\u0449\u0438\u0439 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 29), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u043e\u043a\u0430\u0436\u0435\u0442\u0441\u044f \u0434\u0435\u0437\u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u0441\u0442\u0430\u043d\u0435\u0442 \u0443\u044f\u0437\u0432\u0438\u043c \u043a \u043a\u0438\u0441\u043b\u043e\u0442\u0435 \u043d\u0430 4 \u0440\u0430\u0443\u043d\u0434\u0430. \u042d\u0442\u043e\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u043c\u043e\u0436\u0435\u0442 \u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e \u0440\u0430\u0437\u0443 \u043d\u0430 \u043d\u0430\u043f\u0430\u0434\u0430\u044e\u0449\u0435\u0433\u043e \u0437\u0430 \u0431\u043e\u0439.",
+        "cost": 40000,
+        "id": "80f028d846d9e47408f35739b93bde4b",
+        "enchant": [
+            {
+                "name": "ContagiousShroudEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7eebb46a3368e9b458f605611aec89d5",
+                "effect": [
+                    "Add feature ContagiousShroudFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Mutasafen, Mobs",
+            "MutasafenSecond, Mobs",
+            "MutasafenThird, Mobs",
+            "Mutasafen_MidnightFaneInThePast, Mobs"
+        ]
+    },
+    {
+        "name": "DervishCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0442\u0430\u0432\u043c\u0430\u0442\u0443\u0440\u0433\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0438\u0440) \u0438 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0430\u0433\u0438\u044f), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0425\u0430\u0440\u0438\u0437\u043c\u0435.",
+        "cost": 7800,
+        "id": "2595ae738523d9c4ea96f0d7e8b35470",
+        "enchant": [
+            {
+                "name": "DervishCloakEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "b2fc25f53129c2548b5e4048497bb43d",
+                "effect": [
+                    "Add stat bonus 5 to SkillKnowledgeWorld (descriptor: Competence)",
+                    "Add stat bonus 5 to SkillKnowledgeArcana (descriptor: Competence)"
+                ]
+            },
+            {
+                "name": "Charisma2",
+                "display_name": "",
+                "description": "",
+                "id": "f945413e1b120294780ba9de26bd2f7a",
+                "effect": [
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DungeoneersCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043f\u043e\u0434\u0437\u0435\u043c\u0435\u043b\u044c\u0449\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0441\u043e\u043f\u0440\u043e\u0442\u0438\u0432\u043b\u0435\u043d\u0438\u044f +5 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +15 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043b\u0443\u0442\u043e\u0432\u0441\u0442\u0432\u043e, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043e\u043f\u0440\u043e\u0442\u0438\u0432\u043b\u0435\u043d\u0438\u0435 5 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u0442\u0438\u0445\u0438\u044f\u043c.",
+        "cost": 66000,
+        "id": "fd1ed44854da4b35a70c613fac2d3d8f",
+        "enchant": [
+            {
+                "name": "DungeoneersCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "37d433202f984b869a91fd21a6a4b56e",
+                "effect": [
+                    "Add feature DungeoneersCloakFeature"
+                ]
+            },
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EnchantersCapeItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0447\u0430\u0440\u043e\u0434\u0435\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +1 \u043a \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0432\u0441\u0435\u0445 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0448\u043a\u043e\u043b\u044b \u041e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u044f.",
+        "cost": 3500,
+        "id": "41cd16a5d7c786c4ab7fb134f436a135",
+        "enchant": [
+            {
+                "name": "EnchantersCapeEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "753b311c2c30c61479057b16db24e32e",
+                "effect": [
+                    "Add feature EnchantersCapeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ExtraplanarCloakItem",
+        "display_name": "\u042d\u043a\u0441\u0442\u0440\u0430\u043f\u043b\u0430\u043d\u0430\u0440\u043d\u044b\u0439 \u043f\u043b\u0430\u0449",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u0440\u0438\u0437\u044b\u0432 \u0447\u0443\u0434\u043e\u0432\u0438\u0449\u0430 V \u043d\u0430 9 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 19600,
+        "id": "dafc585c01487b74781ae43f1a747d9e",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GrimMantleItem",
+        "display_name": "",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044f\u0434\u0443.",
+        "cost": 35000,
+        "id": "aff7db5f5fa7c1a429ad1338908fd8a3",
+        "enchant": [
+            {
+                "name": "GrimMantleEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3274a4379deb80e4795df2046debf89e",
+                "effect": [
+                    "AllSavesBonusEquipment",
+                    "Add feature GrimMantleFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HerbalistCapeItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0442\u0440\u0430\u0432\u043d\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443, \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0417\u043d\u0430\u043d\u0438\u0435 (\u041f\u0440\u0438\u0440\u043e\u0434\u0430) \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u044f\u0434\u0430 \u043a\u0430\u043a \u0436\u0440\u0435\u0446 3 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 48000,
+        "id": "e8157dd509418c449a642dbe4c4dd102",
+        "enchant": [
+            {
+                "name": "Intelligence4",
+                "display_name": "",
+                "description": "",
+                "id": "4a235cbdeebd2524681870153bab3cba",
+                "effect": [
+                    "Add stat bonus 4 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "HerbalistCapeEcnhant",
+                "display_name": "",
+                "description": "",
+                "id": "b634a816194535f468b2e3b1f1d6cad4",
+                "effect": [
+                    "Add stat bonus 5 to SkillLoreNature (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HermitsCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u043e\u0442\u0448\u0435\u043b\u044c\u043d\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +6 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438, \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043f\u0440\u0438\u0440\u043e\u0434\u0430), \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043e\u043f\u0440\u043e\u0442\u0438\u0432\u043b\u0435\u043d\u0438\u0435 \u0445\u043e\u043b\u043e\u0434\u0443 10.",
+        "cost": 18000,
+        "id": "53bdf36992b80e74baed47e99bc1d07e",
+        "enchant": [
+            {
+                "name": "HermitsCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "08d99b1ce1179254ca9236a77a2601b2",
+                "effect": [
+                    "Add feature HermitsCloakFeature",
+                    "Add stat bonus 5 to SkillLoreNature (descriptor: Competence)",
+                    "Add stat bonus 6 to SaveFortitude (descriptor: UntypedStackable)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HeroCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0433\u0435\u0440\u043e\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043e\u0434\u0438\u043d \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0433\u0435\u0440\u043e\u0438\u0437\u043c \u043a\u0430\u043a \u043c\u0430\u0433 3 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 2000,
+        "id": "ffe1561dc6bc4d5c8695598db286cb67",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "CloakOfDisguiseEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a222d78bd600dbc45bf42b79844cf7ee",
+                "effect": [
+                    "Add feature CloakOfDisguiseFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LibrariansCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0430\u0440\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \u043d\u0430 4 \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0441\u0432\u0438\u0442\u043a\u043e\u0432.",
+        "cost": 38400,
+        "id": "e35dcb7082ec47a47bc5cf56ed038147",
+        "enchant": [
+            {
+                "name": "LibrariansCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e5b91c171f0c0754f986fe74c2d8e274",
+                "effect": [
+                    "Add feature LibrariansCloakFeature",
+                    "Add stat bonus 10 to SkillUseMagicDevice (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraLowerCity, PF2_Demons_Chest6",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "LivingFlameItem",
+        "display_name": "\u0416\u0438\u0432\u043e\u0435 \u043f\u043b\u0430\u043c\u044f",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442 \u044d\u043d\u0435\u0440\u0433\u0438\u044e, \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u043d\u0435\u0441\u0442\u0438 \u0443\u0440\u043e\u043d \u043d\u0435\u0436\u0438\u0442\u0438, \u043d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 2 \u0440\u0430\u0443\u043d\u0434\u0430 \u0435\u0433\u043e \u043e\u043a\u0440\u0443\u0436\u0430\u0435\u0442 \u043e\u0433\u043d\u0435\u043d\u043d\u044b\u0439 \u0449\u0438\u0442, \u043d\u0430\u043d\u043e\u0441\u044f\u0449\u0438\u0439 1d6 \u0443\u0440\u043e\u043d\u0430 \u043e\u0433\u043d\u0435\u043c \u043d\u0430\u043f\u0430\u0434\u0430\u044e\u0449\u0438\u043c \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443 \u0432 \u0431\u043b\u0438\u0436\u043d\u0435\u043c \u0431\u043e\u044e \u043f\u0440\u043e\u0442\u0438\u0432 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e.",
+        "cost": 28000,
+        "id": "a7a80b6886951c141834fdc171ac6679",
+        "enchant": [
+            {
+                "name": "LivingFlameEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "280fc4781b253a548bc52ccbd2fbcfbf",
+                "effect": [
+                    "Add feature LivingFlameFeature"
+                ]
+            }
+        ],
+        "area": [
+            "Sosiel_Q2_EradikatorsMassacre, PF2_Worldwound_GoodLoot"
+        ]
+    },
+    {
+        "name": "MistyCoverItem",
+        "display_name": "\u0422\u0443\u043c\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043a\u0440\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u043b\u0435\u0442\u0430\u044e\u0449\u0438\u0445 \u0438 \u043f\u0440\u0438\u0437\u0432\u0430\u043d\u043d\u044b\u0445 \u0441\u0443\u0449\u0435\u0441\u0442\u0432.",
+        "cost": 36000,
+        "id": "e51033a3aad5c524ba73e851f3f3e0a1",
+        "enchant": [
+            {
+                "name": "MistyCoverEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7d8507e1d3b97cf428c23fae9cd45769",
+                "effect": [
+                    "Add feature MistyCoverFeature"
+                ]
+            },
+            {
+                "name": "Resistance4",
+                "display_name": "",
+                "description": "",
+                "id": "cdba7ef2a02a2b9499059bd558e5354d",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AlushinyrraCasterMiniboss, Mobs",
+            "AlushinyrraCasterMiniboss1, Mobs",
+            "AlushinyrraCasterMiniboss2, Mobs",
+            "AlushinyrraCasterMiniboss3, Mobs",
+            "LannTestLevel15, Player",
+            "LannTestLevel16, Player",
+            "LannTestLevel17, Player",
+            "LannTestLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    },
+    {
+        "name": "PerilousShadeItem",
+        "display_name": "\u0413\u0443\u0431\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0442\u0435\u043d\u044c",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043d\u0430 \u043d\u0435\u0433\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0432\u044b\u0441\u0448\u0430\u044f \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u044c, \u043a\u0430\u043a \u0435\u0441\u043b\u0438 \u0431\u044b \u0435\u0433\u043e \u0441\u043e\u0442\u0432\u043e\u0440\u0438\u043b \u043c\u0430\u0433 15 \u0443\u0440\u043e\u0432\u043d\u044f. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0421\u043a\u0440\u044b\u0442\u043d\u043e\u0441\u0442\u044c.",
+        "cost": 41000,
+        "id": "c999670b0097deb4d98aaee4a89704a8",
+        "enchant": [
+            {
+                "name": "PerilousShadeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "14a6d538623462f4aaac123ca438e772",
+                "effect": [
+                    "Add feature PerilousShadeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RoguesCompanionItem",
+        "display_name": "\u041f\u0440\u0438\u0441\u043f\u0435\u0448\u043d\u0438\u043a \u0432\u043e\u0440\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043b\u0443\u0442\u043e\u0432\u0441\u0442\u0432\u043e \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u043e\u0441\u043f\u0435\u0448\u043d\u043e\u0435 \u043e\u0442\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435 \u043a\u0430\u043a \u043c\u0430\u0433 1 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 10100,
+        "id": "d24d5bcf3b99c6948a85c83d8c711ed2",
+        "enchant": [
+            {
+                "name": "RoguesCompanionEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "b3a0e042daee19242bcde2a1665d2643",
+                "effect": [
+                    "Add stat bonus 5 to SkillThievery (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RovagugSpawnCloakItem",
+        "display_name": "\u0428\u043a\u0443\u0440\u0430 \u0411\u0435\u0437\u0436\u0430\u043b\u043e\u0441\u0442\u043d\u043e\u0433\u043e \u0437\u0432\u0435\u0440\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043d\u0430\u0434\u0435\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e 50% \u0443\u043a\u0440\u0435\u043f\u043b\u0435\u043d\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0435\u0439 (\u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u044f 50% \u0448\u0430\u043d\u0441 \u0441\u043d\u0438\u0437\u0438\u0442\u044c \u0443\u0440\u043e\u043d \u043e\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0443\u0434\u0430\u0440\u0430 \u0438\u043b\u0438 \u0430\u0442\u0430\u043a\u0438 \u0438\u0441\u043f\u043e\u0434\u0442\u0438\u0448\u043a\u0430 \u0434\u043e \u043e\u0431\u044b\u0447\u043d\u043e\u0433\u043e) \u0438 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044d\u0444\u0444\u0435\u043a\u0442\u0430\u043c \u0437\u0430\u043c\u0435\u0448\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430, \u0441\u0442\u0440\u0430\u0445\u0430, \u043f\u0430\u0440\u0430\u043b\u0438\u0447\u0430 \u0438 \u0431\u0435\u0437\u0443\u043c\u0438\u044f. \u0412\u0434\u043e\u0431\u0430\u0432\u043e\u043a, \u043e\u043d \u043d\u0430\u0434\u0435\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0441\u0438\u043b\u0430\u043c\u0438 \u041e\u0442\u0440\u043e\u0434\u044c\u044f \u0420\u043e\u0432\u0430\u0433\u0443\u0433\u0430 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u041f\u043e\u0440\u0447\u0443 \u0411\u0435\u0437\u0436\u0430\u043b\u043e\u0441\u0442\u043d\u043e\u0433\u043e \u0437\u0432\u0435\u0440\u044f \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c.\n\u041f\u043e\u0440\u0447\u0430 \u0411\u0435\u0437\u0436\u0430\u043b\u043e\u0441\u0442\u043d\u043e\u0433\u043e \u0437\u0432\u0435\u0440\u044f \u043d\u0430\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442 \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0445 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u043d\u0430 \u0432\u0441\u0435\u0445 \u043f\u0440\u043e\u0442\u0438\u0432\u043d\u0438\u043a\u043e\u0432 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 100 \u0444\u0443\u0442\u043e\u0432 \u043d\u0430 1d6+1 \u0440\u0430\u0443\u043d\u0434: \u0437\u0430\u043c\u0435\u0448\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u043e, \u044d\u0444\u0444\u0435\u043a\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043f\u0435\u0441\u043d\u044c \u0440\u0430\u0437\u0434\u043e\u0440\u0430, \u044f\u0440\u043e\u0441\u0442\u044c, \u0441\u043b\u0430\u0431\u043e\u0443\u043c\u0438\u0435, \u0438\u043b\u043b\u044e\u0437\u043e\u0440\u043d\u043e\u0435 \u0440\u0430\u0437\u043b\u043e\u0436\u0435\u043d\u0438\u0435, \u043f\u043e\u0434\u0447\u0438\u043d\u0435\u043d\u0438\u0435. \u0423\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 30) \u043d\u0435\u0439\u0442\u0440\u0430\u043b\u0438\u0437\u0443\u0435\u0442 \u044d\u0444\u0444\u0435\u043a\u0442.",
+        "cost": 140000,
+        "id": "59f597dee4897064dbac47d71131bd34",
+        "enchant": [
+            {
+                "name": "RovagugSpawnCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "34562d1aab15787409755d094cf67862",
+                "effect": [
+                    "Add feature RovagugSpawnCloakFeature",
+                    "AddFactContextActions"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RulersMantleItem",
+        "display_name": "\u041c\u0430\u043d\u0442\u0438\u044f \u0432\u043b\u0430\u0434\u044b\u043a\u0438",
+        "description": "\u042d\u0442\u0430 \u043c\u0430\u043d\u0442\u0438\u044f \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +1 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c, \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u044f\u0434\u0430.",
+        "cost": 1000,
+        "id": "d243856faedafb348ac448402efc1d12",
+        "enchant": [
+            {
+                "name": "Resistance1",
+                "display_name": "",
+                "description": "",
+                "id": "5d72c31d28d049a48800d8b9b47cf690",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "RulersMantleEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "01dd9b1d29abf4a46b4b1c5fa4fe0b1d",
+                "effect": [
+                    "Add feature RulersMantleFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ScarletAllureItem",
+        "display_name": "\u0410\u043b\u043e\u0435 \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u0435",
+        "description": "\u042d\u0442\u043e\u0442 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u0445\u043e\u0440\u043e\u0448\u043e \u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0441\u044f \u043d\u0430 \u043a\u043e\u043c \u0443\u0433\u043e\u0434\u043d\u043e. \u041e\u043d \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u0440\u0430\u0433 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440, \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u0443 \u0438\u0441\u043f\u043e\u0434\u0442\u0438\u0448\u043a\u0430 \u0438\u043b\u0438 \u0432\u043d\u0435\u043e\u0447\u0435\u0440\u0435\u0434\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443 \u043f\u043e \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 27), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u043e\u043a\u0430\u0436\u0435\u0442\u0441\u044f \u0441\u043e\u043a\u0440\u0443\u0448\u0435\u043d \u0442\u0435\u043c \u0444\u0430\u043a\u0442\u043e\u043c, \u0447\u0442\u043e \u043f\u043e\u0441\u044f\u0433\u043d\u0443\u043b \u043d\u0430 \u043d\u0435\u0447\u0442\u043e \u0441\u0442\u043e\u043b\u044c \u043f\u0440\u0435\u043a\u0440\u0430\u0441\u043d\u043e\u0435. \u0411\u0443\u0434\u0443\u0447\u0438 \u0441\u043e\u043a\u0440\u0443\u0448\u0435\u043d, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u0431\u043e\u044f.",
+        "cost": 44000,
+        "id": "b439462e8bb5bfc47a45e0874b94ee62",
+        "enchant": [
+            {
+                "name": "Resistance3",
+                "display_name": "",
+                "description": "",
+                "id": "9d6f77c05099caf4eab25228632fdf64",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "ScarletAllureEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e82b3af9ee9ff4b4b85a88d711cd8db7",
+                "effect": [
+                    "Add feature ScarletAllureFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Set1_Cloak",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "fef478f33acb4b41b611136ed97f5d15"
+    },
+    {
+        "name": "Set4_Cloak",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "8dfede445a50494d957c155f4cb3c343"
+    },
+    {
+        "name": "ShamansCloak",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0448\u0430\u043c\u0430\u043d\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0441\u0442\u0438\u0445\u0438\u0439\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430 IV (\u0437\u0435\u043c\u043b\u044f) \u043a\u0430\u043a \u043c\u0430\u0433 17 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 185000,
+        "id": "029d52c91f3e6af488610609033bb011",
+        "enchant": [
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShroudOfAbaddon",
+        "display_name": "\u041f\u043e\u043b\u043e\u0433 \u0410\u0431\u0430\u0434\u0434\u043e\u043d\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 15 \u043a \u043e\u0433\u043d\u044e, \u0445\u043e\u043b\u043e\u0434\u0443, \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u0443 \u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0435.",
+        "cost": 36000,
+        "id": "03d72918c5f5c4d498607e76231e3487",
+        "enchant": [
+            {
+                "name": "Resistance2",
+                "display_name": "",
+                "description": "",
+                "id": "59a36d69ac57b674bb38f77335228e55",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            },
+            {
+                "name": "ElementalResistance15Enchantment",
+                "display_name": "Elemental Resistance 10",
+                "description": "",
+                "id": "ddf8b2846afe3ad40bcb80650bba6128",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShroudOfDecayItem",
+        "display_name": "\u0417\u043b\u043e\u0432\u043e\u043d\u043d\u044b\u0439 \u043f\u043e\u043a\u0440\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 30 \u043a \u043a\u0438\u0441\u043b\u043e\u0442\u0435 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 \u0442\u0443\u043c\u0430\u043d \u043a\u0430\u043a \u043c\u0430\u0433 11 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 64900,
+        "id": "4b7d966416275e545b4214276e6ae5a2",
+        "enchant": [
+            {
+                "name": "AcidResistance30Enchant",
+                "display_name": "Acid Resistance 30",
+                "description": "",
+                "id": "e6fa2f59c7f1bb14ebfc429f17d0a4c6",
+                "effect": [
+                    "Add feature AcidResistance30Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ShroudOfEternalMadness",
+        "display_name": "\u041e\u0431\u044a\u044f\u0442\u044c\u0435 \u0441\u0442\u0440\u0438\u0433\u043e\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +8 \u043a \u0425\u0430\u0440\u0438\u0437\u043c\u0435 \u0438 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0432\u044b\u0442\u044f\u0433\u0438\u0432\u0430\u043d\u0438\u0435 \u044d\u043d\u0435\u0440\u0433\u0438\u0438 \u043a\u0430\u043a \u043c\u0430\u0433 13 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 163800,
+        "id": "c64b02049acdafe429d01ddc5d112d54",
+        "enchant": [
+            {
+                "name": "Charisma8",
+                "display_name": "",
+                "description": "",
+                "id": "7669e7a9af237314dbb2a22e78e1a0b4",
+                "effect": [
+                    "Add stat bonus 8 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SkinnedLeatherCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0438\u0437 \u0441\u043e\u0434\u0440\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u0436\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0432 \u0440\u0430\u0443\u043d\u0434\u0435 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0434\u0430\u0440 \u043f\u043e \u0432\u0440\u0430\u0433\u0443, \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 25), \u0438\u043d\u0430\u0447\u0435 \u0441 \u043d\u0435\u0433\u043e \u0447\u0430\u0441\u0442\u0438\u0447\u043d\u043e \u0441\u043d\u0438\u043c\u0435\u0442 \u043a\u043e\u0436\u0443. \u041f\u0440\u043e\u0432\u0430\u043b\u0438\u0432\u0448\u0438\u0435 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043e\u0448\u0435\u043b\u043e\u043c\u043b\u0435\u043d\u044b \u0438 \u043b\u0438\u0448\u0430\u044e\u0442\u0441\u044f 1 \u043e\u0447\u043a\u0430 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0437\u0430 \u0440\u0430\u0443\u043d\u0434 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 1d4 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 25000,
+        "id": "98d3ea2a37f566c4ebce104c2d60fdb9",
+        "enchant": [
+            {
+                "name": "SkinnedLeatherCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4ce017d8c8dd45d4e9e16ff3aa82b4e8",
+                "effect": [
+                    "Add feature SkinnedLeatherCloakFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CameliaPregenLevel15, Player",
+            "PlayerTestRangedFighterLevel14, Player",
+            "PlayerTestRangedFighterLevel15, Player",
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player"
+        ],
+        "area": [
+            "EcorcheLair, PF2_Worldwound_Loot11"
+        ]
+    },
+    {
+        "name": "ToxicWrapItem",
+        "display_name": "\u0422\u043e\u043a\u0441\u0438\u0447\u043d\u0430\u044f \u043d\u0430\u043a\u0438\u0434\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u043a\u0438\u0441\u043b\u043e\u0442\u0435. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0434\u0435\u043b\u0430\u0435\u0442 \u0432\u0440\u0430\u0433\u043e\u0432 \u0434\u0435\u0437\u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438 \u043d\u0430 1d3 \u0440\u0430\u0443\u043d\u0434\u0430 \u043f\u0440\u0438 \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u0438 \u0430\u0442\u0430\u043a\u0438 \u0438\u0441\u043f\u043e\u0434\u0442\u0438\u0448\u043a\u0430, \u0435\u0441\u043b\u0438 \u043e\u043d\u0438 \u043d\u0435 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0442 \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 26).",
+        "cost": 46000,
+        "id": "475409af2b004ed45873ff7057d1dab1",
+        "enchant": [
+            {
+                "name": "ToxicWrapEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "890c34b1031e1484e902213bf9f7cacf",
+                "effect": [
+                    "Add feature ToxicWrapFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "DemonDuo_Flayer01, Mobs"
+        ]
+    },
+    {
+        "name": "WarmEmbrace",
+        "display_name": "\u0422\u0435\u043f\u043b\u044b\u0435 \u043e\u0431\u044a\u044f\u0442\u0438\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 10 \u043a \u0445\u043e\u043b\u043e\u0434\u0443 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0439 \u0441\u043e\u043d \u043a\u0430\u043a \u043c\u0430\u0433 5 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 27000,
+        "id": "4b6af84f2f1821841b6f71d32585208e",
+        "enchant": [
+            {
+                "name": "ColdResistance10Enchant",
+                "display_name": "Cold Resistance 10",
+                "description": "",
+                "id": "c872314ecfab32949ad2e0eebd834919",
+                "effect": [
+                    "Add feature ColdResistance10Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "WhiteKnightCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0438\u0441\u043a\u0443\u043f\u0438\u0442\u0435\u043b\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f +4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435, \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c, \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0438 \u0431\u043e\u043d\u0443\u0441 +1 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0430\u0442\u0430\u043a \u0437\u043b\u044b\u0445 \u0441\u0443\u0449\u0435\u0441\u0442\u0432. \u0415\u0433\u043e \u043c\u043e\u0436\u0435\u0442 \u043d\u043e\u0441\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436 \u0441 \u0434\u043e\u0431\u0440\u044b\u043c \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435\u043c.",
+        "cost": 65400,
+        "id": "9e0932ac3db662746b85e92aecb4caaa",
+        "enchant": [
+            {
+                "name": "Deflection4",
+                "display_name": "",
+                "description": "",
+                "id": "be195c1cea964e745a198ddadecbaec5",
+                "effect": [
+                    "Add stat bonus 4 to AC (descriptor: Deflection)"
+                ]
+            },
+            {
+                "name": "WhiteKnightCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6a37e931c20406e488be6250b5d79a44",
+                "effect": [
+                    "AllSavesBonusEquipment",
+                    "Add stat bonus 4 to SkillPersuasion (descriptor: Enhancement)",
+                    "ACBonusAgainstFactOwnerEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "WhiteWindsCloakItem",
+        "display_name": "\u041f\u043b\u0430\u0449 \u0431\u0435\u043b\u043e\u0433\u043e \u0432\u0435\u0442\u0440\u0430",
+        "description": "\u042d\u0442\u043e \u0438\u0441\u0442\u0440\u0435\u043f\u0430\u043d\u043d\u043e\u0435 \u043e\u0434\u0435\u044f\u043d\u0438\u0435 \u0442\u0435\u043f\u0435\u0440\u044c \u043c\u043e\u0436\u043d\u043e \u043d\u043e\u0441\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043a\u0430\u043a \u043f\u043b\u0430\u0449 \u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0440\u0438 \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0438, \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u043c \u043e\u0442 \u0437\u043b\u043e\u0433\u043e.\n\u0415\u0441\u043b\u0438 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043d\u0430\u0434\u0435\u043d\u0435\u0442 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436 \u0431\u0435\u0437 \u0443\u0440\u043e\u0432\u043d\u0435\u0439 \u0432 \u043a\u043b\u0430\u0441\u0441\u0435 \u0434\u0443\u044d\u043b\u044f\u043d\u0442, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0438\u0442 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u041f\u0440\u0438\u0446\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440.\n\u0415\u0441\u043b\u0438 \u044d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u043d\u0430\u0434\u0435\u043d\u0435\u0442 \u0434\u0443\u044d\u043b\u044f\u043d\u0442, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0438\u0442 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u043f\u0440\u0438 \u043f\u0430\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0435\u0433\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u041f\u0440\u0438\u0446\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440 \u0442\u0435\u043f\u0435\u0440\u044c \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 1.5 \u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f \u0434\u0443\u044d\u043b\u044f\u043d\u0442\u0430 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0431\u043e\u043d\u0443\u0441\u0430 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d.\n\u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0441\u0432\u044f\u0442\u043e\u0439 \u043d\u0438\u043c\u0431 \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u043a\u0430\u043a \u0436\u0440\u0435\u0446 9 \u0443\u0440\u043e\u0432\u043d\u044f\n\u041f\u0440\u0438\u0446\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440: \u0434\u0443\u044d\u043b\u044f\u043d\u0442 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u043d\u043e\u0441\u0438\u0442\u044c \u0442\u043e\u0447\u043d\u044b\u0435 \u0443\u0434\u0430\u0440\u044b \u043b\u0435\u0433\u043a\u0438\u043c \u0438\u043b\u0438 \u043e\u0434\u043d\u043e\u0440\u0443\u0447\u043d\u044b\u043c \u043a\u043e\u043b\u044e\u0449\u0438\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u044f \u0447\u0435\u0442\u0432\u0435\u0440\u0442\u044c \u0441\u0432\u043e\u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f \u0434\u0443\u044d\u043b\u044f\u043d\u0442\u0430 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u0431\u043e\u043d\u0443\u0441\u0430 \u043a \u0431\u0440\u043e\u0441\u043a\u0443 \u043d\u0430 \u0443\u0440\u043e\u043d.",
+        "cost": 7000,
+        "id": "262b8ece36ba43f44bd407e82c079028",
+        "enchant": [
+            {
+                "name": "WhiteWindsCloakEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "62c0f3f6b650c494f8cbe26538ce739b",
+                "effect": [
+                    "AddFactContextActions"
+                ]
+            }
+        ],
+        "area": [
+            "IvorySanctum, PoorLootChest1#1"
+        ]
+    },
+    {
+        "name": "WrathOfTheUndeadItem",
+        "display_name": "\u0413\u043d\u0435\u0432 \u043d\u0435\u0436\u0438\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0430\u0443\u0440\u0443 \u0440\u0430\u0434\u0438\u0443\u0441\u043e\u043c 60 \u0444\u0443\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0437\u0430\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0432\u0441\u0435\u0445 \u0437\u0430\u0442\u0440\u043e\u043d\u0443\u0442\u044b\u0445 \u0432\u0440\u0430\u0433\u043e\u0432 \u0434\u0435\u043b\u0430\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 33), \u0432 \u0441\u043b\u0443\u0447\u0430\u0435 \u043f\u0440\u043e\u0432\u0430\u043b\u0430 \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043e\u043d\u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u044f\u0442\u0441\u044f \u043d\u0430\u043f\u0443\u0433\u0430\u043d\u044b \u043d\u0430 1 \u043c\u0438\u043d\u0443\u0442\u0443. \u0412 \u0441\u043b\u0443\u0447\u0430\u0435 \u0443\u0441\u043f\u0435\u0445\u0430 \u0432\u0440\u0430\u0433 \u0432\u043c\u0435\u0441\u0442\u043e \u044d\u0442\u043e\u0433\u043e \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0442\u0440\u044f\u0441\u0435\u043d \u043d\u0430 5 \u0440\u0430\u0443\u043d\u0434\u043e\u0432. \u0412\u0440\u0430\u0433\u0438 \u043c\u043e\u0433\u0443\u0442 \u043f\u043e\u043f\u0430\u0441\u0442\u044c \u043f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u044d\u0442\u043e\u0439 \u0430\u0443\u0440\u044b \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043f\u043e\u0434 \u0432\u043b\u0438\u044f\u043d\u0438\u0435\u043c \u044d\u0442\u043e\u0439 \u0430\u0443\u0440\u044b \u0432\u0441\u0435 \u043d\u0435\u0436\u0438\u0432\u044b\u0435 \u0441\u043e\u044e\u0437\u043d\u0438\u043a\u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 \u0441\u0438\u0442\u0443\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0440\u0430\u0433\u043e\u0432, \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u0445\u0441\u044f \u043f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u0441\u0442\u0440\u0430\u0445\u0430, \u0438 \u043d\u0430\u043d\u043e\u0441\u044f\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 2d6 \u0443\u0440\u043e\u043d\u0430 \u0442\u043e\u0447\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0438 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0438 \u043f\u043e \u0442\u0430\u043a\u0438\u043c \u0446\u0435\u043b\u044f\u043c.",
+        "cost": 64000,
+        "id": "5e8470733b954db686cd2dbfaaf1f058",
+        "enchant": [
+            {
+                "name": "WrathOfTheUndeadEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1b25a30cadbe421f941b96c066216f5c",
+                "effect": [
+                    "Add feature WrathOfTheUndeadFeature"
+                ]
+            },
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "AlderpashLich25, CutsceneNeutrals"
+        ]
+    }
+]

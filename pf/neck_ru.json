@@ -1,0 +1,2251 @@
+[
+    {
+        "name": "AmuletOfAgileFists",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043b\u043e\u0432\u043a\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432",
+        "description": "\u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0447\u0435\u0440\u0442\u0430 \u0418\u0441\u043a\u0443\u0441\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0435\u043c\u0443 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0441\u0432\u043e\u0439 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0432\u043c\u0435\u0441\u0442\u043e \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u0430 \u0421\u0438\u043b\u044b \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 4000,
+        "id": "afd04948b8f211c448f1cc4bd9a67e3e",
+        "enchant": [
+            {
+                "name": "UnarmedAgileEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "90316f5801dbe4748a66816a7c00380c",
+                "effect": [
+                    "EquipmentWeaponTypeDamageStatReplacement"
+                ]
+            }
+        ],
+        "area": [
+            "GrayGarrison, PF2_Crusaders_GGLoot49"
+        ]
+    },
+    {
+        "name": "AmuletOfAgileFistsPlus1",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043b\u043e\u0432\u043a\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +1",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +1 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c. \u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0447\u0435\u0440\u0442\u0430 \u0418\u0441\u043a\u0443\u0441\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0435\u043c\u0443 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0441\u0432\u043e\u0439 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0432\u043c\u0435\u0441\u0442\u043e \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u0430 \u0421\u0438\u043b\u044b \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 16000,
+        "id": "057127ddc43059a4ea9c638ad199fa2e",
+        "enchant": [
+            {
+                "name": "UnarmedAgileEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "90316f5801dbe4748a66816a7c00380c",
+                "effect": [
+                    "EquipmentWeaponTypeDamageStatReplacement"
+                ]
+            }
+        ],
+        "enhance": "1",
+        "unit": [
+            "MidnightFane_NocticulaPriestess, Mobs",
+            "Nocticula, CutsceneNeutrals",
+            "NocticulaInDress, CutsceneNeutrals",
+            "NocticulaLichCutscene, CutsceneNeutrals",
+            "Nocticula_AlushinyrraMythicDemon, CutsceneNeutrals",
+            "NocticulainDialog, CutsceneNeutrals"
+        ],
+        "area": [
+            "DrezenCitadel_Level1, PF2_Crusaders_Good_KeenLongbowPlus2Item"
+        ]
+    },
+    {
+        "name": "AmuletOfAgileFistsPlus2",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043b\u043e\u0432\u043a\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c. \u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0447\u0435\u0440\u0442\u0430 \u0418\u0441\u043a\u0443\u0441\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0435\u043c\u0443 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0441\u0432\u043e\u0439 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0432\u043c\u0435\u0441\u0442\u043e \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u0430 \u0421\u0438\u043b\u044b \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 36000,
+        "id": "e645015fe02c29e40be2559795a2993b",
+        "enchant": [
+            {
+                "name": "UnarmedAgileEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "90316f5801dbe4748a66816a7c00380c",
+                "effect": [
+                    "EquipmentWeaponTypeDamageStatReplacement"
+                ]
+            }
+        ],
+        "enhance": "2",
+        "unit": [
+            "Ghoul_Ratimus, Mobs",
+            "YouOnlyMortalsLeader, Mobs"
+        ],
+        "area": [
+            "ArueshalaeRedoubt, PF2_Sarkoris_Statue hidden Loot"
+        ]
+    },
+    {
+        "name": "AmuletOfAgileFistsPlus3",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043b\u043e\u0432\u043a\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +3",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +3 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c. \u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0447\u0435\u0440\u0442\u0430 \u0418\u0441\u043a\u0443\u0441\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0435\u043c\u0443 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0441\u0432\u043e\u0439 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0432\u043c\u0435\u0441\u0442\u043e \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u0430 \u0421\u0438\u043b\u044b \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 64000,
+        "id": "302fe578692531b4094bd87b8a296f09",
+        "enchant": [
+            {
+                "name": "UnarmedAgileEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "90316f5801dbe4748a66816a7c00380c",
+                "effect": [
+                    "EquipmentWeaponTypeDamageStatReplacement"
+                ]
+            }
+        ],
+        "enhance": "3",
+        "unit": [
+            "CR20_Areshkagal_SpellscribedMummyMiniBoss, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfAgileFistsPlus4",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043b\u043e\u0432\u043a\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c. \u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0447\u0435\u0440\u0442\u0430 \u0418\u0441\u043a\u0443\u0441\u043d\u043e\u0435 \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0435\u043c\u0443 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0442\u044c \u0441\u0432\u043e\u0439 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0432\u043c\u0435\u0441\u0442\u043e \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u0430 \u0421\u0438\u043b\u044b \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0443\u0434\u0430\u0440\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 100000,
+        "id": "296a9377c1f5ea44c82f023e5f54e4a3",
+        "enchant": [
+            {
+                "name": "UnarmedAgileEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "90316f5801dbe4748a66816a7c00380c",
+                "effect": [
+                    "EquipmentWeaponTypeDamageStatReplacement"
+                ]
+            }
+        ],
+        "enhance": "4"
+    },
+    {
+        "name": "AmuletOfApothecaryItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0430\u043f\u0442\u0435\u043a\u0430\u0440\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +1 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u044f\u0434\u0430.",
+        "cost": 8000,
+        "id": "9ec8fb23e5534ba4bb728a8e61567cac",
+        "enchant": [
+            {
+                "name": "AmuletOfApothecaryEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "70282ab25bba29a459321cb4262954cf",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "enhance": "1",
+        "unit": [
+            "NenioTestLevel14, Player",
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ],
+        "area": [
+            "GibberingSwarmCave, NaturalCaves_GoodLootCaveSkeletonHidden"
+        ]
+    },
+    {
+        "name": "AmuletOfBlackenedMirrorItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0447\u0435\u0440\u043d\u0435\u0432\u0448\u0435\u0433\u043e \u0437\u0435\u0440\u043a\u0430\u043b\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u0442 \u0437\u0430\u0433\u043e\u0432\u043e\u0440, \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430 \u043f\u0440\u043e\u0442\u0438\u0432 \u043d\u0435\u0433\u043e \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 1.",
+        "cost": 10000,
+        "id": "31894ce7e7d5a574d9777a99b45ad9de",
+        "enchant": [
+            {
+                "name": "AmuletOfBlackenedMirrorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6b89e7b00bb7c4349b41b60ebee1882e",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfCirculatingBloodItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0446\u0438\u0440\u043a\u0443\u043b\u0438\u0440\u0443\u044e\u0449\u0435\u0439 \u043a\u0440\u043e\u0432\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442 \u043f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u044f\u0440\u043e\u0441\u0442\u044c \u043d\u0430\u0441\u043b\u0435\u0434\u0438\u044f, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u044b\u0441\u0442\u0440\u043e\u0435 \u0438\u0441\u0446\u0435\u043b\u0435\u043d\u0438\u0435 5, \u043f\u043e\u043a\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u044d\u0442\u043e\u0442 \u044d\u0444\u0444\u0435\u043a\u0442. \u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0433\u0443\u0442 \u043d\u043e\u0441\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430\u0441\u043b\u0435\u0434\u043d\u0438\u043a\u0438 \u044f\u0440\u043e\u0441\u0442\u0438.",
+        "cost": 40000,
+        "id": "5043aad8b5815cc4a86f93c7ff2b50e3",
+        "enchant": [
+            {
+                "name": "AmuletOfCirculatingBloodEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5bfd6b8e0384c8c4eab70b554414ae2e",
+                "effect": [
+                    "Add feature AmuletOfCirculatingBloodFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Jarunnika, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfDeepRootsItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0445 \u043a\u043e\u0440\u043d\u0435\u0439",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +5 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0434\u0435\u043b\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b\u043c \u043a \u0431\u043e\u0435\u0432\u044b\u043c \u043c\u0430\u043d\u0435\u0432\u0440\u0430\u043c \u0442\u0430\u0440\u0430\u043d \u0438 \u0432\u0442\u043e\u0440\u0436\u0435\u043d\u0438\u0435 \u0438 \u0434\u0430\u0435\u0442 \u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0440\u0430\u0433\u043e\u0432 \u043e\u0433\u0440\u043e\u043c\u043d\u043e\u0433\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u0438 \u0431\u043e\u043b\u044c\u0448\u0435.",
+        "cost": 75000,
+        "id": "77f4808ddc364929a739d44424ccf0a5",
+        "enchant": [
+            {
+                "name": "AmuletOfDeepRootsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "24a50c7a581f493c9644d6e3714fc919",
+                "effect": [
+                    "Add feature AmuletOfDeepRootsFeature"
+                ]
+            }
+        ],
+        "enhance": "5",
+        "area": [
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_luxery_jewelry_05 (2)_loot_object"
+        ]
+    },
+    {
+        "name": "AmuletOfDeepWaterItem",
+        "display_name": "\u041f\u043e\u0434\u0432\u0435\u0441\u043a\u0430 \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0445 \u0432\u043e\u0434",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0438 \u0431\u043e\u043d\u0443\u0441 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f +5 \u043a \u0437\u0430\u0449\u0438\u0442\u0435.",
+        "cost": 75000,
+        "id": "35a3d8b21bf0a6044aeff000bb965cd8",
+        "enchant": [
+            {
+                "name": "AmuletOfDeepWaterEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e3694bec9b7012145847cd4b60de638c",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)",
+                    "Add stat bonus 5 to AC (descriptor: Deflection)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfDevourItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0436\u0438\u0440\u0430\u043d\u0438\u044f",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0430\u0442\u0430\u043a\u043e\u0439, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0447\u0438\u0441\u043b\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u043e\u0447\u043a\u043e\u0432 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f, \u0440\u0430\u0432\u043d\u043e\u0435 \u0443\u0440\u043e\u0432\u043d\u044e \u0435\u0433\u043e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0430, \u043d\u0430 1 \u043c\u0438\u043d\u0443\u0442\u0443.",
+        "cost": 19000,
+        "id": "ad1b47b1250c0c74c9aad58d91852f3a",
+        "enchant": [
+            {
+                "name": "AmuletOfDevourEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c172e797b44649940a51bdad269a31f2",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "NabasuStandard_MoreExp, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfEpicSongsItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u044d\u043f\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u0435\u0441\u043d\u043e\u043f\u0435\u043d\u0438\u0439",
+        "description": "\u042d\u0442\u043e \u0430\u043c\u0443\u043b\u0435\u0442 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0431\u043e\u043d\u0443\u0441\u0430 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 +2. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0435\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u043a\u043b\u0430\u0441\u0441\u043e\u0432\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u0412\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u0435 \u0431\u0430\u0440\u0434\u0430, \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u0435\u043c\u0443 6 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0440\u0430\u0443\u043d\u0434\u043e\u0432 \u0412\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0431\u0430\u0440\u0434\u0430 \u0432 \u0434\u0435\u043d\u044c.",
+        "cost": 14000,
+        "id": "b1adc956d75565c4bbb2896ee7969365",
+        "enchant": [
+            {
+                "name": "AmuletOfEpicSongsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d7f985d0fd4772243be30e06e3e7d400",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "enhance": "2",
+        "unit": [
+            "NuraDrezen, CutsceneNeutrals",
+            "NuraDrezenBoss, CutsceneNeutrals",
+            "Nura_DrezenCitadel_Miniboss, CutsceneNeutrals",
+            "Nura_GibberingSwarm, CutsceneNeutrals",
+            "Nurah, CutsceneNeutrals",
+            "NurahCapital, CutsceneNeutrals",
+            "Nurah_GargoyleAttack, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "AmuletOfEternalHunter",
+        "display_name": "\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0432\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0445\u043e\u0442\u043d\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u043e \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u043f\u0440\u043e\u0442\u0438\u0432 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445 \u0438 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0442\u0432\u0430\u0440\u0435\u0439.",
+        "cost": 11000,
+        "id": "c4c7997fb14c9ee47a384d76fbc4512a",
+        "enchant": [
+            {
+                "name": "EternalHunter",
+                "display_name": "",
+                "description": "",
+                "id": "8c663b3511c9f854ab69b2d51f0fca50",
+                "effect": [
+                    "AttackBonusAgainstFactOwnerEquipment",
+                    "AttackBonusAgainstFactOwnerEquipment",
+                    "DamageBonusAgainstFactOwnerEquipment",
+                    "DamageBonusAgainstFactOwnerEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfEvilDoomItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0437\u043b\u043e\u0433\u043e \u0440\u043e\u043a\u0430",
+        "description": "\u042d\u0442\u043e \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 10\/\u0414\u043e\u0431\u0440\u043e.",
+        "cost": 45000,
+        "id": "f02eb9b8cb10d434d905225796f0345b",
+        "enchant": [
+            {
+                "name": "AmuletOfEvilDoomEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "51bf2d87a2d77da43889f4231e6f9c3d",
+                "effect": [
+                    "Add feature AmuletOfEvilDoomFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "GreyborTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "AmuletOfFourElementsItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0447\u0435\u0442\u044b\u0440\u0435\u0445 \u0441\u0442\u0438\u0445\u0438\u0439",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0442\u0432\u043e\u0440\u0438\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0441 \u0434\u0435\u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0440\u043e\u043c \"\u043e\u0433\u043e\u043d\u044c\", \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u043e, \u0445\u043e\u043b\u043e\u0434 \u0438\u043b\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0430, \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 1 \u043e\u0447\u043a\u043e \u0443\u0440\u043e\u043d\u0430 \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u0431\u0440\u043e\u0448\u0435\u043d\u043d\u0443\u044e \u043a\u043e\u0441\u0442\u044c.",
+        "cost": 23080,
+        "id": "140e0480b4c1b5747b70f66e31d5d94b",
+        "enchant": [
+            {
+                "name": "AmuletOfFourElementsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e6f396c2cdcbe7344bc2e43d4c55c9ee",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "StartGameSorcererPregenUnitLevel20, Player"
+        ]
+    },
+    {
+        "name": "AmuletOfHiddenHorrorsItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0441\u043a\u0440\u044b\u0442\u044b\u0445 \u0443\u0436\u0430\u0441\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0435\u043b\u0430\u0435\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u043d\u044b\u043c\u0438, \u043a\u0430\u043a \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0447\u0435\u0440\u0442\u044b \u0423\u0441\u043a\u043e\u0440\u0435\u043d\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0437\u0430 \u0440\u0430\u0443\u043d\u0434 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u0443 \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u0431\u0443\u0434\u0443\u0447\u0438 \u043d\u0435\u0432\u0438\u0434\u0438\u043c, \u0446\u0435\u043b\u044c \u0434\u043e\u043b\u0436\u043d\u0430 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 30), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d\u0430 \u0432\u043f\u0430\u0434\u0435\u0442 \u0432 \u043f\u0430\u043d\u0438\u043a\u0443 \u043d\u0430 2 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 88000,
+        "id": "806603eb9e08401297d68ff1fda3854a",
+        "enchant": [
+            {
+                "name": "AmuletOfHiddenHorrorsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a3e6cbc71a5344738a89350e3acd0946",
+                "effect": [
+                    "Add feature AmuletOfHiddenHorrorsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CR24_Areshkagal_MarilithBoss, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfImposingPhysiqueItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0432\u043d\u0443\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0442\u0435\u043b\u043e\u0441\u043b\u043e\u0436\u0435\u043d\u0438\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0410\u0442\u043b\u0435\u0442\u0438\u043a\u0430 \u0438 \u0423\u0441\u0442\u0440\u0430\u0448\u0435\u043d\u0438\u0435.",
+        "cost": 10000,
+        "id": "6f7c7875303bc0d4686da084726416e8",
+        "enchant": [
+            {
+                "name": "AmuletOfImposingPhysiqueEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9b96fc6d3d86741489e0815941263f10",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfImprovedHealingItem",
+        "display_name": "",
+        "description": "",
+        "cost": 32000,
+        "id": "66778f4d7e7bbc84197309715c98c456",
+        "enchant": [
+            {
+                "name": "AspectOfTheAspEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e935c1458b36b904fad1f823d3095c9b",
+                "effect": [
+                    "Add feature AspectOfTheAspFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfInnerSightItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0433\u043e \u0437\u0440\u0435\u043d\u0438\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0435\u043b\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b\u043c \u043a \u043e\u0441\u043b\u0435\u043f\u043b\u0435\u043d\u0438\u044e \u0438 \u0430\u0442\u0430\u043a\u0430\u043c \u0432\u0437\u043e\u0440\u043e\u043c.",
+        "cost": 55000,
+        "id": "6ba58bebb6e6e2046a2847c0f0d18dfe",
+        "enchant": [
+            {
+                "name": "AmuletOfInnerSightEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "63e82caadc1eb3847b14fd471ad5bdc4",
+                "effect": [
+                    "Add feature AmuletOfInnerSightFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfInnerVirtue",
+        "display_name": "\u0412\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u044f\u044f \u0434\u043e\u0431\u0440\u043e\u0434\u0435\u0442\u0435\u043b\u044c",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0441\u0432\u043e\u0435\u043c\u0443 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0443 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u043e\u0434\u0430\u0432\u043b\u044f\u044e\u0449\u0435\u0435 \u043f\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u043a\u0430\u043a \u043c\u0430\u0433 11 \u0443\u0440\u043e\u0432\u043d\u044f. \u0422\u0430\u043a\u0436\u0435 \u043e\u043d \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0435\u0433\u043e \u0437\u0430\u043f\u0430\u0441 \u044d\u043d\u0435\u0440\u0433\u0438\u0438 \u0446\u0438 \u043d\u0430 5.",
+        "cost": 159200,
+        "id": "8722776a6f94485499fe476bce767716",
+        "enchant": [
+            {
+                "name": "AmuletOfInnerVirtueEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "d28afa632e59ec744801bef600c137ca",
+                "effect": [
+                    "Add feature AmuletOfInnerVirtueFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfJoustingItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0440\u044b\u0446\u0430\u0440\u0441\u043a\u043e\u0433\u043e \u043f\u043e\u0435\u0434\u0438\u043d\u043a\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0431\u0440\u043e\u0441\u0430\u0435\u0442 \u0420\u044b\u0446\u0430\u0440\u0441\u043a\u0438\u0439 \u0432\u044b\u0437\u043e\u0432, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043a \u0443\u0440\u043e\u043d\u0443 +3 \u043f\u0440\u043e\u0442\u0438\u0432 \u0446\u0435\u043b\u0438 \u044d\u0442\u043e\u0433\u043e \u0432\u044b\u0437\u043e\u0432\u0430.",
+        "cost": 10000,
+        "id": "97d9b639fb5948947881392260340892",
+        "enchant": [
+            {
+                "name": "AmuletOfJoustingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "30bbe86f50acfb74e9a5b06849dd16bc",
+                "effect": [
+                    "Add feature AmuletOfJoustingFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfLifeVeilItem",
+        "display_name": "\u041f\u043e\u043a\u0440\u043e\u0432 \u0436\u0438\u0437\u043d\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0438\u0441\u0446\u0435\u043b\u0435\u043d\u0438\u0435 \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0440\u0430\u043d\u0435\u043d\u0438\u0439 \u043a\u0430\u043a \u0436\u0440\u0435\u0446 5 \u0443\u0440\u043e\u0432\u043d\u044f \u0434\u0432\u0430\u0436\u0434\u044b \u0432 \u0434\u0435\u043d\u044c.",
+        "cost": 43120,
+        "id": "138f2b7ce23a4fa4fa3d633c1d3a0ae3",
+        "enchant": [
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfMightyFists1",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0433\u0443\u0447\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +1",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +1 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 4000,
+        "id": "a82d4f94b327d6743ad9c2b9c440061c",
+        "enhance": "1",
+        "unit": [
+            "CR14_VrockElite, Mobs",
+            "CR14_VrockElite_RE, Mobs",
+            "CR17_AreshkagalLilitu, Mobs",
+            "CR19_GlabrezuDrezenOptional, Mobs",
+            "DemonGladiator03, CutsceneNeutrals",
+            "MoltenScar_Vorimeraak, Neutrals",
+            "MoltenScar_VrockElite, Neutrals",
+            "VorimeraakReturns, CutsceneNeutrals",
+            "WintersunDerakniAdvanced, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfMightyFists2",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0433\u0443\u0447\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 16000,
+        "id": "c640025d7096aba49bd19e7ffcac9400",
+        "enhance": "2",
+        "unit": [
+            "BlightedTreantBoss, Mobs",
+            "Boulder, Neutrals",
+            "Chivarro, CutsceneNeutrals",
+            "LostChapel_GargoyleMiniboss, Mobs",
+            "TigerOfSin, Neutrals",
+            "TigerOfSin1, Neutrals",
+            "TigerOfSin2, Neutrals",
+            "WintersunWhiteDragon, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfMightyFists3",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0433\u0443\u0447\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +3",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +3 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 36000,
+        "id": "975aad0cf1a32534fb4c1359b7d952b2",
+        "enhance": "3",
+        "unit": [
+            "Alushinyrra_Minagho, Mobs",
+            "BronzeDragon_Drezen, CutsceneNeutrals",
+            "CR12_BuletteAncient, WildAnimals",
+            "CR12_BuletteAncientDLC3, WildAnimals",
+            "CR13_FiendishBuletteAncient, Mobs",
+            "EchoOfDeskari_ForFight, Mobs",
+            "GoldDragon_Drezen, CutsceneNeutrals",
+            "HalDragon, CutsceneNeutrals",
+            "Halaseliax, CutsceneNeutrals",
+            "Melazmera, CutsceneNeutrals",
+            "MutasafenLair_MythicGlabrezu, Mobs",
+            "Sevalros, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfMightyFists4",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0433\u0443\u0447\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 64000,
+        "id": "75ebf721bdece6342b0078a765b1f65a",
+        "enhance": "4",
+        "unit": [
+            "CR13_PlaguedSmilodonAlpha_RE_low, Mobs",
+            "CR14_PlaguedSmilodonAlpha, Mobs",
+            "CR14_PlaguedSmilodonAlpha_RE_high, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfMightyFists5",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0433\u0443\u0447\u0438\u0445 \u043a\u0443\u043b\u0430\u043a\u043e\u0432 +5",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +5 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 100000,
+        "id": "ff74157b090c1744598408c8f221b9fc",
+        "enhance": "5",
+        "unit": [
+            "SW_GlabrezuBoss, Mobs",
+            "SW_GlabrezuBoss_phase2, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor1",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +1",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +1 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0431\u043e\u043d\u0443\u0441\u0430\u043c\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438.",
+        "cost": 2000,
+        "id": "209960f8d60e23a4c8e75d14e2261263",
+        "enhance": "1",
+        "unit": [
+            "Arsinoe, Neutrals",
+            "ArueshalaePregenLevel8, Player",
+            "ArueshalaeRedoubt_MeleeFighter, Mobs",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
+            "CR5_ThiefCurl, Neutrals",
+            "CameliaPregenLevel7, Player",
+            "CameliaPregenLevel8, Player",
+            "CameliaPregenLevel9, Player",
+            "Ciar_Companion, Player",
+            "DH_SeelasFriend_ThiefCurl, Neutrals",
+            "DaeranPregenTestLevel7, Player",
+            "DaeranPregenTestLevel8, Player",
+            "Daeran_Companion, Player",
+            "Daeran_NPC, NeutralGuards",
+            "Daeran_NPC_Level1, Neutrals",
+            "EmberTestLevel7, Player",
+            "GreyborInCapitalAsNPC, Player",
+            "GreyborInDefHeartWithDagger, CutsceneNeutrals",
+            "GreyborInDrezenWithDagger, CutsceneNeutrals",
+            "GreyborInIvorySunctum_BowHunterNPC, Mobs",
+            "GreyborInIvorySunctum_ClericNPC, Mobs",
+            "GreyborInIvorySunctum_EldritchArcherNPC, Mobs",
+            "GreyborTestLevel3, Player",
+            "GreyborTestLevel4, Player",
+            "GreyborTestLevel6, Player",
+            "GreyborTestLevel7, Player",
+            "GreyborTestLevel8, Player",
+            "Greybor_Companion, Player",
+            "LannTestLevel3, Player",
+            "LannTestLevel4, Player",
+            "LannTestLevel6, Player",
+            "MinotaurGhost_Boss, Mobs",
+            "MinotaurGhost_BossNoExp, Mobs",
+            "Morveg, CutsceneNeutrals",
+            "MountTestCharacter_DwarfFemale, Player",
+            "MountTestCharacter_DwarfMale, Player",
+            "MountTestCharacter_ElfFemale, Player",
+            "MountTestCharacter_ElfMale, Player",
+            "MountTestCharacter_GnomeFemale, Player",
+            "MountTestCharacter_GnomeMale, Player",
+            "MountTestCharacter_HalfelfFemale, Player",
+            "MountTestCharacter_HalfelfMale, Player",
+            "MountTestCharacter_HalflingFemale, Player",
+            "MountTestCharacter_HalflingMale, Player",
+            "MountTestCharacter_HalforcFemale, Player",
+            "MountTestCharacter_HalforcMale, Player",
+            "MountTestCharacter_HumanFemale, Player",
+            "MountTestCharacter_HumanMale, Player",
+            "MountTestCharacter_OreadFemale, Player",
+            "MountTestCharacter_OreadFemale1, Player",
+            "MountTestCharacter_OreadFemale2, Player",
+            "MountTestCharacter_OreadFemale3, Player",
+            "MountTestCharacter_OreadFemale4, Player",
+            "MountTestCharacter_OreadFemale5, Player",
+            "MountTestCharacter_OreadFemale6, Player",
+            "MountTestCharacter_OreadFemale7, Player",
+            "MountTestCharacter_OreadFemale8, Player",
+            "MountTestCharacter_OreadMale, Player",
+            "PlayerAzataRangerTestLevel8, Player",
+            "PlayerClericPregen, Player",
+            "PlayerFemaleGoblinTestPregen, Player",
+            "PlayerFighterPregen, Player",
+            "PlayerFighterPregenMale, Player",
+            "PlayerFighterPregen_CutsceneNaked, Player",
+            "PlayerLichWizardTestLevel6, Player",
+            "PlayerLichWizardTestLevel7, Player",
+            "PlayerTestLevel6, Player",
+            "PlayerWeaponTestPregen, Player",
+            "PlayerWizardPregen, Player",
+            "Pregen_Fighter_MVP, Player",
+            "Pregen_Grimbor_MVP, Player",
+            "Pregen_Regill_MVP, Player",
+            "Pregen_Seelah_MVP, Player",
+            "PuluraFall_Guard, Civilians",
+            "PuluraFall_GuardCouncil, Civilians",
+            "RegillPregenLevel1, Player",
+            "RegillPregenLevel2, Player",
+            "RegillPregenLevel3, Player",
+            "RegillPregenLevel4, Player",
+            "RegillPregenLevel5, Player",
+            "RegillPregenLevel6, Player",
+            "RegillPregenLevel7, Player",
+            "Regill_Companion, Player",
+            "Regill_HellknightVsGargoyles, Friends",
+            "Regill_HellknightsCamp, Friends",
+            "Regill_Level6, Player",
+            "SeelahTestLevel3, Player",
+            "SeelahTestLevel6, Player",
+            "Seelah_Level6, Player",
+            "Seelah_Level7, Player",
+            "SosielTestLevel4, Player",
+            "SosielTestLevel5, Player",
+            "StartGameSorcererPregenUnitLevel8, Player",
+            "TestPregen_Shaman, Player",
+            "Test_Random, Player",
+            "Test_Random1, Player",
+            "ThiefCurl_Kenabres, CutsceneNeutrals",
+            "Zacharius, Mobs",
+            "Zacharius_LostChapel, Friends",
+            "Zacharius_Ziggurat, Mobs",
+            "Zanedra, Neutrals",
+            "Zanedra_Sanctum, CutsceneNeutrals"
+        ],
+        "area": [
+            "AreeluLab, LootForDemon02",
+            "Prologue_Labyrinth, PF2_RichHuman_GoodLootBox"
+        ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor2",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0431\u043e\u043d\u0443\u0441\u0430\u043c\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438.",
+        "cost": 8000,
+        "id": "becc4c1d40a77814f98c0b175e92d17c",
+        "enhance": "2",
+        "unit": [
+            "ArueshalaePregenLevel10, Player",
+            "ArueshalaePregenLevel12, Player",
+            "ArueshalaePregenLevel9, Player",
+            "Berengar, NeutralGuards",
+            "BlackMaskSlaveTrader, CutsceneNeutrals",
+            "CR14_CambionBard_Ranged, Mobs",
+            "CR15_CambionAlchemist_Ranged, Mobs",
+            "CR15_CambionAlchemist_Ranged_RE, Mobs",
+            "CR17_AlushinyrraVampireRanged, Mobs",
+            "CR17_AreshkagalMarilith, Mobs",
+            "CR20M_OolioddrooAdvanced, Mobs",
+            "CR20M_OolioddrooAdvanced_RE, Mobs",
+            "CR20M_OolioddrooAdvanced_RE_high, Mobs",
+            "CameliaPregenLevel11, Player",
+            "CameliaPregenLevel12, Player",
+            "CameliaPregenLevel15, Player",
+            "Crinukh, Neutrals",
+            "DaeranPregenTestLevel10, Player",
+            "DaeranPregenTestLevel9, Player",
+            "DyunkSlaveTrader, CutsceneNeutrals",
+            "EmberTestDrezen, Player",
+            "EmberTestLevel10, Player",
+            "EmberTestLevel8, Player",
+            "EmberTestLevel9, Player",
+            "GreyborInIvorySunctumAsNPC, Mobs",
+            "GreyborNPCLevel10, Friends",
+            "GreyborTestLevel10, Player",
+            "GreyborTestLevel9, Player",
+            "Jeslyn_Boss, Mobs",
+            "LannTestDrezen, Player",
+            "LannTestLevel7, Player",
+            "LannTestLevel8, Player",
+            "LannTestLevel9, Player",
+            "MercenaryMelee, Mobs",
+            "Morveg_ForBattle, CutsceneNeutrals",
+            "MutasafenAssistent, Mobs",
+            "PlayerAeonWizardTestLevel10, Player",
+            "PlayerAeonWizardTestLevel9, Player",
+            "PlayerAzataRangerTestLevel10, Player",
+            "PlayerAzataRangerTestLevel12, Player",
+            "PlayerAzataRangerTestLevel9, Player",
+            "PlayerLichWizardTestLevel10, Player",
+            "PlayerLichWizardTestLevel8, Player",
+            "PlayerLichWizardTestLevel9, Player",
+            "PlayerTestLevel4, Player",
+            "PlayerTestLevel5, Player",
+            "PlayerTestLevel9, Player",
+            "PlayerTricksterRangerTestLevel10, Player",
+            "PlayerTricksterRangerTestLevel12, Player",
+            "PlayerTricksterRangerTestLevel9, Player",
+            "PuluraFall_Eliandra, AngelTeam",
+            "RegillPregenDrezen, Player",
+            "RegillPregenLevel10, Player",
+            "RegillPregenLevel8, Player",
+            "RegillPregenLevel9, Player",
+            "SeelahTestDrezen, Player",
+            "SeelahTestLevel4, Player",
+            "SeelahTestLevel5, Player",
+            "SeelahTestLevel7, Player",
+            "SeelahTestLevel8, Player",
+            "SosielTestLDrezen, Player",
+            "SosielTestLevel6, Player",
+            "SosielTestLevel7, Player",
+            "SosielTestLevel8, Player",
+            "SosielTestLevel9, Player",
+            "WildHunt_Atselm, CutsceneNeutrals",
+            "WildHunt_AtselmOld, CutsceneNeutrals",
+            "WildHunt_AtselmYoung, CutsceneNeutrals",
+            "WoljifTestLeve10, Player",
+            "WoljifTestLeve7, Player",
+            "WoljifTestLeve8, Player",
+            "WoljifTestLeve9, Player"
+        ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor3",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +3",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0431\u043e\u043d\u0443\u0441\u0430\u043c\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438.",
+        "cost": 18000,
+        "id": "081a2ffe763320a469de20f1e9b1cd71",
+        "enhance": "3",
+        "unit": [
+            "AasimarRedMask, CutsceneNeutrals",
+            "ArueshalaePregenLevel11, Player",
+            "ArueshalaePregenLevel13, Player",
+            "CR21_ColoxusCaster, Mobs",
+            "CR21_ColoxusCaster_RE_high, Mobs",
+            "CR21_IncubusAssassin_Slayer, Mobs",
+            "CR22_MinotaurPriest, Mobs",
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "ColyphyrSalamanderMiniboss, Mobs",
+            "DaeranPregenTestLevel11, Player",
+            "DaeranPregenTestLevel12, Player",
+            "DaeranPregenTestLevel13, Player",
+            "EcorcheLairBoss, Mobs",
+            "EmberTestLevel11, Player",
+            "EmberTestLevel12, Player",
+            "EmberTestLevel13, Player",
+            "EmberTestLevel14, Player",
+            "GreyborTestLevel11, Player",
+            "GreyborTestLevel14, Player",
+            "Hepzamirah, Neutrals",
+            "HepzamirahFleshmarket, CutsceneNeutrals",
+            "HepzamirahGhost, Neutrals",
+            "IvoryLabyrinthMinotaurCasterFinal1_20, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal2_20, Mobs",
+            "IvoryLabyrinthMinotaurCasterFinal3_20, Mobs",
+            "Kestoglyr_Companion, Player",
+            "LannTestLevel10, Player",
+            "LannTestLevel11, Player",
+            "LannTestLevel12, Player",
+            "LannTestLevel13, Player",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals",
+            "Mielara, CutsceneNeutrals",
+            "Mighty_CorruptedMongrelmanDefencive, Mobs",
+            "PlayerAeonWizardTestLevel11, Player",
+            "PlayerAeonWizardTestLevel12, Player",
+            "PlayerAeonWizardTestLevel13, Player",
+            "PlayerAeonWizardTestLevel14, Player",
+            "PlayerAzataRangerTestLevel11, Player",
+            "PlayerAzataRangerTestLevel13, Player",
+            "PlayerLichWizardTestLevel11, Player",
+            "PlayerLichWizardTestLevel12, Player",
+            "PlayerLichWizardTestLevel13, Player",
+            "PlayerLichWizardTestLevel14, Player",
+            "PlayerTestDrezen, Player",
+            "PlayerTestLevel15, Player",
+            "PlayerTestLevel7, Player",
+            "PlayerTestLevel8, Player",
+            "PlayerTricksterRangerTestLevel11, Player",
+            "PlayerTricksterRangerTestLevel13, Player",
+            "PuluraFall_Katair, NeutralGuards",
+            "RegillPregenLevel11, Player",
+            "RegillPregenLevel15, Player",
+            "RegillPregenLevel16, Player",
+            "RegillQ2_KTC_Yaker, Friends",
+            "SailorMelee, CutsceneNeutrals",
+            "SarzaksisSlaverTrader_Gibrileth, CutsceneNeutrals",
+            "SeelahTestLevel9, Player",
+            "SosielTestLevel10, Player",
+            "SosielTestLevel11, Player",
+            "SosielTestLevel12, Player",
+            "SosielTestLevel13, Player",
+            "UndeadKingAlberie, Neutrals",
+            "UrgathoaPatrols_Cleric, NeutralGuards",
+            "VampirePatrols_VampireSpawn, NeutralGuards",
+            "VellexiaFirstDate, CutsceneNeutrals",
+            "VellexiaSecondDate, CutsceneNeutrals",
+            "VellexiaShamiraConfrontationDate, CutsceneNeutrals",
+            "VellexiaThirdDate, CutsceneNeutrals",
+            "Vellexia_Default, CutsceneNeutrals",
+            "VrockWithLoot, Mobs",
+            "WizardArcaneBomberAlchemist, CutsceneNeutrals",
+            "WoljifTestLeve11, Player",
+            "WoljifTestLeve12, Player",
+            "WoljifTestLeve13, Player",
+            "WoljifTestLeve14, Player",
+            "WoljifTestLeve15, Player",
+            "WoljifTestLeve16, Player",
+            "Xantir_MidnightFaneInThePast, CutsceneNeutrals",
+            "YakerAnkelli_Hellknight, Friends",
+            "YakerWithTorch_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightsCamp, Friends",
+            "Yaker_WarCamp, Friends"
+        ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor4",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0431\u043e\u043d\u0443\u0441\u0430\u043c\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438.",
+        "cost": 32000,
+        "id": "4378ef58796eb9744b96538c2baf8c07",
+        "enhance": "4",
+        "unit": [
+            "AlderpashLich25, CutsceneNeutrals",
+            "Anemora, Mobs",
+            "ArueshalaePregenLevel14, Player",
+            "ArueshalaePregenLevel15, Player",
+            "ArueshalaePregenLevel16, Player",
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player",
+            "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
+            "CR17_Cultist_Areshkagal_DamageFullCaster, Mobs",
+            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
+            "CR26_Minotaur_IngerMaggor, Mobs",
+            "CameliaPregenLevel16, Player",
+            "DaeranPregenTestLevel14, Player",
+            "Dimalchio, CutsceneNeutrals",
+            "EmberTestLevel16, Player",
+            "EmberTestLevel17, Player",
+            "EmberTestLevel18, Player",
+            "EmberTestLevel19, Player",
+            "FilletedMan, Mobs",
+            "FinneanArmourer, CutsceneNeutrals",
+            "GreyborTestLevel12, Player",
+            "GreyborTestLevel13, Player",
+            "GreyborTestLevel15, Player",
+            "GreyborTestLevel16, Player",
+            "GreyborTestLevel17, Player",
+            "GreyborTestLevel18, Player",
+            "GreyborTestLevel19, Player",
+            "Hag_Lavixia, Mobs",
+            "Hag_Letinda, Mobs",
+            "Hag_Loreda, Mobs",
+            "Mutasafen, Mobs",
+            "MutasafenSecond, Mobs",
+            "MutasafenThird, Mobs",
+            "Mutasafen_MidnightFaneInThePast, Mobs",
+            "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
+            "MythicLich_KTC_Septimus, Civilians",
+            "PlayerAeonWizardTestLevel15, Player",
+            "PlayerAeonWizardTestLevel16, Player",
+            "PlayerAeonWizardTestLevel17, Player",
+            "PlayerAeonWizardTestLevel18, Player",
+            "PlayerAeonWizardTestLevel19, Player",
+            "PlayerAzataRangerTestLevel14, Player",
+            "PlayerAzataRangerTestLevel15, Player",
+            "PlayerAzataRangerTestLevel16, Player",
+            "PlayerAzataRangerTestLevel17, Player",
+            "PlayerAzataRangerTestLevel18, Player",
+            "PlayerDemonMythicTestLevel10, Player",
+            "PlayerDemonMythicTestLevel11, Player",
+            "PlayerDemonMythicTestLevel12, Player",
+            "PlayerDemonMythicTestLevel13, Player",
+            "PlayerDemonMythicTestLevel14, Player",
+            "PlayerDemonMythicTestLevel15, Player",
+            "PlayerDemonMythicTestLevel16, Player",
+            "PlayerLichWizardTestLevel15, Player",
+            "PlayerLichWizardTestLevel16, Player",
+            "PlayerLichWizardTestLevel17, Player",
+            "PlayerLichWizardTestLevel18, Player",
+            "PlayerLichWizardTestLevel19, Player",
+            "PlayerTestLevel10, Player",
+            "PlayerTestLevel11, Player",
+            "PlayerTestLevel12, Player",
+            "PlayerTestLevel13, Player",
+            "PlayerTestLevel14, Player",
+            "PlayerTestLevel16, Player",
+            "PlayerTestRangedFighterLevel14, Player",
+            "PlayerTricksterRangerTestLevel14, Player",
+            "PlayerTricksterRangerTestLevel15, Player",
+            "PlayerTricksterRangerTestLevel16, Player",
+            "PlayerTricksterRangerTestLevel17, Player",
+            "PlayerTricksterRangerTestLevel18, Player",
+            "RegillPregenLevel12, Player",
+            "RegillPregenLevel13, Player",
+            "RegillPregenLevel14, Player",
+            "SarcorianWedding_WightBoss, Mobs",
+            "SeelahTestLevel10, Player",
+            "SeelahTestLevel11, Player",
+            "SeelahTestLevel12, Player",
+            "SeelahTestLevel13, Player",
+            "SeelahTestLevel14, Player",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player",
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player",
+            "SeelahTestLevel19, Player",
+            "SilkShadow, Neutrals",
+            "SilkShadowIllusion, Neutrals",
+            "SilkShadowNoLoot, Neutrals",
+            "Svendack22, Mobs",
+            "Svendack22_WithTiara, Mobs",
+            "Yaniel, AngelTeam",
+            "Yaniel_DrezenCitadelLevel2, AngelTeam",
+            "Zacharius_SecondStage_Ch5, Mobs"
+        ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor5",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +5",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +5 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0431\u043e\u043d\u0443\u0441\u0430\u043c\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438.",
+        "cost": 50000,
+        "id": "11f435140501db84e8e787bf8792fac2",
+        "enhance": "5",
+        "unit": [
+            "ArueshalaePregenLevel19, Player",
+            "ArueshalaePregenLevel20, Player",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
+            "CameliaPregenLevel17, Player",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel20, Player",
+            "DaeranPregenTestLevel16, Player",
+            "DaeranPregenTestLevel17, Player",
+            "DaeranPregenTestLevel18, Player",
+            "DaeranPregenTestLevel19, Player",
+            "DaeranPregenTestLevel20, Player",
+            "DarekSunhammer, Neutrals",
+            "EmberTestLevel20, Player",
+            "HellknightsParaliktor_Aminas, Friends",
+            "HellknightsParaliktor_Gerren, Friends",
+            "HellknightsParaliktor_Lerana, Friends",
+            "Kestoglyr, Mobs",
+            "Khorramzadeh, Mobs",
+            "Khorramzadeh_Aeon, Mobs",
+            "Khorramzadeh_Undead, Mobs",
+            "LannTestLevel19, Player",
+            "LannTestLevel20, Player",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "Locust_EmberEnemy, CutsceneNeutrals",
+            "Locust_LannEnemy, CutsceneNeutrals",
+            "Locust_RegillEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "Locust_TreverEnemy, CutsceneNeutrals",
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
+            "PlayerAzataRangerTestLevel19, Player",
+            "PlayerAzataRangerTestLevel20, Player",
+            "PlayerDemonMythicTestLevel17, Player",
+            "PlayerDemonMythicTestLevel18, Player",
+            "PlayerDemonMythicTestLevel19, Player",
+            "PlayerDemonMythicTestLevel20, Player",
+            "PlayerLichWizardTestLevel20, Player",
+            "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
+            "PlayerTestLevel18, Player",
+            "PlayerTestLevel19, Player",
+            "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
+            "PlayerTricksterRangerTestLevel19, Player",
+            "PlayerTricksterRangerTestLevel20, Player",
+            "RegillPregenLevel17, Player",
+            "RegillPregenLevel18, Player",
+            "RegillPregenLevel19, Player",
+            "RegillPregenLevel20, Player",
+            "RegillQ2_KTC_ParaliktorAminas, Friends",
+            "RegillQ2_KTC_ParaliktorGerren, Friends",
+            "RegillQ2_KTC_ParaliktorLerana, Friends",
+            "SeelahTestLevel20, Player",
+            "SosielTestLevel19, Player",
+            "SosielTestLevel20, Player",
+            "WoljifTestLeve17, Player",
+            "WoljifTestLeve18, Player",
+            "WoljifTestLeve19, Player",
+            "WoljifTestLeve20, Player",
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "AmuletOfNaturalArmor6",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +6",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +6 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0431\u043e\u043d\u0443\u0441\u0430\u043c\u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438.",
+        "cost": 75000,
+        "id": "442064f089b04ea2a9daf91833154d19",
+        "enhance": "6"
+    },
+    {
+        "name": "AmuletOfQuickDrawItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0431\u044b\u0441\u0442\u0440\u043e\u0433\u043e \u0441\u0442\u0440\u0435\u043b\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0440\u0430\u0433\u043e\u0432 \u043a\u0440\u0443\u043f\u043d\u043e\u0433\u043e \u0440\u0430\u0437\u043c\u0435\u0440\u0430 \u0438 \u0431\u043e\u043b\u044c\u0448\u0435. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0438\u043d\u0438\u0446\u0438\u0430\u0442\u0438\u0432\u0443.",
+        "cost": 55500,
+        "id": "eb22f2919c30a9e4fa4e8cc3160b2432",
+        "enchant": [
+            {
+                "name": "AmuletOfQuickDrawEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "51af11696450e964d800baf012db732f",
+                "effect": [
+                    "Add feature AmuletOfQuickDrawFeature",
+                    "Add stat bonus 4 to Initiative (descriptor: UntypedStackable)"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerTestRangedFighterLevel15, Player",
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    },
+    {
+        "name": "AmuletOfSpells",
+        "display_name": "\u041f\u044b\u043b\u0430\u044e\u0449\u0438\u0439 \u0430\u043c\u0443\u043b\u0435\u0442",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 +4 \u043a \u0443\u0440\u043e\u0432\u043d\u044e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e, \u043a\u043e\u0433\u0434\u0430 \u0442\u043e\u0442 \u0442\u0432\u043e\u0440\u0438\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f: \u043b\u0443\u0447 \u0430\u0434\u0441\u043a\u043e\u0433\u043e \u043f\u043b\u0430\u043c\u0435\u043d\u0438, \u043e\u0433\u043d\u0435\u043d\u043d\u0430\u044f \u0431\u0443\u0440\u044f, \u043e\u0433\u043d\u0435\u043d\u043d\u0430\u044f \u0437\u043c\u0435\u044f, \u043e\u0433\u043d\u0435\u043d\u043d\u044b\u0439 \u0441\u0442\u043e\u043b\u043f, \u043e\u0433\u043d\u0435\u043d\u043d\u044b\u0439 \u0448\u0430\u0440, \u043e\u043f\u0430\u043b\u044f\u044e\u0449\u0438\u0439 \u043b\u0443\u0447, \u043f\u044b\u043b\u0430\u044e\u0449\u0430\u044f \u0434\u0443\u0433\u0430, \u043f\u044b\u043b\u0430\u044e\u0449\u0438\u0435 \u0440\u0443\u043a\u0438, \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0439 \u043e\u0433\u043d\u0435\u043d\u043d\u044b\u0439 \u0448\u0430\u0440.",
+        "cost": 34680,
+        "id": "b9bc244f20551564da681a54865a2103",
+        "enchant": [
+            {
+                "name": "AmuletOfSpellsEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "5df93a1f35c64a9439089b91faae1d15",
+                "effect": [
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfTheDyingWisdom",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0434\u0440\u044f\u0445\u043b\u043e\u0439 \u043c\u0443\u0434\u0440\u043e\u0441\u0442\u0438",
+        "description": "\u041d\u0430 \u043f\u043b\u0435\u0447\u0438 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043e\u043f\u0443\u0441\u043a\u0430\u0435\u0442\u0441\u044f \u0442\u044f\u0436\u043a\u0438\u0439 \u0433\u0440\u0443\u0437 \u043b\u0435\u0442. \u041e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u043d\u0435\u0447\u0438\u0441\u0442\u044b\u0439 \u0448\u0442\u0440\u0430\u0444 -3 \u043a \u0421\u0438\u043b\u0435, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438, \u0438 \u043d\u0435\u0447\u0438\u0441\u0442\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443, \u041c\u0443\u0434\u0440\u043e\u0441\u0442\u0438 \u0438 \u0425\u0430\u0440\u0438\u0437\u043c\u0435.",
+        "cost": 24000,
+        "id": "d254a9e1b1ebcf44faa326b277c937c5",
+        "enchant": [
+            {
+                "name": "AmuletOfTheDyingWisdomEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "84b63c1516d208247bceec28d6b6b38d",
+                "effect": [
+                    "Add stat bonus -3 to Strength (descriptor: Profane)",
+                    "Add stat bonus -3 to Dexterity (descriptor: Profane)",
+                    "Add stat bonus -3 to Constitution (descriptor: Profane)",
+                    "Add stat bonus 2 to Intelligence (descriptor: Profane)",
+                    "Add stat bonus 2 to Wisdom (descriptor: Profane)",
+                    "Add stat bonus 2 to Charisma (descriptor: Profane)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletOfTimeTrickery",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0448\u0443\u0442\u043e\u043a \u0441\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c",
+        "description": "\u041f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0441\u0432\u043e\u0435\u043c\u0443 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0443 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u043a\u0430\u043a \u043c\u0430\u0433 5 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 5400,
+        "id": "8fdd83cc5f9d57e4387430a1b437de0c"
+    },
+    {
+        "name": "AmuletOfUnforgivingElementsItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043d\u0435\u0443\u043c\u043e\u043b\u0438\u043c\u044b\u0445 \u0441\u0442\u0438\u0445\u0438\u0439",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0432\u0440\u0430\u0433\u0443 \u0441\u0442\u0438\u0445\u0438\u0439\u043d\u044b\u0439 \u0443\u0440\u043e\u043d (\u043e\u0433\u043d\u0435\u043c, \u0445\u043e\u043b\u043e\u0434\u043e\u043c, \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0438\u043b\u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u043e\u0439) \u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 24), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u0431\u0443\u0434\u0435\u0442 \u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c 2d6 \u0443\u0440\u043e\u043d\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u043c \u0442\u0438\u043f\u043e\u043c \u0441\u0442\u0438\u0445\u0438\u0438 \u043f\u0440\u0438 \u043a\u0430\u0436\u0434\u043e\u043c \u043f\u0440\u043e\u0432\u0430\u043b\u0435 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 3 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 26000,
+        "id": "7bd33595cf20dd346915574ae66679eb",
+        "enchant": [
+            {
+                "name": "AmuletOfUnforgivingElementsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "f2729da6c21397f408b63d57a24e05d4",
+                "effect": [
+                    "Add feature AmuletOfUnforgivingElementsFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletofInitiative",
+        "display_name": "\u0414\u044b\u0445\u0430\u043d\u0438\u0435 \u0432\u0435\u0442\u0440\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +4 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u0438\u043d\u0438\u0446\u0438\u0430\u0442\u0438\u0432\u044b.",
+        "cost": 17230,
+        "id": "5cacbec6a8ddfae4389d82fbf75ec2c1",
+        "enchant": [
+            {
+                "name": "AmuletofInitiativeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "de1d3eee66d7cff478b55384dcbd735d",
+                "effect": [
+                    "Add stat bonus 4 to Initiative (descriptor: Morale)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmuletofPersuasion",
+        "display_name": "\u0414\u0430\u0440 \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+        "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435.",
+        "cost": 29500,
+        "id": "a35a6b6cb58453f47b10a81cddb6b9c3",
+        "enchant": [
+            {
+                "name": "AmuletofPersuasionEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "c85eeb918a05ed644903b75e26558fc7",
+                "effect": [
+                    "Add stat bonus 5 to SkillPersuasion (descriptor: Morale)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_NecklaceOfDoubleCorsses",
+        "display_name": "",
+        "description": "",
+        "cost": 7000,
+        "id": "d429166c2179133448a8a7b8fbec470e",
+        "enchant": [
+            {
+                "name": "NecklaceOfDoubleCorssesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "663c2c4c72c35ca44afb93cc843b0e57",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AspectOfTheAspItem",
+        "display_name": "\u0410\u0441\u043f\u0435\u043a\u0442 \u0430\u0441\u043f\u0438\u0434\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0432 \u0444\u043e\u0440\u043c\u0435 \u0437\u043c\u0435\u0438 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 +2 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u043a \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f\u043c \u044f\u0434\u0430, \u0430 \u0432\u0441\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043b\u0443\u0447\u0435\u0439 \u043d\u0430\u043d\u043e\u0441\u044f\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e (1d6 + 5 \u0443\u0440\u043e\u043d\u0430 \u043a\u0438\u0441\u043b\u043e\u0442\u043e\u0439.",
+        "cost": 48000,
+        "id": "7d55f6615f884bc45b85fdaa45cd7672",
+        "enchant": [
+            {
+                "name": "AspectOfTheAspEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e935c1458b36b904fad1f823d3095c9b",
+                "effect": [
+                    "Add feature AspectOfTheAspFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BackrankAssistanceItem",
+        "display_name": "\u041f\u043e\u0434\u043c\u043e\u0433\u0430 \u0441 \u0442\u044b\u043b\u0430",
+        "description": "\u0415\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0435\u0440\u0436\u0438\u0442 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u043e\u0440\u0443\u0436\u0438\u0435, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0441\u043e\u044e\u0437\u043d\u0438\u043a \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 30 \u0444\u0443\u0442\u043e\u0432 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0432\u043d\u0435\u043e\u0447\u0435\u0440\u0435\u0434\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443, \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u0443\u044e \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443 \u043f\u0440\u043e\u0442\u0438\u0432 \u0442\u043e\u0439 \u0436\u0435 \u0446\u0435\u043b\u0438. \u042d\u0442\u043e\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d \u043a \u043a\u0430\u0436\u0434\u043e\u0439 \u0446\u0435\u043b\u0438 \u043b\u0438\u0448\u044c \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+        "cost": 31000,
+        "id": "b27f99aae1efc5e47b5741b6b94ac539",
+        "enchant": [
+            {
+                "name": "BackrankAssistanceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "631f982ad339c054b9d2057f60f74055",
+                "effect": [
+                    "Add feature BackrankAssistanceFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel14, Player",
+            "LannTestLevel15, Player",
+            "LannTestLevel16, Player",
+            "LannTestLevel17, Player",
+            "LannTestLevel18, Player"
+        ],
+        "area": [
+            "WintersunOutdoor, PF2_Forest_MengirGoodLoot"
+        ]
+    },
+    {
+        "name": "BeholderOfWindAmuletItem",
+        "display_name": "\u0421\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c \u0432\u0435\u0442\u0440\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043a\u0443\u043b\u043e\u043d \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0431\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u044f \u0443\u0434\u0430\u0447\u0438 \u0438 \u0440\u0435\u0448\u0438\u043c\u043e\u0441\u0442\u0438 \u043a\u0430\u043a \u0436\u0440\u0435\u0446 3 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 16600,
+        "id": "a22e2c829b0ce44418919def9bf51885",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BindingsOfThePrinceItem",
+        "display_name": "\u0412\u0435\u0440\u0438\u0433\u0438 \u041a\u043d\u044f\u0437\u044f",
+        "description": "\u0422\u0440\u0438\u0436\u0434\u044b \u0432 \u0434\u0435\u043d\u044c \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043c\u043e\u0436\u0435\u0442 \u0431\u0440\u043e\u0441\u0438\u0442\u044c \u0435\u0433\u043e \u0432\u043e \u0432\u0440\u0430\u0433\u0430. \u0415\u0441\u043b\u0438 \u0446\u0435\u043b\u044c \u043f\u0440\u043e\u0432\u0430\u043b\u0438\u0442 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0440\u0435\u0430\u043a\u0446\u0438\u0438 \u0441\u043e \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c\u044e 24, \u043e\u043d\u0430 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u043a\u043e\u0432\u0430\u043d\u0430 \u0446\u0435\u043f\u044c\u044e. \u0421\u043a\u043e\u0432\u0430\u043d\u043d\u043e\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438, \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435, \u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 1d6+5 \u0434\u0440\u043e\u0431\u044f\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u0432 \u0440\u0430\u0443\u043d\u0434. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0443\u0440\u043e\u043d, \u0446\u0435\u043f\u044c \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043a\u043e\u0432\u0430\u043d\u043d\u043e\u043c\u0443 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443 1\/2 \u044d\u0442\u043e\u0433\u043e \u0443\u0440\u043e\u043d\u0430.",
+        "cost": 110000,
+        "id": "33674f7c73f0da0448ce6d84c6846f1a"
+    },
+    {
+        "name": "BlackPearlPendant",
+        "display_name": "\u041f\u043e\u0434\u0432\u0435\u0441\u043a\u0430 \u0441 \u0447\u0435\u0440\u043d\u043e\u0439 \u0436\u0435\u043c\u0447\u0443\u0436\u0438\u043d\u043e\u0439",
+        "description": "",
+        "cost": 900,
+        "id": "d3707bd5d57f7b64ba591a7a9db640e3",
+        "area": [
+            "AlushinyrraLowerCity, AngelMinaghoChest#1",
+            "AlushinyrraHigherCity, PF2_CoolDemons_NotHiddenLockedPoor2",
+            "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenLockedPoor2",
+            "Iz, PF2_CoolDemons_market_place_chest_big_01_loot_object",
+            "ReturnToDrezen, PF2_Crusaders_luxery_chest_03_loot_object"
+        ]
+    },
+    {
+        "name": "BoneAmuletItem",
+        "display_name": "\u041a\u043e\u0441\u0442\u044f\u043d\u043e\u0439 \u0430\u043c\u0443\u043b\u0435\u0442",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 10\/\u0434\u0440\u043e\u0431\u044f\u0449\u0435\u0435 \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0448\u043a\u043e\u043b\u044b \u0418\u043b\u043b\u044e\u0437\u0438\u0438.",
+        "cost": 44000,
+        "id": "08de14e8676f56347b1d57e79fb48bd0",
+        "enchant": [
+            {
+                "name": "BoneAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "967676618473df3418515d2ed99bbc7f",
+                "effect": [
+                    "Add feature BoneAmuletFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BoneNecklace",
+        "display_name": "\u041a\u043e\u0441\u0442\u044f\u043d\u043e\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435",
+        "description": "",
+        "cost": 36,
+        "id": "ecd2f72602f59af459323f0417368abf",
+        "area": [
+            "Iz, PF2_CoolDemons_market_place_chest_medium_02_loot_object",
+            "DrezenCapital, PF2_Crusaders_Locust_TreshLoot_06",
+            "ArueshalaeRedoubt, PF2_Crusaders_Loot (9)",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot3_Poor",
+            "NamelessRuins, PF2_Forest_NamelessRuins_poorloot_5_locked",
+            "AreeluLab, PF2_MagicLaboratory_PoorLoot09",
+            "LannWenduagQ1_Neathholm, PF2_NaturalCaves_TrashLoot06",
+            "DrezenCitadel_Level1, PF2_OldCrusaders_CitySqareAreaBox02",
+            "ArueshalaeRedoubt, PF2_OldCrusaders_Loot (H)",
+            "ArueshalaeRedoubt, PF2_OldCrusaders_Loot#3",
+            "Iz, PF2_Sarkoris_Loot25Chest",
+            "Kaylessa_FornAmbush, PF2_Worldwound_Skeleton (1)",
+            "MarodersLair, PoorHuman_camp_bag_01",
+            "Daeran_Q2_HeavenDoorstep, RichHuman_PoorLoot"
+        ]
+    },
+    {
+        "name": "CameliaAmuletItem",
+        "display_name": "\u041a\u043e\u0441\u0442\u044f\u043d\u043e\u0439 \u0430\u043c\u0443\u043b\u0435\u0442",
+        "description": "\u041c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043c\u0443\u043b\u0435\u0442 \u0432 \u0432\u0438\u0434\u0435 \u0437\u043c\u0435\u0438, \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u044b\u0439 \u0438\u0437 \u043a\u043e\u0441\u0442\u0438. \u041a\u0443\u043b\u043e\u043d\u043e\u043c \u0441\u043b\u0443\u0436\u0438\u0442 \u0447\u0435\u0440\u0435\u043f \u0437\u043c\u0435\u0438.\n\u041d\u0430\u043b\u043e\u0436\u0435\u043d\u043d\u0430\u044f \u043d\u0430 \u043d\u0435\u0433\u043e \u043c\u0430\u0433\u0438\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u0430 \u0441\u043a\u0440\u044b\u0442\u044c \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0430.",
+        "cost": 500,
+        "id": "94b2b8b9ef254344cbc71663fecf8b99",
+        "enchant": [
+            {
+                "name": "CameliaAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ef2d4aaad665a2144b1bd0355535e2e6",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "CameliaPregenLevel1, Player",
+            "CameliaPregenLevel10, Player",
+            "CameliaPregenLevel2, Player",
+            "CameliaPregenLevel3, Player",
+            "CameliaPregenLevel4, Player",
+            "CameliaPregenLevel5, Player",
+            "Camelia_Companion, Player",
+            "Camelia_Level6, Player",
+            "Camelia_NPC_Level1, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "CitrineNecklace",
+        "display_name": "\u0426\u0438\u0442\u0440\u0438\u043d\u043e\u0432\u043e\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435",
+        "description": "",
+        "cost": 160,
+        "id": "426068b72e8055b45a6b8dcfc92c637c",
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_LuxChest",
+            "KenabresBurning, PF2_Crusaders_CurlCorpse",
+            "DrezenCitadel_Level1, PF2_Crusaders_TempleAreaChest01",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_8",
+            "ColyphyrDungeon, PF2_DemonWorld_Good_4",
+            "IvorySanctum, PF2_Demons_PoorLootChest3",
+            "IvorySanctum, PF2_Demons_PoorLootChest6",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_market_place_chest_small_02"
+        ]
+    },
+    {
+        "name": "ClockworkPendant",
+        "display_name": "\u041c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u043e\u0434\u0432\u0435\u0441\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +10 \u043a \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438 \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f. \u0417\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0437\u0430\u043c\u0435\u0434\u043b\u0435\u043d\u0438\u0435 \u0438 \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u0438\u0435, \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0435 \u043d\u043e\u0441\u044f\u0449\u0438\u043c, \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0442 \u0432 \u043f\u043e\u043b\u0442\u043e\u0440\u0430 \u0440\u0430\u0437\u0430 \u0434\u043e\u043b\u044c\u0448\u0435 (\u043a\u0430\u043a \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0447\u0435\u0440\u0442\u044b \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435).",
+        "cost": 18000,
+        "id": "a42d83fee9771e349bb885dd702bad96",
+        "enchant": [
+            {
+                "name": "ClockworkPendantEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6701ac43a4cda8b48bccbfbe2cb06673",
+                "effect": [
+                    "Add feature ClockworkPendantFeature",
+                    "Add stat bonus 10 to Speed (descriptor: )"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CursedBardVoiceAmulet_IntermediateItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u041f\u0440\u043e\u043a\u043b\u044f\u0442\u043e\u0433\u043e \u0431\u0430\u0440\u0434\u0430",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 75000,
+        "id": "95fd0e9dc03349fa92c16cc8f8a8eff8"
+    },
+    {
+        "name": "CursedBardVoiceAmulet_SirenItem",
+        "display_name": "\u0427\u0430\u0440\u0443\u044e\u0449\u0438\u0439 \u0433\u043e\u043b\u043e\u0441 \u0424\u0440\u0430\u043d\u0446\u0435\u0441\u0442\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0435\u043b\u0430\u0435\u0442 \u0433\u043e\u043b\u043e\u0441 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0441\u0438\u043b\u044c\u043d\u0435\u0435 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c \u0435\u0433\u043e \u043c\u043e\u0449\u044c \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u0431\u043e\u043b\u0435\u0435 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438. \u0412\u0441\u0435 \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0431\u0430\u0440\u0434\u0430 \u0438 \u044f\u0440\u043e\u0441\u0442\u043d\u044b\u0435 \u043f\u0435\u0441\u043d\u0438 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e (\u0435\u0441\u043b\u0438 \u0443 \u043d\u0435\u0433\u043e \u0435\u0441\u0442\u044c \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0435 \u043a\u043b\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438) \u0434\u043b\u044f\u0442\u0441\u044f \u043d\u0430 10 \u0440\u0430\u0443\u043d\u0434\u043e\u0432 \u0432 \u0434\u0435\u043d\u044c \u0431\u043e\u043b\u044c\u0448\u0435.",
+        "cost": 100000,
+        "id": "1b1c3cf0fedf47bab0811b4ebf98b2e2",
+        "enchant": [
+            {
+                "name": "CursedBardVoiceAmulet_SirenEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "107aee843c854047932bfa5200eece96",
+                "effect": [
+                    "Add feature CursedBardVoiceAmulet_SirenFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CursedBardVoiceAmulet_VoiceItem",
+        "display_name": "\u041c\u043e\u0433\u0443\u0447\u0438\u0439 \u0433\u043b\u0430\u0441 \u0424\u0440\u0430\u043d\u0446\u0435\u0441\u0442\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0443\u0441\u0438\u043b\u0438\u0432\u0430\u0435\u0442 \u0433\u043e\u043b\u043e\u0441 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e, \u0442\u0435\u043c \u0441\u0430\u043c\u044b\u043c \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u044f \u043f\u0440\u0435\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043e\u0447\u043a\u043e\u0432 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0434\u043b\u044f \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0441\u043b\u043e\u0432\u0430 \u0441\u0438\u043b\u044b \u043d\u0430 150%. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0441\u043b\u043e\u0432\u043e \u0441\u0438\u043b\u044b: \u0441\u043c\u0435\u0440\u0442\u044c \u0442\u0435\u043f\u0435\u0440\u044c \u0443\u0431\u0438\u0432\u0430\u0435\u0442 \u0432\u0441\u0435\u0445 \u0432\u0440\u0430\u0433\u043e\u0432 \u0441\u043e \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435\u043c \u043d\u0438\u0436\u0435 150 \u0432\u043c\u0435\u0441\u0442\u043e 100.",
+        "cost": 100000,
+        "id": "a55e366756a34fff80a0b07c439db677",
+        "enchant": [
+            {
+                "name": "CursedBardVoiceAmulet_VoiceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9bbad988e6914f4baef06c8d4773f57e",
+                "effect": [
+                    "Add feature CursedBardVoiceAmulet_VoiceFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DaeranGift",
+        "display_name": "\u041f\u043e\u0434\u0430\u0440\u043e\u043a \u0414\u0435\u0439\u0440\u0430\u043d\u0430",
+        "description": "\u041a\u0443\u043b\u043e\u043d \u0442\u043e\u043d\u043a\u043e\u0439 \u0440\u0430\u0431\u043e\u0442\u044b, \u043e\u0447\u0435\u0440\u0442\u0430\u043d\u0438\u044f\u043c\u0438 \u043d\u0430\u043f\u043e\u043c\u0438\u043d\u0430\u044e\u0449\u0438\u0439 \u043a\u043b\u044e\u0447. \u0423\u0437\u043e\u0440 \u043d\u0430 \u043a\u043b\u044e\u0447\u0435, \u0435\u0441\u043b\u0438 \u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043f\u043e\u0434 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u043c \u0443\u0433\u043b\u043e\u043c, \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0432 \u043f\u0435\u0440\u0432\u0443\u044e \u0431\u0443\u043a\u0432\u0443 \u0432\u0430\u0448\u0435\u0433\u043e \u0438\u043c\u0435\u043d\u0438.",
+        "cost": 1000,
+        "id": "6d4c5036156d06f49b117bdc7a76b81a"
+    },
+    {
+        "name": "DarekSunhammersFake",
+        "display_name": "\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u0435 \u0414\u0430\u0440\u0435\u043a\u0430 \u0421\u043e\u043b\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043c\u043e\u043b\u043e\u0442\u0430",
+        "description": "",
+        "cost": 150,
+        "id": "3e4ce583dc71401588f33f8192c252cd",
+        "area": [
+            "EstrodTower, EstrodTower_Basement_GoodLoot01",
+            "AlchemistLair, PF2_MagicLaboratory_TrashLoot01",
+            "HorgusManor, PF2_RichHuman_GoodLoot06",
+            "Woljif_Q1_Shop, PF2_RichHuman_ShopLootChest",
+            "MarodersLair, PoorHuman_tavern_chest_01",
+            "Daeran_Q2_HeavenDoorstep, RichHuman_GoodNoHidden"
+        ]
+    },
+    {
+        "name": "DarekSunhammersWork",
+        "display_name": "\u0423\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u0435 \u0414\u0430\u0440\u0435\u043a\u0430 \u0421\u043e\u043b\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043c\u043e\u043b\u043e\u0442\u0430",
+        "description": "",
+        "cost": 25000,
+        "id": "5a3463e8f61c4663aa59660ff51e3cb1"
+    },
+    {
+        "name": "DeathlyArousalItem",
+        "display_name": "\u0412\u043e\u0437\u0431\u0443\u0436\u0434\u0430\u044e\u0449\u0430\u044f \u0431\u043b\u0438\u0437\u043e\u0441\u0442\u044c \u0441\u043c\u0435\u0440\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u0447\u043e\u043a\u0435\u0440 \u043d\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043f\u043e\u0442\u0435\u0440\u044f\u0442\u044c \u0433\u043e\u043b\u043e\u0432\u0443, \u0438 \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u043f\u043e\u0441\u0442\u0435\u043b\u0438. \u041e\u0434\u0438\u043d \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u0440\u0430\u0433 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u044d\u0442\u043e\u0442 \u0447\u043e\u043a\u0435\u0440 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442 \u0435\u043c\u0443 50 \u043e\u0447\u043a\u043e\u0432 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0438 \u0437\u0430\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0432\u0440\u0430\u0433\u0430 \u043e\u043a\u0430\u0437\u0430\u0442\u044c\u0441\u044f \u0440\u0430\u0441\u043f\u043b\u0430\u0441\u0442\u0430\u043d\u043d\u044b\u043c \u043d\u0430 2 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 42000,
+        "id": "ced0c42331b39f5499846880a2b82c9b",
+        "enchant": [
+            {
+                "name": "DeathlyArousalEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "47278cec1e3827145b364e0d93201bc7"
+            }
+        ]
+    },
+    {
+        "name": "EmeraldNecklace",
+        "display_name": "\u0418\u0437\u0443\u043c\u0440\u0443\u0434\u043d\u043e\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435",
+        "description": "",
+        "cost": 1000,
+        "id": "7506e7e62c58c6444881d0896fff5db1",
+        "area": [
+            "AlushinyrraLowerCity, AngelMinaghoChest#1",
+            "VaultOfGraves, PF2_CoolDemons_Loot5",
+            "ReturnToDrezen, PF2_Crusaders_luxery_chest_03_loot_object#1",
+            "ReturnToDrezen, PF2_Crusaders_market_place_box_01 (15)_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_2_HIdden_Locked",
+            "TheIvoryLabyrinth, PF2_RichHuman_LockedPoorChest_1"
+        ]
+    },
+    {
+        "name": "FalseNahCrystalAmuletItem",
+        "display_name": "\"\u041d\u0430\u0445\u0438\u043d\u0434\u0440\u0438\u0430\u043d\u0441\u043a\u0438\u0439\" \u043a\u0440\u0438\u0441\u0442\u0430\u043b\u043b",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +1 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0438\u0440).",
+        "cost": 50000,
+        "id": "3b72223fefa190148a4df605e18b21b6",
+        "enchant": [
+            {
+                "name": "FalseNahCrystalAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a2d25fe1ad639e348bb46198f8964978",
+                "effect": [
+                    "Add stat bonus 1 to SkillKnowledgeWorld (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GiantslayersClasp",
+        "display_name": "\u041e\u0431\u0435\u0440\u0435\u0433 \u0433\u0443\u0431\u0438\u0442\u0435\u043b\u044f \u0432\u0435\u043b\u0438\u043a\u0430\u043d\u043e\u0432",
+        "description": "\u042d\u0442\u043e \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0434\u0430\u0435\u0442 \u0441\u0432\u043e\u0435\u043c\u0443 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0443 \u0432\u0440\u043e\u0436\u0434\u0435\u043d\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0430\u0442\u0430\u043a \u043c\u043e\u043d\u0441\u0442\u0440\u043e\u0432 \u0441 \u043f\u043e\u0434\u0442\u0438\u043f\u043e\u043c \u0432\u0435\u043b\u0438\u043a\u0430\u043d.",
+        "cost": 9000,
+        "id": "5114819cf9fec3b4db5cffdcb9eded62",
+        "enchant": [
+            {
+                "name": "Giantslayer",
+                "display_name": "",
+                "description": "",
+                "id": "c1b74e563570665499e467aeae87d04d",
+                "effect": [
+                    "ACBonusAgainstFactOwnerEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlassAmuletOfClarityItem",
+        "display_name": "\u0421\u0442\u0435\u043a\u043b\u044f\u043d\u043d\u044b\u0439 \u0430\u043c\u0443\u043b\u0435\u0442 \u044f\u0441\u043d\u043e\u0441\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 +2 \u043a \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0432\u0441\u0435\u0445 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0445 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0435\u0439, \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u043d\u0430 \u0440\u0430\u0437\u0443\u043c. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u043d\u0430 \u0440\u0430\u0437\u0443\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u043f\u0440\u0438\u043d\u0443\u0436\u0434\u0435\u043d\u0438\u044f.",
+        "cost": 27000,
+        "id": "eed92946d09c54e4b8e8defc9588c18d",
+        "enchant": [
+            {
+                "name": "GlassAmuletOfClarityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1d5f4fa7891486c498010e655f6ef1fd",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GoldenChain",
+        "display_name": "\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u0446\u0435\u043f\u043e\u0447\u043a\u0430",
+        "description": "",
+        "cost": 120,
+        "id": "688d61ed91f68944da24c61f378c47b5",
+        "area": [
+            "KohhDungeon, Forest_BrokenRoomLoot",
+            "KenabresGraveyard, Forest_LootDoor",
+            "KohhDungeon, Forest_PazzlePassLoot",
+            "AlushinyrraMediumCity, PF2_CoolDemons_ChestPoor",
+            "AlushinyrraHigherCity, PF2_CoolDemons_HiddenUnlockedPoor1",
+            "BattleBliss, PF2_CoolDemons_LockpickLoot",
+            "Arueshalae_Q2_DimalchioMansion, PF2_CoolDemons_Loot",
+            "Iz, PF2_CoolDemons_Loot22Chest",
+            "VaultOfGraves, PF2_CoolDemons_Loot5",
+            "VaultOfGraves, PF2_CoolDemons_Loot6",
+            "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenLockedPoor2",
+            "Woljif_Q3_AbandonedMansion, PF2_CoolDemons_demon_rich_chest_02 (2)_loot_object",
+            "RoguePaladin_SE2, PF2_Crusaders_market_place_chest_big_01_loot_object",
+            "Nexus, PF2_DemonWorld_PoorLoot06",
+            "IvorySanctum, PF2_Demons_PoorLootChest1#2",
+            "MidnightFane, PF2_Demons_[Locked][Trapped] Nightmare#1",
+            "AreeluLab, PF2_MagicLaboratory_Archeology01",
+            "ArueshalaeRedoubt, PF2_OldCrusaders_Loot#9",
+            "DrezenCitadel_Level2, PF2_RichHuman_ChapelStash",
+            "DrezenCitadel_Level2, PF2_RichHuman_CommandersRoomChest"
+        ]
+    },
+    {
+        "name": "GoldenChainWithDiamonds",
+        "display_name": "\u0417\u043e\u043b\u043e\u0442\u0430\u044f \u0446\u0435\u043f\u043e\u0447\u043a\u0430 \u0441 \u0431\u0440\u0438\u043b\u043b\u0438\u0430\u043d\u0442\u0430\u043c\u0438",
+        "description": "",
+        "cost": 2500,
+        "id": "f1103195723022844a562bf772e102ce",
+        "area": [
+            "KohhDungeon, Forest_SecretWorkShop",
+            "AlushinyrraMediumCity, PF2_CoolDemons_ChestPoor",
+            "AlushinyrraMediumCity, PF2_CoolDemons_HiddenWardrobe",
+            "TheIvoryLabyrinth, PF2_CoolDemons_PuzzleChestPoor"
+        ]
+    },
+    {
+        "name": "GoldenMedallion",
+        "display_name": "\u0417\u043e\u043b\u043e\u0442\u043e\u0439 \u043c\u0435\u0434\u0430\u043b\u044c\u043e\u043d",
+        "description": "",
+        "cost": 300,
+        "id": "32242d89f184f9f47b51bdedb50256c0",
+        "area": [
+            "KenabresGraveyard, Forest_LootDoor",
+            "Seelah_Q3_JewelerHideout, PF2_CoolDemons_Loot_Trap",
+            "AlushinyrraMediumCity, PF2_CoolDemons_NotHiddenUnlockedPoor4",
+            "Arueshalae_Q2_DimalchioMansion, PF2_CoolDemons_demon_rich_chest_03 (1)_loot_object",
+            "DrezenCapital, PF2_Crusaders_Locust_TreshLoot_05",
+            "RoguePaladin_SE2, PF2_Crusaders_TrashLoot",
+            "ReturnToDrezen, PF2_Crusaders_luxery_vase_02 (6)_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_4_HIdden",
+            "ColyphyrDungeon, PF2_DemonWorld_Good_3",
+            "Woljif_Q3_AbandonedMansion, PF2_DemonWorld_Loot2",
+            "ColyphyrDungeon, PF2_DemonWorld_Poor_2",
+            "MidnightFane, PF2_Demons_LeatherMantleOfNightItem",
+            "ArueshalaeRedoubt, PF2_NaturalCaves_BossLoot2",
+            "GrayGarrison, PF2_OldCrusaders_GrayGarrison_GoodLoot02_TheMaladyItem",
+            "DemodandLair, PF2_Worldwound_LootKnightGrave"
+        ]
+    },
+    {
+        "name": "GuardianOfLifeItem",
+        "display_name": "\u0421\u0442\u0440\u0430\u0436 \u0436\u0438\u0437\u043d\u0438",
+        "description": "\u041f\u043e\u043a\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u043f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043e\u0431\u0435\u0440\u0435\u0433 \u043e\u0442 \u0441\u043c\u0435\u0440\u0442\u0438, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043e\u0442 \u0430\u0442\u0430\u043a \u043d\u0435\u0436\u0438\u0442\u0438. \u041f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0438\u0441\u0446\u0435\u043b\u0435\u043d\u0438\u044f \u0440\u0430\u043d \u043d\u0430 \u043e\u0434\u043d\u043e\u0439 \u0446\u0435\u043b\u0438, \u0435\u0441\u043b\u0438 \u0442\u0435\u043a\u0443\u0449\u0435\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435 \u0446\u0435\u043b\u0438 \u0440\u0430\u0432\u043d\u043e 0 \u0438\u043b\u0438 \u043d\u0438\u0436\u0435, \u0446\u0435\u043b\u044c \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0447\u0438\u0441\u043b\u043e \u043e\u0447\u043a\u043e\u0432 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f, \u0440\u0430\u0432\u043d\u043e\u0435 \u0435\u0435 \u0447\u0438\u0441\u043b\u0443 \u043a\u043e\u0441\u0442\u0435\u0439 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f.",
+        "cost": 10000,
+        "id": "cca99e04dd8e8ae40b94981185800db8",
+        "enchant": [
+            {
+                "name": "GuardianOfLifeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "159a473b73ab345419dab13e3d27d650",
+                "effect": [
+                    "Add feature GuardianOfLifeFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "SosielTestLevel14, Player",
+            "SosielTestLevel15, Player",
+            "SosielTestLevel16, Player",
+            "SosielTestLevel17, Player",
+            "SosielTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "GyronnasAmuletItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0413\u0438\u0440\u043e\u043d\u043d\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +5 \u043a \u0437\u0430\u0449\u0438\u0442\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u044d\u0444\u0444\u0435\u043a\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u0435.",
+        "cost": 145000,
+        "id": "df779981b70c04641b26ad9ba90b245e",
+        "enchant": [
+            {
+                "name": "GyronnasAmuletEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "5da548d8ebd7f7945a01699796ae9d27",
+                "effect": [
+                    "Add feature GyronnasAmuletFeature",
+                    "Add stat bonus 5 to AC (descriptor: Insight)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HalfOfPairedPendantItem",
+        "display_name": "\u041f\u043e\u043b\u043e\u0432\u0438\u043d\u0430 \u043e\u0442 \u043f\u0430\u0440\u044b",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0434\u0432\u0430 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430, \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u043d\u0430\u0434\u0435\u0442\u043e \u043f\u043e \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0435 \u044d\u0442\u043e\u0439 \u043f\u043e\u0434\u0432\u0435\u0441\u043a\u0438, \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 10 \u0444\u0443\u0442\u043e\u0432 \u0434\u0440\u0443\u0433 \u043e\u0442 \u0434\u0440\u0443\u0433\u0430, \u043a\u0430\u0436\u0434\u044b\u0439 \u0438\u0437 \u043d\u0438\u0445 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0441\u0438\u0442\u0443\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0441\u0438\u0442\u0443\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435.",
+        "cost": 38000,
+        "id": "43b2b67063747ec43b962ed12111e106",
+        "enchant": [
+            {
+                "name": "HalfOfPairedPendantEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "aa41a019c2e12924aaf3a2f3debdcb9f",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HalfOfPairedPendantSecondItem",
+        "display_name": "",
+        "description": "",
+        "cost": 10000,
+        "id": "31647cd793033f6438eeec296a9c8d00",
+        "enchant": [
+            {
+                "name": "HalfOfPairedPendantEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "aa41a019c2e12924aaf3a2f3debdcb9f",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HeartOfIraItem",
+        "display_name": "\u0421\u0435\u0440\u0434\u0446\u0435 \u0410\u0439\u0440\u044b",
+        "description": "\u041d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432 \u043a \u0443\u0442\u043e\u043c\u043b\u0435\u043d\u0438\u044e \u0438 \u043e\u0431\u0435\u0441\u0441\u0438\u043b\u0438\u0432\u0430\u043d\u0438\u044e, \u0438 \u043c\u043e\u0436\u0435\u0442 \u0430\u043a\u0442\u0438\u0432\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435, \u0447\u0442\u043e\u0431\u044b \u043e\u043a\u0440\u0443\u0436\u0438\u0442\u044c \u0441\u0435\u0431\u044f \u0430\u0443\u0440\u043e\u0439 \u043f\u0443\u0441\u0442\u043e\u0442\u044b. \u041f\u043e\u043a\u0430 \u0430\u0443\u0440\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u0430, \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430, \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u0435\u0441\u044f \u0440\u044f\u0434\u043e\u043c \u0441 \u043d\u043e\u0441\u044f\u0449\u0438\u043c, \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0443\u043d\u0434 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 2d6 \u0443\u0440\u043e\u043d\u0430 \u0438 \u0434\u043e\u043b\u0436\u043d\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0440\u0435\u0430\u043a\u0446\u0438\u0438, \u0447\u0442\u043e\u0431\u044b \u043d\u0435 \u043e\u043a\u0430\u0437\u0430\u0442\u044c\u0441\u044f \u0443\u0442\u043e\u043c\u043b\u0435\u043d\u043d\u044b\u043c\u0438.",
+        "cost": 65000,
+        "id": "c17f627fedd420d4aa871f23d0995fcf",
+        "enchant": [
+            {
+                "name": "FatigueExhaustionImmunity",
+                "display_name": "",
+                "description": "",
+                "id": "1382ebea50347a148a62ec06e0fdab96",
+                "effect": [
+                    "Add feature FatigueExhaustionImmunitiesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HeartOfTheHeraldItem",
+        "display_name": "\u0421\u0435\u0440\u0434\u0446\u0430 \u0430\u043d\u0433\u0435\u043b\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0430\u0443\u0440\u0443 \u0440\u0430\u0434\u0438\u0443\u0441\u043e\u043c 30 \u0444\u0443\u0442\u043e\u0432, \u0430\u043a\u0442\u0438\u0432\u0430\u0446\u0438\u044f \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0434\u0430\u0435\u0442 \u0432\u0441\u0435\u043c \u0441\u043e\u044e\u0437\u043d\u0438\u043a\u0430\u043c \u0431\u043e\u043d\u0443\u0441 +1 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0438\u043c \u0438\u0433\u043d\u043e\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043b\u044e\u0431\u043e\u0435 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 \u043f\u0440\u0438 \u0430\u0442\u0430\u043a\u0430\u0445 \u043f\u0440\u043e\u0442\u0438\u0432 \u0434\u0435\u043c\u043e\u043d\u043e\u0432. \u042d\u0442\u0430 \u0430\u0443\u0440\u0430 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0430\u043a\u0442\u0438\u0432\u043d\u0430 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 10 + \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440 \u0425\u0430\u0440\u0438\u0437\u043c\u044b \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0440\u0430\u0443\u043d\u0434\u043e\u0432 \u0432 \u0434\u0435\u043d\u044c.",
+        "cost": 100000,
+        "id": "abd2459160cd479085fb2a75b927737f",
+        "enchant": [
+            {
+                "name": "HeartOfTheHeraldEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "cf80d6172d85406a9ba459c496580b3e",
+                "effect": [
+                    "Add feature HeartOfTheHeraldFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LocketOfMagicMissileMasteryItem",
+        "display_name": "\u041c\u0435\u0434\u0430\u043b\u044c\u043e\u043d \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 \u0432\u043e\u043b\u0448\u0435\u0431\u043d\u043e\u0439 \u0441\u0442\u0440\u0435\u043b\u044b",
+        "description": "\u0417\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0432\u043e\u043b\u0448\u0435\u0431\u043d\u0430\u044f \u0441\u0442\u0440\u0435\u043b\u0430 \u0438 \u0441\u0438\u043b\u043e\u0432\u0430\u044f \u0441\u0442\u0440\u0435\u043b\u0430, \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0435 \u043d\u043e\u0441\u044f\u0449\u0438\u043c, \u0441\u0442\u0430\u043d\u043e\u0432\u044f\u0442\u0441\u044f \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u043d\u044b\u043c\u0438 \u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u043d\u044b\u043c\u0438.",
+        "cost": 15100,
+        "id": "6c1f471b01500eb409ed73711ef3b79e",
+        "enchant": [
+            {
+                "name": "LocketOfMagicMissileMasteryEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "d06f906b0fbfcdb48aa1aab50cff532c",
+                "effect": [
+                    "Add feature LocketOfMagicMissileMasteryFeatureEmpower",
+                    "Add feature LocketOfMagicMissileMasteryFeatureQuick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LocketOfPerfectCantripsItem",
+        "display_name": "\u041c\u0435\u0434\u0430\u043b\u044c\u043e\u043d \u0448\u0430\u0440\u043b\u0430\u0442\u0430\u043d\u0430",
+        "description": "\u0412\u0441\u0435 \u043c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f 0 \u0443\u0440\u043e\u0432\u043d\u044f, \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0435 \u043d\u043e\u0441\u044f\u0449\u0438\u043c, \u0441\u0442\u0430\u043d\u043e\u0432\u044f\u0442\u0441\u044f \u0434\u0430\u043b\u044c\u043d\u043e\u0431\u043e\u0439\u043d\u044b\u043c\u0438, \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438, \u043c\u0430\u043a\u0441\u0438\u043c\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438 \u0438 \u0443\u0441\u0438\u043b\u0435\u043d\u043d\u044b\u043c\u0438.",
+        "cost": 25100,
+        "id": "828561d73332c5846b11ffb4bd6df94d",
+        "enchant": [
+            {
+                "name": "LocketOfPerfectCantripsEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "79d2d56aab3a74c49a01474f92cb3952",
+                "effect": [
+                    "Add feature LocketOfPerfectCantripsFeatureEmpower",
+                    "Add feature LocketOfPerfectCantripsFeatureExtended",
+                    "Add feature LocketOfPerfectCantripsFeatureMaximized",
+                    "Add feature LocketOfPerfectCantripsFeatureReach"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MayasCharmItem",
+        "display_name": "\u041e\u0431\u0435\u0440\u0435\u0433 \u041c\u0430\u0439\u0438",
+        "description": "\u0412\u0441\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0448\u043a\u043e\u043b \u041e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0418\u043b\u043b\u044e\u0437\u0438\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0442\u0432\u043e\u0440\u0438\u0442 \u043d\u043e\u0441\u044f\u0449\u0438\u0439, \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 +2 \u043a \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430, \u043d\u043e \u0441\u0430\u043c \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0421\u0438\u043b\u0435. \u041c\u043e\u0436\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0430\u043c\u0438 \u0441 \u0434\u043e\u0431\u0440\u044b\u043c \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435\u043c.",
+        "cost": 6000,
+        "id": "5719bea74c11d8d4eb66fac430435f04",
+        "enchant": [
+            {
+                "name": "MayasCharmEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a93befe8a6ecf244fbf71c45ec35db42",
+                "effect": [
+                    "Add feature MayasCharmFeature",
+                    "Add stat bonus -2 to Strength (descriptor: )"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MenanceOfDeathAmuletItem",
+        "display_name": "\u0423\u0433\u0440\u043e\u0437\u0430 \u0441\u043c\u0435\u0440\u0442\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043a\u0442\u043e-\u0442\u043e \u0443\u043c\u0438\u0440\u0430\u0435\u0442 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 10 \u0444\u0443\u0442\u043e\u0432 \u043e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +3, \u043d\u0430 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0443\u0441\u043a\u043e\u0440\u0435\u043d\u0438\u0435 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c\u044e 2d3 \u0440\u0430\u0443\u043d\u0434\u043e\u0432. \u042d\u0442\u043e\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u043e\u0431\u043d\u043e\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043a\u0442\u043e-\u0442\u043e \u0443\u043c\u0438\u0440\u0430\u0435\u0442. \u041f\u043e\u0441\u043b\u0435 \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u044d\u0442\u043e\u0433\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0435\u0433\u043e \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0442\u044c \u0430\u0442\u0430\u043a \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438\u043b\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 1d3 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 20000,
+        "id": "8c7525cda7ad79a47a578197dab6c487",
+        "enhance": "3",
+        "enchant": [
+            {
+                "name": "MenanceOfDeathAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1cdea8c9aa064ac1b704fedc7223cc20",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "Darrazand, Mobs"
+        ]
+    },
+    {
+        "name": "MesmerizingNecklaceItem",
+        "display_name": "\u0413\u0438\u043f\u043d\u043e\u0442\u0438\u0437\u0438\u0440\u0443\u044e\u0449\u0435\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u043d\u0430 1 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u0441\u0435\u0445 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0448\u043a\u043e\u043b\u044b \u041e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u044f, \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u043d\u043e\u0441\u044f\u0449\u0438\u043c. \u0422\u0430\u043a\u0436\u0435 \u043e\u043d \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0442\u0440\u0438\u0436\u0434\u044b \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0446\u0432\u0435\u0442\u043d\u044b\u0435 \u0431\u0440\u044b\u0437\u0433\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 13) \u043a\u0430\u043a \u043c\u0430\u0433 1 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 1500,
+        "id": "d0a0bd80c6c61ba4495abd1191bd4e8a",
+        "enchant": [
+            {
+                "name": "MesmerizingNecklaceEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "c50510c334c98b247a55741c640acec2",
+                "effect": [
+                    "Add feature MesmerizingNecklaceFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "NahCollar",
+        "display_name": "\u041e\u0448\u0435\u0439\u043d\u0438\u043a \u041d\u0430\u0445\u0438\u043d\u0434\u0440\u0438\u0430\u043d\u0441\u043a\u043e\u0439 \u043b\u0438\u0433\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043e\u043d \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0440\u0435\u0430\u043a\u0446\u0438\u0438 \u0438 \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u043d\u0430\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -4 \u043d\u0430 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0438 \u0432\u043e\u043b\u0438.",
+        "cost": 36000,
+        "id": "ab3ee90fd2faffb46a00f889a2d226c8",
+        "enchant": [
+            {
+                "name": "NahCollarEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d8edd2db8d534cb189c05ebaa0cab7ee",
+                "effect": [
+                    "Add feature NahCollarFeature"
+                ]
+            }
+        ],
+        "enhance": "4"
+    },
+    {
+        "name": "NecklaceOfEarsItem",
+        "display_name": "\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0438\u0437 \u0443\u0448\u0435\u0439",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0438\u0440) \u0438 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0430\u0433\u0438\u044f).",
+        "cost": 50000,
+        "id": "6a26ffa9238302f44b517fc0b7363014",
+        "enchant": [
+            {
+                "name": "NecklaceOfEarsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "bbbb03ff1ce3d2642b152aa2f675b1e5",
+                "effect": [
+                    "Add feature NecklaceOfEarsFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "NegatorAmuletItem",
+        "display_name": "\u042d\u043a\u0432\u0438\u043b\u0438\u0431\u0440\u0438\u0443\u043c",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u0445\u043e\u043b\u043e\u0434\u0443 \u0438 \u043e\u0433\u043d\u044e. \u0422\u0430\u043a\u0436\u0435 \u043e\u043d \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u044f +6 \u043a \u0437\u0430\u0449\u0438\u0442\u0435.",
+        "cost": 220000,
+        "id": "f38cb29529feaaf459af443fdf567a54",
+        "enchant": [
+            {
+                "name": "NegatorAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "520f3617019ba40418ee8392d4511b72",
+                "effect": [
+                    "Add feature NegatorAmuletFeature"
+                ]
+            },
+            {
+                "name": "Deflection6",
+                "display_name": "",
+                "description": "",
+                "id": "a26b708426c4e764896da00aa3ae533c",
+                "effect": [
+                    "Add stat bonus 6 to AC (descriptor: Deflection)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OldEarthAmulet_IntermediateItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0441\u043b\u0438\u0437\u0438",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 25500,
+        "id": "dd5a21d3900ce8a4e90322e90cd9f2e3"
+    },
+    {
+        "name": "OldEarthSandAmuletItem",
+        "display_name": "\u041e\u0431\u044a\u044f\u0442\u0438\u044f \u0411\u0435\u0437\u043b\u0438\u043a\u043e\u0433\u043e",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u044b \u0442\u0432\u043e\u0440\u0438\u0442\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043c\u0430\u0441\u043b\u043e, \u0432\u0441\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0432 \u0437\u0430\u0442\u0440\u043e\u043d\u0443\u0442\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u0434\u043e\u043b\u0436\u043d\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0440\u0435\u0430\u043a\u0446\u0438\u0438 \u0438\u043b\u0438 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c 5d6 \u0443\u0440\u043e\u043d\u0430 \u043a\u0438\u0441\u043b\u043e\u0442\u043e\u0439.",
+        "cost": 34000,
+        "id": "268815ce58edc3a48856cf8a0f145b17",
+        "enchant": [
+            {
+                "name": "OldEarthSandAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1f846703300b36947b5d276161232d7e",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OldEarthShriekAmuletItem",
+        "display_name": "\u0413\u043e\u043b\u043e\u0441 \u0411\u0435\u0437\u043b\u0438\u043a\u043e\u0433\u043e",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u044b \u0442\u0432\u043e\u0440\u0438\u0442\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u043d\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0438\u043a, \u043d\u0430\u043d\u043e\u0441\u0438\u043c\u044b\u0439 \u0438\u043c \u0443\u0440\u043e\u043d \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f 5d6. \u0412\u043c\u0435\u0441\u0442\u043e \u044d\u0442\u043e\u0433\u043e \u043e\u043d\u043e \u043d\u0430\u043d\u043e\u0441\u0438\u0442 (1d6 + 1 \u0437\u0430 \u0434\u0432\u0430 \u0443\u0440\u043e\u0432\u043d\u044f \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f) \u0443\u0440\u043e\u043d\u0430. \u0421\u0443\u0449\u0435\u0441\u0442\u0432\u0430, \u043f\u0440\u043e\u0432\u0430\u043b\u0438\u0432\u0448\u0438\u0435 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u043f\u0440\u043e\u0442\u0438\u0432 \u043d\u0435\u0433\u043e, \u0432\u043f\u0430\u0434\u0430\u044e\u0442 \u0432 \u0441\u0442\u0443\u043f\u043e\u0440 \u043d\u0430 2 \u0440\u0430\u0443\u043d\u0434\u0430 \u0432\u043c\u0435\u0441\u0442\u043e 1 \u0440\u0430\u0443\u043d\u0434\u0430. \u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0442\u0430\u043a\u0436\u0435 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0432\u0441\u0435\u0445 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u0432\u0430\u043c\u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0441 \u0434\u0435\u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0440\u043e\u043c \"\u0437\u0432\u0443\u043a\" \u043d\u0430 2.",
+        "cost": 34000,
+        "id": "1e67d8ab112c4784e8150d01bec4a5a4",
+        "enchant": [
+            {
+                "name": "OldEarthShriekAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "50a904b61a19239459ff98a99d34db9e",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PitchTunerItem",
+        "display_name": "\u0410\u0431\u0441\u043e\u043b\u044e\u0442\u043d\u044b\u0439 \u0441\u043b\u0443\u0445",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0435\u043b\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b\u043c \u043a \u0443\u0440\u043e\u043d\u0443 \u0437\u0432\u0443\u043a\u043e\u043c \u0438 \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435.",
+        "cost": 43000,
+        "id": "46ef4528d79b830489ffe99688db39d4",
+        "enchant": [
+            {
+                "name": "PitchTunerEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7f2136f879a590247843980ad1d74542",
+                "effect": [
+                    "Add feature PitchTunerFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "PlayersPhylacteryAmuletItem",
+        "display_name": "\u0412\u0430\u0448\u0430 \u0444\u0438\u043b\u0430\u043a\u0442\u0435\u0440\u0438\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u0440\u0435\u0434\u043c\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0421\u043c\u0435\u0440\u0442\u043e\u043d\u043e\u0441\u043d\u0430\u044f \u043c\u0430\u0433\u0438\u044f. \u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0443\u0436\u0435 \u0435\u0441\u0442\u044c \u044d\u0442\u0430 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c, \u043e\u043d \u0434\u0430\u0435\u0442 \u0435\u043c\u0443 \u0434\u0432\u0430 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0435\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043e\u0434\u0438\u043d \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c, \u043a\u043e\u0433\u0434\u0430 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043f\u0430\u0434\u0430\u0435\u0442 \u043d\u0438\u0436\u0435 0, \u043e\u043d\u043e \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0434\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c\u0430. \u0415\u0433\u043e \u043c\u043e\u0436\u0435\u0442 \u043d\u0430\u0434\u0435\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043b\u0438\u0447.",
+        "cost": 100000,
+        "id": "7efa2d3fd0da4769b380caf9b221233a",
+        "enchant": [
+            {
+                "name": "PlayersPhylacteryEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b3ec7d3700324a7181ec5f327665f5de",
+                "effect": [
+                    "Add feature PlayersPhylacteryFeature"
+                ]
+            }
+        ],
+        "enhance": "5"
+    },
+    {
+        "name": "RecklessVengeanceItem",
+        "display_name": "\u0411\u0435\u0437\u0440\u0430\u0441\u0441\u0443\u0434\u043d\u043e\u0435 \u0432\u043e\u0437\u0434\u0430\u044f\u043d\u0438\u0435",
+        "description": "\u041d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0441\u043e\u044e\u0437\u043d\u0438\u043a \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 30 \u0444\u0443\u0442\u043e\u0432 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0431\u0435\u0437 \u0441\u043e\u0437\u043d\u0430\u043d\u0438\u044f \u0438\u043b\u0438 \u0443\u043c\u0438\u0440\u0430\u0435\u0442, \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0434\u0432\u0435 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0430\u0442\u0430\u043a\u0438 \u043d\u0430 \u0440\u0430\u0443\u043d\u0434 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u0434\u0432\u0443\u0445 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 45000,
+        "id": "9343a0ba1c98d7f4eb5f5cb517280764",
+        "enchant": [
+            {
+                "name": "RecklessVengeanceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "79d526a6b44069d4a9a707a7a5ac48ca"
+            }
+        ]
+    },
+    {
+        "name": "RiverFoxPendantItem",
+        "display_name": "\u041a\u0443\u043b\u043e\u043d \u043d\u0430 \u043f\u0430\u043c\u044f\u0442\u044c \u043e \u0420\u0435\u0447\u043d\u043e\u043c \u043b\u0438\u0441\u0435",
+        "description": "\u041d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043a\u0443\u043b\u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u041f\u043b\u0443\u0442\u043e\u0432\u0441\u0442\u0432\u043e \u0438 \u041f\u043e\u0434\u0432\u0438\u0436\u043d\u043e\u0441\u0442\u044c, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 1d6 \u0443\u0440\u043e\u043d\u0430 \u043f\u0440\u043e\u0442\u0438\u0432\u043d\u0438\u043a\u0430\u043c, \u043d\u0430\u0434 \u043a\u043e\u0442\u043e\u0440\u044b\u043c\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u044b\u043c \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e\u043c, \u0438\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u044f \u0438\u0445 \u0431\u043e\u043d\u0443\u0441 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438, \u043a\u0430\u043a \u043f\u0440\u0438 \u0430\u0442\u0430\u043a\u0435 \u0438\u0441\u043f\u043e\u0434\u0442\u0438\u0448\u043a\u0430. \u042d\u0442\u043e\u0442 \u0443\u0440\u043e\u043d \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0435\u0449\u0435 \u043d\u0430 3d6 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0440\u0430\u0433\u043e\u0432, \u043d\u0435 \u0443\u0447\u0430\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u0432 \u0431\u043e\u044e.",
+        "cost": 88000,
+        "id": "169fd99b68c1dd04692c2368a7b957b7",
+        "enchant": [
+            {
+                "name": "RiverFoxPendantEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2471d72a73c80fa4cb6297e1bee8017b",
+                "effect": [
+                    "Add feature RiverFoxPendantFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "RiversongAmuletItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0440\u0435\u0447\u043d\u043e\u0439 \u043f\u0435\u0441\u043d\u0438",
+        "description": "\u0414\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0410\u0442\u043b\u0435\u0442\u0438\u043a\u0430 \u0438 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u0443 20.",
+        "cost": 22000,
+        "id": "c4b62855e9f9bfa40b710445cbd91141",
+        "enchant": [
+            {
+                "name": "ElectricityResistance20Enchant",
+                "display_name": "Electricity Resistance 20",
+                "description": "",
+                "id": "fcfd9515adbd07a43b490280c06203f9",
+                "effect": [
+                    "Add feature ElectricityResistance20Feature"
+                ]
+            },
+            {
+                "name": "RiversongAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c044ff6e7885c5944b6e46521651017f",
+                "effect": [
+                    "Add stat bonus 5 to SkillAthletics (descriptor: Competence)",
+                    "Add stat bonus 5 to SkillPersuasion (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SarzaksisPayzaItem",
+        "display_name": "\u041f\u0430\u0439\u0437\u0430 \u0421\u0430\u0440\u0437\u0430\u043a\u0441\u0438\u0441\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0435\u043b\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b\u043c \u043a \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f\u043c \u0448\u043a\u043e\u043b\u044b \u041d\u0435\u043a\u0440\u043e\u043c\u0430\u043d\u0442\u0438\u044f, \u043f\u043e\u043a\u0430 \u043e\u043d \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0438 \u0434\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u044f\u0440\u043e\u0441\u0442\u0438.",
+        "cost": 55000,
+        "id": "7a1921b84c2d958489c9f3b70b7f5093",
+        "enchant": [
+            {
+                "name": "SarzaksisPayzaEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ce7f06430d08f3d4c8e5e9efe2266e21",
+                "effect": [
+                    "Add feature SarzaksisPayzaFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "SarzaksisTranslatorTiefling, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "SecretsOfSuramgaminNecklaceItem",
+        "display_name": "\u0423\u0437\u043a\u0438\u0439 \u043f\u0443\u0442\u044c",
+        "description": "\u042d\u0442\u043e \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u041e\u043d \u0434\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0430\u0442\u0430\u043a \u0437\u043b\u044b\u0445 \u0441\u0443\u0449\u0435\u0441\u0442\u0432. \u041a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0430\u0442\u0430\u043a\u0443\u0435\u0442 \u0434\u043e\u0431\u0440\u043e\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e, \u0430\u043c\u0443\u043b\u0435\u0442 \u043d\u0430\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u0435\u0442 \u043d\u0430 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u0427\u0442\u043e\u0431\u044b \u0441\u043d\u044f\u0442\u044c \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442, \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0441\u043e\u0442\u0432\u043e\u0440\u0438\u0442\u044c \u043d\u0430 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0441\u043d\u044f\u0442\u0438\u0435 \u043f\u0440\u043e\u043a\u043b\u044f\u0442\u044c\u044f \u0438 \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443 \u0443\u0440\u043e\u0432\u043d\u044f \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \u0441\u043e \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c\u044e 25.",
+        "cost": 25100,
+        "id": "6bbf04b71ee91734dab328837fc168cf",
+        "enchant": [
+            {
+                "name": "SecretsOfSuramgaminNecklaceEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "0086a5715430a0f4ba42e6a5d791c7ce",
+                "effect": [
+                    "Add feature SecretsOfSuramgaminNecklaceFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SilverChain",
+        "display_name": "\u0421\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u0430\u044f \u0446\u0435\u043f\u043e\u0447\u043a\u0430",
+        "description": "",
+        "cost": 40,
+        "id": "b8a84c05641f88e4ca5a6181ddc9eb79",
+        "area": [
+            "KenabresGraveyard, Forest_LootChest (1)#1",
+            "VaultOfGraves, PF2_CoolDemons_Loot2",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_rich_wardrobe_02 (12)_loot_object",
+            "Iz, PF2_CoolDemons_market_place_chest_medium_01_loot_object",
+            "DrezenCitadel_Prison, PF2_Crusaders_market_place_box_02",
+            "KenabresBurning, PF2_Crusaders_tavern_bedside_01",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_24",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_4_HIdden",
+            "EmberQ1_BaphometsAltar, PF2_Demons_TrashLoot01",
+            "AreeluLabReturn, PF2_MagicLaboratory_PoorLoot01",
+            "DrezenCitadel_Level1, PF2_OldCrusaders_TavernBox02",
+            "DrezenCitadel_Level1, PF2_OldCrusaders_UpperCityAreaChest01",
+            "SuccubusLair, PF2_RichHuman_TrashLoot01",
+            "SinisterVillage, PF2_Sarkoris_TrashLoot11",
+            "WarCamp, PoorHuman_IrabethLootChest_2",
+            "LostChapel, PoorHuman_TrashLoot21"
+        ]
+    },
+    {
+        "name": "SilverMedallion",
+        "display_name": "\u0421\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u044b\u0439 \u043c\u0435\u0434\u0430\u043b\u044c\u043e\u043d",
+        "description": "",
+        "cost": 150,
+        "id": "06846b7beaca5444d8eebfebc320adca",
+        "area": [
+            "KenabresGraveyard, Forest_LootChest (1)#1",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_1_Locked",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_5_HIdden",
+            "ColyphyrDungeon, PF2_DemonWorld_Poor_2",
+            "AreshkagalDungeon, PF2_DemonWorld_TrueLoot1_vase (1)",
+            "AlushinyrraLowerCity, PF2_Demons_NotHiddenLockedPoor2",
+            "IvorySanctum, PF2_Demons_PoorLootChest2",
+            "IvorySanctum, PF2_Demons_luxery_chest_02 (11)",
+            "WintersunOutdoor, PF2_Forest_PoorLoot_11_Locked",
+            "AreeluLab, PF2_MagicLaboratory_PoorLoot03",
+            "Seelah_Q3_JewelerHideout, PF2_RichHuman_market_place_chest_small_01_loot_object",
+            "SE_MeetNenio, PoorHuman_SE_MeetNenio_Loot1_Perception"
+        ]
+    },
+    {
+        "name": "SilverTongueAmuletItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u0441\u0435\u0440\u0435\u0431\u0440\u044f\u043d\u043e\u0433\u043e \u044f\u0437\u044b\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +2 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435.",
+        "cost": 1500,
+        "id": "4d4231b4a395bba4b9819dfbb2dc785d",
+        "enchant": [
+            {
+                "name": "SilverTongueAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6aaf3a4a1cc55f643b02e690baccd2da",
+                "effect": [
+                    "Add feature SilverTongueAmuletFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "StagLordBrokenAmulet",
+        "display_name": "",
+        "description": "",
+        "cost": 10,
+        "id": "31413c8cbb7423549b5164ac4902b424"
+    },
+    {
+        "name": "StormAmberNecklaceItem",
+        "display_name": "\u041e\u043a\u043e \u0431\u0443\u0440\u0438",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0442\u0432\u043e\u0440\u0438\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0441 \u0434\u0435\u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0440\u043e\u043c \"\u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u043e\", \u0430\u043c\u0443\u043b\u0435\u0442 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0435\u0433\u043e \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \u043d\u0430 +2 \u0434\u043b\u044f \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u0438\u044f \u0432\u0441\u0435\u0445 \u043f\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u044d\u0442\u043e\u0433\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f. \u0422\u0430\u043a\u0436\u0435 \u043e\u043d \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0441 \u0434\u0435\u0441\u043a\u0440\u0438\u043f\u0442\u043e\u0440\u043e\u043c \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043d\u0430 +1.",
+        "cost": 6000,
+        "id": "e3acbfd13b857ed41a1ba8c330824f7d",
+        "enchant": [
+            {
+                "name": "StormAmberNecklaceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b9847632dd3d6c241ba42fbf7a4b3799",
+                "effect": [
+                    "Add feature StormAmberNecklaceFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TurquoisePendant",
+        "display_name": "\u0411\u0438\u0440\u044e\u0437\u043e\u0432\u0430\u044f \u043f\u043e\u0434\u0432\u0435\u0441\u043a\u0430",
+        "description": "",
+        "cost": 400,
+        "id": "d7d19d4517998d6498f99f60ad03fe88",
+        "area": [
+            "ArueshalaeRedoubt, Forest_Loot (2)#2",
+            "AlushinyrraHigherCity, PF2_CoolDemons_HiddenUnlockedPoor2",
+            "NocticulasBoudoir, PF2_CoolDemons_demon_rich_wardrobe_02 (12)_loot_object",
+            "Iz, PF2_CoolDemons_market_place_chest_big_01_loot_object",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_19",
+            "AreshkagalDungeon, PF2_DemonWorld_Areshkagal_LootPoor_6",
+            "ColyphyrDungeon, PF2_DemonWorld_Poor_3",
+            "MidnightFane, PF2_Demons_PoorLoot_13",
+            "Mineshaft14_Indoor, PF2_Sarkoris_Barrel_loot_object"
+        ]
+    },
+    {
+        "name": "VellexiasMagnifyingAmuletItem",
+        "display_name": "\u0423\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u044e\u0449\u0438\u0439 \u0430\u043c\u0443\u043b\u0435\u0442 \u0412\u0435\u043b\u043b\u0435\u043a\u0441\u0438\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u043e\u0439 \u0431\u0440\u043e\u043d\u0438 +5 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0441\u0430\u043c\u043e\u043c\u0443 \u0432\u044b\u0441\u043e\u043a\u043e\u043c\u0443 \u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438.",
+        "cost": 149000,
+        "id": "91702df4fe0246a3b435c7fcf9fa019e",
+        "enchant": [
+            {
+                "name": "VellexiasMagnifyingAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "10dc2a5b8d834dc5937fc7f37186dfc3",
+                "effect": [
+                    "IncreaseMaxStatEnchantment"
+                ]
+            }
+        ],
+        "enhance": "5"
+    },
+    {
+        "name": "VoraciousSpiritItem",
+        "display_name": "\u041d\u0435\u043d\u0430\u0441\u044b\u0442\u043d\u044b\u0439 \u0434\u0443\u0445",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u0430\u043c\u0443\u043b\u0435\u0442 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0445 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0449\u0438\u0445\u0441\u044f \u0431\u043e\u043d\u0443\u0441\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0442 \u0434\u043e \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u043e\u0442\u0434\u044b\u0445\u0430:\n1) +10 \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u043e\u0447\u043a\u043e\u0432 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f (\u0434\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c\u0430 \u0432 50)\n2) +1 \u0431\u043e\u043d\u0443\u0441 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 (\u0434\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c\u0430 \u0432 5)\n3) +1 \u0431\u043e\u043d\u0443\u0441 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0434\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c\u0430 \u0432 5)\n4) +1 \u0431\u043e\u043d\u0443\u0441 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0432\u043e\u043b\u0438 (\u0434\u043e \u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c\u0430 \u0432 5)",
+        "cost": 79000,
+        "id": "000d13f09ca84dbd9a5ec7adc4b0ae99",
+        "enchant": [
+            {
+                "name": "VoraciousSpiritEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "08bfd2c4fb394c65a707f8bf20a3422a",
+                "effect": [
+                    "Add feature VoraciousSpiritFeature"
+                ]
+            }
+        ],
+        "area": [
+            "HorgusManor, PF2_RichHuman_PoorLoot07andGood"
+        ]
+    },
+    {
+        "name": "WardMastersAmuletItem",
+        "display_name": "\u0410\u043c\u0443\u043b\u0435\u0442 \u043c\u0430\u0441\u0442\u0435\u0440\u0430 \u043e\u0431\u0435\u0440\u0435\u0433\u043e\u0432",
+        "description": "\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u044d\u0442\u043e\u043c\u0443 \u0430\u043c\u0443\u043b\u0435\u0442\u0443 \u0432\u0441\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f-\u043e\u0431\u0435\u0440\u0435\u0433\u0438 \u043e\u0433\u0440\u0430\u0436\u0434\u0435\u043d\u0438\u044f (\u0442\u0435, \u0432 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0438 \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442\u0441\u044f \u0441\u043b\u043e\u0432\u043e \"\u043e\u0431\u0435\u0440\u0435\u0433\") \u0434\u0430\u044e\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u0437\u0430\u0449\u0438\u0442\u0443 +1 \u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u044f\u0442\u0441\u044f \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438, \u043a\u0430\u043a \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0447\u0435\u0440\u0442\u044b \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435.\n\u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435: \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0434\u043b\u0438\u0442\u0441\u044f \u0432 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0434\u043e\u043b\u044c\u0448\u0435 \u043e\u0431\u044b\u0447\u043d\u043e\u0433\u043e. \u042d\u0442\u0430 \u0447\u0435\u0440\u0442\u0430 \u043d\u0435 \u0432\u043b\u0438\u044f\u0435\u0442 \u043d\u0430 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0441 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c\u044e \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0446\u0438\u0438, \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u043b\u0438 \u043f\u0435\u0440\u043c\u0430\u043d\u0435\u043d\u0442\u043d\u044b\u0435.",
+        "cost": 29000,
+        "id": "1bc94bd99a10f7648bd39d8563ca47c9",
+        "enchant": [
+            {
+                "name": "WardMastersAmuletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c1a1beae8b74df344bb46e8bf3e0a8b4",
+                "effect": [
+                    "Add feature WardMastersAmuletFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "DaeranPregenTestLevel15, Player"
+        ]
+    },
+    {
+        "name": "XavornsCrossItem",
+        "display_name": "\u041a\u0440\u0435\u0441\u0442 \u041a\u0441\u0430\u0432\u043e\u0440\u043d\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043d\u0435\u0447\u0435\u0441\u0442\u0438\u0432\u0430\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u044f \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0441\u0434\u0435\u043b\u0430\u043d\u0430 \u0438\u0437 \u043a\u043e\u0441\u0442\u0435\u0439, \u0441\u043a\u0440\u0435\u043f\u043b\u0435\u043d\u043d\u044b\u0445 \u0432\u043c\u0435\u0441\u0442\u0435 \u043a\u043e\u0436\u0435\u0439 \u0438 \u0432\u0435\u0440\u0435\u0432\u043a\u043e\u0439. \u0412\u043b\u0430\u0434\u0435\u043b\u0435\u0446 \u044d\u0442\u043e\u0433\u043e \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 +2 \u043a \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430 \u043f\u0440\u043e\u0442\u0438\u0432 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u043c\u043e\u0439 \u0438\u043c \u044d\u043d\u0435\u0440\u0433\u0438\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c \u044d\u043d\u0435\u0440\u0433\u0438\u044e \u043d\u0430 \u043e\u0434\u0438\u043d \u0440\u0430\u0437 \u0447\u0430\u0449\u0435 \u0432 \u0434\u0435\u043d\u044c. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043a\u0440\u0435\u0441\u0442 \u0434\u0430\u0435\u0442 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0443 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u043d\u0435\u0436\u0438\u0442\u044c \u043d\u0430 13 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 45000,
+        "id": "4537e2beb46b28a47bde3e3e1ac95255",
+        "enchant": [
+            {
+                "name": "XavornsCrossEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "249dd13b0e3f811448d796b01215e484",
+                "effect": [
+                    "Add feature XavornsCrossFeature"
+                ]
+            }
+        ]
+    }
+]

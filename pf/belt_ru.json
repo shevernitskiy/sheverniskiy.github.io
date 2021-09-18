@@ -1,0 +1,2264 @@
+[
+    {
+        "name": "AssailantsBeltItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043d\u0430\u043f\u0430\u0434\u0430\u044e\u0449\u0435\u0433\u043e",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +6 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440, \u043d\u0430 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 3 \u0440\u0430\u0443\u043d\u0434\u0430 \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0441\u0438\u0442\u0443\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d.",
+        "cost": 85000,
+        "id": "8d48d164b7a729b459db96ab7d5cf55a",
+        "enchant": [
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "AssailantsBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c02a67098ab9da647b25eead5ece3e41",
+                "effect": [
+                    "Add feature AssailantsBeltFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel15, Player",
+            "ArueshalaePregenLevel16, Player",
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player",
+            "YouOnlyMortalsLeader, Mobs"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "BeltOfAlacrityItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0436\u0438\u0432\u043e\u0441\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +4 \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0440\u0435\u0430\u043a\u0446\u0438\u0438.",
+        "cost": 26000,
+        "id": "4b0b9b95225d6034f84b75a6ad1e76c7",
+        "enchant": [
+            {
+                "name": "BeltOfAlacrityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3d2ebf32e8c47494ea1c1db6485e7d1e",
+                "effect": [
+                    "Add feature BeltOfAlacrityFeature"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfAthach",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0430\u0442\u0430\u0445\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043d\u0430\u0434\u0435\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0439 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u043e\u0439, \u0434\u0430\u0432\u0430\u044f \u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0421\u0438\u043b\u0435, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u0440\u0430\u0437\u043c\u0435\u0440\u0435, \u043a\u0430\u043a \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u0435 \u0440\u0430\u0437\u043c\u0435\u0440\u044b, \u043d\u0430 13 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 110000,
+        "id": "3b6c082651fcb2344b292656ccf058e5",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfBeastlySturdinessItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0437\u0432\u0435\u0440\u0438\u043d\u043e\u0439 \u043a\u0440\u0435\u043f\u043e\u0441\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +4 \u043a \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440\u0443 \u0431\u043e\u0435\u0432\u044b\u0445 \u043c\u0430\u043d\u0435\u0432\u0440\u043e\u0432 \u043f\u0440\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 \u0431\u043e\u0435\u0432\u044b\u0445 \u043c\u0430\u043d\u0435\u0432\u0440\u043e\u0432 \u0442\u0430\u0440\u0430\u043d \u0438 \u0432\u0442\u043e\u0440\u0436\u0435\u043d\u0438\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u0431\u043e\u0435\u0432\u043e\u043c\u0443 \u0441\u0431\u0438\u0432\u0430\u043d\u0438\u044e \u0441 \u043d\u043e\u0433.",
+        "cost": 45000,
+        "id": "16ef03e9206b0c946813464085f541ff",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfBeastlySturdinessEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "39c16220c3b0f81459c45aca0787e30b",
+                "effect": [
+                    "Add feature BeltOfBeastlySturdinessFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfBloodlustItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043a\u0440\u043e\u0432\u043e\u0436\u0430\u0434\u043d\u043e\u0441\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0421\u0438\u043b\u0435. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +5 \u043a \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u043c\u0443 \u0431\u0440\u043e\u0441\u043a\u0443 \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435.",
+        "cost": 83000,
+        "id": "c63859f821f7b414492580b638b009fb",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfBloodlustEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5f1d88dbc1847f949ab3f62937e76255",
+                "effect": [
+                    "Add feature BeltOfBloodlustFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfConstitution2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0432\u0435\u043b\u0438\u043a\u043e\u0439 \u0432\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 4000,
+        "id": "b9cc5d85d4a5032458ef4491f5fed251",
+        "enchant": [
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "CambionMinibossKineticist, Mobs",
+            "Forn, CutsceneNeutrals",
+            "Mighty_CorruptedMongrelmanDefencive, Mobs",
+            "Nulkineth_LostChapel, Mobs",
+            "RegillQ2_KTC_Yaker, Friends",
+            "SeelahTestLevel7, Player",
+            "SeelahTestLevel8, Player",
+            "SeelahTestLevel9, Player",
+            "YakerAnkelli_Hellknight, Friends",
+            "YakerWithTorch_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightVsGargoyles, Friends",
+            "Yaker_HellknightsCamp, Friends",
+            "Yaker_WarCamp, Friends"
+        ]
+    },
+    {
+        "name": "BeltOfConstitution4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0432\u0435\u043b\u0438\u043a\u043e\u0439 \u0432\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 16000,
+        "id": "dbeb5ba83e9fd2046a31590636b8b36d",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "CR22_MinotaurPriest, Mobs",
+            "CR25_Areshkagal_FullCasterBoss, Mobs",
+            "ColyphyrSalamanderMiniboss, Mobs",
+            "Dimalchio, CutsceneNeutrals",
+            "Locust_Irabeth_Enemy, CutsceneNeutrals",
+            "SeelahTestLevel10, Player",
+            "SeelahTestLevel11, Player",
+            "SeelahTestLevel12, Player",
+            "SeelahTestLevel13, Player",
+            "Svendack22, Mobs",
+            "Svendack22_WithTiara, Mobs",
+            "UndeadKingAlberie, Neutrals"
+        ],
+        "area": [
+            "WintersunOutdoor, PF2_Forest_CorumCache_Check_Loot"
+        ]
+    },
+    {
+        "name": "BeltOfConstitution6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0432\u0435\u043b\u0438\u043a\u043e\u0439 \u0432\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 70000,
+        "id": "f2c5555b4cce199488f9e6d3796a661f",
+        "enchant": [
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "HellknightsParaliktor_Aminas, Friends",
+            "RegillQ2_KTC_ParaliktorAminas, Friends",
+            "SeelahTestLevel14, Player"
+        ]
+    },
+    {
+        "name": "BeltOfCourageousChargeItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043e\u0442\u0432\u0430\u0436\u043d\u043e\u0439 \u0430\u0442\u0430\u043a\u0438 \u0441 \u0440\u0430\u0437\u0431\u0435\u0433\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0421\u0438\u043b\u044b \u0438 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +4 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u0443 \u0441 \u0440\u0430\u0437\u0431\u0435\u0433\u0430 \u043d\u0430 \u0432\u0440\u0430\u0433\u0430, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u043f\u0440\u043e\u0442\u0438\u0432 \u044d\u0442\u043e\u0433\u043e \u0432\u0440\u0430\u0433\u0430 \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434.",
+        "cost": 82000,
+        "id": "ca893ba89b2c9db4287d4a57abd286df",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfCourageousChargeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "717ea085eb284bb4392f15534a00426a",
+                "effect": [
+                    "Add feature BeltOfCourageousChargeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfDemonicShadowItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0434\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0442\u0435\u043d\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0442\u0432\u043e\u0440\u0438\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043a\u0440\u0443\u0433\u0430 6 \u0438\u043b\u0438 \u0432\u044b\u0448\u0435, \u043e\u043d \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u0435\u0442 \u0442\u0435\u043d\u0435\u0432\u043e\u0433\u043e \u0434\u0435\u043c\u043e\u043d\u0430 (\u0440\u0435\u0439\u0442\u0438\u043d\u0433 \u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 7), \u0441\u0440\u0430\u0436\u0430\u044e\u0449\u0435\u0433\u043e\u0441\u044f \u043d\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u0435 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 2 \u043c\u0438\u043d\u0443\u0442. \u041d\u0430 \u043f\u043e\u043b\u0435 \u0431\u043e\u044f \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0442\u0430\u043a\u043e\u0439 \u0434\u0435\u043c\u043e\u043d. \u0415\u0441\u043b\u0438 \u0434\u0435\u043c\u043e\u043d \u0443\u0436\u0435 \u043f\u0440\u0438\u0437\u0432\u0430\u043d, \u0441\u043e\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u0435 \u043d\u043e\u0432\u043e\u0433\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043a\u0440\u0443\u0433\u0430 6 \u0438\u043b\u0438 \u0432\u044b\u0448\u0435 \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442 \u0435\u043c\u0443 2d6 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f.",
+        "cost": 40000,
+        "id": "4c702defedd33df43b0adcff637b8b42",
+        "enchant": [
+            {
+                "name": "BeltOfDemonicShadowEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "44994cab01a6e664486509e52939a62c",
+                "effect": [
+                    "Add feature BeltOfDemonicShadowFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CultHighPriest, Mobs"
+        ]
+    },
+    {
+        "name": "BeltOfDexterity2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0439 \u043b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 4000,
+        "id": "b6af4c1834999e74497b41588d1071cd",
+        "enchant": [
+            {
+                "name": "Dexterity2",
+                "display_name": "",
+                "description": "",
+                "id": "2042beb64a5e12443be55b413d7ff733",
+                "effect": [
+                    "Add stat bonus 2 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "AneviaTirabade, Friends",
+            "AneviaTirabade_DH, Friends",
+            "AneviaTirabade_DrezenCapital, Friends",
+            "AneviaTirabade_GibberingSwarm, Friends",
+            "AneviaTirabade_GorgoyleAttack, Friends",
+            "AneviaTirabade_LostChapel, Friends",
+            "ArueshalaePregenLevel11, Player",
+            "CR19_SuccubusRangedFighter_RE_low, Mobs",
+            "CR20_SuccubusRangedFighter, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR20_SuccubusRangedFighter_RE_high2, Mobs",
+            "CR26_SuccubusRangedFighter_RE_low, Mobs",
+            "CR27_SuccubusRangedFighter, Mobs",
+            "CR27_SuccubusRangedFighter_RE_high1, Mobs",
+            "CR27_SuccubusRangedFighter_RE_high2, Mobs",
+            "CameliaPregenLevel10, Player",
+            "CameliaPregenLevel8, Player",
+            "CameliaPregenLevel9, Player",
+            "DaeranPregenTestLevel14, Player",
+            "DaeranPregenTestLevel16, Player",
+            "DaeranPregenTestLevel17, Player",
+            "EmberTestLevel10, Player",
+            "EmberTestLevel11, Player",
+            "EmberTestLevel12, Player",
+            "EmberTestLevel13, Player",
+            "LannTestDrezen, Player",
+            "LannTestLevel10, Player",
+            "LannTestLevel11, Player",
+            "LannTestLevel8, Player",
+            "LannTestLevel9, Player",
+            "Mutasafen, Mobs",
+            "MutasafenFourth_NoLoot, Mobs",
+            "MutasafenSecond, Mobs",
+            "MutasafenThird, Mobs",
+            "Mutasafen_MidnightFaneInThePast, Mobs",
+            "Othirubo_Boss, Mobs",
+            "Pharasma, CutsceneNeutrals",
+            "PlayerAeonWizardTestLevel10, Player",
+            "PlayerAeonWizardTestLevel11, Player",
+            "PlayerAeonWizardTestLevel12, Player",
+            "PlayerAeonWizardTestLevel13, Player",
+            "PlayerAzataRangerTestLevel11, Player",
+            "PlayerAzataRangerTestLevel16, Player",
+            "PlayerLichWizardTestLevel10, Player",
+            "PlayerLichWizardTestLevel11, Player",
+            "PlayerLichWizardTestLevel12, Player",
+            "PlayerLichWizardTestLevel13, Player",
+            "PlayerTricksterRangerTestLevel11, Player",
+            "PlayerTricksterRangerTestLevel16, Player",
+            "Pregen_Lann_MVP, Player",
+            "Pregen_PlayerAlchemist_MVP, Player",
+            "StartGameSorcererPregenUnitLevel8, Player",
+            "UrgathoaPatrols_SkeletalChampion, NeutralGuards",
+            "WoljifTestLeve10, Player",
+            "WoljifTestLeve11, Player",
+            "WoljifTestLeve12, Player",
+            "WoljifTestLeve13, Player",
+            "WoljifTestLeve14, Player"
+        ],
+        "area": [
+            "GibberingSwarmCave, NaturalCaves_GoodLootSkeleton01"
+        ]
+    },
+    {
+        "name": "BeltOfDexterity4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0439 \u043b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 16000,
+        "id": "20539ffabe4365e419ca7413129ab78a",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "AasimarRedMask, CutsceneNeutrals",
+            "ArueshalaePregenLevel12, Player",
+            "ArueshalaePregenLevel13, Player",
+            "ArueshalaePregenLevel14, Player",
+            "CR22_Areshkagal_MinotaurMiniBoss, Mobs",
+            "CR24_Areshkagal_CultistLeaderMiniBoss, Mobs",
+            "CameliaPregenLevel11, Player",
+            "CameliaPregenLevel12, Player",
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "DaeranPregenTestLevel18, Player",
+            "DaeranPregenTestLevel19, Player",
+            "DaeranPregenTestLevel20, Player",
+            "EmberTestLevel14, Player",
+            "EmberTestLevel16, Player",
+            "Kerz, CutsceneNeutrals",
+            "LannTestLevel12, Player",
+            "LannTestLevel13, Player",
+            "LannTestLevel16, Player",
+            "Locust_LannEnemy, CutsceneNeutrals",
+            "MythicLich_KTC_Elyanka, Civilians",
+            "MythicLich_KTC_ElyankaUndead, Civilians",
+            "MythicLich_KTC_Septimus, Civilians",
+            "PlayerAeonWizardTestLevel14, Player",
+            "PlayerAeonWizardTestLevel15, Player",
+            "PlayerAeonWizardTestLevel16, Player",
+            "PlayerAzataRangerTestLevel12, Player",
+            "PlayerAzataRangerTestLevel13, Player",
+            "PlayerAzataRangerTestLevel14, Player",
+            "PlayerAzataRangerTestLevel15, Player",
+            "PlayerLichWizardTestLevel14, Player",
+            "PlayerLichWizardTestLevel15, Player",
+            "PlayerLichWizardTestLevel16, Player",
+            "PlayerTricksterRangerTestLevel12, Player",
+            "PlayerTricksterRangerTestLevel13, Player",
+            "PlayerTricksterRangerTestLevel14, Player",
+            "PlayerTricksterRangerTestLevel15, Player",
+            "Shrine_Glabrezu_Caster, Mobs",
+            "Shrine_Succubus_Ranged, Mobs",
+            "UrgathoaPatrols_Cleric, NeutralGuards",
+            "VampirePatrols_VampireSpawn, NeutralGuards",
+            "WildHunt_Atselm, CutsceneNeutrals",
+            "WildHunt_AtselmOld, CutsceneNeutrals",
+            "WildHunt_AtselmYoung, CutsceneNeutrals"
+        ],
+        "area": [
+            "TempleOfDelamere, RichHuman_TrashLoot06_G_L"
+        ]
+    },
+    {
+        "name": "BeltOfDexterity6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043d\u0435\u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0439 \u043b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 70000,
+        "id": "a214f971f937c2c46805211dcb9c1576",
+        "enchant": [
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Alichino, Friends",
+            "AlichinoEnemy, Mobs",
+            "ArueshalaePregenLevel19, Player",
+            "ArueshalaePregenLevel20, Player",
+            "Baphomet, Neutrals",
+            "BaphometVision_IvoryLabyrinth, CutsceneNeutrals",
+            "Chadali, Friends",
+            "ChadaliEnemy, Mobs",
+            "EmberTestLevel15, Player",
+            "EmberTestLevel17, Player",
+            "EmberTestLevel18, Player",
+            "EmberTestLevel19, Player",
+            "EmberTestLevel20, Player",
+            "Eritrice, Friends",
+            "EritriceEnemy, Mobs",
+            "Horzalah, CutsceneNeutrals",
+            "Horzalah_GreyborQ2, Neutrals",
+            "IvoryHardmod_WildhuntAsassin24, Mobs",
+            "IvoryHardmod_WildhuntAsassin_Shadow, Mobs",
+            "LannTestLevel14, Player",
+            "LannTestLevel15, Player",
+            "LannTestLevel17, Player",
+            "LannTestLevel18, Player",
+            "LannTestLevel19, Player",
+            "LiLura, CutsceneNeutrals",
+            "LiLura_Kenabres, CutsceneNeutrals",
+            "PlayerAeonWizardTestLevel17, Player",
+            "PlayerAeonWizardTestLevel18, Player",
+            "PlayerAeonWizardTestLevel19, Player",
+            "PlayerAeonWizardTestLevel20, Player",
+            "PlayerAzataLocustRangerTestLevel21, Player",
+            "PlayerAzataLocustRangerTestLevel22, Player",
+            "PlayerAzataRangerTestLevel17, Player",
+            "PlayerAzataRangerTestLevel18, Player",
+            "PlayerAzataRangerTestLevel19, Player",
+            "PlayerAzataRangerTestLevel20, Player",
+            "PlayerLichWizardTestLevel17, Player",
+            "PlayerLichWizardTestLevel18, Player",
+            "PlayerLichWizardTestLevel19, Player",
+            "PlayerLichWizardTestLevel20, Player",
+            "PlayerTricksterRangerTestLevel17, Player",
+            "PlayerTricksterRangerTestLevel18, Player",
+            "PlayerTricksterRangerTestLevel19, Player",
+            "PlayerTricksterRangerTestLevel20, Player",
+            "SarkorianWedding_FallenBoss, Mobs",
+            "Yozz, CutsceneNeutrals",
+            "YozzWithPolymorph, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "BeltOfDexterityConstitution2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u044b +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 10000,
+        "id": "939ad0109fec02b46adcac4b85e1249a",
+        "enchant": [
+            {
+                "name": "Dexterity2",
+                "display_name": "",
+                "description": "",
+                "id": "2042beb64a5e12443be55b413d7ff733",
+                "effect": [
+                    "Add stat bonus 2 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "RegillPregenLevel11, Player",
+            "RegillPregenLevel12, Player",
+            "RegillPregenLevel13, Player",
+            "SarzaksisSlaverTrader_Gibrileth, CutsceneNeutrals",
+            "StauntonVane_Boss, Bosses",
+            "StauntonVane_LostChapel, CutsceneNeutrals",
+            "StauntonVane_Undead, Bosses",
+            "VellexiaFirstDate, CutsceneNeutrals",
+            "VellexiaSecondDate, CutsceneNeutrals",
+            "VellexiaShamiraConfrontationDate, CutsceneNeutrals",
+            "VellexiaThirdDate, CutsceneNeutrals",
+            "Vellexia_Default, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "BeltOfDexterityConstitution4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u044b +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 65000,
+        "id": "5cc240d94335ee046913b9c23a72cf96",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Locust_RegillEnemy, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "BeltOfDexterityConstitution6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u044b +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 125000,
+        "id": "8cf20c1d0e9e0974e8f0c01bd2f80e3e",
+        "enchant": [
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "DarekSunhammer, Neutrals",
+            "LannTestLevel20, Player",
+            "MutasafenLair_CarnivorousCrystalMiniboss, Mobs",
+            "StartGameSorcererPregenUnitLevel20, Player"
+        ]
+    },
+    {
+        "name": "BeltOfImprovedProtectionItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u043e\u0439 \u0437\u0430\u0449\u0438\u0442\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043e\u0434\u0432\u0438\u0436\u043d\u043e\u0441\u0442\u044c.",
+        "cost": 17000,
+        "id": "09b26c6dc80d2e2438a160ec01e340bb",
+        "enchant": [
+            {
+                "name": "BeltOfImprovedProtectionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "c4297d32933869c41af33e323c85dbb9",
+                "effect": [
+                    "Add stat bonus 10 to SkillMobility (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfLesserColdResistanceItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043d\u0438\u0437\u0448\u0435\u0439 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 \u043a \u0445\u043e\u043b\u043e\u0434\u0443",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043b\u0430\u0449 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 10 \u043a \u0445\u043e\u043b\u043e\u0434\u0443.",
+        "cost": 4000,
+        "id": "546c72cd7d8ec664ea5fcfae47c7b91b",
+        "enchant": [
+            {
+                "name": "ColdResistance10Enchant",
+                "display_name": "Cold Resistance 10",
+                "description": "",
+                "id": "c872314ecfab32949ad2e0eebd834919",
+                "effect": [
+                    "Add feature ColdResistance10Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfPerfectComponentsGreaterItem",
+        "display_name": "\u0412\u0435\u043b\u0438\u043a\u0438\u0439 \u043f\u043e\u044f\u0441 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0435\u043b\u0430\u0435\u0442 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0435 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f 1, 2 \u0438 3 \u043a\u0440\u0443\u0433\u0430 \u0443\u0441\u0438\u043b\u0435\u043d\u043d\u044b\u043c\u0438 \u0438 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438.",
+        "cost": 170000,
+        "id": "841d3d5dfb09f6c468f4fae3567937ee",
+        "enchant": [
+            {
+                "name": "BeltOfPerfectComponentsGreaterEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "746998b453c49b74f8434ab950d268a4",
+                "effect": [
+                    "Add feature BeltOfPerfectComponentsGreaterFeatureEmpower",
+                    "Add feature BeltOfPerfectComponentsGreaterFeatureExtended"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfPerfectComponentsItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0435\u043b\u0430\u0435\u0442 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0435 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f 1 \u0438 2 \u043a\u0440\u0443\u0433\u0430 \u0443\u0441\u0438\u043b\u0435\u043d\u043d\u044b\u043c\u0438 \u0438 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438.",
+        "cost": 43000,
+        "id": "bc195fd6225959c439bee1088a83aa6b",
+        "enchant": [
+            {
+                "name": "BeltOfPerfectComponentsEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "7d1df2c861dfd794b8b57353bba5e9a3",
+                "effect": [
+                    "Add feature BeltOfPerfectComponentsFeatureEmpower",
+                    "Add feature BeltOfPerfectComponentsFeatureExtended"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfPerfectComponentsLesserItem",
+        "display_name": "\u041c\u0430\u043b\u044b\u0439 \u043f\u043e\u044f\u0441 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0435\u043b\u0430\u0435\u0442 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0435 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f 1 \u043a\u0440\u0443\u0433\u0430 \u0443\u0441\u0438\u043b\u0435\u043d\u043d\u044b\u043c\u0438 \u0438 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438.",
+        "cost": 23000,
+        "id": "5e94d9ac3448c774db72a51007aab1df",
+        "enchant": [
+            {
+                "name": "BeltOfPerfectComponentsLesserEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "8504da522f2782740b829a208dd7a6ea",
+                "effect": [
+                    "Add feature BeltOfPerfectComponentsLesserFeatureEmpower",
+                    "Add feature BeltOfPerfectComponentsLesserFeatureExtended"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfPerfection2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0421\u0438\u043b\u0435, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 16000,
+        "id": "7abdce2cab3e3dd43b9e6c41c1b44525",
+        "enchant": [
+            {
+                "name": "Strength2",
+                "display_name": "",
+                "description": "",
+                "id": "5f25b5f8c89d40c46ba8026bd7b73dcc",
+                "effect": [
+                    "Add stat bonus 2 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity2",
+                "display_name": "",
+                "description": "",
+                "id": "2042beb64a5e12443be55b413d7ff733",
+                "effect": [
+                    "Add stat bonus 2 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Arueshalae_Level9, Player",
+            "CR19_GlabrezuDrezenOptional, Mobs",
+            "DaeranPregenTestLevel15, Player",
+            "RegillPregenLevel15, Player",
+            "RegillPregenLevel16, Player",
+            "VentureCaptainChristoff, CutsceneNeutrals",
+            "VentureCaptainHilor, CutsceneNeutrals",
+            "VentureCaptainHilorDamaged, CutsceneNeutrals"
+        ],
+        "area": [
+            "ArueshalaeRedoubt, PF2_NaturalCaves_BossLoot2",
+            "ArueshalaeRedoubt, PF2_OldCrusaders_Loot (L)#1"
+        ]
+    },
+    {
+        "name": "BeltOfPerfection4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0421\u0438\u043b\u0435, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 64000,
+        "id": "7cda6252ed289b74fb667b4e9f69fcbd",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "HellknightsParaliktor_Lerana, Friends",
+            "Kestoglyr, Mobs",
+            "RegillPregenLevel14, Player",
+            "RegillPregenLevel17, Player",
+            "RegillQ2_KTC_ParaliktorLerana, Friends",
+            "WoljifTestLeve15, Player",
+            "WoljifTestLeve16, Player",
+            "WoljifTestLeve17, Player",
+            "WoljifTestLeve18, Player"
+        ]
+    },
+    {
+        "name": "BeltOfPerfection6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 200000,
+        "id": "2b400628f960a8a43bc2f085d84788cf",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "CameliaPregenLevel17, Player",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel20, Player",
+            "GreyborTestLevel18, Player",
+            "GreyborTestLevel19, Player",
+            "GreyborTestLevel20, Player",
+            "PlayerDemonMythicTestLevel16, Player",
+            "PlayerDemonMythicTestLevel17, Player",
+            "PlayerDemonMythicTestLevel18, Player",
+            "PlayerDemonMythicTestLevel19, Player",
+            "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
+            "PlayerTestLevel18, Player",
+            "PlayerTestLevel19, Player",
+            "RegillPregenLevel18, Player",
+            "RegillPregenLevel19, Player",
+            "RegillPregenLevel20, Player",
+            "SeelahTestLevel19, Player",
+            "WoljifTestLeve19, Player",
+            "WoljifTestLeve20, Player"
+        ]
+    },
+    {
+        "name": "BeltOfPerfection8",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +8",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +8 \u043a \u0421\u0438\u043b\u0435, \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 240000,
+        "id": "dc2f2613634c2f947b306fa3379232c2",
+        "enchant": [
+            {
+                "name": "Strength8",
+                "display_name": "",
+                "description": "",
+                "id": "462db3b410635b54abc287d2280f336a",
+                "effect": [
+                    "Add stat bonus 8 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity8",
+                "display_name": "",
+                "description": "",
+                "id": "5614fc22a6e629c43a72a2559ab8213f",
+                "effect": [
+                    "Add stat bonus 8 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "PlayerDemonMythicTestLevel20, Player",
+            "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player",
+            "SeelahTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "BeltOfShadowsItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0442\u0435\u043d\u0435\u0439",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +4 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +2 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u041f\u043b\u0443\u0442\u043e\u0432\u0441\u0442\u0432\u043e \u0438 \u0421\u043a\u0440\u044b\u0442\u043d\u043e\u0441\u0442\u044c.",
+        "cost": 45000,
+        "id": "d0d136d4b4f6f2e4ba4e72c7215ac89e",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfShadowsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "909a502ebf3f00c4fa81af51573814e2",
+                "effect": [
+                    "Add stat bonus 2 to SkillStealth (descriptor: Competence)",
+                    "Add stat bonus 2 to SkillThievery (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerTestRangedFighterLevel14, Player"
+        ]
+    },
+    {
+        "name": "BeltOfStoneskinItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043a\u0430\u043c\u0435\u043d\u043d\u043e\u0439 \u043a\u043e\u0436\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043a\u0430\u043c\u0435\u043d\u043d\u0430\u044f \u043a\u043e\u0436\u0430 \u043a\u0430\u043a \u043c\u0430\u0433 7 \u0443\u0440\u043e\u0432\u043d\u044f \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c.",
+        "cost": 44400,
+        "id": "9162128e476bdd6428c2c273ea83d447"
+    },
+    {
+        "name": "BeltOfStrength2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0432\u0435\u043b\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u0441\u0438\u043b\u044b +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0421\u0438\u043b\u0435. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 4000,
+        "id": "c354de364a714ee4dbe2cfee628df267",
+        "enchant": [
+            {
+                "name": "Strength2",
+                "display_name": "",
+                "description": "",
+                "id": "5f25b5f8c89d40c46ba8026bd7b73dcc",
+                "effect": [
+                    "Add stat bonus 2 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "AshGiantLairMiniboss, Mobs",
+            "GreyborTestLevel11, Player",
+            "GreyborTestLevel12, Player",
+            "GreyborTestLevel13, Player",
+            "Inquisitor_Liotr, NeutralGuards",
+            "Morveg, CutsceneNeutrals",
+            "Morveg_ForBattle, CutsceneNeutrals",
+            "MutasafenLair_MythicGlabrezu, Mobs",
+            "PlayerTestLevel7, Player",
+            "PlayerTestLevel8, Player",
+            "PlayerTestLevel9, Player",
+            "Pregen_Fighter_MVP, Player",
+            "Pregen_Grimbor_MVP, Player",
+            "SosielTestLevel10, Player",
+            "SosielTestLevel11, Player",
+            "SosielTestLevel12, Player",
+            "SosielTestLevel13, Player",
+            "TestPregen_Shaman, Player"
+        ]
+    },
+    {
+        "name": "BeltOfStrength4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0432\u0435\u043b\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u0441\u0438\u043b\u044b +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0421\u0438\u043b\u0435. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 16000,
+        "id": "ede812de6b31b194686595fab33fc3ed",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "CR13_BloodyBonesBarbarian, Mobs",
+            "CameliaPregenLevel15, Player",
+            "GreyborInCapitalAsNPC, Player",
+            "GreyborInDefHeartWithDagger, CutsceneNeutrals",
+            "GreyborInDrezenWithDagger, CutsceneNeutrals",
+            "GreyborInIvorySunctumAsNPC, Mobs",
+            "Greybor_Companion, Player",
+            "Marhevok, Mobs",
+            "Marhevok_cutscene, CutsceneNeutrals",
+            "Mighty_CorruptedMongrelmanBrute, Mobs",
+            "Mighty_CorruptedMongrelmanRangedRanger, Mobs",
+            "PlayerDemonMythicTestLevel10, Player",
+            "PlayerDemonMythicTestLevel11, Player",
+            "PlayerDemonMythicTestLevel12, Player",
+            "PlayerDemonMythicTestLevel13, Player",
+            "PlayerTestLevel10, Player",
+            "PlayerTestLevel11, Player",
+            "PlayerTestLevel12, Player",
+            "PlayerTestLevel13, Player",
+            "PlayerTestLevel16, Player",
+            "PlayfulDarknessDeathsnatcher, Mobs",
+            "Sevalros, Mobs",
+            "SosielTestLevel14, Player",
+            "SosielTestLevel15, Player",
+            "Zacharius_SecondStage_Ch5, Mobs"
+        ]
+    },
+    {
+        "name": "BeltOfStrength6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0432\u0435\u043b\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0439 \u0441\u0438\u043b\u044b +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 70000,
+        "id": "d8062d43606e89e4bb3f0483ed3aba5d",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "HellknightsParaliktor_Gerren, Friends",
+            "PlayerDemonMythicTestLevel14, Player",
+            "PlayerDemonMythicTestLevel15, Player",
+            "PlayerTestLevel14, Player",
+            "PlayerTestLevel15, Player",
+            "RegillQ2_KTC_ParaliktorGerren, Friends",
+            "SarcorianWedding_WightBoss, Mobs"
+        ]
+    },
+    {
+        "name": "BeltOfStrengthConstitution2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043c\u043e\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0430 +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0421\u0438\u043b\u0435 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 10000,
+        "id": "c95c552c19a5c5a4492462802104b071",
+        "enchant": [
+            {
+                "name": "Strength2",
+                "display_name": "",
+                "description": "",
+                "id": "5f25b5f8c89d40c46ba8026bd7b73dcc",
+                "effect": [
+                    "Add stat bonus 2 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Drezen1_Tavern_Glabrezu, Mobs"
+        ]
+    },
+    {
+        "name": "BeltOfStrengthConstitution4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043c\u043e\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0430 +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0421\u0438\u043b\u0435 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 65000,
+        "id": "4782eaff2231a524183c6f6034ee31db",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "Berengar, NeutralGuards",
+            "Galfrey_Companion, Player",
+            "Gelderfang, CutsceneNeutrals",
+            "QueenGalfrey, Neutrals",
+            "QueenGalfreyDisguised, Neutrals",
+            "QueenGalfreyDrezen, Neutrals",
+            "QueenGalfrey_DH, Neutrals",
+            "QueenGalfrey_DrezenCapital, Neutrals",
+            "QueenGalfrey_LostChapel, Neutrals",
+            "TerendelevHuman, Neutrals",
+            "TerendelevHuman_SilentCaster, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "BeltOfStrengthConstitution6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043c\u043e\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0430 +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 125000,
+        "id": "a03b3ba9469d89347a9878cb5c00769a",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BeltOfStrengthDexterity2",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +2",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0421\u0438\u043b\u0435 \u0438 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 10000,
+        "id": "6577d56f2da72874a8abea1a3cbd2fa0",
+        "enchant": [
+            {
+                "name": "Strength2",
+                "display_name": "",
+                "description": "",
+                "id": "5f25b5f8c89d40c46ba8026bd7b73dcc",
+                "effect": [
+                    "Add stat bonus 2 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity2",
+                "display_name": "",
+                "description": "",
+                "id": "2042beb64a5e12443be55b413d7ff733",
+                "effect": [
+                    "Add stat bonus 2 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "DyunkSlaveTrader, CutsceneNeutrals",
+            "Fleshmarket_CambionGuardCaptain_WithLoot, CutsceneNeutrals",
+            "IncubusBandLair_IncubusBoss, Mobs",
+            "Vellexia_CambionToughMelee_WithLoot, Mobs"
+        ]
+    },
+    {
+        "name": "BeltOfStrengthDexterity4",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +4",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0421\u0438\u043b\u0435 \u0438 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 65000,
+        "id": "519cc630ba3402543af4267b4f75548a",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "FilletedMan, Mobs",
+            "GreyborTestLevel14, Player",
+            "GreyborTestLevel15, Player",
+            "GreyborTestLevel16, Player",
+            "GreyborTestLevel17, Player",
+            "Locust_Anevia_Enemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "MidnightFane_BaphometPriest, Mobs"
+        ]
+    },
+    {
+        "name": "BeltOfStrengthDexterity6",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +6",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435 \u0438 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 125000,
+        "id": "3475dbb1752869444ac9ffd528d8f491",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
+            "CameliaPregenLevel16, Player",
+            "DemonLordDeskari, Mobs",
+            "Locust_ArueshalaeEnemy, CutsceneNeutrals",
+            "SosielTestLevel19, Player",
+            "SosielTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "BeltOfThunderousChargingItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0433\u0440\u043e\u0445\u043e\u0447\u0443\u0449\u0435\u0433\u043e \u0440\u0430\u0437\u0431\u0435\u0433\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0438\u043c\u043f\u0443\u043b\u044c\u0441 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e, \u0434\u0430\u0432\u0430\u044f \u0431\u043e\u043d\u0443\u0441 +2 \u043f\u0440\u0438 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0438 \u043c\u0430\u043d\u0435\u0432\u0440\u043e\u0432 \u0442\u0430\u0440\u0430\u043d\u0430 \u0438 \u0432\u0442\u043e\u0440\u0436\u0435\u043d\u0438\u044f. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0430\u0442\u0430\u043a\u0443\u0435\u0442 \u0441 \u0440\u0430\u0437\u0431\u0435\u0433\u0430, \u0432\u0440\u0430\u0433 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043e\u0442 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0430\u0442\u0430\u043a \u043d\u0430 4 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 88000,
+        "id": "b59c3948cc32e3c43b519ecd7e618155",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfThunderousChargingEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "45053727a438b7945b7cba0d37b23533",
+                "effect": [
+                    "Add feature BeltOfThunderousChargingFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Hepzamirah, Neutrals",
+            "HepzamirahFleshmarket, CutsceneNeutrals",
+            "HepzamirahGhost, Neutrals"
+        ]
+    },
+    {
+        "name": "BeltOfVeneratedChampionItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043f\u043e\u0447\u0435\u0442\u043d\u043e\u0433\u043e \u0447\u0435\u043c\u043f\u0438\u043e\u043d\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +6 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 \u0438 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +1 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043e\u0442 \u0437\u043b\u044b\u0445 \u0441\u0443\u0449\u0435\u0441\u0442\u0432 \u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432.",
+        "cost": 81000,
+        "id": "87c5f3e1b5a01d0448d550b727f45cb4",
+        "enchant": [
+            {
+                "name": "Constitution6",
+                "display_name": "",
+                "description": "",
+                "id": "177510057a2f71a4c8e61bebabaefa28",
+                "effect": [
+                    "Add stat bonus 6 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "BeltOfVeneratedChampionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3c7525be2155f3241b4c41288df8a5b9",
+                "effect": [
+                    "Add feature BeltOfVeneratedChampionFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "AngryDemodandLeader, Mobs",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player",
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player"
+        ],
+        "area": [
+            "Nexus, PF2_DemonWorld_GoodLoot01Hidden",
+            "AlushinyrraMediumCity, ValladinTestLoot#1"
+        ]
+    },
+    {
+        "name": "BeltofAdditionalPockets",
+        "display_name": "\u0411\u043e\u0435\u0432\u043e\u0439 \u043f\u043e\u044f\u0441 \u0431\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0430\u043b\u0445\u0438\u043c\u0438\u043a\u0443 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043d\u0430 4 \u0431\u043e\u043c\u0431\u044b \u0432 \u0434\u0435\u043d\u044c \u0431\u043e\u043b\u044c\u0448\u0435.",
+        "cost": 40000,
+        "id": "f8ce35e547965db47b1b3ffce9fac8f1",
+        "enchant": [
+            {
+                "name": "BeltofAdditionalPocketsEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "2fe49d420a7ab8441a5d34d6667ebcd3",
+                "effect": [
+                    "Add feature BeltofAdditionalPocketsFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ClaspOfDeathItem",
+        "display_name": "\u041e\u0431\u044a\u044f\u0442\u0438\u0435 \u0441\u043c\u0435\u0440\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a\u043e \u0432\u0441\u0435\u043c \u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0430\u043c (\u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442, \u041c\u0443\u0434\u0440\u043e\u0441\u0442\u044c \u0438 \u0425\u0430\u0440\u0438\u0437\u043c\u0430). \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0435\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u044c \u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u0443\u044e \u044d\u043d\u0435\u0440\u0433\u0438\u044e, \u043e\u0431\u0440\u0443\u0447 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0443\u0440\u043e\u043d, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u044d\u0442\u0430 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0436\u0438\u0432\u044b\u043c \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430\u043c \u0438\u043b\u0438 \u0438\u0441\u0446\u0435\u043b\u044f\u0435\u0442 \u043d\u0435\u0436\u0438\u0442\u0438, \u043d\u0430 +2d6.",
+        "cost": 300000,
+        "id": "59a06a5e3b294731b3e69cbacb3228f3",
+        "enchant": [
+            {
+                "name": "Intelligence6",
+                "display_name": "",
+                "description": "",
+                "id": "82ad1b6eeb2be3f4a901d8e685a669a7",
+                "effect": [
+                    "Add stat bonus 6 to Intelligence (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom6",
+                "display_name": "",
+                "description": "",
+                "id": "575de3a13d4040c4cb84891036e9e76b",
+                "effect": [
+                    "Add stat bonus 6 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "NegativeChanneling2",
+                "display_name": "",
+                "description": "",
+                "id": "cb4a39044b59f5e47ad5bc08ff9d6669",
+                "effect": [
+                    "Add feature NegativeChanneling2Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ClutchOfCorruptionItem",
+        "display_name": "\u0425\u0432\u0430\u0442\u043a\u0430 \u0441\u043a\u0432\u0435\u0440\u043d\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f\u043c \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a: +4 \u043a \u0421\u0438\u043b\u0435 \u0438 +8 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 28), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u0441\u0442\u0430\u043d\u0435\u0442 \u0443\u044f\u0437\u0432\u0438\u043c \u043a \u0443\u0440\u043e\u043d\u0443 \u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u044d\u043d\u0435\u0440\u0433\u0438\u0435\u0439 \u0438 \u043d\u0435\u0447\u0435\u0441\u0442\u0438\u0432\u043e\u043c\u0443 \u0443\u0440\u043e\u043d\u0443 \u043d\u0430 2 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 131000,
+        "id": "637c4de135be4d59a84fba1da9135b9b",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ClutchOfCorruptionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8a433f9b5ecd4946a5c857c4ea069caf",
+                "effect": [
+                    "Add feature ClutchOfCorruptionFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Melazmera, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "CordOfStubbornFuryItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0443\u043f\u0440\u044f\u043c\u043e\u0439 \u044f\u0440\u043e\u0441\u0442\u0438",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0412\u043c\u0435\u0441\u0442\u043e \u0443\u0442\u043e\u043c\u043b\u0435\u043d\u0438\u044f \u043f\u043e\u0441\u043b\u0435 \u044f\u0440\u043e\u0441\u0442\u0438 \u0432\u043b\u0430\u0434\u0435\u043b\u0435\u0446 \u043f\u043e\u044f\u0441\u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 1 \u0443\u0440\u043e\u043d \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0443\u043d\u0434 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0430 \u0440\u0430\u0443\u043d\u0434\u043e\u0432, \u0440\u0430\u0432\u043d\u044b\u0445 \u0434\u0432\u043e\u0439\u043d\u043e\u043c\u0443 \u0447\u0438\u0441\u043b\u0443 \u0440\u0430\u0443\u043d\u0434\u043e\u0432, \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043d\u044b\u0445 \u0432 \u044f\u0440\u043e\u0441\u0442\u0438.",
+        "cost": 6500,
+        "id": "3b7820965662afe4ab17627103e44228",
+        "enchant": [
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "CordOfStubbornFuryEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "b27f55b3881e10444ba69e607a36958e",
+                "effect": [
+                    "Add feature DamageInsteadOfFatigue"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DaredevilsBeltItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0441\u043e\u0440\u0432\u0438\u0433\u043e\u043b\u043e\u0432\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0421\u0438\u043b\u0435. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +5 \u043a \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u043c\u0443 \u0431\u0440\u043e\u0441\u043a\u0443 \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435.",
+        "cost": 79000,
+        "id": "77f0ee6cd7103d04489ed8eea39cf187",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "DaredevilsBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2641c60243f3b824bbf59a2ae19de8d5",
+                "effect": [
+                    "Add feature DaredevilsBeltFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerTestRangedFighterLevel15, Player",
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    },
+    {
+        "name": "DevilsSashItem",
+        "display_name": "\u0414\u044c\u044f\u0432\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u043a\u0443\u0448\u0430\u043a",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +8 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0422\u0430\u043a\u0436\u0435 \u043e\u043d \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044f\u0434\u0443.",
+        "cost": 240000,
+        "id": "bfa671a8f5e9f8549ba0abc86f550c9f",
+        "enchant": [
+            {
+                "name": "Dexterity8",
+                "display_name": "",
+                "description": "",
+                "id": "5614fc22a6e629c43a72a2559ab8213f",
+                "effect": [
+                    "Add stat bonus 8 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "DevilsSashEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "ccf78253ec9b54e48b387344604e44d0",
+                "effect": [
+                    "Add feature DevilsSashFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DisplayOfPowerItem",
+        "display_name": "\u0414\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u043c\u043e\u0433\u0443\u0449\u0435\u0441\u0442\u0432\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0421\u0438\u043b\u044b +6 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0430\u0443\u0440\u0443 \u0440\u0430\u0434\u0438\u0443\u0441\u0430 15 \u0444\u0443\u0442\u043e\u0432, \u0432\u043d\u0443\u0442\u0440\u0438 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0432\u0441\u0435 \u0432\u0440\u0430\u0433\u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0432\u043e\u043b\u0438.",
+        "cost": 88000,
+        "id": "42831d8b78d38674e83b89657a3e5434",
+        "enchant": [
+            {
+                "name": "DisplayOfPowerEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "d3bca607f82a5dd49bc014f6ca38453b",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            },
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "SosielTestLevel16, Player",
+            "SosielTestLevel17, Player",
+            "SosielTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "DivineSupportBeltItem",
+        "display_name": "\u0411\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u0434\u043c\u043e\u0433\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 10 \u043a \u043d\u0435\u0433\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u044d\u043d\u0435\u0440\u0433\u0438\u0438. \u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0438\u0437\u0433\u043d\u0430\u043d\u0438\u0435 \u043a\u0430\u043a \u043c\u0430\u0433 13 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 170000,
+        "id": "da13dd41c96287e4d934cb10ae069c28",
+        "enchant": [
+            {
+                "name": "Deflection3",
+                "display_name": "",
+                "description": "",
+                "id": "770ff94f548368743a5fc63f2cf5b0b6",
+                "effect": [
+                    "Add stat bonus 3 to AC (descriptor: Deflection)"
+                ]
+            },
+            {
+                "name": "NegativeEnergyResistance10Enchant",
+                "display_name": "Negative Energy Resistance 10",
+                "description": "",
+                "id": "34504fb2cecda144aaff34929ba10202",
+                "effect": [
+                    "Add feature NegativeEnergyResistance10Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EnergizingBeltItem",
+        "display_name": "\u0417\u0430\u0440\u044f\u0436\u0435\u043d\u043d\u044b\u0439 \u0440\u0435\u043c\u0435\u043d\u044c",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0432\u043e\u0441\u043f\u043e\u043b\u043d\u044f\u0442\u044c \u043e\u0434\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0432 \u0434\u0435\u043d\u044c.",
+        "cost": 66000,
+        "id": "44f531c69e18d694187b8856977122f0",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EqualityBeltItem",
+        "display_name": "\u0412\u0435\u0437\u0443\u043d\u0447\u0438\u043a",
+        "description": "\u042d\u0442\u043e\u0442 \u0431\u043e\u043d\u0443\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0434\u0430\u0447\u0438 +1 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c.",
+        "cost": 14320,
+        "id": "b01ed89b10d0da14bbbe1432ed4ca168",
+        "enchant": [
+            {
+                "name": "EqualityBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "10245fc2706185b47bc749f301c0a013",
+                "effect": [
+                    "Add stat bonus 1 to AdditionalAttackBonus (descriptor: Luck)",
+                    "Add stat bonus 1 to SaveWill (descriptor: Luck)",
+                    "Add stat bonus 1 to SaveFortitude (descriptor: Luck)",
+                    "Add stat bonus 1 to SaveReflex (descriptor: Luck)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ExplorersBeltItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0431\u043e\u043b\u0435\u0437\u043d\u0435\u0439, \u0443\u0442\u043e\u043c\u043b\u0435\u043d\u0438\u044f \u0438 \u043e\u0431\u0435\u0441\u0441\u0438\u043b\u0438\u0432\u0430\u043d\u0438\u044f.",
+        "cost": 2500,
+        "id": "ec34985b81b9f744488456e7009044ee",
+        "enchant": [
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ExplorersBeltEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "4358487a17945da429fc0a3611254798",
+                "effect": [
+                    "Add feature ExplorersBeltFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GozrehsEmbracementBeltItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043c\u043e\u043b\u043d\u0438\u0439",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0425\u0430\u0440\u0438\u0437\u043c\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0434\u0432\u0430\u0436\u0434\u044b \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0443\u0434\u0430\u0440 \u043c\u043e\u043b\u043d\u0438\u0438 \u043a\u0430\u043a \u043c\u0430\u0433 7 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 37640,
+        "id": "77bfc25b7f08e044d9ce73b76c332651",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Charisma4",
+                "display_name": "",
+                "description": "",
+                "id": "4dcb81fcbfb11714db17ece0c152ed8b",
+                "effect": [
+                    "Add stat bonus 4 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HermitRopeBeltItem",
+        "display_name": "\u0412\u0435\u0440\u0432\u0438\u0435 \u043e\u0442\u0448\u0435\u043b\u044c\u043d\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041c\u0443\u0434\u0440\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u041e\u043d \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u043c\u0435\u0434\u0432\u0435\u0436\u044c\u044f \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u044c \u043a\u0430\u043a \u043c\u0430\u0433 3 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 58600,
+        "id": "c6edeb6c69d5da74a9bf5d73700ed04e",
+        "enchant": [
+            {
+                "name": "Wisdom4",
+                "display_name": "",
+                "description": "",
+                "id": "c3c2a133c0aa12240ade34762c146664",
+                "effect": [
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "InfernalCordGreaterItem",
+        "display_name": "\u0412\u0435\u043b\u0438\u043a\u0438\u0439 \u0438\u043d\u0444\u0435\u0440\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0448\u043d\u0443\u0440",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u041a\u043e\u0433\u0434\u0430 \u0432\u0440\u0430\u0433 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u043f\u043e \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440, \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u044b\u0441\u0442\u0440\u043e\u0435 \u0438\u0441\u0446\u0435\u043b\u0435\u043d\u0438\u0435 4 \u043d\u0430 1 \u043c\u0438\u043d\u0443\u0442\u0443.\n\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043d\u0435 \u043c\u043e\u0433\u0443\u0442 \u043d\u0430\u0434\u0435\u0432\u0430\u0442\u044c \u0434\u043e\u0431\u0440\u044b\u0435 \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0438.",
+        "cost": 26000,
+        "id": "174433eb78a197d4a8926d761b556572",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "InfernalCordGreaterEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "25bbca4dfe08eb046b9f43aa2bbfce24",
+                "effect": [
+                    "Add feature InfernalCordGreaterFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "KnightsEmblemBelt_IntermediateItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0441 \u044d\u043c\u0431\u043b\u0435\u043c\u043e\u0439 \u041b\u0438\u043d\u0434\u0441\u043e\u0432",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 41100,
+        "id": "cede912533f2f8149ab536ee3f5f12f9"
+    },
+    {
+        "name": "KnightsEmblemEmeraldBeltItem",
+        "display_name": "\u041f\u043e\u043a\u0430\u044f\u043d\u0438\u0435 \u041b\u0438\u043d\u0434\u0441\u0430",
+        "description": "\u041f\u043e\u043a\u0430 \u043c\u043e\u043d\u0430\u0445 \u043d\u043e\u0441\u0438\u0442 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441, \u043e\u043d \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0442\u0440\u0430\u0442\u0438\u0442\u044c 1 \u043e\u0447\u043a\u043e \u0446\u0438, \u0447\u0442\u043e\u0431\u044b \u043e\u043a\u0443\u0442\u0430\u0442\u044c \u0441\u0435\u0440\u0434\u0446\u0435 \u0438 \u043b\u0435\u0433\u043a\u0438\u0435 \u0446\u0435\u043b\u0438 \u0442\u043e\u043d\u043a\u043e\u0439 \u0438\u0437\u0443\u043c\u0440\u0443\u0434\u043d\u043e\u0439 \u0432\u0443\u0430\u043b\u044c\u044e. \u0417\u0430\u0442\u0440\u043e\u043d\u0443\u0442\u043e\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u0431\u043e\u043b\u0435\u0435 \u0445\u0440\u0443\u043f\u043a\u0438\u043c \u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435. \u041e\u043d\u043e \u0442\u0430\u043a\u0436\u0435 \u0434\u043e\u043b\u0436\u043d\u043e \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 19), \u0438\u043d\u0430\u0447\u0435 \u0432\u0435\u0441\u044c \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u043c\u044b\u0439 \u0435\u0439 \u0434\u0440\u043e\u0431\u044f\u0449\u0438\u0439 \u0443\u0440\u043e\u043d \u0431\u0443\u0434\u0435\u0442 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u043f\u043e\u043b\u0442\u043e\u0440\u0430 \u0440\u0430\u0437\u0430 \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u0431\u043e\u044f.",
+        "cost": 54800,
+        "id": "bf6579e0e434d0e4ea65da6bbad09645",
+        "enchant": [
+            {
+                "name": "KnightsEmblemEmeraldBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "aa214fb9962d4ea7a696e37b9cafd3e5",
+                "effect": [
+                    "Add feature KnightsEmblemEmeraldBeltFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "KnightsEmblemSunsetBeltItem",
+        "display_name": "\u041f\u043e\u0440\u0443\u0433\u0430\u043d\u0438\u0435 \u041b\u0438\u043d\u0434\u0441\u0430",
+        "description": "\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u043a\u0440\u044b\u0442\u044c \u0441\u0435\u0431\u044f \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u044b\u043c \u0442\u043b\u0435\u0442\u0432\u043e\u0440\u043d\u044b\u043c \u043e\u0433\u043d\u0435\u043c. \u041f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043c \u044d\u0442\u043e\u0433\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u0432\u0430\u0448\u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u043e\u0433\u043d\u044f \u043d\u0430\u043d\u043e\u0441\u044f\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 2d6 \u043d\u0435\u0447\u0435\u0441\u0442\u0438\u0432\u043e\u0433\u043e \u0443\u0440\u043e\u043d\u0430. \u0412\u044b \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0435\u0441\u044c \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b \u043a \u0443\u0440\u043e\u043d\u0443 \u043e\u0433\u043d\u0435\u043c, \u043d\u043e \u0443\u044f\u0437\u0432\u0438\u043c\u044b \u043a \u0443\u0440\u043e\u043d\u0443 \u0445\u043e\u043b\u043e\u0434\u043e\u043c \u0438 \u0441\u0432\u044f\u0442\u043e\u043c\u0443 \u0443\u0440\u043e\u043d\u0443.",
+        "cost": 54800,
+        "id": "f21d7afb2cd9c2a408677be2059eab19",
+        "enchant": [
+            {
+                "name": "KnightsEmblemSunsetBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9fdfc019b1f9463eb19ae58c539f1679"
+            }
+        ]
+    },
+    {
+        "name": "KorgathShackledFury",
+        "display_name": "\u0417\u0430\u0442\u043e\u0447\u0435\u043d\u043d\u0430\u044f \u044f\u0440\u043e\u0441\u0442\u044c \u041a\u043e\u0440\u0433\u0430\u0442\u0430",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435, \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435, \u043a\u043e\u0433\u0434\u0430 \u043e\u043d \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0434\u043b\u044f \u0443\u0441\u0442\u0440\u0430\u0448\u0435\u043d\u0438\u044f, \u0438 \u0448\u0442\u0440\u0430\u0444 -3, \u043a\u043e\u0433\u0434\u0430 \u043e\u043d \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0434\u043b\u044f \u0434\u0438\u043f\u043b\u043e\u043c\u0430\u0442\u0438\u0438. \u0422\u0430\u043a\u0436\u0435 \u043e\u043d \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0432\u043f\u0430\u0434\u0430\u0442\u044c \u0432 \u044f\u0440\u043e\u0441\u0442\u044c, \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u0443\u044e \u0432\u0430\u0440\u0432\u0430\u0440\u0441\u043a\u043e\u0439, \u043d\u0430 \u0432\u043e\u0441\u0435\u043c\u044c \u0440\u0430\u0443\u043d\u0434\u043e\u0432 \u0432 \u0434\u0435\u043d\u044c. \u0415\u0433\u043e \u043c\u043e\u0433\u0443\u0442 \u043d\u0430\u0434\u0435\u0432\u0430\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0438 \u0441 \u0437\u0430\u043a\u043e\u043d\u043e\u043f\u043e\u0441\u043b\u0443\u0448\u043d\u044b\u043c \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435\u043c.",
+        "cost": 60000,
+        "id": "04992d8f7ac12674eab02d73f726d4ac",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Intimidate5",
+                "display_name": "",
+                "description": "",
+                "id": "a1ad4af019700ba489b372921b3f60fc",
+                "effect": [
+                    "Add stat bonus 5 to CheckIntimidate (descriptor: Morale)"
+                ]
+            },
+            {
+                "name": "DiplomacyPenalty3",
+                "display_name": "",
+                "description": "",
+                "id": "c2d44882eedc3b64fab5179ebf8d4350",
+                "effect": [
+                    "Add stat bonus -3 to CheckDiplomacy (descriptor: Morale)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "LizardTailItem",
+        "display_name": "\u0425\u0432\u043e\u0441\u0442 \u044f\u0449\u0435\u0440\u0438\u0446\u044b",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0431\u044b\u043b \u0441\u043e\u0437\u0434\u0430\u043d \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u043e \u0434\u043b\u044f \u043e\u0442\u043b\u0438\u0447\u043d\u044b\u0445 \u043e\u0442 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u043e\u0432 \u0441\u0443\u0449\u0435\u0441\u0442\u0432, \u043e\u0434\u043d\u0430\u043a\u043e \u0435\u0433\u043e \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0433\u0443\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u044b, \u0441\u043c\u0435\u043d\u0438\u0432\u0448\u0438\u0435 \u043e\u0431\u043b\u0438\u043a. \u041e\u043d \u0434\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0440\u0435\u0430\u043a\u0446\u0438\u0438. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u0440\u0430\u0433 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0430\u0442\u0430\u043a\u0443\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e, \u044d\u0442\u0430 \u0430\u0442\u0430\u043a\u0430 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0437\u0430\u043a\u0430\u043d\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u043c\u0430\u0445\u043e\u043c.",
+        "cost": 79000,
+        "id": "fd3830513fde01248af09dc84b9f8cb5",
+        "enchant": [
+            {
+                "name": "LizardTailEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3435e6af4b927b64e83340b18244a2dd",
+                "effect": [
+                    "Add feature LizardTailFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ManglingFrenzyItem",
+        "display_name": "\u041a\u0430\u043b\u0435\u0447\u0430\u0449\u0435\u0435 \u0431\u0435\u0448\u0435\u043d\u0441\u0442\u0432\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +4 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 3\/- \u0438 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 4d6 \u0440\u0435\u0436\u0443\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u043f\u0440\u0438 \u043a\u0430\u0436\u0434\u043e\u043c \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u0443\u0434\u0430\u0440\u0435, \u043f\u043e\u043a\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0438 \u044f\u0440\u043e\u0441\u0442\u0438, \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0434\u0435\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u044f\u0440\u043e\u0441\u0442\u0438.",
+        "cost": 92300,
+        "id": "5d855652aad04a9cad2fb1e70735ac7e",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "ManglingFrenzyEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a3f6774bf1cb4861899361a2a01cf50c",
+                "effect": [
+                    "Add feature ManglingFrenzyFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MaskOfAreshkagalBelt_IntermediateItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u041f\u043e\u0445\u0438\u0442\u0438\u0442\u0435\u043b\u044f \u043b\u0438\u0446",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 71250,
+        "id": "e153b59e596a4ce9b68239ae3ae18f22"
+    },
+    {
+        "name": "MaskOfAreshkagalBelt_TabulaRasaItem",
+        "display_name": "\u0427\u0438\u0441\u0442\u044b\u0439 \u0440\u0430\u0437\u0443\u043c",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u0430 +4 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0431\u0440\u043e\u0441\u043e\u043a \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0434\u043b\u044f \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0443\u0434\u0430\u0440\u0430, \u044d\u0442\u043e\u0442 \u0431\u0440\u043e\u0441\u043e\u043a \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u043c.",
+        "cost": 95000,
+        "id": "c3f88225e63d420492ba111e97cbf64a",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "MaskOfAreshkagalBelt_TabulaRasaEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7897fd94a5624798adfd40b6f655579d",
+                "effect": [
+                    "Add feature MaskOfAreshkagalBelt_TabulaRasaFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MaskOfAreshkagalBelt_VoidItem",
+        "display_name": "\u0411\u0435\u0437\u0443\u043c\u0438\u0435 \u0436\u0435\u0440\u0442\u0432",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u0441\u0442\u0432\u0430 +4 \u0443\u0431\u0438\u0432\u0430\u0435\u0442 \u0432\u0440\u0430\u0433\u0430 \u0441 \u043f\u043e\u043b\u043d\u044b\u043c \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u0435\u043c \u0437\u0430 \u043e\u0434\u0438\u043d \u0443\u0434\u0430\u0440, \u0432\u0441\u0435 \u0432\u0440\u0430\u0433\u0438 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 30 \u0444\u0443\u0442\u043e\u0432 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043e\u0448\u0435\u043b\u043e\u043c\u043b\u0435\u043d\u044b \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434.",
+        "cost": 95000,
+        "id": "2217cd38e0c642c7addfb4e3d7095105",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "MaskOfAreshkagalBelt_VoidEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4ddcc8ba13274c57b71b7113391a6648",
+                "effect": [
+                    "Add feature MaskOfAreshkagalBelt_VoidFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "MirroredBeltItem",
+        "display_name": "\u0417\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u044f\u0441",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0440\u0435\u0430\u043a\u0446\u0438\u0438 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0437\u0435\u0440\u043a\u0430\u043b\u044c\u043d\u043e\u0435 \u043e\u0442\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u043a\u0430\u043a \u043c\u0430\u0433 4 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 43200,
+        "id": "be3cadb084c816448b873dd791eec3e4",
+        "enchant": [
+            {
+                "name": "Reflex4",
+                "display_name": "",
+                "description": "",
+                "id": "9877142638b54bc4483dbaa86f38cbc5",
+                "effect": [
+                    "Add stat bonus 4 to SaveReflex (descriptor: Resistance)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OldEarthBelt_IntermediateItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0441\u043b\u0438\u0437\u0438",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 41250,
+        "id": "3919ef68585e5e44eb31a071cf764e38"
+    },
+    {
+        "name": "OldEarthSandBeltItem",
+        "display_name": "\u041e\u0431\u044a\u044f\u0442\u0438\u044f \u0411\u0435\u0437\u043b\u0438\u043a\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u0430 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0430\u043f\u0430\u0434\u0430\u044e\u0442, \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0440\u0435\u0430\u043a\u0446\u0438\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 20) \u0438\u043b\u0438 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0448\u0442\u0440\u0430\u0444 -10 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u043e\u0434\u043d\u043e\u0433\u043e \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 55000,
+        "id": "1cd4f9cd28dbda641bd76a058ad4c7bd",
+        "enchant": [
+            {
+                "name": "OldEarthSandBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4b6c6a8bd65e6d8448620093005da69a",
+                "effect": [
+                    "Add feature OldEarthSandBeltFeature"
+                ]
+            },
+            {
+                "name": "Constitution2",
+                "display_name": "",
+                "description": "",
+                "id": "b98215ae135fe7144b20a2754e0fbda2",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "OldEarthShriekBeltItem",
+        "display_name": "\u0413\u043e\u043b\u043e\u0441 \u0411\u0435\u0437\u043b\u0438\u043a\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0421\u0438\u043b\u0435. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432 \u0441\u0435\u0434\u043b\u0435 \u0438 \u043e\u043d \u0438\u043b\u0438 \u0435\u0433\u043e \u0435\u0437\u0434\u043e\u0432\u043e\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440 \u043f\u043e \u0432\u0440\u0430\u0433\u0443, \u043d\u0430 \u0432\u0440\u0430\u0433\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u0432\u0437\u0440\u044b\u0432\u0430\u044e\u0449\u0430\u044f\u0441\u044f \u0433\u043e\u043b\u043e\u0432\u0430 \u043d\u0430 1d3 \u0440\u0430\u0443\u043d\u0434\u0430. \u041f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043c \u044d\u0442\u043e\u0433\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442 \u0441\u043b\u044b\u0448\u0430\u0442\u044c \u0433\u0440\u043e\u043c\u043a\u0438\u0435 \u0448\u0443\u043c\u044b, \u043f\u043e\u043b\u0443\u0447\u0430\u044f \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0438 \u043a \u0437\u0430\u0449\u0438\u0442\u0435.",
+        "cost": 55000,
+        "id": "c62696ace05e34b4eadd77ecc77c4e11",
+        "enchant": [
+            {
+                "name": "OldEarthShriekBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8da5b80b2e3c30f468ac6975be2eff70",
+                "effect": [
+                    "Add feature OldEarthShriekBeltFeature"
+                ]
+            },
+            {
+                "name": "Strength2",
+                "display_name": "",
+                "description": "",
+                "id": "5f25b5f8c89d40c46ba8026bd7b73dcc",
+                "effect": [
+                    "Add stat bonus 2 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SashOfRazorsItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u043a\u043b\u0438\u043d\u043a\u043e\u0432",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +6 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0443\u0440\u043e\u043d\u0430 6\/\u0440\u0435\u0436\u0443\u0449\u0435\u0435.",
+        "cost": 83000,
+        "id": "1138835111e5aeb4081ea9fa6eb5286e",
+        "enchant": [
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "SashOfRazorsEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "965f88f7b4a9ff34d91f3e6948dafe49",
+                "effect": [
+                    "Add feature SashOfRazorsFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SeedOfInsanityBeltItem",
+        "display_name": "\u0417\u043c\u0435\u0439-\u041f\u043e\u0431\u0435\u0434\u0438\u0442\u0435\u043b\u044c",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +8 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0434\u0440\u0430\u043a\u043e\u043d\u0438\u0439 \u0440\u043e\u0434 III (\u0447\u0435\u0440\u043d\u044b\u0439) \u043a\u0430\u043a \u043c\u0430\u0433 12 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 225800,
+        "id": "1fa5125a155d06543aebddfcfeee5cd2",
+        "enchant": [
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SpecialistBeltItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u0441\u0432\u0438\u0442\u043e\u043a \u0438\u043b\u0438 \u0437\u0435\u043b\u044c\u0435, \u043e\u043d \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 +1 \u043a \u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f.",
+        "cost": 26000,
+        "id": "01a4b366b2774594fbc2e545df027bde",
+        "enchant": [
+            {
+                "name": "SpecialistBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ce4706ca9cf1b204bb9a43547f328d62",
+                "effect": [
+                    "Add feature SpecialistBeltFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "NenioTestLevel14, Player",
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "StormKingsBeltItem",
+        "display_name": "\u041f\u043e\u044f\u0441 \u0413\u0440\u043e\u0437\u043e\u0432\u043e\u0433\u043e \u043a\u043e\u0440\u043e\u043b\u044f",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u0438\u044f +8 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0437\u0430 \u0440\u0430\u0443\u043d\u0434 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0434\u0430\u0440 \u043f\u043e \u0432\u0440\u0430\u0433\u0443, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 36), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u043f\u043e\u043f\u0430\u0434\u0435\u0442 \u043f\u043e\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043e\u0434\u043d\u043e\u0433\u043e \u0438\u0437 \u044d\u0442\u0438\u0445 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439:\n1) \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0448\u0442\u0440\u0430\u0444 1d6 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f\u043c \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a \u0421\u0438\u043b\u044b \u0438 \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430\n2) \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0448\u0442\u0440\u0430\u0444 -3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043d\u0430 1d6 \u0440\u0430\u0443\u043d\u0434\u043e\u0432",
+        "cost": 300000,
+        "id": "896925074ea6446abc108e0cd47e79de",
+        "enchant": [
+            {
+                "name": "Strength8",
+                "display_name": "",
+                "description": "",
+                "id": "462db3b410635b54abc287d2280f336a",
+                "effect": [
+                    "Add stat bonus 8 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Dexterity8",
+                "display_name": "",
+                "description": "",
+                "id": "5614fc22a6e629c43a72a2559ab8213f",
+                "effect": [
+                    "Add stat bonus 8 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution8",
+                "display_name": "",
+                "description": "",
+                "id": "e2a5712732f52064494ed0b818440929",
+                "effect": [
+                    "Add stat bonus 8 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "StormKingsBeltEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "31245a0b22ce450da3b8e22a3ab221fa",
+                "effect": [
+                    "Add feature StormKingsBeltFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TimelyAssistanceItem",
+        "display_name": "\u0421\u0432\u043e\u0435\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u043c\u043e\u0449\u044c",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0441\u043e\u044e\u0437\u043d\u0438\u043a \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 20 \u0444\u0443\u0442\u043e\u0432 \u043e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 +4 \u0434\u0435\u043b\u0430\u0435\u0442 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c, \u043a\u0430\u043a \u0435\u0441\u043b\u0438 \u0431\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043b\u0430\u0441\u044c \u0447\u0435\u0440\u0442\u0430 \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435. \u041e\u043d \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041c\u0443\u0434\u0440\u043e\u0441\u0442\u0438.\n\u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435: \u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0434\u043b\u0438\u0442\u0441\u044f \u0432 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0434\u043e\u043b\u044c\u0448\u0435 \u043e\u0431\u044b\u0447\u043d\u043e\u0433\u043e. \u042d\u0442\u0430 \u0447\u0435\u0440\u0442\u0430 \u043d\u0435 \u0432\u043b\u0438\u044f\u0435\u0442 \u043d\u0430 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0441 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c\u044e \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0446\u0438\u0438, \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u044b\u0435 \u0438\u043b\u0438 \u043f\u0435\u0440\u043c\u0430\u043d\u0435\u043d\u0442\u043d\u044b\u0435.",
+        "cost": 150000,
+        "id": "b76383fb806d61b41bfe93f0651e3964",
+        "enchant": [
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Wisdom4",
+                "display_name": "",
+                "description": "",
+                "id": "c3c2a133c0aa12240ade34762c146664",
+                "effect": [
+                    "Add stat bonus 4 to Wisdom (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "TimelyAssistanceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "888c42733c4d4cd883f983feb3307249",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "UnceasingSlaughterItem",
+        "display_name": "\u041d\u0435\u043f\u0440\u0435\u0441\u0442\u0430\u043d\u043d\u0430\u044f \u0440\u0435\u0437\u043d\u044f",
+        "description": "\u042d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u043e\u0442 \u043f\u043e\u044f\u0441 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f\u043c \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 84000,
+        "id": "cd015f36cdccb134e86a0b4daa0283e8",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "UnceasingSlaughterEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b6c3a589fb4dd2e4699c91e9a57e5c3a",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    }
+]

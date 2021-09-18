@@ -5,7 +5,7 @@
 <head>
   <meta name="description" content="Webpage description goes here" />
   <meta charset="utf-8">
-  <title>Neck</title>
+  <title>Щит</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="">
   <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
@@ -29,21 +29,23 @@
 <div id="container"></div>
 
 <script>
-    $.get('neck.json', function(data) {
+    $.get('shield_ru.json', function(data) {
         console.log(data);
         new gridjs.Grid({
             columns: [
                 {
                     name: 'name',
-                    hidden : true,
+                    hidden : false,
                 },{
                     name: 'display_name',
+                    width: '200px'
                 },{
                     name: 'cost'
                 },{
                     name: 'description',
                 },{
                     name: 'enchant',
+                    hidden: true,
                     width: '400px',
                     formatter: (cell) => {
                         var msg = "\n";
@@ -64,7 +66,7 @@
                     }
                 },{
                     name: 'id',
-                    hidden : false
+                    hidden : true
                 },{
                     name: 'unit',
                     width: '250px',

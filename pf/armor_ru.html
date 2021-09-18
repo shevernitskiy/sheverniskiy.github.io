@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta name="description" content="Webpage description goes here" />
   <meta charset="utf-8">
-  <title>Neck</title>
+  <title>Броня</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="">
   <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
@@ -23,13 +22,14 @@
     }
   </style>
 </head>
+</head>
 
 <body>
-  
+
 <div id="container"></div>
 
 <script>
-    $.get('neck.json', function(data) {
+    $.get('armor_ru.json', function(data) {
         console.log(data);
         new gridjs.Grid({
             columns: [
@@ -39,9 +39,23 @@
                 },{
                     name: 'display_name',
                 },{
+                    name: 'type',
+                },{
                     name: 'cost'
                 },{
+                    name: 'size',
+                },{
+                    name: 'enhance',
+                    width: '80px'
+                },{
+                    name: 'ac',
+                    width: '50px'
+                },{
+                    name: 'maxdex',
+                    width: '50px'
+                },{
                     name: 'description',
+                    width: '400px',
                 },{
                     name: 'enchant',
                     width: '400px',
@@ -64,7 +78,7 @@
                     }
                 },{
                     name: 'id',
-                    hidden : false
+                    hidden : true
                 },{
                     name: 'unit',
                     width: '250px',

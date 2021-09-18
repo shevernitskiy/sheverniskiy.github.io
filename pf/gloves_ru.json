@@ -1,0 +1,1464 @@
+[
+    {
+        "name": "ALR_GlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0441 \u0432\u044b\u0448\u0438\u0432\u043a\u043e\u0439",
+        "description": "\u042d\u0442\u0438 \u043d\u0430\u0440\u0443\u0447\u0438 \u0434\u0430\u044e\u0442 \u0431\u043e\u043d\u0443\u0441 \u0443\u0434\u0430\u0447\u0438 +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0434\u0430\u0447\u0438 +3 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0440\u0435\u0430\u043a\u0446\u0438\u0438, \u0432\u043e\u043b\u0438 \u0438 \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438.",
+        "cost": 115000,
+        "id": "cb9ba081b011453597a4f4dd25bad2e6",
+        "enchant": [
+            {
+                "name": "ALR_GlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2b6a3d0a74d740faa06a2e0ad266b4a9",
+                "effect": [
+                    "Add stat bonus 3 to AC (descriptor: Luck)",
+                    "Add stat bonus 3 to SaveReflex (descriptor: Luck)",
+                    "Add stat bonus 3 to SaveWill (descriptor: Luck)",
+                    "Add stat bonus 3 to SaveFortitude (descriptor: Luck)"
+                ]
+            }
+        ],
+        "area": [
+            "AreeluLabReturn, ALR_TE_Gloves"
+        ]
+    },
+    {
+        "name": "AmberGloves_IntermediateItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0412\u043b\u0435\u043a\u0443\u0449\u0435\u0433\u043e \u043f\u043e\u0440\u044b\u0432\u0430",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 45750,
+        "id": "848293f7f18c1f346ae65e5e1920b101"
+    },
+    {
+        "name": "AmberLoveGlovesItem",
+        "display_name": "\u0421\u043b\u0430\u0434\u043a\u0438\u0439 \u044f\u0434 \u0441\u0442\u0440\u0430\u0441\u0442\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440 \u0438\u0437 \u043b\u044e\u0431\u043e\u0433\u043e \u043b\u0443\u043a\u0430, \u0432\u0440\u0430\u0433 \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u0442 \u0441\u0445\u043e\u0434\u0438\u0442\u044c \u0441 \u0443\u043c\u0430, \u043f\u043e\u043b\u0443\u0447\u0430\u044f -1 \u043a \u0418\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0443, \u041c\u0443\u0434\u0440\u043e\u0441\u0442\u0438 \u0438\u043b\u0438 \u0425\u0430\u0440\u0438\u0437\u043c\u0435.",
+        "cost": 61000,
+        "id": "4ed720cb649b9874b8a0f509c8741dc1",
+        "enchant": [
+            {
+                "name": "AmberLoveGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "09e9b14717e3e0c4cac13a8dbe091e5d",
+                "effect": [
+                    "Add feature AmberLoveGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "AmberLustGlovesItem",
+        "display_name": "\u041f\u043e\u0436\u0438\u0440\u0430\u044e\u0449\u0430\u044f \u043f\u043e\u0445\u043e\u0442\u044c",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443 \u043a\u0430\u0441\u0430\u043d\u0438\u0435\u043c, \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0432\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 20), \u0438\u043d\u0430\u0447\u0435 \u0435\u0433\u043e \u0441\u0435\u0440\u0434\u0446\u0435 \u0438 \u0440\u0430\u0437\u0443\u043c \u043e\u043a\u0430\u0436\u0443\u0442\u0441\u044f \u043f\u043e\u0433\u043b\u043e\u0449\u0435\u043d\u044b \u0442\u0435\u0440\u0437\u0430\u044e\u0449\u0435\u0439 \u043f\u043e\u0445\u043e\u0442\u044c\u044e, \u0430 \u043b\u044e\u0431\u043e\u0439 \u043d\u0430\u043d\u0435\u0441\u0435\u043d\u043d\u044b\u0439 \u0435\u043c\u0443 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440 \u0431\u0443\u0434\u0443\u0442 \u0435\u0449\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u0441\u0432\u043e\u0434\u0438\u0442\u044c \u0435\u0433\u043e \u0441 \u0443\u043c\u0430, \u043f\u0430\u0440\u0430\u043b\u0438\u0437\u0443\u044f \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434.",
+        "cost": 61000,
+        "id": "d3622c4bb0fb743409c673243921452f",
+        "enchant": [
+            {
+                "name": "AmberLustGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9ab0f698388a92d459c9604e849a0adb",
+                "effect": [
+                    "Add feature AmberLustGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_SpikedGauntletItem",
+        "display_name": "\u0418\u0437\u043b\u043e\u043c\u0430\u043d\u043d\u044b\u0435 \u043b\u0430\u0442\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b",
+        "description": "\u042d\u0442\u0438 \u0448\u0438\u043f\u0430\u0441\u0442\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b \u0434\u0430\u044e\u0442 \u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u0437\u0432\u0435\u0440\u044e \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e (\u0430 \u0442\u0430\u043a\u0436\u0435 \u0434\u0440\u0430\u043a\u043e\u043d\u0447\u0438\u043a\u0443 \u0430\u0437\u0430\u0442\u044b \u0438 \u0447\u0435\u043c\u043f\u0438\u043e\u043d\u0443 \u0441\u043c\u0435\u0440\u0442\u0438 \u043b\u0438\u0447\u0430) \u0431\u043e\u043d\u0443\u0441 +6 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e \u0421\u0438\u043b\u044b. \u0412 \u043d\u0430\u0447\u0430\u043b\u0435 \u0431\u043e\u044f \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u0434\u043e\u043b\u0436\u043d\u043e \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0412\u043e\u043b\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 17) \u0438\u043b\u0438 \u043d\u0430\u0447\u0430\u0442\u044c \u0430\u0442\u0430\u043a\u043e\u0432\u0430\u0442\u044c \u0447\u043b\u0435\u043d\u043e\u0432 \u043e\u0442\u0440\u044f\u0434\u0430. \u0415\u0441\u043b\u0438 \u043f\u0435\u0440\u0432\u043e\u043d\u0430\u0447\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u043f\u0440\u043e\u0432\u0430\u043b\u0435\u043d, \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u043c\u043e\u0436\u0435\u0442 \u0434\u0435\u043b\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0435 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0438 \u043a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0443\u043d\u0434, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u0435\u043a\u0440\u0430\u0442\u0438\u0442\u044c \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u044d\u0444\u0444\u0435\u043a\u0442\u0430.",
+        "cost": 8700,
+        "id": "3230a07e17594084f88e770480277de2",
+        "enchant": [
+            {
+                "name": "Artifact_SpikedGauntletEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e3e9bf758c2f42b4fbacf3f711b58fa1",
+                "effect": [
+                    "AddUnitFactEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Artifact_StarGauntletItem",
+        "display_name": "\u0420\u0443\u043a\u0430\u0432\u0438\u0446\u0430 \u0437\u0432\u0435\u0437\u0434\u043d\u043e\u0433\u043e \u0441\u043e\u043b\u0434\u0430\u0442\u0430",
+        "description": "",
+        "cost": 110000,
+        "id": "ad58b472fa90da84bafe3d4e5ad2c368",
+        "enchant": [
+            {
+                "name": "Strength8",
+                "display_name": "",
+                "description": "",
+                "id": "462db3b410635b54abc287d2280f336a",
+                "effect": [
+                    "Add stat bonus 8 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFireGloves_AnimalisticFireItem",
+        "display_name": "\u0417\u043e\u0432 \u043e\u0433\u043d\u0435\u043d\u043d\u044b\u0445 \u0442\u0432\u0430\u0440\u0435\u0439",
+        "description": "",
+        "cost": 85000,
+        "id": "8706dcd7a22541b1838acdb50a636c70",
+        "enchant": [
+            {
+                "name": "BaphometFireGloves_AnimalisticFireEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "57f549b6bad94793b22506915492f424",
+                "effect": [
+                    "Add feature BaphometFireGloves_AnimalisticFireFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFireGloves_BurningCunningItem",
+        "display_name": "\u041a\u043e\u0432\u0430\u0440\u043d\u043e\u0435 \u043f\u043b\u0430\u043c\u044f",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u043f\u043e \u0432\u0440\u0430\u0433\u0443 \u0430\u0442\u0430\u043a\u0443 \u0438\u0441\u043f\u043e\u0434\u0442\u0438\u0448\u043a\u0430, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u0443\u044f\u0437\u0432\u0438\u043c \u0430 \u043e\u0433\u043d\u044e \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434 \u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 2d6 \u0443\u0440\u043e\u043d\u0430 \u043e\u0433\u043d\u0435\u043c. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u0440\u0430\u0433, \u043f\u043e \u043a\u043e\u0442\u043e\u0440\u043e\u043c\u0443 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0443\u043f\u0430\u043b \u0445\u043e\u0442\u044f \u0431\u044b \u0440\u0430\u0437, \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0443\u0440\u043e\u043d \u043e\u0433\u043d\u0435\u043c \u0438\u0437 \u043a\u0430\u043a\u043e\u0433\u043e-\u043b\u0438\u0431\u043e \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0430, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -3 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 2 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 85000,
+        "id": "6c4605b63da845b8975fe6ee18eb36f6",
+        "enchant": [
+            {
+                "name": "BaphometFireGloves_BurningCunningEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "edd9399fa02f4f09b47e2eb474abe5a5",
+                "effect": [
+                    "Add feature BaphometFireGloves_BurningCunningFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BaphometFire_IntermediateItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043b\u0430\u043c\u0435\u043d\u0438 \u0411\u0430\u0444\u043e\u043c\u0435\u0442\u0430",
+        "description": "\u042d\u0442\u043e \u043f\u0440\u043e\u043c\u0435\u0436\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0448\u0430\u0433 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0440\u0435\u043b\u0438\u043a\u0432\u0438\u0438.",
+        "cost": 63750,
+        "id": "2f630319b2c34938b75d1abb2802448b"
+    },
+    {
+        "name": "BigGameGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0434\u043e\u0431\u044b\u0447\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043e\u0431\u044a\u044f\u0432\u043b\u044f\u0435\u0442 \u043e\u0445\u043e\u0442\u0443, \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0439 \u0434\u043e\u0431\u044b\u0447\u0435\u0439 \u0432\u0440\u0430\u0433 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u0434\u0435\u0437\u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 5500,
+        "id": "9bed061d10d9cf643973dd9bca94ce02",
+        "enchant": [
+            {
+                "name": "BigGameGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8239dd8bd2fcc0a4497955a8388b1cab",
+                "effect": [
+                    "Add feature BigGameGlovesFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Maugla, Mobs"
+        ]
+    },
+    {
+        "name": "BlessedHandsGlovesItem",
+        "display_name": "\u0411\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u043d\u044b\u0435 \u0440\u0443\u043a\u0438",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0442\u0432\u043e\u0440\u0438\u0442 \u043b\u044e\u0431\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0438\u0441\u0446\u0435\u043b\u0435\u043d\u0438\u044f, \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u044e\u0442 +4 \u043a \u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f.",
+        "cost": 105000,
+        "id": "ab75ae2763172474eac628651b301ada",
+        "enchant": [
+            {
+                "name": "BlessedHandsGlovesEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "46bc0f2392ef2a040af9d27f325626d3",
+                "effect": [
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment",
+                    "AddCasterLevelEquipment"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BloodDrenchedGlovesItem",
+        "display_name": "",
+        "description": "",
+        "cost": 30000,
+        "id": "c81d3b4995393f9449448143a4940256",
+        "enchant": [
+            {
+                "name": "BloodDrenchedGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fa4c141977353724cb2d4b9559a79eb8"
+            }
+        ]
+    },
+    {
+        "name": "BombThrowingGlovesItem",
+        "display_name": "\u0420\u0443\u043a\u0430\u0432\u0438\u0446\u044b \u0431\u043e\u043c\u0431\u043e\u043c\u0435\u0442\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u044d\u043a\u0438\u043f\u0438\u0440\u043e\u0432\u043a\u0438 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0431\u043e\u043c\u0431\u0430\u043c\u0438 \u0438 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u043d\u0438\u0445.",
+        "cost": 23900,
+        "id": "7cd1af0658cea0348b9ee109b8a36f24",
+        "enchant": [
+            {
+                "name": "BombThrowingGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b84a5c13830cfaa44b80c1bad604bdb1",
+                "effect": [
+                    "Add feature BombThrowingGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "BracersSpikedHodagItem",
+        "display_name": "\u041a\u0443\u043b\u0430\u043a\u0438-\u043c\u043e\u043b\u043e\u0442\u044b",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e \u0421\u0438\u043b\u044b \u0438 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +2 \u043a \u0437\u0430\u0449\u0438\u0442\u0435.",
+        "cost": 18000,
+        "id": "0237641b0c2de344d85821840419b4d2",
+        "enchant": [
+            {
+                "name": "BracersSpikedHodagEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "60e67f9d22f0ca848bfda284937e55d2",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)",
+                    "Add stat bonus 2 to AC (descriptor: Morale)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ButterflyWingsGlovesItem",
+        "display_name": "\u041a\u0440\u044b\u043b\u044c\u044f \u0431\u0430\u0431\u043e\u0447\u043a\u0438",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +5 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0440\u0430\u0434\u0443\u0436\u043d\u044b\u0435 \u0431\u0440\u044b\u0437\u0433\u0438 \u043a\u0430\u043a \u043c\u0430\u0433 13 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 75600,
+        "id": "971a577a8cd4e6744a5d0fab84931037",
+        "enchant": [
+            {
+                "name": "Resistance5",
+                "display_name": "",
+                "description": "",
+                "id": "86748e27c9e3b414a97330ea74858994",
+                "effect": [
+                    "AllSavesBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "CheatSheetGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438-\u0448\u043f\u0430\u0440\u0433\u0430\u043b\u043a\u0438",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0434\u0430\u0447\u0438 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0417\u043d\u0430\u043d\u0438\u0435 (\u041f\u0440\u0438\u0440\u043e\u0434\u0430), \u0417\u043d\u0430\u043d\u0438\u0435 (\u0420\u0435\u043b\u0438\u0433\u0438\u044f), \u0417\u043d\u0430\u043d\u0438\u0435 (\u041c\u0438\u0440) \u0438 \u0417\u043d\u0430\u043d\u0438\u0435 (\u041c\u0430\u0433\u0438\u044f).",
+        "cost": 62000,
+        "id": "593e8705f91e20a4ea62e0a068cb0ad4",
+        "enchant": [
+            {
+                "name": "CheatSheetGlovesEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "76fdd85e187b2154c93907ff310348e0",
+                "effect": [
+                    "Add stat bonus 5 to SkillKnowledgeArcana (descriptor: Luck)",
+                    "Add stat bonus 5 to SkillKnowledgeWorld (descriptor: Luck)",
+                    "Add stat bonus 5 to SkillLoreNature (descriptor: Luck)",
+                    "Add stat bonus 5 to SkillLoreReligion (descriptor: Luck)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "ClawsOfAMonsterItem",
+        "display_name": "\u041a\u043e\u0433\u0442\u0438 \u0441\u0432\u044f\u0449\u0435\u043d\u043d\u043e\u0433\u043e \u0437\u0432\u0435\u0440\u044f",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0438\u043c\u0435\u044e\u0442 \u043a\u043e\u0433\u0442\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0430\u043d\u043e\u0441\u044f\u0442 1d8 \u0440\u0435\u0436\u0443\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u043f\u0440\u0438 \u0430\u0442\u0430\u043a\u0435 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f. \u0415\u0441\u043b\u0438 \u0446\u0435\u043b\u044c \u0438\u043c\u0435\u0435\u0442 \u0437\u043b\u043e\u0435 \u043c\u0438\u0440\u043e\u0432\u043e\u0437\u0437\u0440\u0435\u043d\u0438\u0435, \u044d\u0442\u043e\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0440\u043e\u043d \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0434\u043e 2d6. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043e\u043d\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +1 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d.",
+        "cost": 29000,
+        "id": "8316d6f5f87022c49afb36644d7566af",
+        "enchant": [
+            {
+                "name": "ClawsOfAMonsterEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1f04efa388c6b9d4da12ea027ecb4ac5",
+                "effect": [
+                    "Add stat bonus 1 to AdditionalDamage (descriptor: Enhancement)",
+                    "Add stat bonus 1 to AdditionalAttackBonus (descriptor: Enhancement)",
+                    "Add feature ClawsOfAMonsterFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel14, Player"
+        ]
+    },
+    {
+        "name": "CobraPadsItem",
+        "display_name": "\u041d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u043a\u043e\u0431\u0440\u044b",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0434\u0430\u0440 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u043f\u043e \u043d\u043e\u0432\u043e\u043c\u0443 \u0432\u0440\u0430\u0433\u0443, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 31), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u0441\u0442\u0430\u043d\u0435\u0442 \u0443\u044f\u0437\u0432\u0438\u043c \u043a \u0440\u0435\u0436\u0443\u0449\u0435\u043c\u0443 \u0443\u0440\u043e\u043d\u0443 \u0438 \u0443\u0440\u043e\u043d\u0443 \u043a\u0438\u0441\u043b\u043e\u0442\u043e\u0439 \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 72500,
+        "id": "6497e0f07a3b49d8b50a33f27f86d8d2",
+        "enchant": [
+            {
+                "name": "CobraPadsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "88f95c33d8ec444dacd059016bc9e520",
+                "effect": [
+                    "Add feature CobraPadsFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CrazyScientistsGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0431\u0435\u0437\u0443\u043c\u043d\u043e\u0433\u043e \u0443\u0447\u0435\u043d\u043e\u0433\u043e",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c 15 \u043a \u043e\u0433\u043d\u044e \u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0435.",
+        "cost": 35800,
+        "id": "ecf27920f812bcf49a533019c0255207",
+        "enchant": [
+            {
+                "name": "AcidResistance15Enchant",
+                "display_name": "Acid Resistance 15",
+                "description": "",
+                "id": "09e0be00530efec4693a913d6a7efe23",
+                "effect": [
+                    "Add feature AcidResistance15Feature"
+                ]
+            },
+            {
+                "name": "FireResistance15Enchant",
+                "display_name": "Fire Resistance 15",
+                "description": "",
+                "id": "85c2f44721922e4409130791f913d4b4",
+                "effect": [
+                    "Add feature FireResistance15Feature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DashingCavaliersGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043b\u0438\u0445\u043e\u0433\u043e \u043a\u0430\u0432\u0430\u043b\u0435\u0440\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +1 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435. \u041e\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u044e\u0442 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432\u0435\u0440\u0445\u043e\u043c.",
+        "cost": 1500,
+        "id": "176da707c9c9d764e972a9da8b444ff3",
+        "enchant": [
+            {
+                "name": "DashingCavaliersGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "767793db17645ca41aad152cefd8c8bb",
+                "effect": [
+                    "Add feature DashingCavaliersGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "DeliquescentGlovesItem",
+        "display_name": "\u0429\u0435\u043b\u043e\u0447\u043d\u044b\u0435 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u0432\u043b\u0430\u0434\u0435\u043b\u0435\u0446 \u044d\u0442\u0438\u0445 \u043f\u0435\u0440\u0447\u0430\u0442\u043e\u043a \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0443\u0434\u0430\u0440 \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0431\u043b\u0438\u0436\u043d\u0435\u0433\u043e \u0431\u043e\u044f, \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438\u043b\u0438 \u0430\u0442\u0430\u043a\u043e\u0439 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f, \u0446\u0435\u043b\u044c \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 1d6 \u0443\u0440\u043e\u043d\u0430 \u043a\u0438\u0441\u043b\u043e\u0442\u043e\u0439.",
+        "cost": 28600,
+        "id": "ac79bcf464e676f49b630895f8b2fd42",
+        "enchant": [
+            {
+                "name": "DeliquescentGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "189e42b86e7fb284faa8501bac2a894c",
+                "effect": [
+                    "Add feature DeliquescentGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "EvisceratorsGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043e\u0442\u0440\u043e\u0448\u0438\u0442\u0435\u043b\u044f",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u043f\u043e\u043b\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443 \u0438 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442 \u043f\u043e \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c\u0443 \u0432\u0440\u0430\u0433\u0443 \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438 \u0432 \u0432\u0435\u0434\u0443\u0449\u0435\u0439, \u0438 \u043d\u0435\u0432\u0435\u0434\u0443\u0449\u0435\u0439 \u0440\u0443\u043a\u0435, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0441\u0442\u0440\u0430\u0434\u0430\u0435\u0442 \u043e\u0442 \u043a\u0440\u043e\u0432\u043e\u0442\u0435\u0447\u0435\u043d\u0438\u044f \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0435 3 \u0440\u0430\u0443\u043d\u0434\u043e\u0432.",
+        "cost": 56000,
+        "id": "bb60024e93999d445bdd689870205ef2",
+        "enchant": [
+            {
+                "name": "EvisceratorsGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "a051508c642d7fa449ebdd7c85b91e44"
+            }
+        ]
+    },
+    {
+        "name": "FencersGiftItem",
+        "display_name": "\u0414\u0430\u0440 \u0444\u0435\u0445\u0442\u043e\u0432\u0430\u043b\u044c\u0449\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +3 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u0443\u0440\u043e\u043d \u0434\u043b\u044f \u043e\u0440\u0443\u0436\u0438\u044f \u0432 \u043d\u0435\u0432\u0435\u0434\u0443\u0449\u0435\u0439 \u0440\u0443\u043a\u0435 \u043f\u0440\u0438 \u0431\u043e\u0435 \u043f\u0430\u0440\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438\u043b\u0438 \u0434\u043b\u044f \u0434\u0432\u0443\u0440\u0443\u0447\u043d\u043e\u0433\u043e \u043e\u0440\u0443\u0436\u0438\u044f. \u0415\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u043a\u043b\u0430\u0441\u0441\u043e\u0432\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u041c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u044f \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0435\u0435 \u043e\u0440\u0443\u0436\u0438\u0435, \u0435\u0433\u043e \u0431\u043e\u043d\u0443\u0441 \u043e\u0442 \u044d\u0442\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 +2.",
+        "cost": 30000,
+        "id": "7b31959c8bb4d7e48a693c62a714e3be",
+        "enchant": [
+            {
+                "name": "FencersGiftEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e67e212b00851824d9769c6fc09f7b75",
+                "effect": [
+                    "Add feature FencersGiftFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GauntletOfPunching",
+        "display_name": "\u041c\u043e\u0449\u043d\u044b\u0435 \u043a\u0443\u043b\u0430\u043a\u0438, \u0420\u0443\u043a\u0430\u0432\u0438\u0446\u044b \u0438\u0437\u0431\u0438\u0435\u043d\u0438\u044f",
+        "description": "\u042d\u0442\u0430 \u043b\u0430\u0442\u043d\u0430\u044f \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u0430 \u0434\u0430\u0435\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +1 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 3000,
+        "id": "a6e3b8f1f3f3e7540b5b7c9e5737f200",
+        "enhance": "1"
+    },
+    {
+        "name": "GauntletsOfMightySwipeItem",
+        "display_name": "\u041d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u043c\u043e\u0433\u0443\u0447\u0435\u0433\u043e \u0432\u0437\u043c\u0430\u0445\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0443\u0434\u0430\u0440 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u043c\u0443 \u0431\u0440\u043e\u0441\u043a\u0443 \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435, \u0438 \u044d\u0442\u0430 \u0430\u0442\u0430\u043a\u0430 \u043f\u0440\u0438 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0438 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0440\u043e\u043d \u0432\u0441\u0435\u043c \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u043c\u0441\u044f \u0440\u044f\u0434\u043e\u043c \u0432\u0440\u0430\u0433\u0430\u043c.",
+        "cost": 6100,
+        "id": "2ef8b0290fafaf647941af8c25a2d7be",
+        "enchant": [
+            {
+                "name": "GauntletsOfMightySwipeEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e1f633fea70b55749af12a9a9dd30ad7",
+                "effect": [
+                    "Add feature GauntletsOfMightySwipeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesNumerianItem",
+        "display_name": "\u041f\u0430\u0440\u044f\u0449\u0438\u0439 \u043a\u0443\u043b\u0430\u043a",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438 \u0438 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +4 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043e\u0434\u0432\u0438\u0436\u043d\u043e\u0441\u0442\u044c.",
+        "cost": 5600,
+        "id": "e11d5d581d05d3348b1d50e55d355411",
+        "enchant": [
+            {
+                "name": "GlovesNumerianEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e5bb2c88d6f1f3d45a3975e32017af99",
+                "effect": [
+                    "Add stat bonus 2 to Constitution (descriptor: Enhancement)",
+                    "Add stat bonus 4 to SkillMobility (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfArcaneEradicationItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0438\u0441\u043a\u043e\u0440\u0435\u043d\u0435\u043d\u0438\u044f",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u043c\u0438 \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u043a\u0430\u0441\u0430\u043d\u0438\u0435\u043c \u0438 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432.",
+        "cost": 27900,
+        "id": "c3a98adb6146cf9469de9bc6d6210141",
+        "enchant": [
+            {
+                "name": "GlovesOfArcaneEradicationEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0548944a7cbd61348a283ebb161fc1ab",
+                "effect": [
+                    "Add stat bonus 5 to SkillUseMagicDevice (descriptor: Competence)",
+                    "Add feature GlovesOfArcaneEradicationFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "EmberTestLevel15, Player",
+            "NenioTestLevel14, Player",
+            "NenioTestLevel15, Player",
+            "NenioTestLevel16, Player",
+            "NenioTestLevel17, Player",
+            "NenioTestLevel18, Player"
+        ],
+        "area": [
+            "MoltenScar, PF2_Crusaders_Loot"
+        ]
+    },
+    {
+        "name": "GlovesOfCollidingElementsItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0441\u0442\u043e\u043b\u043a\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u0441\u0442\u0438\u0445\u0438\u0439",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u041d\u0430\u043a\u043e\u043f\u043b\u0435\u043d\u0438\u0435 \u0441\u0438\u043b\u044b, \u043e\u043d \u043c\u043e\u0436\u0435\u0442 \u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u044c \u043e\u0431\u0449\u0435\u0435 \u0432\u044b\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u043e\u0434\u043d\u043e\u0433\u043e \u0434\u0438\u043a\u043e\u0433\u043e \u0442\u0430\u043b\u0430\u043d\u0442\u0430 \u043d\u0430 \u043e\u0434\u043d\u043e \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043e\u0447\u043a\u043e.",
+        "cost": 55400,
+        "id": "8b679295cecb3584aad56d2c76701d8b",
+        "enchant": [
+            {
+                "name": "GlovesOfCollidingElementsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "fa694352f831aed47a657898ea5a5dd5",
+                "effect": [
+                    "Add feature GlovesOfCollidingElementsFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraHigherCity, PF2_CoolDemons_CreatureLoot8_Cool"
+        ]
+    },
+    {
+        "name": "GlovesOfDeathDealer",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0442\u043e\u0440\u0433\u043e\u0432\u0446\u0430 \u0441\u043c\u0435\u0440\u0442\u044c\u044e",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0430\u0442\u0430\u043a\u0443 \u0438\u0441\u043f\u043e\u0434\u0442\u0438\u0448\u043a\u0430, \u043e\u043d\u0430 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 1d6 \u0443\u0440\u043e\u043d\u0430.",
+        "cost": 5000,
+        "id": "6a1caceac4a16494d94a6204f74e0583",
+        "enchant": [
+            {
+                "name": "SneakAttack1",
+                "display_name": "",
+                "description": "",
+                "id": "00bd514cdf5195f49be17d1313156636",
+                "effect": [
+                    "IncreaseStatEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "GreyborNPCLevel10, Friends",
+            "GreyborTestLevel10, Player",
+            "GreyborTestLevel11, Player",
+            "GreyborTestLevel12, Player",
+            "GreyborTestLevel13, Player",
+            "GreyborTestLevel14, Player",
+            "GreyborTestLevel15, Player",
+            "GreyborTestLevel16, Player",
+            "GreyborTestLevel17, Player",
+            "GreyborTestLevel18, Player",
+            "GreyborTestLevel19, Player",
+            "GreyborTestLevel20, Player",
+            "IvoryHardmod_WildhuntAsassin24, Mobs"
+        ]
+    },
+    {
+        "name": "GlovesOfDexterityItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 +2",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438. \u0411\u043e\u043d\u0443\u0441\u044b \u043e\u0434\u043d\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u043e\u0431\u044b\u0447\u043d\u043e \u043d\u0435 \u0441\u043a\u043b\u0430\u0434\u044b\u0432\u0430\u044e\u0442\u0441\u044f.",
+        "cost": 25000,
+        "id": "6555965e6540c3b48b9a352214ecba41",
+        "enchant": [
+            {
+                "name": "Dexterity2",
+                "display_name": "",
+                "description": "",
+                "id": "2042beb64a5e12443be55b413d7ff733",
+                "effect": [
+                    "Add stat bonus 2 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfDuelingLesserItem",
+        "display_name": "\u041c\u0430\u043b\u044b\u0435 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0443\u044d\u043b\u044f\u043d\u0442\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +1 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043e\u0442 \u0431\u043e\u0435\u0432\u044b\u0445 \u043c\u0430\u043d\u0435\u0432\u0440\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u043f\u043e\u043f\u044b\u0442\u043e\u043a \u043e\u0431\u0435\u0437\u043e\u0440\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f. \u0415\u0441\u043b\u0438 \u043e\u0431\u043b\u0430\u0434\u0430\u0442\u0435\u043b\u044c \u043f\u0435\u0440\u0447\u0430\u0442\u043e\u043a \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u043a\u043b\u0430\u0441\u0441\u043e\u0432\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u041c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u044f \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0435\u0435 \u043e\u0440\u0443\u0436\u0438\u0435, \u0435\u0433\u043e \u0431\u043e\u043d\u0443\u0441 \u043e\u0442 \u044d\u0442\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 +1.",
+        "cost": 4000,
+        "id": "c33129949c59ee044900e741691a64d3",
+        "enchant": [
+            {
+                "name": "GlovesOfDuelingEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "ed7389448f8ffff43a9fbfcfb9fd3076",
+                "effect": [
+                    "Add feature GlovesOfDuelingFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "MC_Human_M_Cavalier_DemonUnit, Player",
+            "MC_Human_M_Cavalier_Drezen, Player",
+            "MC_Human_M_Cavalier_IvorySanctum, Player",
+            "MC_Human_M_Cavalier_LostChapel, Player",
+            "MC_Human_M_Cavalier_TricksterUnit, Player",
+            "MC_Human_M_Cavalier_Warcamp, Player",
+            "PlayerDemonMythicTestLevel14, Player",
+            "PlayerDemonMythicTestLevel15, Player",
+            "PlayerTestLevel14, Player",
+            "Pregen_Regill_MVP, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfDuelingNormalItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0443\u044d\u043b\u044f\u043d\u0442\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043e\u0442 \u0431\u043e\u0435\u0432\u044b\u0445 \u043c\u0430\u043d\u0435\u0432\u0440\u043e\u0432 \u043f\u0440\u043e\u0442\u0438\u0432 \u043f\u043e\u043f\u044b\u0442\u043e\u043a \u043e\u0431\u0435\u0437\u043e\u0440\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f. \u0415\u0441\u043b\u0438 \u043e\u0431\u043b\u0430\u0434\u0430\u0442\u0435\u043b\u044c \u043f\u0435\u0440\u0447\u0430\u0442\u043e\u043a \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u043a\u043b\u0430\u0441\u0441\u043e\u0432\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u041c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0432\u043b\u0430\u0434\u0435\u043d\u0438\u044f \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0435\u0435 \u043e\u0440\u0443\u0436\u0438\u0435, \u0435\u0433\u043e \u0431\u043e\u043d\u0443\u0441 \u043e\u0442 \u044d\u0442\u043e\u0439 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 +2.",
+        "cost": 25000,
+        "id": "c8f949c03b92f714b83edd610f3e9348",
+        "enchant": [
+            {
+                "name": "GlovesOfDuelingEnchant2",
+                "display_name": "",
+                "description": "",
+                "id": "6ec695f6ed210e84583587c655487430",
+                "effect": [
+                    "Add feature GlovesOfDuelingFeature2"
+                ]
+            }
+        ],
+        "unit": [
+            "AeonInThePast_DemonLordDeskar, Mobs",
+            "AeonInThePast_DemonLordDeskar_Cutscene, Mobs",
+            "DemonLordDeskari, Mobs",
+            "FilletedMan, Mobs",
+            "Kestoglyr, Mobs",
+            "Locust_RegillEnemy, CutsceneNeutrals",
+            "Locust_SeelahEnemy, CutsceneNeutrals",
+            "PlayerFighterPregenMale, Player",
+            "SeelahTestLevel14, Player",
+            "SeelahTestLevel15, Player",
+            "SeelahTestLevel16, Player",
+            "SeelahTestLevel17, Player",
+            "SeelahTestLevel18, Player",
+            "SosielTestLevel19, Player",
+            "SosielTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfElvenkindItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u044d\u043b\u044c\u0444\u0438\u0439\u0441\u043a\u043e\u0433\u043e \u043d\u0430\u0440\u043e\u0434\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0430\u0433\u0438\u044f) \u0438 \u0431\u043e\u043d\u0443\u0441 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0446\u0438\u0438.",
+        "cost": 39000,
+        "id": "a79659f01686ea848ad1e6c1686e659a",
+        "enchant": [
+            {
+                "name": "GlovesOfElvenkindEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4dabd9f20f4141946aac89233b98171a",
+                "effect": [
+                    "Add stat bonus 5 to SkillKnowledgeArcana (descriptor: Competence)",
+                    "Add feature GlovesOfElvenkindFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "CameliaPregenLevel13, Player",
+            "CameliaPregenLevel14, Player",
+            "CameliaPregenLevel16, Player",
+            "CameliaPregenLevel17, Player",
+            "CameliaPregenLevel18, Player",
+            "CameliaPregenLevel19, Player",
+            "CameliaPregenLevel20, Player",
+            "EmberTestLevel14, Player",
+            "EmberTestLevel16, Player",
+            "EmberTestLevel17, Player",
+            "EmberTestLevel18, Player",
+            "EmberTestLevel19, Player",
+            "EmberTestLevel20, Player",
+            "PlayerAeonWizardTestLevel14, Player",
+            "PlayerAeonWizardTestLevel15, Player",
+            "PlayerAeonWizardTestLevel16, Player",
+            "PlayerAeonWizardTestLevel17, Player",
+            "PlayerAeonWizardTestLevel18, Player",
+            "PlayerAeonWizardTestLevel19, Player",
+            "PlayerAeonWizardTestLevel20, Player",
+            "PlayerLichWizardTestLevel14, Player",
+            "PlayerLichWizardTestLevel15, Player",
+            "PlayerLichWizardTestLevel16, Player",
+            "PlayerLichWizardTestLevel17, Player",
+            "PlayerLichWizardTestLevel18, Player",
+            "PlayerLichWizardTestLevel19, Player",
+            "PlayerLichWizardTestLevel20, Player",
+            "StartGameSorcererPregenUnitLevel20, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfEnduringWizardItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0441\u0442\u043e\u0439\u043a\u043e\u0433\u043e \u043c\u0430\u0433\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0442\u0432\u043e\u0440\u0438\u0442 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 7 \u043a\u0440\u0443\u0433\u0430 (\u0438\u043b\u0438 \u0432\u044b\u0448\u0435), \u043e\u043d \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 20 \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u043e\u0447\u043a\u043e\u0432 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u043d\u0430 1 \u043c\u0438\u043d\u0443\u0442\u0443.",
+        "cost": 48000,
+        "id": "91b74cc845e90674e816f793dbe1cd8a",
+        "enchant": [
+            {
+                "name": "GlovesOfEnduringWizardEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "0145e2443bee42b8b47a45b3a5213fe1",
+                "effect": [
+                    "Add feature GlovesOfEnduringWizardFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_Chest3"
+        ]
+    },
+    {
+        "name": "GlovesOfFirmGripItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0430\u0442\u043b\u0435\u0442\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +3 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0410\u0442\u043b\u0435\u0442\u0438\u043a\u0430 \u0438 \u041f\u043e\u0434\u0432\u0438\u0436\u043d\u043e\u0441\u0442\u044c.",
+        "cost": 25000,
+        "id": "d5480772bdd29e545b627415186de20e",
+        "enchant": [
+            {
+                "name": "GlovesOfFirmGripEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "53b01d6a009f74646bd2da0c746ad6fb",
+                "effect": [
+                    "Add stat bonus 3 to SkillMobility (descriptor: Competence)",
+                    "Add stat bonus 3 to SkillAthletics (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerDemonMythicTestLevel16, Player",
+            "PlayerDemonMythicTestLevel17, Player",
+            "PlayerDemonMythicTestLevel18, Player",
+            "PlayerDemonMythicTestLevel19, Player",
+            "PlayerTestLevel16, Player",
+            "PlayerTestLevel17, Player",
+            "PlayerTestLevel17_Devil_DoNotUse, Player",
+            "PlayerTestLevel18, Player",
+            "PlayerTestLevel19, Player",
+            "RegillPregenLevel12, Player",
+            "RegillPregenLevel13, Player",
+            "RegillPregenLevel14, Player",
+            "RegillPregenLevel15, Player",
+            "RegillPregenLevel16, Player",
+            "RegillPregenLevel17, Player",
+            "RegillPregenLevel18, Player",
+            "RegillPregenLevel19, Player",
+            "RegillPregenLevel20, Player",
+            "SeelahTestLevel10, Player",
+            "SeelahTestLevel11, Player",
+            "SeelahTestLevel12, Player",
+            "SeelahTestLevel13, Player",
+            "SeelahTestLevel19, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfHeavyImpactItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0441\u0438\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+        "description": "\u042d\u0442\u0438 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0448\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432\u0440\u0430\u0433\u0430 \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434 \u043f\u0440\u0438 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0438 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0443\u0434\u0430\u0440\u0430 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c. \u041a\u0430\u0436\u0434\u044b\u0439 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0439 \u0432\u0440\u0430\u0433 \u043c\u043e\u0436\u0435\u0442 \u043f\u043e\u0434\u0432\u0435\u0440\u0433\u043d\u0443\u0442\u044c\u0441\u044f \u0432\u043b\u0438\u044f\u043d\u0438\u044e \u044d\u0442\u043e\u0433\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u0430 \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0434\u0438\u043d \u0440\u0430\u0437.",
+        "cost": 115000,
+        "id": "a5709a92392b475e81167bd08bf69c5e",
+        "enchant": [
+            {
+                "name": "GlovesOfHeavyImpactEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7fc91a40bac343bea9590afd15fd12a0",
+                "effect": [
+                    "Add feature GlovesOfHeavyImpactFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfLighterTouch",
+        "display_name": "\u041b\u0435\u0433\u0447\u0430\u0439\u0448\u0435\u0435 \u043a\u0430\u0441\u0430\u043d\u0438\u0435",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u0438 +3 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0440\u0435\u0430\u043a\u0446\u0438\u0438. \u041e\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u043f\u043e \u0436\u0435\u043b\u0430\u043d\u0438\u044e \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0443\u043c\u0435\u043d\u044c\u0448\u0435\u043d\u0438\u0435 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u0430 \u043a\u0430\u043a \u043c\u0430\u0433 5 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 61000,
+        "id": "1397ec489f9467c4d98c5257c186f32c",
+        "enchant": [
+            {
+                "name": "Dexterity6",
+                "display_name": "",
+                "description": "",
+                "id": "f3c17dcbd7a0e554eba4262fffa8f33b",
+                "effect": [
+                    "Add stat bonus 6 to Dexterity (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Reflex3",
+                "display_name": "",
+                "description": "",
+                "id": "c5893606996032f47862fa81651c2f31",
+                "effect": [
+                    "Add stat bonus 3 to SaveReflex (descriptor: Resistance)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfMartialExcellenceItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u0441\u0442\u0432\u0430 \u0432 \u0431\u043e\u0435\u0432\u044b\u0445 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0430\u0445",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 1d8 \u0434\u0440\u043e\u0431\u044f\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u043f\u0440\u0438 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0438 \u0430\u0442\u0430\u043a\u043e\u0439 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0410\u0442\u043b\u0435\u0442\u0438\u043a\u0430.",
+        "cost": 50000,
+        "id": "d974ebba8d7c43742beb4438dd4f6e72",
+        "enchant": [
+            {
+                "name": "GlovesOfMartialExcellenceEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6a269c91e7613164ba9079faca736445",
+                "effect": [
+                    "Add feature GlovesOfMartialExcellenceFeature",
+                    "Add stat bonus 10 to SkillAthletics (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel15, Player",
+            "LannTestLevel16, Player",
+            "LannTestLevel17, Player",
+            "LannTestLevel18, Player"
+        ],
+        "area": [
+            "AlushinyrraMediumCity, ValladinTestLoot"
+        ]
+    },
+    {
+        "name": "GlovesOfMonstersProtectionItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0437\u0430\u0449\u0438\u0442\u044b \u0447\u0443\u0434\u043e\u0432\u0438\u0449",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u0435\u0442 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e, \u044d\u0442\u043e \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u043c\u0430\u0433\u0438\u0438 21.",
+        "cost": 55000,
+        "id": "ef231cad1002c924ba3d0b68f0a979ad",
+        "enchant": [
+            {
+                "name": "GlovesOfMonstersProtectionEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2614fd00be65cd34dbbc54ffaf32fef4",
+                "effect": [
+                    "Add feature GlovesOfMonstersProtectionFeature"
+                ]
+            }
+        ],
+        "area": [
+            "Arueshalae_Q2_DimalchioMansion, PF2_CoolDemons_demon_rich_chest_03 (1)_loot_object"
+        ]
+    },
+    {
+        "name": "GlovesOfNeophyteItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043d\u0435\u043e\u0444\u0438\u0442\u0430",
+        "description": "\u041a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0442\u0432\u043e\u0440\u0438\u0442 \u0444\u043e\u043a\u0443\u0441 \u0438\u043b\u0438 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 1 \u043a\u0440\u0443\u0433\u0430, \u043e\u043d\u043e \u043d\u0430\u043d\u043e\u0441\u0438\u0442 1 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043e\u0447\u043a\u043e \u0443\u0440\u043e\u043d\u0430 \u0437\u0430 \u043a\u0430\u0436\u0434\u0443\u044e \u0431\u0440\u043e\u0448\u0435\u043d\u043d\u0443\u044e \u043a\u043e\u0441\u0442\u044c.",
+        "cost": 3400,
+        "id": "66ac09b923212f24f801b96f58d11903",
+        "enchant": [
+            {
+                "name": "GlovesOfNeophyteEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4f2b8d249e78b4b4486a72a6b7e628a3",
+                "effect": [
+                    "Add feature GlovesOfNeophyteFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfPreciseShotItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043c\u0435\u0442\u043a\u043e\u0433\u043e \u0432\u044b\u0441\u0442\u0440\u0435\u043b\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +5 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u043f\u0440\u0438 \u0430\u0442\u0430\u043a\u0430\u0445 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 25000,
+        "id": "c339df1811e47ca4abfa394dcbf904c7",
+        "enchant": [
+            {
+                "name": "GlovesOfPreciseShotEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "a56baa402b5b3e14bb4da75c533f223a",
+                "effect": [
+                    "WeaponRangeTypeAttackBonusEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel11, Player",
+            "LannTestLevel12, Player",
+            "LannTestLevel13, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfProtectionFromUndeadItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043c\u043e\u0433\u0438\u043b\u044c\u0449\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0431\u043e\u0435\u0432\u043e\u0433\u043e \u0434\u0443\u0445\u0430 +3 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u0430\u0442\u0430\u043a \u043d\u0435\u0436\u0438\u0442\u0438.",
+        "cost": 25000,
+        "id": "d5b9a53d52f55cf488f97d97a2f9a542",
+        "enchant": [
+            {
+                "name": "GlovesOfProtectionFromUndeadEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "4306162e102078b41a78f3a582125f3f",
+                "effect": [
+                    "ACBonusAgainstFactOwnerEquipment"
+                ]
+            }
+        ],
+        "unit": [
+            "LannTestLevel19, Player",
+            "SosielTestLevel10, Player",
+            "SosielTestLevel11, Player",
+            "SosielTestLevel12, Player",
+            "SosielTestLevel13, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfRendingItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0440\u0430\u0437\u0434\u0438\u0440\u0430\u043d\u0438\u044f",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u043a\u043e\u0433\u0442\u044f\u043c\u0438.",
+        "cost": 13000,
+        "id": "dc32a6847570110499e3042674ebfc32",
+        "enhance": "2"
+    },
+    {
+        "name": "GlovesOfResourcefulMagusItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043d\u0430\u0445\u043e\u0434\u0447\u0438\u0432\u043e\u0433\u043e \u043c\u0430\u0433\u0443\u0441\u0430",
+        "description": "\u0415\u0441\u043b\u0438 \u0443 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0435\u0441\u0442\u044c \u043a\u043b\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u0417\u0430\u043f\u0430\u0441 \u043c\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u044d\u043d\u0435\u0440\u0433\u0438\u0438, \u044d\u0442\u043e\u0442 \u0437\u0430\u043f\u0430\u0441 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043d\u0430 5 \u043e\u0447\u043a\u043e\u0432.",
+        "cost": 30500,
+        "id": "c3b0886a52aa5b849bf74c36f426f4b7",
+        "enchant": [
+            {
+                "name": "GlovesOfResourcefulMagusEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "3b5cf78e2bb3f3741a5bafbe28edd5a1",
+                "effect": [
+                    "Add feature GlovesOfResourcefulMagusFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "OurTerritoryLeader, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "GlovesOfTheAmbassadorItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043e\u0441\u043b\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0438\u0440) \u0438 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a \u0425\u0430\u0440\u0438\u0437\u043c\u0435.",
+        "cost": 21000,
+        "id": "beb4001a6c9da474da29a8c5ece30572",
+        "enchant": [
+            {
+                "name": "GlovesOfTheAmbassadorEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8b00ab1d5fef5d1449a5d76ed2e2b3dd",
+                "effect": [
+                    "Add stat bonus 5 to SkillKnowledgeWorld (descriptor: Competence)",
+                    "Add stat bonus 5 to SkillPersuasion (descriptor: Competence)",
+                    "Add stat bonus 2 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "SosielTestLevel14, Player",
+            "SosielTestLevel15, Player",
+            "SosielTestLevel16, Player",
+            "SosielTestLevel17, Player",
+            "SosielTestLevel18, Player"
+        ]
+    },
+    {
+        "name": "GlovesOfTheScribeItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043b\u0435\u0442\u043e\u043f\u0438\u0441\u0446\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 +10 \u0431\u043e\u043d\u0443\u0441 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0430\u0433\u0438\u044f) \u0438 \u0417\u043d\u0430\u043d\u0438\u0435 (\u043c\u0438\u0440), \u0430 \u0442\u0430\u043a\u0436\u0435 +4 \u0431\u043e\u043d\u0443\u0441 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u0443\u0440\u043e\u0432\u043d\u044f \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f \u043f\u0440\u0438 \u0440\u0430\u0441\u0441\u0435\u0438\u0432\u0430\u043d\u0438\u0438 \u043c\u0430\u0433\u0438\u0438.",
+        "cost": 37000,
+        "id": "30bbe160980b63b4a9a4c8234318edfc",
+        "enchant": [
+            {
+                "name": "GlovesOfTheScribeEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "dbc8630153d6d2541a7c81296f636872",
+                "effect": [
+                    "Add stat bonus 10 to SkillKnowledgeArcana (descriptor: Competence)",
+                    "Add stat bonus 10 to SkillKnowledgeWorld (descriptor: Competence)",
+                    "Add feature GlovesOfTheScribeFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfUnfriendlyFireItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043d\u0435\u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0433\u043d\u044f",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442 \u0438\u0437 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043e\u0440\u0443\u0436\u0438\u044f \u043f\u043e \u0432\u0440\u0430\u0433\u0443, \u043d\u0430\u0434 \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u0438\u043c\u0435\u0435\u0442 \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0435 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e, \u043e\u043d \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 2d6 \u0443\u0440\u043e\u043d\u0430 \u0438 \u0432\u0440\u0430\u0433\u0443, \u0438 \u0441\u043e\u044e\u0437\u043d\u0438\u043a\u0443, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u043b \u044d\u0442\u043e \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0435 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e.",
+        "cost": 45000,
+        "id": "85375b20fc40673429dd067f2d602a14",
+        "enchant": [
+            {
+                "name": "GlovesOfUnfriendlyFireEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "4b8050dbfa2343f4cae822406137b8f0"
+            }
+        ]
+    },
+    {
+        "name": "GlovesOfUseMagiDevicesItem",
+        "display_name": "\u0420\u0443\u043a\u0430 \u043c\u0430\u0441\u0442\u0435\u0440\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a\u043e \u0432\u0441\u0435\u043c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432.",
+        "cost": 25000,
+        "id": "b1b4dbff499ceb541a148d70ef17046e",
+        "enchant": [
+            {
+                "name": "GlovesOfUseMagiDevicesEnchant",
+                "display_name": "",
+                "description": "",
+                "id": "1bcd1e825a205224ea89997c71c4ad10",
+                "effect": [
+                    "Add stat bonus 5 to SkillUseMagicDevice (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "PerpetuallyAnnoyedWizard, PerpetuallyAnnoyedFaction",
+            "WoljifTestLeve13, Player",
+            "WoljifTestLeve14, Player",
+            "WoljifTestLeve15, Player",
+            "WoljifTestLeve16, Player",
+            "WoljifTestLeve17, Player",
+            "WoljifTestLeve18, Player",
+            "WoljifTestLeve19, Player",
+            "WoljifTestLeve20, Player"
+        ]
+    },
+    {
+        "name": "GlovesStaglordItem",
+        "display_name": "\u0421\u043c\u0435\u0440\u0442\u044c \u0438\u0437\u0434\u0430\u043b\u0435\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u043f\u0440\u0438 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0430\u0442\u0430\u043a\u0430\u0445.",
+        "cost": 32000,
+        "id": "e82d860e41a13534ea605fa0b00a9bb0",
+        "enchant": [
+            {
+                "name": "GlovesStaglordEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e9ca6a90318f10a4480114c7701c3a74",
+                "effect": [
+                    "Add feature GlovesStaglordFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HarmPreventersItem",
+        "display_name": "\u041f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0442\u0438\u0442\u0435\u043b\u0438 \u0432\u0440\u0435\u0434\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +4 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u0432 \u044f\u0434\u0430 \u0438 \u043f\u0440\u043e\u043a\u043b\u044f\u0442\u0438\u044f. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043e\u043d\u0438 \u0434\u0430\u044e\u0442 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +10 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432.",
+        "cost": 47000,
+        "id": "994594cba83e4d63a69c2ce609d8849a",
+        "enchant": [
+            {
+                "name": "HarmPreventersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "32ed041455824e37922fd59f5cc61dca",
+                "effect": [
+                    "Add feature HarmPreventersFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "HeavyPawsItem",
+        "display_name": "\u0422\u044f\u0436\u0435\u043b\u0430\u044f \u043b\u0430\u043f\u0430",
+        "description": "\u042d\u0442\u0438 \u043b\u0430\u0442\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b-\u043b\u0430\u043f\u044b \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 1d6 \u0434\u0440\u043e\u0431\u044f\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u043f\u0440\u0438 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c \u0443\u0434\u0430\u0440\u0435 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 4500,
+        "id": "bfd3b4393040f854598dbdfff0feac79",
+        "enchant": [
+            {
+                "name": "HeavyPawsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "9141d814d99fa354083b1939ff6a3835",
+                "effect": [
+                    "Add feature HeavyPawsFeature"
+                ]
+            }
+        ],
+        "area": [
+            "GrayGarrison, GrayGarrison_GoodLoot08_LesserSonicArrowsQuiverItem"
+        ]
+    },
+    {
+        "name": "HolyKneePadsItem",
+        "display_name": "\u0421\u0432\u044f\u0442\u044b\u0435 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438",
+        "description": "\u042d\u0442\u0438 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043d\u0430\u043d\u043e\u0441\u0438\u0442\u044c \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 2d6 \u0441\u0432\u044f\u0442\u043e\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 65000,
+        "id": "b598f24088bc49b9af70dd13969e1eee",
+        "enchant": [
+            {
+                "name": "HolyKneePadsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5be69fc630d24c5787b5e1f79cd11507",
+                "effect": [
+                    "Add feature HolyKneePadsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "HokugolDragon, Civilians"
+        ]
+    },
+    {
+        "name": "JawsOfTheJackalItem",
+        "display_name": "\u0427\u0435\u043b\u044e\u0441\u0442\u0438 \u0448\u0430\u043a\u0430\u043b\u0430",
+        "description": "\u042d\u0442\u0438 \u043b\u0430\u0442\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b \u0434\u0430\u044e\u0442 \u044d\u0444\u0444\u0435\u043a\u0442 \u043d\u0435\u0447\u0438\u0441\u0442\u0430\u044f \u0431\u043e\u0434\u0440\u043e\u0441\u0442\u044c, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 +2 \u0432\u0441\u0435\u043c \u0437\u043b\u044b\u043c \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430\u043c, \u043f\u0440\u0438\u0437\u0432\u0430\u043d\u043d\u044b\u043c \u0442\u0435\u043c, \u043a\u0442\u043e \u0438\u0445 \u043d\u043e\u0441\u0438\u0442. \u0415\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u0435\u0442 \u0442\u0430\u043d\u0430\u0434\u0430\u0439\u043c\u043e\u043d\u0430, \u043e\u043d \u0434\u0430\u0435\u0442 \u0435\u043c\u0443 \u044d\u0444\u0444\u0435\u043a\u0442 \u0432\u044b\u0441\u0448\u0430\u044f \u043d\u0435\u0447\u0438\u0441\u0442\u0430\u044f \u0431\u043e\u0434\u0440\u043e\u0441\u0442\u044c \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 \u043a \u0437\u0430\u0449\u0438\u0442\u0435 +4. \u0415\u0441\u043b\u0438 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u043f\u0440\u0438\u0437\u044b\u0432\u0430\u0435\u0442 \u043a\u0430\u043a\u043e\u0435-\u043b\u0438\u0431\u043e \u0434\u043e\u0431\u0440\u043e\u0435 \u043f\u043e\u0442\u0443\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0435\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e, \u043e\u043d\u043e \u043d\u0430\u043f\u0430\u0434\u0435\u0442 \u043d\u0430 \u043d\u043e\u0441\u044f\u0449\u0435\u0433\u043e.\n\u041d\u0435\u0447\u0438\u0441\u0442\u0430\u044f \u0431\u043e\u0434\u0440\u043e\u0441\u0442\u044c: \u043f\u0440\u0438\u0437\u0432\u0430\u043d\u043d\u043e\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u043d\u0435\u0447\u0438\u0441\u0442\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435, \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432.\n\u0412\u044b\u0441\u0448\u0430\u044f \u043d\u0435\u0447\u0438\u0441\u0442\u0430\u044f \u0431\u043e\u0434\u0440\u043e\u0441\u0442\u044c: \u043f\u0440\u0438\u0437\u0432\u0430\u043d\u043d\u043e\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u043d\u0435\u0447\u0438\u0441\u0442\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +4 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435, \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u043e\u0432, \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u044d\u0444\u0444\u0435\u043a\u0442\u0430\u043c \u0441\u0442\u0440\u0430\u0445\u0430, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u043e\u0447\u043a\u0438 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0432 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0435, \u0440\u0430\u0432\u043d\u043e\u043c \u0432\u0430\u0448\u0435\u043c\u0443 \u0443\u0440\u043e\u0432\u043d\u044e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u0442\u0435\u043b\u044f (\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c 20).",
+        "cost": 5000,
+        "id": "88cdb1dfb62341047888ac918eac9038",
+        "enchant": [
+            {
+                "name": "JawsOfTheJackalEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "76fcee01fb701b34d9951825a121f7a9",
+                "effect": [
+                    "Add feature JawsOfTheJackalFeature"
+                ]
+            }
+        ],
+        "area": [
+            "AlushinyrraMediumCity, PF2_CoolDemons_JawsOfTheJackalItem"
+        ]
+    },
+    {
+        "name": "ManticoresClawsGlovesItem",
+        "display_name": "\u041a\u043e\u0433\u0442\u0438 \u043c\u0430\u043d\u0442\u0438\u043a\u043e\u0440\u044b",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0421\u0438\u043b\u0435 \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +2 \u043a\u043e \u0432\u0441\u0435\u043c \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0431\u0435\u0437 \u043e\u0440\u0443\u0436\u0438\u044f \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 24300,
+        "id": "186edcede3f5b8a4d84fbb450957d70c",
+        "enchant": [
+            {
+                "name": "Strength4",
+                "display_name": "",
+                "description": "",
+                "id": "f9278c2ea13c2b34cb56be078428a0bb",
+                "effect": [
+                    "Add stat bonus 4 to Strength (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "enhance": "2"
+    },
+    {
+        "name": "MarksmansSteadyHandItem",
+        "display_name": "\u0412\u0435\u0440\u043d\u0430\u044f \u0440\u0443\u043a\u0430 \u0441\u0442\u0440\u0435\u043b\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0438\u0445 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043e\u0434\u0432\u0438\u0436\u043d\u043e\u0441\u0442\u044c. \u041e\u043d\u0438 \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u044e\u0442 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0430\u0442\u0430\u043a\u0430\u043c \u0438 \u0443\u0440\u043e\u043d\u0443 \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437 \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0438\u0445 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0443\u0434\u0430\u0440 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u044f\u0449\u0435\u043c\u0443 \u0435\u0433\u043e \u043f\u0440\u043e\u0442\u0438\u0432\u043d\u0438\u043a\u0443.",
+        "cost": 53000,
+        "id": "0d83237b43fd52b44aa3322f0db7e390",
+        "enchant": [
+            {
+                "name": "MarksmansSteadyHandEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "e09f5b861fd9b3245988b43e4f869d1a",
+                "effect": [
+                    "Add feature MarksmansSteadyHandFeature",
+                    "Add stat bonus 5 to SkillMobility (descriptor: Competence)"
+                ]
+            }
+        ],
+        "unit": [
+            "ArueshalaePregenLevel17, Player",
+            "ArueshalaePregenLevel18, Player"
+        ]
+    },
+    {
+        "name": "OppressorsGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0443\u0433\u043d\u0435\u0442\u0430\u0442\u0435\u043b\u044f",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u0423\u0431\u0435\u0436\u0434\u0435\u043d\u0438\u0435, \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u043c\u044b\u043c \u0434\u043b\u044f \u0437\u0430\u043f\u0443\u0433\u0438\u0432\u0430\u043d\u0438\u044f. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440, \u0432\u0440\u0430\u0433 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u043d\u0430 \u0440\u0430\u0437\u0443\u043c \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439 \u043d\u0430 2 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 6600,
+        "id": "e8d21215f2f12ea419ec0013ace8d849",
+        "enchant": [
+            {
+                "name": "OppressorsGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "474b66b2d2fb68b45a3c74a02557b8e1",
+                "effect": [
+                    "Add feature OppressorsGlovesFeature"
+                ]
+            }
+        ],
+        "area": [
+            "SinisterVillage, PF2_Sarkoris_GoodLoot01_CH02"
+        ]
+    },
+    {
+        "name": "RabidRippersItem",
+        "display_name": "\u0412\u0437\u0431\u0435\u0448\u0435\u043d\u043d\u044b\u0435 \u0432\u0441\u043f\u0430\u0440\u044b\u0432\u0430\u0442\u0435\u043b\u0438",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043b\u0430\u0442\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b-\u043b\u0430\u043f\u044b \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440 \u043f\u043e \u0432\u0440\u0430\u0433\u0443 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0432\u0435\u0440\u0448\u0438\u0442\u044c \u0443\u0441\u043f\u0435\u0448\u043d\u044b\u0439 \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043e\u043a \u0441\u0442\u043e\u0439\u043a\u043e\u0441\u0442\u0438 (\u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c 33), \u0438\u043d\u0430\u0447\u0435 \u043e\u043d \u0441\u0442\u0430\u043d\u0435\u0442 \u0443\u044f\u0437\u0432\u0438\u043c \u043a \u0440\u0435\u0436\u0443\u0449\u0435\u043c\u0443 \u0443\u0440\u043e\u043d\u0443 \u0438 \u043a\u0438\u0441\u043b\u043e\u0442\u0435 \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 72300,
+        "id": "6fbf1d1001da4d04f907794c50262ae9",
+        "enchant": [
+            {
+                "name": "RabidRippersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "7395098cbff569042a306ea256edbc52",
+                "effect": [
+                    "Add feature RabidRippersFeature"
+                ]
+            }
+        ],
+        "area": [
+            "SinisterVillage, PF2_Sarkoris_GoodLoot03_CH05"
+        ]
+    },
+    {
+        "name": "RoyalGlovesOfValorItem",
+        "display_name": "\u041a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u043a\u0438\u0435 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043e\u0442\u0432\u0430\u0433\u0438",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 +6 \u043a \u0425\u0430\u0440\u0438\u0437\u043c\u0435 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0432\u044b\u0441\u0448\u0438\u0439 \u0433\u0435\u0440\u043e\u0438\u0437\u043c \u043a\u0430\u043a \u043c\u0430\u0433 11 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 178200,
+        "id": "08dee7b852c2ef647ab5290eb2055102",
+        "enchant": [
+            {
+                "name": "Charisma6",
+                "display_name": "",
+                "description": "",
+                "id": "85c75c68eb10f6f459bab5ade8ec0abe",
+                "effect": [
+                    "Add stat bonus 6 to Charisma (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "SeelahTestLevel20, Player"
+        ]
+    },
+    {
+        "name": "SavageUnityItem",
+        "display_name": "\u0414\u0438\u043a\u0430\u0440\u0441\u043a\u043e\u0435 \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u043e",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0438 \u0435\u0433\u043e \u0432\u0435\u0440\u043d\u043e\u043c\u0443 \u0437\u0432\u0435\u0440\u044e \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +3 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u043d\u0430 \u0432\u0441\u0451 \u0432\u0440\u0435\u043c\u044f \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u0438 \u041b\u044e\u0431\u0438\u043c\u043e\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435.",
+        "cost": 69000,
+        "id": "a2da8bdd1b544afb9768c3b951f50794",
+        "enchant": [
+            {
+                "name": "SavageUnityEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b152427b03bb404e9b2b1a7c7fda374a",
+                "effect": [
+                    "Add feature SavageUnityFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "StarEmbroideredGlovesItem",
+        "display_name": "\u0420\u0430\u0441\u0448\u0438\u0442\u044b\u0435 \u0437\u0432\u0435\u0437\u0434\u0430\u043c\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0443\u0441\u0442\u043e\u0439\u0447\u0438\u0432\u043e\u0441\u0442\u044c \u043a \u043c\u0430\u0433\u0438\u0438 30, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u043e\u043d\u0443\u0441 \u0443\u0434\u0430\u0447\u0438 +2 \u043a\u043e \u0432\u0441\u0435\u043c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c.",
+        "cost": 125000,
+        "id": "455c91c0c5234093aa709b565789b025",
+        "enchant": [
+            {
+                "name": "StarEmbroideredGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "ed0026b6862b4918a00b585fec981bfa",
+                "effect": [
+                    "Add feature StarEmbroideredGlovesFeature"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SteadyHandGlovesItem",
+        "display_name": "\u0412\u0435\u0440\u043d\u0430\u044f \u0440\u0443\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u041b\u043e\u0432\u043a\u043e\u0441\u0442\u0438 \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0442\u0440\u0438 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u0432\u0435\u0440\u043d\u044b\u0439 \u0443\u0434\u0430\u0440 \u043a\u0430\u043a \u043c\u0430\u0433 1 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 16200,
+        "id": "e71f8bc35c5dfa14da490f8d396b26f8",
+        "enchant": [
+            {
+                "name": "Dexterity4",
+                "display_name": "",
+                "description": "",
+                "id": "15008553994dd7e48af2ad1a1426d733",
+                "effect": [
+                    "Add stat bonus 4 to Dexterity (descriptor: Enhancement)"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerDemonMythicTestLevel20, Player",
+            "PlayerTestLevel20, Player",
+            "PlayerTestLevel20_Dragon, Player",
+            "PlayerTestLevel20_Legend, Player"
+        ]
+    },
+    {
+        "name": "SurefireGlovesItem",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0432\u0435\u0440\u043d\u043e\u0433\u043e \u0432\u044b\u0441\u0442\u0440\u0435\u043b\u0430",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442 \u0438\u0437 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043e\u0440\u0443\u0436\u0438\u044f \u043f\u043e \u0432\u0440\u0430\u0433\u0443 \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435 30 \u0444\u0443\u0442\u043e\u0432, \u043e\u043d \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 1d6 \u043a\u043e\u043b\u044e\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u0438 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u0442 \u043a\u0440\u043e\u0432\u043e\u0442\u0435\u0447\u0435\u043d\u0438\u0435 \u043d\u0430 1d3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 35000,
+        "id": "29176558cc2f97e44a812ce5d599f256",
+        "enchant": [
+            {
+                "name": "SurefireGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "b0cee12d1cd1d204fbcf5d9de0bc23fd",
+                "effect": [
+                    "Add feature SurefireGlovesFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "PlayerTestRangedFighterLevel14, Player",
+            "PlayerTestRangedFighterLevel15, Player",
+            "PlayerTestRangedFighterLevel16, Player",
+            "PlayerTestRangedFighterLevel17, Player",
+            "PlayerTestRangedFighterLevel18, Player"
+        ]
+    },
+    {
+        "name": "TrapspringerGloves",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u043b\u043e\u0432\u0447\u0435\u0433\u043e",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u043c\u0430\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043b\u0443\u0442\u043e\u0432\u0441\u0442\u0432\u043e.",
+        "cost": 4000,
+        "id": "0dc9944c49e3ae343b8802a2da33973c",
+        "enchant": [
+            {
+                "name": "Thievery5",
+                "display_name": "",
+                "description": "",
+                "id": "14fa6313da3c81b439ae57401d58063b",
+                "effect": [
+                    "Add stat bonus 5 to SkillThievery (descriptor: Competence)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TrickstersGloves",
+        "display_name": "\u041f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0442\u0440\u044e\u043a\u0430\u0447\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0434\u0430\u0447\u0438 +5 \u043a \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430\u043c \u043d\u0430\u0432\u044b\u043a\u0430 \u041f\u043e\u0434\u0432\u0438\u0436\u043d\u043e\u0441\u0442\u044c \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0440\u0430\u0437 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043f\u043e\u043b\u043e\u0433 \u0441\u043d\u0430 \u043a\u0430\u043a \u043c\u0430\u0433 14 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 50000,
+        "id": "8f14d568b2324334aafc209c9fcd1b6e",
+        "enchant": [
+            {
+                "name": "TrickstersGlovesEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "5f612f5cc9616944b978521b2f944a9f",
+                "effect": [
+                    "Add stat bonus 5 to SkillMobility (descriptor: Luck)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TwistedTemptationItem",
+        "display_name": "\u041d\u0435\u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0438\u043c\u044b\u0439 \u0441\u043e\u0431\u043b\u0430\u0437\u043d",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u044e\u0442 \u0441\u043b\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430 \u0434\u043b\u044f \u0432\u0441\u0435\u0445 \u0442\u0432\u043e\u0440\u0438\u043c\u044b\u0445 \u043d\u043e\u0441\u044f\u0449\u0438\u043c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0448\u043a\u043e\u043b\u044b \u043e\u0447\u0430\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043d\u0430 2. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u0432\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u0432\u043f\u0435\u0440\u0432\u044b\u0435 \u0432\u043e\u0437\u0434\u0435\u0439\u0441\u0442\u0432\u0443\u0435\u0442 \u043d\u0430 \u0432\u0440\u0430\u0433\u0430 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435\u043c, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0441\u043f\u0430\u0441\u0431\u0440\u043e\u0441\u043a\u0430\u043c \u0432\u043e\u043b\u0438 \u043d\u0430 3 \u0440\u0430\u0443\u043d\u0434\u0430.",
+        "cost": 32400,
+        "id": "4b7401550f6c4841ac9246f8fa0e9a2f",
+        "enchant": [
+            {
+                "name": "TwistedTemptationEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "6cb2900c681747379db5c912d52298d3",
+                "effect": [
+                    "Add feature TwistedTemptationFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "Mielara, CutsceneNeutrals"
+        ]
+    },
+    {
+        "name": "UltimateGripGlovesItem",
+        "display_name": "\u041c\u0435\u0440\u0442\u0432\u0430\u044f \u0445\u0432\u0430\u0442\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0438 \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +6 \u043a \u0421\u0438\u043b\u0435 \u0438 \u0431\u043e\u043d\u0443\u0441 \u0443\u0441\u0438\u043b\u0435\u043d\u0438\u044f +4 \u043a \u0412\u044b\u043d\u043e\u0441\u043b\u0438\u0432\u043e\u0441\u0442\u0438. \u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0432 \u0434\u0435\u043d\u044c \u0442\u0432\u043e\u0440\u0438\u0442\u044c \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435 \u043c\u0435\u0440\u0442\u0432\u0430\u044f \u0445\u0432\u0430\u0442\u043a\u0430 \u043a\u0430\u043a \u043c\u0430\u0433 15 \u0443\u0440\u043e\u0432\u043d\u044f.",
+        "cost": 125000,
+        "id": "d7647a51c7b5e04499276e60a9977119",
+        "enchant": [
+            {
+                "name": "Strength6",
+                "display_name": "",
+                "description": "",
+                "id": "b4cff7cdccb966048aa14d2d01c9209a",
+                "effect": [
+                    "Add stat bonus 6 to Strength (descriptor: Enhancement)"
+                ]
+            },
+            {
+                "name": "Constitution4",
+                "display_name": "",
+                "description": "",
+                "id": "4b9573fa2b0e74043a4682740e9ae138",
+                "effect": [
+                    "Add stat bonus 4 to Constitution (descriptor: Enhancement)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "UltimatePredatorsGauntletsItem",
+        "display_name": "\u041b\u0430\u0442\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b \u0432\u0435\u0440\u0445\u043e\u0432\u043d\u043e\u0433\u043e \u0445\u0438\u0449\u043d\u0438\u043a\u0430",
+        "description": "\u042d\u0442\u0438 \u043b\u0430\u0442\u043d\u044b\u0435 \u0440\u0443\u043a\u0430\u0432\u0438\u0446\u044b-\u043b\u0430\u043f\u044b \u0434\u0430\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u0438\u043d\u0442\u0443\u0438\u0442\u0438\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 +2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u043f\u0440\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0440\u0443\u0436\u0438\u044f \u043f\u0440\u043e\u0442\u0438\u0432 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445, \u043c\u0430\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0442\u0432\u0430\u0440\u0435\u0439 \u0438 \u0433\u0443\u043c\u0430\u043d\u043e\u0438\u0434\u043d\u044b\u0445 \u0447\u0443\u0434\u043e\u0432\u0438\u0449.",
+        "cost": 35000,
+        "id": "c8ad87f3fc49ccd43a5560acb271e968",
+        "enchant": [
+            {
+                "name": "UltimatePredatorsGauntletsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "8e1e9b704f44ae04aa47b581531900ce",
+                "effect": [
+                    "Add feature UltimatePredatorsGauntletsFeature"
+                ]
+            }
+        ],
+        "area": [
+            "TempleOfDelamere, RichHuman_TrashLoot02"
+        ]
+    },
+    {
+        "name": "UnholyKneePadsItem",
+        "display_name": "\u041d\u0435\u0447\u0435\u0441\u0442\u0438\u0432\u044b\u0435 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438",
+        "description": "\u042d\u0442\u0438 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u043d\u043e\u0441\u044f\u0449\u0435\u043c\u0443 \u043d\u0430\u043d\u043e\u0441\u0438\u0442\u044c \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e 2d6 \u043d\u0435\u0447\u0435\u0441\u0442\u0438\u0432\u043e\u0433\u043e \u0443\u0440\u043e\u043d\u0430 \u0430\u0442\u0430\u043a\u0430\u043c\u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c.",
+        "cost": 65000,
+        "id": "d657c55461344f748d76a8a03e6bdbd9",
+        "enchant": [
+            {
+                "name": "UnholyKneePadsEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "1dae7d98ada54792b0cf394fbb13fc6d",
+                "effect": [
+                    "Add feature UnholyKneePadsFeature"
+                ]
+            }
+        ],
+        "unit": [
+            "LatimasDragon, Civilians"
+        ]
+    },
+    {
+        "name": "ViciousStompersItem",
+        "display_name": "\u0417\u043b\u043e\u0431\u043d\u044b\u0435 \u0442\u043e\u043f\u0442\u0443\u043d\u044b",
+        "description": "\u0412\u0441\u044f\u043a\u0438\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u043d\u043e\u0441\u044f\u0449\u0438\u0439 \u044d\u0442\u0438 \u043d\u0430\u043a\u043e\u043b\u0435\u043d\u043d\u0438\u043a\u0438 \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0442 \u0443\u0441\u043f\u0435\u0448\u043d\u0443\u044e \u0430\u0442\u0430\u043a\u0443 \u0441 \u0440\u0430\u0437\u0431\u0435\u0433\u0430 \u043d\u0430 \u0432\u0440\u0430\u0433\u0430, \u044d\u0442\u043e\u0442 \u0432\u0440\u0430\u0433 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0440\u0430\u0441\u043f\u043b\u0430\u0441\u0442\u0430\u043d \u043d\u0430 1 \u0440\u0430\u0443\u043d\u0434 \u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u0448\u0442\u0440\u0430\u0444 -2 \u043a \u0431\u0440\u043e\u0441\u043a\u0430\u043c \u043d\u0430 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0435 \u0438 \u0443\u0440\u043e\u043d \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u0431\u043e\u044f.",
+        "cost": 103000,
+        "id": "efe72fa3d5164cdc93135c9e3cd91a22",
+        "enchant": [
+            {
+                "name": "ViciousStompersEnchantment",
+                "display_name": "",
+                "description": "",
+                "id": "2e13b5587599492baf489d444ddb30f4",
+                "effect": [
+                    "Add feature ViciousStompersFeature"
+                ]
+            }
+        ]
+    }
+]
