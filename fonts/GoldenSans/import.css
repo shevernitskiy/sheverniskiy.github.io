@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Bold.eot');
+    src: local('Golden Sans Bold'), local('GoldenSans-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Medium.eot');
+    src: local('Golden Sans Medium'), local('GoldenSans-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Thin.eot');
+    src: local('Golden Sans Thin'), local('GoldenSans-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Light.eot');
+    src: local('Golden Sans Light'), local('GoldenSans-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Black.eot');
+    src: local('Golden Sans Black'), local('GoldenSans-Black'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Black.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Black.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-UltraLight.eot');
+    src: local('Golden Sans UltraLight'), local('GoldenSans-UltraLight'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-UltraLight.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-UltraLight.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golden Sans';
+    src: url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Regular.eot');
+    src: local('Golden Sans Regular'), local('GoldenSans-Regular'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Regular.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Regular.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/GoldenSans/GoldenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
