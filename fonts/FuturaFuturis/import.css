@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Italic.eot');
+    src: local('FuturaFuturisC Italic'), local('FuturaFuturisC-Italic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Italic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Italic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisCameoExtraBoldC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCameoExtraBoldC.eot');
+    src: local('FuturaFuturisCameoExtraBoldC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCameoExtraBoldC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCameoExtraBoldC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCameoExtraBoldC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCameoExtraBoldC.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisShadowC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC.eot');
+    src: local('FuturaFuturisShadowC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisVolumeLightC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisVolumeLightC.eot');
+    src: local('FuturaFuturisVolumeLightC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisVolumeLightC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisVolumeLightC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisVolumeLightC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisVolumeLightC.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisLightC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisLightC.eot');
+    src: local('FuturaFuturisLightC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisLightC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisLightC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisLightC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisLightC.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisCondExtraBoldC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondExtraBoldC.eot');
+    src: local('FuturaFuturisCondExtraBoldC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondExtraBoldC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondExtraBoldC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondExtraBoldC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondExtraBoldC.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisShadowC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC-Bold.eot');
+    src: local('FuturaFuturisShadowC Bold'), local('FuturaFuturisShadowC-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisShadowC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC.eot');
+    src: local('FuturaFuturisC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Bold.eot');
+    src: local('FuturaFuturisC Bold'), local('FuturaFuturisC-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisBlackC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisBlackC.eot');
+    src: local('FuturaFuturisBlackC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisBlackC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisBlackC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisBlackC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisBlackC.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-BoldItalic.eot');
+    src: local('FuturaFuturisC Bold Italic'), local('FuturaFuturisC-BoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-BoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-BoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisC-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FuturaFuturisCondBoldC';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondBoldC.eot');
+    src: local('FuturaFuturisCondBoldC'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondBoldC.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondBoldC.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondBoldC.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/FuturaFuturisCondBoldC.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
