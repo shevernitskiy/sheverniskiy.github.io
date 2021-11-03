@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBold.eot');
+    src: local('Macho Extra Bold'), local('Macho-ExtraBold'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLight.eot');
+    src: local('Macho Extra Light'), local('Macho-ExtraLight'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLight.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLight.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Bold.eot');
+    src: local('Macho Bold'), local('Macho-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Italic.eot');
+    src: local('Macho Italic'), local('Macho-Italic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Italic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Italic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Black.eot');
+    src: local('Macho Black'), local('Macho-Black'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Black.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Black.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ThinItalic.eot');
+    src: local('Macho Thin Italic'), local('Macho-ThinItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ThinItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ThinItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-LightItalic.eot');
+    src: local('Macho Light Italic'), local('Macho-LightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-LightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-LightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Regular.eot');
+    src: local('Macho Regular'), local('Macho-Regular'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Regular.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Regular.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Thin.eot');
+    src: local('Macho Thin'), local('Macho-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BoldItalic.eot');
+    src: local('Macho Bold Italic'), local('Macho-BoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBold.eot');
+    src: local('Macho Semi Bold'), local('Macho-SemiBold'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLightItalic.eot');
+    src: local('Macho Extra Light Italic'), local('Macho-ExtraLightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Medium.eot');
+    src: local('Macho Medium'), local('Macho-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBoldItalic.eot');
+    src: local('Macho Semi Bold Italic'), local('Macho-SemiBoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BlackItalic.eot');
+    src: local('Macho Black Italic'), local('Macho-BlackItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BlackItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BlackItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-MediumItalic.eot');
+    src: local('Macho Medium Italic'), local('Macho-MediumItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-MediumItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-MediumItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBoldItalic.eot');
+    src: local('Macho Extra Bold Italic'), local('Macho-ExtraBoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Macho';
+    src: url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Light.eot');
+    src: local('Macho Light'), local('Macho-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/FuturaFuturis/Macho-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
