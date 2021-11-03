@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Black.eot');
+    src: local('Phrasa Black'), local('Phrasa-Black'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Black.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Black.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BoldItalic.eot');
+    src: local('Phrasa Bold Italic'), local('Phrasa-BoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Book';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Book.eot');
+    src: local('Phrasa Book'), local('Phrasa-Book'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Book.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Book.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Book.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BlackItalic.eot');
+    src: local('Phrasa Black Italic'), local('Phrasa-BlackItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BlackItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BlackItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Extra';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLightItalic.eot');
+    src: local('Phrasa Extra Light Italic'), local('Phrasa-ExtraLightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Bold.eot');
+    src: local('Phrasa Bold'), local('Phrasa-Bold'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Bold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Bold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Semi';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBoldItalic.eot');
+    src: local('Phrasa Semi Bold Italic'), local('Phrasa-SemiBoldItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBoldItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBoldItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Medium.eot');
+    src: local('Phrasa Medium'), local('Phrasa-Medium'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Medium.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Medium.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Italic.eot');
+    src: local('Phrasa Italic'), local('Phrasa-Italic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Italic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Italic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Light.eot');
+    src: local('Phrasa Light'), local('Phrasa-Light'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Light.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Light.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Heavy.eot');
+    src: local('Phrasa Heavy'), local('Phrasa-Heavy'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Heavy.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Heavy.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Hairline';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HairlineItalic.eot');
+    src: local('Phrasa Hairline Italic'), local('Phrasa-HairlineItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HairlineItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HairlineItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HairlineItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Extra';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLight.eot');
+    src: local('Phrasa Extra Light'), local('Phrasa-ExtraLight'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLight.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLight.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Ultra';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLightItalic.eot');
+    src: local('Phrasa Ultra Light Italic'), local('Phrasa-UltraLightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Normal';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Normal.eot');
+    src: local('Phrasa Normal'), local('Phrasa-Normal'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Normal.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Normal.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Normal.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-LightItalic.eot');
+    src: local('Phrasa Light Italic'), local('Phrasa-LightItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-LightItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-LightItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HeavyItalic.eot');
+    src: local('Phrasa Heavy Italic'), local('Phrasa-HeavyItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HeavyItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HeavyItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ThinItalic.eot');
+    src: local('Phrasa Thin Italic'), local('Phrasa-ThinItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ThinItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ThinItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Hairline';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Hairline.eot');
+    src: local('Phrasa Hairline'), local('Phrasa-Hairline'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Hairline.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Hairline.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Semi';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBold.eot');
+    src: local('Phrasa Semi Bold'), local('Phrasa-SemiBold'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBold.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBold.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Thin.eot');
+    src: local('Phrasa Thin'), local('Phrasa-Thin'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Thin.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Thin.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-MediumItalic.eot');
+    src: local('Phrasa Medium Italic'), local('Phrasa-MediumItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-MediumItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-MediumItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Normal';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-NormalItalic.eot');
+    src: local('Phrasa Normal Italic'), local('Phrasa-NormalItalic'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-NormalItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-NormalItalic.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-NormalItalic.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-NormalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa Ultra';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLight.eot');
+    src: local('Phrasa Ultra Light'), local('Phrasa-UltraLight'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLight.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLight.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Phrasa';
+    src: url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Regular.eot');
+    src: local('Phrasa'), local('Phrasa-Regular'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Regular.woff2') format('woff2'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Regular.woff') format('woff'),
+        url('https://shevernitskiy.github.io/store/fonts/Phrasa/Phrasa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
