@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "U.S. 101";
+  src: url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf");
+  src: local("U.S. 101"), local("U.S. 101"),
+    url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
