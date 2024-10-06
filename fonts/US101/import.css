@@ -1,158 +1,158 @@
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Regular"), local("U.S. 101"), local("U.S. 101-Regular"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Regular"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Regular"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Extrabold Italic"), local("U.S. 101"), local("U.S. 101-ExtraboldItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Extrabold Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-ExtraboldItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Bold"), local("U.S. 101"), local("U.S. 101-Bold"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Bold"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Bold"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Black"), local("U.S. 101"), local("U.S. 101-Black"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Black"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Black"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Light"), local("U.S. 101"), local("U.S. 101-Light"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Light"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Light"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Semibold"), local("U.S. 101"), local("U.S. 101-Semibold"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Semibold"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Semibold"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Medium"), local("U.S. 101"), local("U.S. 101-Medium"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Medium"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Medium"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Medium Italic"), local("U.S. 101"), local("U.S. 101-MediumItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Medium Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-MediumItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Black Italic"), local("U.S. 101"), local("U.S. 101-BlackItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Black Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-BlackItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 UltraLight"), local("U.S. 101"), local("U.S. 101-UltraLight"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 UltraLight"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-UltraLight"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Regular Italic"), local("U.S. 101"), local("U.S. 101-RegularItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Regular Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-RegularItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Semibold Italic"), local("U.S. 101"), local("U.S. 101-SemiboldItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Semibold Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-SemiboldItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Heavy Italic"), local("U.S. 101"), local("U.S. 101-HeavyItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Heavy Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-HeavyItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Extrabold"), local("U.S. 101"), local("U.S. 101-Extrabold"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Extrabold"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Extrabold"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Bold Italic"), local("U.S. 101"), local("U.S. 101-BoldItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Bold Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-BoldItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 UltraLight Italic"), local("U.S. 101"), local("U.S. 101-UltraLightItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 UltraLight Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-UltraLightItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Light Italic"), local("U.S. 101"), local("U.S. 101-LightItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Light Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-LightItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Heavy"), local("U.S. 101"), local("U.S. 101-Heavy"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Heavy"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Heavy"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Thin"), local("U.S. 101"), local("U.S. 101-Thin"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Thin"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-Thin"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "U.S. 101";
-  src: local("U.S. 101 Thin Italic"), local("U.S. 101"), local("U.S. 101-ThinItalic"),
+  font-family: "U.S. 101 [RUS by Daymarius]";
+  src: local("U.S. 101 Thin Italic"), local("U.S. 101 [RUS by Daymarius]"), local("U.S. 101-ThinItalic"),
     url("https://shevernitskiy.github.io/store/fonts/US101/u_s_101.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
